@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-GB" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Compare your UK shopping list across all major supermarkets. See Nectar, Clubcard and loyalty prices. Find the cheapest single shop or split across stores to save more."
+    />
+    <title>Supermarket Dash — Compare UK Grocery Prices</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
+    <script defer src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script defer src="js/app.js"></script>
+  </head>
+  <body x-data="supermarketDash()" x-init="init()">
+    <header class="app-header">
+      <div class="container">
+        <h1>🛒 Supermarket Dash</h1>
+        <p>Compare your shopping list across UK supermarkets — including Nectar, Clubcard &amp; loyalty prices</p>
+        <span class="meta-badge" x-show="meta.lastUpdated">
+          Prices updated: <span x-text="lastUpdatedLabel"></span>
+          <span x-show="meta.source"> · Source: <span x-text="meta.source"></span></span>
+        </span>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- Loyalty cards -->
+      <section>
+        <h2>Your loyalty cards</h2>
+        <p>Select the reward schemes you have — we'll show you member prices where available.</p>
+        <div class="loyalty-grid">
+          <template x-for="store in supermarkets.filter(s => s.loyaltyKey)" :key="store.id">
+            <label
+              class="loyalty-chip"
+              :class="{ active: hasLoyalty(store.loyaltyKey) }"
+              @click.prevent="toggleLoyalty(store.loyaltyKey)"
+            >
+              <input type="checkbox" :checked="hasLoyalty(store.loyaltyKey)" readonly />
+              <span>
+                <strong x-text="store.loyaltyProgram"></strong>
+                <br /><small x-text="store.name"></small>
+              </span>
+            </label>
+          </template>
+        </div>
+      </section>
+
+      <div class="grid">
+        <!-- Product search -->
+        <section>
+          <h2>Add items</h2>
+          <input
+            type="search"
+            placeholder="Search products… e.g. milk, bread, chicken"
+            x-model="searchQuery"
+            aria-label="Search products"
+          />
+          <div class="product-grid" style="margin-top: 1rem">
+            <template x-for="product in filteredProducts" :key="product.id">
+              <article class="product-card">
+                <span class="category" x-text="product.category"></span>
+                <strong x-text="product.name"></strong>
+                <button @click="addToCart(product)">Add to list</button>
+              </article>
+            </template>
+          </div>
+          <p x-show="searchQuery && !filteredProducts.length" class="empty-state">No products match your search.</p>
+        </section>
+
+        <!-- Shopping list -->
+        <section>
+          <h2>
+            Your list
+            <small x-show="cart.length" x-text="`(${cart.length} items)`"></small>
+          </h2>
+          <template x-if="!cart.length">
+            <p class="empty-state">Your list is empty. Search and add products above.</p>
+          </template>
+          <template x-if="cart.length">
+            <div>
+              <template x-for="item in cart" :key="item.productId">
+                <div class="cart-item">
+                  <span x-text="getProductName(item.productId)" style="flex: 1"></span>
+                  <div class="qty-controls">
+                    <button @click="updateQuantity(item.productId, item.quantity - 1)">−</button>
+                    <span x-text="item.quantity" style="min-width: 1.5rem; text-align: center"></span>
+                    <button @click="updateQuantity(item.productId, item.quantity + 1)">+</button>
+                  </div>
+                  <button class="outline secondary" @click="removeFromCart(item.productId)" style="width: auto; padding: 0.25rem 0.5rem">✕</button>
+                </div>
+              </template>
+              <button class="outline secondary" @click="clearCart()" style="margin-top: 0.75rem">Clear list</button>
+            </div>
+          </template>
+        </section>
+      </div>
+
+      <!-- Comparison results -->
+      <template x-if="comparison">
+        <section>
+          <h2>Price comparison</h2>
+
+          <!-- Savings banner -->
+          <div class="savings-banner" x-show="comparison.savingsVsSingle > 0">
+            <p>Save by shopping at multiple stores</p>
+            <div class="amount" x-text="formatPrice(comparison.savingsVsSingle)"></div>
+            <p>
+              vs buying everything at
+              <strong x-text="getStoreName(comparison.bestSingleStore?.storeId)"></strong>
+              (<span x-text="formatPrice(comparison.bestSingleStore?.total)"></span>)
+            </p>
+            <p>
+              Optimal split-shop total:
+              <strong x-text="formatPrice(comparison.optimalTotal)"></strong>
+            </p>
+          </div>
+
+          <!-- Single-store ranking -->
+          <h3>Cheapest single supermarket</h3>
+          <template x-for="(store, index) in comparison.storeTotals" :key="store.storeId">
+            <div class="store-rank" :class="{ best: index === 0 }">
+              <span class="rank" x-text="index + 1"></span>
+              <span class="store-dot" :style="`background: ${getStoreColor(store.storeId)}`"></span>
+              <span>
+                <strong x-text="getStoreName(store.storeId)"></strong>
+                <span x-show="store.missing" x-text="` (${store.missing} items unavailable)`" style="color: var(--pico-muted-color); font-size: 0.85rem"></span>
+              </span>
+              <span class="total" x-text="formatPrice(store.total)"></span>
+            </div>
+          </template>
+
+          <!-- Savings map -->
+          <h3 style="margin-top: 2rem">💰 Savings map — where to shop for each item</h3>
+          <p>Buy each item at its cheapest store. Follow this map to maximise savings across multiple trips.</p>
+          <div class="savings-map">
+            <template x-for="store in comparison.savingsMap" :key="store.storeId">
+              <article class="savings-map-card">
+                <div class="card-header" :style="`background: ${store.color}`">
+                  <strong x-text="store.storeName"></strong>
+                  <span x-text="formatPrice(store.subtotal)"></span>
+                </div>
+                <div class="card-body">
+                  <small x-text="`${store.itemCount} items`"></small>
+                  <ul>
+                    <template x-for="item in store.items" :key="item.productId">
+                      <li>
+                        <span>
+                          <span x-text="item.name"></span>
+                          <span x-show="item.quantity > 1" x-text="` ×${item.quantity}`"></span>
+                          <span class="loyalty-tag" x-show="item.isLoyalty">LOYALTY</span>
+                        </span>
+                        <span x-text="formatPrice(item.lineTotal)"></span>
+                      </li>
+                    </template>
+                  </ul>
+                </div>
+                <div class="card-actions">
+                  <button @click="copyStoreList(store.storeId)">Copy list</button>
+                  <button class="secondary" @click="openStoreWebsite(store.storeId)">Open store</button>
+                  <button
+                    class="outline"
+                    :hx-get="`partials/basket/${store.storeId}.html`"
+                    hx-target="#basket-guide-content"
+                    hx-swap="innerHTML"
+                    @click="openBasketGuide(store.storeId)"
+                  >
+                    Basket help
+                  </button>
+                </div>
+              </article>
+            </template>
+          </div>
+
+          <!-- Item-by-item breakdown -->
+          <details style="margin-top: 2rem">
+            <summary><strong>Item-by-item price breakdown</strong></summary>
+            <template x-for="item in comparison.itemBreakdown" :key="item.productId">
+              <article style="margin-top: 1rem">
+                <h4>
+                  <span x-text="item.name"></span>
+                  <small x-show="item.quantity > 1" x-text="` × ${item.quantity}`"></small>
+                </h4>
+                <table class="price-table">
+                  <tbody>
+                    <template x-for="sp in item.storePrices" :key="sp.storeId">
+                      <tr :class="{ cheapest: sp.storeId === item.cheapest?.storeId }">
+                        <td x-text="getStoreName(sp.storeId)"></td>
+                        <td>
+                          <span x-text="formatPrice(sp.price)"></span>
+                          <span class="loyalty-tag" x-show="sp.isLoyalty">LOYALTY</span>
+                        </td>
+                        <td x-text="formatPrice(sp.lineTotal)" style="text-align: right"></td>
+                      </tr>
+                    </template>
+                  </tbody>
+                </table>
+              </article>
+            </template>
+          </details>
+        </section>
+      </template>
+    </main>
+
+    <!-- Basket guide modal (htmx loads content) -->
+    <dialog class="basket-guide" :open="basketModal !== null" @click.self="closeBasketGuide()">
+      <article>
+        <header>
+          <button aria-label="Close" rel="prev" @click="closeBasketGuide()"></button>
+          <h3>Basket guide</h3>
+        </header>
+        <div id="basket-guide-content">
+          <p>Loading…</p>
+        </div>
+      </article>
+    </dialog>
+
+    <!-- Toast notification -->
+    <div class="toast" x-show="toast" x-text="toast" x-transition></div>
+
+    <footer class="container" style="margin-top: 3rem; padding-bottom: 2rem; text-align: center; color: var(--pico-muted-color); font-size: 0.85rem">
+      <p>
+        Prices are indicative and updated daily. Loyalty prices require an active card linked to your account.
+        UK supermarkets do not offer public basket APIs — we provide the fastest manual workflow per store.
+      </p>
+      <p>Supermarket Dash · Save money on your weekly shop 🇬🇧</p>
+    </footer>
+  </body>
+</html>

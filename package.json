@@ -1,0 +1,24 @@
+{
+  "name": "supermarket-dash",
+  "version": "1.0.0",
+  "description": "Compare UK supermarket shopping lists by price, including loyalty rewards and multi-store savings",
+  "type": "module",
+  "scripts": {
+    "update-prices": "node scripts/update-prices.js",
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev-server.js",
+    "preview": "npx serve docs -l 4173"
+  },
+  "keywords": [
+    "uk",
+    "supermarket",
+    "price-comparison",
+    "shopping-list",
+    "nectar",
+    "clubcard"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
