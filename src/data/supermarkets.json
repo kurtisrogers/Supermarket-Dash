@@ -1,0 +1,98 @@
+[
+  {
+    "id": "tesco",
+    "name": "Tesco",
+    "loyaltyProgram": "Clubcard",
+    "loyaltyKey": "clubcard",
+    "color": "#00539F",
+    "website": "https://www.tesco.com/groceries",
+    "searchUrl": "https://www.tesco.com/groceries/en-GB/search?query={query}",
+    "onlineGrocery": true,
+    "basketAutomation": "partial",
+    "basketNotes": "Tesco does not expose a public basket API. Use our copy-and-search workflow to add items quickly."
+  },
+  {
+    "id": "sainsburys",
+    "name": "Sainsbury's",
+    "loyaltyProgram": "Nectar",
+    "loyaltyKey": "nectar",
+    "color": "#F06C00",
+    "website": "https://www.sainsburys.co.uk",
+    "searchUrl": "https://www.sainsburys.co.uk/gol-ui/SearchResults/{query}",
+    "onlineGrocery": true,
+    "basketAutomation": "partial",
+    "basketNotes": "Nectar prices apply at checkout when your Nectar card is linked. No third-party basket API is available."
+  },
+  {
+    "id": "asda",
+    "name": "Asda",
+    "loyaltyProgram": "Asda Rewards",
+    "loyaltyKey": "asda_rewards",
+    "color": "#68A51C",
+    "website": "https://www.asda.com/groceries",
+    "searchUrl": "https://www.asda.com/groceries/search/{query}",
+    "onlineGrocery": true,
+    "basketAutomation": "partial",
+    "basketNotes": "Asda Rewards cashback is applied after purchase. Use search links to find each item."
+  },
+  {
+    "id": "morrisons",
+    "name": "Morrisons",
+    "loyaltyProgram": "More Card",
+    "loyaltyKey": "more_card",
+    "color": "#004B37",
+    "website": "https://groceries.morrisons.com",
+    "searchUrl": "https://groceries.morrisons.com/search?q={query}",
+    "onlineGrocery": true,
+    "basketAutomation": "partial",
+    "basketNotes": "More Card offers appear when signed in. Basket must be built manually on their site."
+  },
+  {
+    "id": "aldi",
+    "name": "Aldi",
+    "loyaltyProgram": null,
+    "loyaltyKey": null,
+    "color": "#00005F",
+    "website": "https://www.aldi.co.uk",
+    "searchUrl": "https://www.aldi.co.uk/results?query={query}",
+    "onlineGrocery": false,
+    "basketAutomation": "manual",
+    "basketNotes": "Aldi has limited online ordering (Specialbuys). Most grocery shopping is in-store — take our list with you."
+  },
+  {
+    "id": "lidl",
+    "name": "Lidl",
+    "loyaltyProgram": "Lidl Plus",
+    "loyaltyKey": "lidl_plus",
+    "color": "#0050AA",
+    "website": "https://www.lidl.co.uk",
+    "searchUrl": "https://www.lidl.co.uk/search?query={query}",
+    "onlineGrocery": false,
+    "basketAutomation": "manual",
+    "basketNotes": "Lidl Plus unlocks in-app coupons. Grocery is primarily in-store — use our printable list."
+  },
+  {
+    "id": "waitrose",
+    "name": "Waitrose",
+    "loyaltyProgram": "myWaitrose",
+    "loyaltyKey": "mywaitrose",
+    "color": "#006A4D",
+    "website": "https://www.waitrose.com",
+    "searchUrl": "https://www.waitrose.com/ecom/shop/search?&searchTerm={query}",
+    "onlineGrocery": true,
+    "basketAutomation": "partial",
+    "basketNotes": "myWaitrose free coffee and member offers require sign-in. Items must be added manually online."
+  },
+  {
+    "id": "ocado",
+    "name": "Ocado",
+    "loyaltyProgram": "Ocado Smart Pass",
+    "loyaltyKey": "smart_pass",
+    "color": "#582C83",
+    "website": "https://www.ocado.com",
+    "searchUrl": "https://www.ocado.com/search?entry={query}",
+    "onlineGrocery": true,
+    "basketAutomation": "partial",
+    "basketNotes": "Ocado is online-only. Use search links — no public add-to-basket API for third parties."
+  }
+]
