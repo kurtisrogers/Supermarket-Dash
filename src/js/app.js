@@ -12,39 +12,57 @@ function supermarketDash() {
     searchQuery: '',
     toast: '',
     basketModal: null,
+    loadStatus: 'loading',
+    loadError: '',
 
     async init() {
-      const [productsRes, marketsRes] = await Promise.all([
-        fetch('data/products.json'),
-        fetch('data/supermarkets.json'),
-      ]);
+      this.loadStatus = 'loading';
+      this.loadError = '';
 
-      const productsData = await productsRes.json();
-      this.products = productsData.products ?? productsData;
-      this.meta = productsData.meta ?? {};
-      this.supermarkets = await marketsRes.json();
+      try {
+        const productsUrl = this.assetPath('data/products.json');
+        const marketsUrl = this.assetPath('data/supermarkets.json');
 
-      const saved = localStorage.getItem('supermarket-dash-cart');
-      const savedCards = localStorage.getItem('supermarket-dash-loyalty');
-      if (saved) {
-        this.cart = JSON.parse(saved);
-      }
-      if (savedCards) {
-        this.loyaltyCards = JSON.parse(savedCards);
+        const [productsRes, marketsRes] = await Promise.all([fetch(productsUrl), fetch(marketsUrl)]);
+
+        if (!productsRes.ok) {
+          throw new Error(`Failed to load products (${productsRes.status}) from ${productsUrl}`);
+        }
+        if (!marketsRes.ok) {
+          throw new Error(`Failed to load supermarkets (${marketsRes.status}) from ${marketsUrl}`);
+        }
+
+        const productsData = await productsRes.json();
+        this.products = productsData.products ?? productsData;
+        this.meta = productsData.meta ?? {};
+        this.supermarkets = await marketsRes.json();
+        this.loadStatus = 'ready';
+
+        const saved = localStorage.getItem('supermarket-dash-cart');
+        const savedCards = localStorage.getItem('supermarket-dash-loyalty');
+        if (saved) {
+          this.cart = JSON.parse(saved);
+        }
+        if (savedCards) {
+          this.loyaltyCards = JSON.parse(savedCards);
+        }
+      } catch (error) {
+        this.loadStatus = 'error';
+        this.loadError = error instanceof Error ? error.message : 'Failed to load product data';
+        console.error('Supermarket Dash init failed:', error);
       }
     },
 
+    assetPath(relativePath) {
+      return SupermarketPaths.readRuntimeBasePath().replace(/\/?$/, '/') + relativePath.replace(/^\.\//, '');
+    },
+
+    onSearchInput(event) {
+      this.searchQuery = event.target.value;
+    },
+
     get filteredProducts() {
-      const q = this.searchQuery.trim().toLowerCase();
-      if (!q) {
-        return this.products.slice(0, 12);
-      }
-      return this.products.filter(
-        (p) =>
-          p.name.toLowerCase().includes(q) ||
-          p.category.toLowerCase().includes(q) ||
-          p.searchTerms?.some((t) => t.includes(q)),
-      );
+      return SupermarketSearch.filterProducts(this.products, this.searchQuery);
     },
 
     get comparison() {
@@ -180,6 +198,6 @@ function supermarketDash() {
   };
 }
 
-if (typeof window !== 'undefined') {
-  window.supermarketDash = supermarketDash;
-}
+document.addEventListener('alpine:init', () => {
+  Alpine.data('supermarketDash', supermarketDash);
+});

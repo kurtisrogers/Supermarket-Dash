@@ -6,6 +6,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DOCS = join(ROOT, 'docs');
 
+const LIB_FILES = ['paths.js', 'search.js', 'compare.js', 'basket.js'];
+
+function stripExports(source) {
+  return source
+    .replace(/^export async function /gm, 'async function ')
+    .replace(/^export function /gm, 'function ')
+    .replace(/^export /gm, '');
+}
+
 function ensureProductsJson() {
   const productsPath = join(ROOT, 'src/data/products.json');
   if (!existsSync(productsPath)) {
@@ -36,18 +45,33 @@ function copyDir(src, dest) {
 }
 
 function bundleAppJs() {
-  const compare = readFileSync(join(ROOT, 'src/js/compare.js'), 'utf8');
-  const basket = readFileSync(join(ROOT, 'src/js/basket.js'), 'utf8');
+  const libCode = LIB_FILES.map((file) =>
+    stripExports(readFileSync(join(ROOT, 'src/lib', file), 'utf8')),
+  ).join('\n');
+
   const app = readFileSync(join(ROOT, 'src/js/app.js'), 'utf8');
 
-  const bundled = `/* Supermarket Dash — bundled app */\n${compare}\n${basket}\n${app}\n`;
+  const attachGlobals = `
+window.SupermarketPaths = { resolveBasePath, resolveAssetPath, readRuntimeBasePath };
+window.SupermarketSearch = { filterProducts };
+window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap, hasLoyaltyCard };
+window.SupermarketBasket = {
+  buildSearchUrl,
+  formatListForStore,
+  getBasketStrategy,
+  copyToClipboard,
+  openStoreWithFirstItem,
+  getQuickSearchLinks,
+};
+`;
+
+  const bundled = `/* Supermarket Dash — bundled app */\n${libCode}\n${attachGlobals}\n${app}\n`;
   writeFileSync(join(DOCS, 'js/app.js'), bundled);
 }
 
 function patchIndexHtml() {
   let html = readFileSync(join(ROOT, 'src/index.html'), 'utf8');
   html = html.replace(/\.\.\/data\//g, 'data/');
-  html = html.replace(/src="js\//g, 'src="js/');
   writeFileSync(join(DOCS, 'index.html'), html);
 }
 

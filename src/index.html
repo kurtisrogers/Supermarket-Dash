@@ -10,11 +10,24 @@
     <title>Supermarket Dash — Compare UK Grocery Prices</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
     <link rel="stylesheet" href="css/custom.css" />
-    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
-    <script defer src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script>
+      // GitHub Pages project sites serve from /repo-name/ — resolve assets correctly
+      (function () {
+        var path = window.location.pathname;
+        if (path.endsWith('/')) {
+          window.__APP_BASE__ = path;
+        } else if (/\.[a-z0-9]+$/i.test(path.split('/').pop() || '')) {
+          window.__APP_BASE__ = path.slice(0, path.lastIndexOf('/') + 1);
+        } else {
+          window.__APP_BASE__ = path + '/';
+        }
+      })();
+    </script>
     <script defer src="js/app.js"></script>
+    <script defer src="https://unpkg.com/htmx.org@2.0.4"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
   </head>
-  <body x-data="supermarketDash()" x-init="init()">
+  <body x-data="supermarketDash" x-init="init()">
     <header class="app-header">
       <div class="container">
         <h1>🛒 Supermarket Dash</h1>
@@ -52,22 +65,47 @@
         <!-- Product search -->
         <section>
           <h2>Add items</h2>
+          <label for="product-search">Search products</label>
           <input
-            type="search"
+            id="product-search"
+            type="text"
+            inputmode="search"
+            enterkeyhint="search"
+            autocomplete="off"
+            autocapitalize="off"
+            spellcheck="false"
             placeholder="Search products… e.g. milk, bread, chicken"
-            x-model="searchQuery"
+            :value="searchQuery"
+            @input="onSearchInput($event)"
             aria-label="Search products"
           />
-          <div class="product-grid" style="margin-top: 1rem">
+
+          <p x-show="loadStatus === 'loading'" class="empty-state" aria-live="polite">Loading products…</p>
+          <p x-show="loadStatus === 'error'" class="empty-state" role="alert" x-text="loadError"></p>
+
+          <p
+            x-show="loadStatus === 'ready' && searchQuery.trim() && filteredProducts.length"
+            class="search-status"
+            aria-live="polite"
+            x-text="`${filteredProducts.length} result${filteredProducts.length === 1 ? '' : 's'} for “${searchQuery.trim()}”`"
+          ></p>
+
+          <div class="product-grid" style="margin-top: 1rem" x-show="loadStatus === 'ready'">
             <template x-for="product in filteredProducts" :key="product.id">
               <article class="product-card">
                 <span class="category" x-text="product.category"></span>
                 <strong x-text="product.name"></strong>
-                <button @click="addToCart(product)">Add to list</button>
+                <button type="button" @click="addToCart(product)">Add to list</button>
               </article>
             </template>
           </div>
-          <p x-show="searchQuery && !filteredProducts.length" class="empty-state">No products match your search.</p>
+          <p
+            x-show="loadStatus === 'ready' && searchQuery.trim() && !filteredProducts.length"
+            class="empty-state"
+            aria-live="polite"
+          >
+            No products match “<span x-text="searchQuery.trim()"></span>”.
+          </p>
         </section>
 
         <!-- Shopping list -->
@@ -162,7 +200,7 @@
                   <button class="secondary" @click="openStoreWebsite(store.storeId)">Open store</button>
                   <button
                     class="outline"
-                    :hx-get="`partials/basket/${store.storeId}.html`"
+                    :hx-get="assetPath(`partials/basket/${store.storeId}.html`)"
                     hx-target="#basket-guide-content"
                     hx-swap="innerHTML"
                     @click="openBasketGuide(store.storeId)"
