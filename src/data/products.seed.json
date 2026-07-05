@@ -4,480 +4,1521 @@
       "id": "milk-semi-2l",
       "name": "Semi-Skimmed Milk 2L",
       "category": "Dairy",
-      "searchTerms": ["semi skimmed milk 2l"],
+      "searchTerms": [
+        "semi skimmed milk 2l"
+      ],
       "prices": {
-        "tesco": { "standard": 1.65, "loyalty": 1.45 },
-        "sainsburys": { "standard": 1.75, "loyalty": 1.55 },
-        "asda": { "standard": 1.58, "loyalty": 1.48 },
-        "morrisons": { "standard": 1.70, "loyalty": 1.50 },
-        "aldi": { "standard": 1.29, "loyalty": null },
-        "lidl": { "standard": 1.25, "loyalty": null },
-        "waitrose": { "standard": 1.85, "loyalty": 1.65 },
-        "ocado": { "standard": 1.90, "loyalty": 1.75 }
+        "tesco": {
+          "standard": 1.65,
+          "loyalty": 1.45
+        },
+        "sainsburys": {
+          "standard": 1.75,
+          "loyalty": 1.55
+        },
+        "asda": {
+          "standard": 1.58,
+          "loyalty": 1.48
+        },
+        "morrisons": {
+          "standard": 1.7,
+          "loyalty": 1.5
+        },
+        "aldi": {
+          "standard": 1.29,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.25,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.85,
+          "loyalty": 1.65
+        },
+        "ocado": {
+          "standard": 1.9,
+          "loyalty": 1.75
+        }
       }
     },
     {
       "id": "bread-white-800g",
-      "name": "White Bread 800g",
+      "name": "Hovis Soft White Bread 800g",
       "category": "Bakery",
-      "searchTerms": ["white bread 800g"],
+      "searchTerms": [
+        "hovis soft white bread 800g",
+        "hovis bread"
+      ],
       "prices": {
-        "tesco": { "standard": 1.20, "loyalty": 0.85 },
-        "sainsburys": { "standard": 1.25, "loyalty": 0.89 },
-        "asda": { "standard": 1.18, "loyalty": null },
-        "morrisons": { "standard": 1.22, "loyalty": 0.90 },
-        "aldi": { "standard": 0.55, "loyalty": null },
-        "lidl": { "standard": 0.49, "loyalty": null },
-        "waitrose": { "standard": 1.40, "loyalty": 1.10 },
-        "ocado": { "standard": 1.35, "loyalty": null }
+        "tesco": {
+          "standard": 1.2,
+          "loyalty": 0.85
+        },
+        "sainsburys": {
+          "standard": 1.25,
+          "loyalty": 0.89
+        },
+        "asda": {
+          "standard": 1.18,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.22,
+          "loyalty": 0.9
+        },
+        "aldi": {
+          "standard": 0.55,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.49,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.4,
+          "loyalty": 1.1
+        },
+        "ocado": {
+          "standard": 1.35,
+          "loyalty": null
+        }
+      },
+      "brand": "Hovis",
+      "barcode": "5010179200116",
+      "skus": {
+        "tesco": "250182044",
+        "sainsburys": "6012833",
+        "asda": "3600145",
+        "morrisons": "1012988"
       }
     },
     {
       "id": "eggs-free-range-12",
       "name": "Free Range Eggs (12)",
       "category": "Dairy",
-      "searchTerms": ["free range eggs 12"],
+      "searchTerms": [
+        "free range eggs 12"
+      ],
       "prices": {
-        "tesco": { "standard": 3.50, "loyalty": 2.75 },
-        "sainsburys": { "standard": 3.60, "loyalty": 2.85 },
-        "asda": { "standard": 3.40, "loyalty": null },
-        "morrisons": { "standard": 3.55, "loyalty": 2.90 },
-        "aldi": { "standard": 2.49, "loyalty": null },
-        "lidl": { "standard": 2.59, "loyalty": null },
-        "waitrose": { "standard": 4.20, "loyalty": 3.50 },
-        "ocado": { "standard": 4.00, "loyalty": null }
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.75
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.85
+        },
+        "asda": {
+          "standard": 3.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.9
+        },
+        "aldi": {
+          "standard": 2.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.59,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4.2,
+          "loyalty": 3.5
+        },
+        "ocado": {
+          "standard": 4,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "butter-salted-250g",
-      "name": "Salted Butter 250g",
+      "name": "Lurpak Slightly Salted Butter 250g",
       "category": "Dairy",
-      "searchTerms": ["salted butter 250g"],
+      "searchTerms": [
+        "lurpak slightly salted butter 250g",
+        "lurpak butter"
+      ],
       "prices": {
-        "tesco": { "standard": 2.30, "loyalty": 1.99 },
-        "sainsburys": { "standard": 2.40, "loyalty": 2.10 },
-        "asda": { "standard": 2.25, "loyalty": null },
-        "morrisons": { "standard": 2.35, "loyalty": 2.05 },
-        "aldi": { "standard": 1.99, "loyalty": null },
-        "lidl": { "standard": 1.89, "loyalty": null },
-        "waitrose": { "standard": 2.80, "loyalty": 2.40 },
-        "ocado": { "standard": 2.75, "loyalty": null }
+        "tesco": {
+          "standard": 2.3,
+          "loyalty": 1.99
+        },
+        "sainsburys": {
+          "standard": 2.4,
+          "loyalty": 2.1
+        },
+        "asda": {
+          "standard": 2.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 2.35,
+          "loyalty": 2.05
+        },
+        "aldi": {
+          "standard": 1.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.89,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 2.8,
+          "loyalty": 2.4
+        },
+        "ocado": {
+          "standard": 2.75,
+          "loyalty": null
+        }
+      },
+      "brand": "Lurpak",
+      "barcode": "5701263050001",
+      "skus": {
+        "tesco": "254998120",
+        "sainsburys": "6284410",
+        "asda": "3777012",
+        "morrisons": "1098844"
       }
     },
     {
       "id": "chicken-breast-1kg",
       "name": "Chicken Breast Fillets 1kg",
       "category": "Meat",
-      "searchTerms": ["chicken breast fillets 1kg"],
+      "searchTerms": [
+        "chicken breast fillets 1kg"
+      ],
       "prices": {
-        "tesco": { "standard": 6.50, "loyalty": 5.50 },
-        "sainsburys": { "standard": 6.75, "loyalty": 5.75 },
-        "asda": { "standard": 6.25, "loyalty": 5.40 },
-        "morrisons": { "standard": 6.60, "loyalty": 5.60 },
-        "aldi": { "standard": 5.49, "loyalty": null },
-        "lidl": { "standard": 5.59, "loyalty": null },
-        "waitrose": { "standard": 8.50, "loyalty": 7.00 },
-        "ocado": { "standard": 8.25, "loyalty": null }
+        "tesco": {
+          "standard": 6.5,
+          "loyalty": 5.5
+        },
+        "sainsburys": {
+          "standard": 6.75,
+          "loyalty": 5.75
+        },
+        "asda": {
+          "standard": 6.25,
+          "loyalty": 5.4
+        },
+        "morrisons": {
+          "standard": 6.6,
+          "loyalty": 5.6
+        },
+        "aldi": {
+          "standard": 5.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 5.59,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 8.5,
+          "loyalty": 7
+        },
+        "ocado": {
+          "standard": 8.25,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "mince-beef-500g",
       "name": "Beef Mince 500g (5% fat)",
       "category": "Meat",
-      "searchTerms": ["beef mince 500g 5%"],
+      "searchTerms": [
+        "beef mince 500g 5%"
+      ],
       "prices": {
-        "tesco": { "standard": 4.50, "loyalty": 3.75 },
-        "sainsburys": { "standard": 4.60, "loyalty": 3.85 },
-        "asda": { "standard": 4.25, "loyalty": 3.60 },
-        "morrisons": { "standard": 4.55, "loyalty": 3.80 },
-        "aldi": { "standard": 3.49, "loyalty": null },
-        "lidl": { "standard": 3.59, "loyalty": null },
-        "waitrose": { "standard": 5.50, "loyalty": 4.75 },
-        "ocado": { "standard": 5.40, "loyalty": null }
+        "tesco": {
+          "standard": 4.5,
+          "loyalty": 3.75
+        },
+        "sainsburys": {
+          "standard": 4.6,
+          "loyalty": 3.85
+        },
+        "asda": {
+          "standard": 4.25,
+          "loyalty": 3.6
+        },
+        "morrisons": {
+          "standard": 4.55,
+          "loyalty": 3.8
+        },
+        "aldi": {
+          "standard": 3.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 3.59,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 5.5,
+          "loyalty": 4.75
+        },
+        "ocado": {
+          "standard": 5.4,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "bananas-bunch",
       "name": "Bananas (5 pack)",
       "category": "Fruit & Veg",
-      "searchTerms": ["bananas 5 pack"],
+      "searchTerms": [
+        "bananas 5 pack"
+      ],
       "prices": {
-        "tesco": { "standard": 1.10, "loyalty": null },
-        "sainsburys": { "standard": 1.15, "loyalty": null },
-        "asda": { "standard": 1.05, "loyalty": null },
-        "morrisons": { "standard": 1.12, "loyalty": null },
-        "aldi": { "standard": 0.89, "loyalty": null },
-        "lidl": { "standard": 0.85, "loyalty": null },
-        "waitrose": { "standard": 1.35, "loyalty": null },
-        "ocado": { "standard": 1.30, "loyalty": null }
+        "tesco": {
+          "standard": 1.1,
+          "loyalty": null
+        },
+        "sainsburys": {
+          "standard": 1.15,
+          "loyalty": null
+        },
+        "asda": {
+          "standard": 1.05,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.12,
+          "loyalty": null
+        },
+        "aldi": {
+          "standard": 0.89,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.85,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.35,
+          "loyalty": null
+        },
+        "ocado": {
+          "standard": 1.3,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "potatoes-marquis-2kg",
       "name": "Maris Piper Potatoes 2kg",
       "category": "Fruit & Veg",
-      "searchTerms": ["maris piper potatoes 2kg"],
+      "searchTerms": [
+        "maris piper potatoes 2kg"
+      ],
       "prices": {
-        "tesco": { "standard": 1.80, "loyalty": 1.49 },
-        "sainsburys": { "standard": 1.85, "loyalty": 1.55 },
-        "asda": { "standard": 1.75, "loyalty": null },
-        "morrisons": { "standard": 1.82, "loyalty": 1.50 },
-        "aldi": { "standard": 1.29, "loyalty": null },
-        "lidl": { "standard": 1.25, "loyalty": null },
-        "waitrose": { "standard": 2.20, "loyalty": 1.90 },
-        "ocado": { "standard": 2.15, "loyalty": null }
+        "tesco": {
+          "standard": 1.8,
+          "loyalty": 1.49
+        },
+        "sainsburys": {
+          "standard": 1.85,
+          "loyalty": 1.55
+        },
+        "asda": {
+          "standard": 1.75,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.82,
+          "loyalty": 1.5
+        },
+        "aldi": {
+          "standard": 1.29,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.25,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 2.2,
+          "loyalty": 1.9
+        },
+        "ocado": {
+          "standard": 2.15,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "pasta-penne-500g",
       "name": "Penne Pasta 500g",
       "category": "Cupboard",
-      "searchTerms": ["penne pasta 500g"],
+      "searchTerms": [
+        "penne pasta 500g"
+      ],
       "prices": {
-        "tesco": { "standard": 0.90, "loyalty": 0.65 },
-        "sainsburys": { "standard": 0.95, "loyalty": 0.69 },
-        "asda": { "standard": 0.85, "loyalty": null },
-        "morrisons": { "standard": 0.92, "loyalty": 0.70 },
-        "aldi": { "standard": 0.55, "loyalty": null },
-        "lidl": { "standard": 0.49, "loyalty": null },
-        "waitrose": { "standard": 1.20, "loyalty": 0.95 },
-        "ocado": { "standard": 1.15, "loyalty": null }
+        "tesco": {
+          "standard": 0.9,
+          "loyalty": 0.65
+        },
+        "sainsburys": {
+          "standard": 0.95,
+          "loyalty": 0.69
+        },
+        "asda": {
+          "standard": 0.85,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 0.92,
+          "loyalty": 0.7
+        },
+        "aldi": {
+          "standard": 0.55,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.49,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.2,
+          "loyalty": 0.95
+        },
+        "ocado": {
+          "standard": 1.15,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "rice-basmati-1kg",
       "name": "Basmati Rice 1kg",
       "category": "Cupboard",
-      "searchTerms": ["basmati rice 1kg"],
+      "searchTerms": [
+        "basmati rice 1kg"
+      ],
       "prices": {
-        "tesco": { "standard": 2.50, "loyalty": 1.99 },
-        "sainsburys": { "standard": 2.60, "loyalty": 2.10 },
-        "asda": { "standard": 2.40, "loyalty": null },
-        "morrisons": { "standard": 2.55, "loyalty": 2.05 },
-        "aldi": { "standard": 1.79, "loyalty": null },
-        "lidl": { "standard": 1.69, "loyalty": null },
-        "waitrose": { "standard": 3.20, "loyalty": 2.75 },
-        "ocado": { "standard": 3.10, "loyalty": null }
+        "tesco": {
+          "standard": 2.5,
+          "loyalty": 1.99
+        },
+        "sainsburys": {
+          "standard": 2.6,
+          "loyalty": 2.1
+        },
+        "asda": {
+          "standard": 2.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 2.55,
+          "loyalty": 2.05
+        },
+        "aldi": {
+          "standard": 1.79,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.69,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 3.2,
+          "loyalty": 2.75
+        },
+        "ocado": {
+          "standard": 3.1,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "baked-beans-415g",
-      "name": "Baked Beans 415g",
+      "name": "Heinz Baked Beans 415g",
       "category": "Cupboard",
-      "searchTerms": ["baked beans 415g"],
+      "searchTerms": [
+        "heinz baked beans 415g",
+        "heinz beans"
+      ],
       "prices": {
-        "tesco": { "standard": 0.65, "loyalty": 0.45 },
-        "sainsburys": { "standard": 0.70, "loyalty": 0.50 },
-        "asda": { "standard": 0.60, "loyalty": null },
-        "morrisons": { "standard": 0.68, "loyalty": 0.48 },
-        "aldi": { "standard": 0.29, "loyalty": null },
-        "lidl": { "standard": 0.27, "loyalty": null },
-        "waitrose": { "standard": 0.85, "loyalty": 0.65 },
-        "ocado": { "standard": 0.80, "loyalty": null }
+        "tesco": {
+          "standard": 0.65,
+          "loyalty": 0.45
+        },
+        "sainsburys": {
+          "standard": 0.7,
+          "loyalty": 0.5
+        },
+        "asda": {
+          "standard": 0.6,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 0.68,
+          "loyalty": 0.48
+        },
+        "aldi": {
+          "standard": 0.29,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.27,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 0.85,
+          "loyalty": 0.65
+        },
+        "ocado": {
+          "standard": 0.8,
+          "loyalty": null
+        }
+      },
+      "brand": "Heinz",
+      "barcode": "5016000120518",
+      "skus": {
+        "tesco": "258372015",
+        "sainsburys": "6449102",
+        "asda": "4105678",
+        "morrisons": "1129034"
       }
     },
     {
       "id": "tinned-tomatoes-400g",
       "name": "Chopped Tomatoes 400g",
       "category": "Cupboard",
-      "searchTerms": ["chopped tomatoes 400g"],
+      "searchTerms": [
+        "chopped tomatoes 400g"
+      ],
       "prices": {
-        "tesco": { "standard": 0.55, "loyalty": 0.35 },
-        "sainsburys": { "standard": 0.60, "loyalty": 0.40 },
-        "asda": { "standard": 0.50, "loyalty": null },
-        "morrisons": { "standard": 0.58, "loyalty": 0.38 },
-        "aldi": { "standard": 0.29, "loyalty": null },
-        "lidl": { "standard": 0.27, "loyalty": null },
-        "waitrose": { "standard": 0.75, "loyalty": 0.55 },
-        "ocado": { "standard": 0.70, "loyalty": null }
+        "tesco": {
+          "standard": 0.55,
+          "loyalty": 0.35
+        },
+        "sainsburys": {
+          "standard": 0.6,
+          "loyalty": 0.4
+        },
+        "asda": {
+          "standard": 0.5,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 0.58,
+          "loyalty": 0.38
+        },
+        "aldi": {
+          "standard": 0.29,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.27,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 0.75,
+          "loyalty": 0.55
+        },
+        "ocado": {
+          "standard": 0.7,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "cheese-cheddar-400g",
-      "name": "Mature Cheddar 400g",
+      "name": "Cathedral City Mature Cheddar 400g",
       "category": "Dairy",
-      "searchTerms": ["mature cheddar 400g"],
+      "searchTerms": [
+        "cathedral city mature cheddar 400g",
+        "cathedral city cheddar"
+      ],
       "prices": {
-        "tesco": { "standard": 3.50, "loyalty": 2.85 },
-        "sainsburys": { "standard": 3.60, "loyalty": 2.95 },
-        "asda": { "standard": 3.40, "loyalty": 2.75 },
-        "morrisons": { "standard": 3.55, "loyalty": 2.90 },
-        "aldi": { "standard": 2.49, "loyalty": null },
-        "lidl": { "standard": 2.59, "loyalty": null },
-        "waitrose": { "standard": 4.50, "loyalty": 3.75 },
-        "ocado": { "standard": 4.40, "loyalty": null }
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.85
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.95
+        },
+        "asda": {
+          "standard": 3.4,
+          "loyalty": 2.75
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.9
+        },
+        "aldi": {
+          "standard": 2.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.59,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4.5,
+          "loyalty": 3.75
+        },
+        "ocado": {
+          "standard": 4.4,
+          "loyalty": null
+        }
+      },
+      "brand": "Cathedral City",
+      "barcode": "5000112548184",
+      "skus": {
+        "tesco": "260014522",
+        "sainsburys": "6442219",
+        "asda": "4120098",
+        "morrisons": "1183340"
       }
     },
     {
       "id": "yogurt-natural-500g",
       "name": "Natural Yogurt 500g",
       "category": "Dairy",
-      "searchTerms": ["natural yogurt 500g"],
+      "searchTerms": [
+        "natural yogurt 500g"
+      ],
       "prices": {
-        "tesco": { "standard": 1.10, "loyalty": 0.85 },
-        "sainsburys": { "standard": 1.15, "loyalty": 0.90 },
-        "asda": { "standard": 1.05, "loyalty": null },
-        "morrisons": { "standard": 1.12, "loyalty": 0.88 },
-        "aldi": { "standard": 0.69, "loyalty": null },
-        "lidl": { "standard": 0.65, "loyalty": null },
-        "waitrose": { "standard": 1.40, "loyalty": 1.15 },
-        "ocado": { "standard": 1.35, "loyalty": null }
+        "tesco": {
+          "standard": 1.1,
+          "loyalty": 0.85
+        },
+        "sainsburys": {
+          "standard": 1.15,
+          "loyalty": 0.9
+        },
+        "asda": {
+          "standard": 1.05,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.12,
+          "loyalty": 0.88
+        },
+        "aldi": {
+          "standard": 0.69,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.65,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.4,
+          "loyalty": 1.15
+        },
+        "ocado": {
+          "standard": 1.35,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "cereal-cornflakes-500g",
-      "name": "Cornflakes 500g",
+      "name": "Kellogg's Corn Flakes 500g",
       "category": "Breakfast",
-      "searchTerms": ["cornflakes 500g"],
+      "searchTerms": [
+        "kelloggs corn flakes 500g",
+        "cornflakes"
+      ],
       "prices": {
-        "tesco": { "standard": 2.00, "loyalty": 1.50 },
-        "sainsburys": { "standard": 2.10, "loyalty": 1.60 },
-        "asda": { "standard": 1.90, "loyalty": null },
-        "morrisons": { "standard": 2.05, "loyalty": 1.55 },
-        "aldi": { "standard": 0.99, "loyalty": null },
-        "lidl": { "standard": 0.95, "loyalty": null },
-        "waitrose": { "standard": 2.50, "loyalty": 2.00 },
-        "ocado": { "standard": 2.45, "loyalty": null }
+        "tesco": {
+          "standard": 2,
+          "loyalty": 1.5
+        },
+        "sainsburys": {
+          "standard": 2.1,
+          "loyalty": 1.6
+        },
+        "asda": {
+          "standard": 1.9,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 2.05,
+          "loyalty": 1.55
+        },
+        "aldi": {
+          "standard": 0.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.95,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 2.5,
+          "loyalty": 2
+        },
+        "ocado": {
+          "standard": 2.45,
+          "loyalty": null
+        }
+      },
+      "brand": "Kellogg's",
+      "barcode": "5000112548165",
+      "skus": {
+        "tesco": "255430011",
+        "sainsburys": "7551044",
+        "asda": "3982210",
+        "morrisons": "1056721"
       }
     },
     {
       "id": "tea-bags-240",
-      "name": "Tea Bags (240)",
+      "name": "PG Tips Original Tea Bags 240",
       "category": "Drinks",
-      "searchTerms": ["tea bags 240"],
+      "searchTerms": [
+        "pg tips tea bags 240",
+        "pg tips"
+      ],
       "prices": {
-        "tesco": { "standard": 4.50, "loyalty": 3.50 },
-        "sainsburys": { "standard": 4.60, "loyalty": 3.60 },
-        "asda": { "standard": 4.25, "loyalty": null },
-        "morrisons": { "standard": 4.55, "loyalty": 3.55 },
-        "aldi": { "standard": 2.49, "loyalty": null },
-        "lidl": { "standard": 2.39, "loyalty": null },
-        "waitrose": { "standard": 5.50, "loyalty": 4.50 },
-        "ocado": { "standard": 5.40, "loyalty": null }
+        "tesco": {
+          "standard": 4.5,
+          "loyalty": 3.5
+        },
+        "sainsburys": {
+          "standard": 4.6,
+          "loyalty": 3.6
+        },
+        "asda": {
+          "standard": 4.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 4.55,
+          "loyalty": 3.55
+        },
+        "aldi": {
+          "standard": 2.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.39,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 5.5,
+          "loyalty": 4.5
+        },
+        "ocado": {
+          "standard": 5.4,
+          "loyalty": null
+        }
+      },
+      "brand": "PG Tips",
+      "barcode": "5000197020312",
+      "skus": {
+        "tesco": "257701002",
+        "sainsburys": "6500198",
+        "asda": "4055102",
+        "morrisons": "1142201"
       }
     },
     {
       "id": "coffee-instant-200g",
-      "name": "Instant Coffee 200g",
+      "name": "Nescafé Original Instant Coffee 200g",
       "category": "Drinks",
-      "searchTerms": ["instant coffee 200g"],
+      "searchTerms": [
+        "nescafe original instant coffee 200g",
+        "nescafe original"
+      ],
       "prices": {
-        "tesco": { "standard": 5.50, "loyalty": 4.50 },
-        "sainsburys": { "standard": 5.75, "loyalty": 4.75 },
-        "asda": { "standard": 5.25, "loyalty": null },
-        "morrisons": { "standard": 5.60, "loyalty": 4.60 },
-        "aldi": { "standard": 3.49, "loyalty": null },
-        "lidl": { "standard": 3.59, "loyalty": null },
-        "waitrose": { "standard": 6.50, "loyalty": 5.50 },
-        "ocado": { "standard": 6.40, "loyalty": null }
+        "tesco": {
+          "standard": 5.5,
+          "loyalty": 4.5
+        },
+        "sainsburys": {
+          "standard": 5.75,
+          "loyalty": 4.75
+        },
+        "asda": {
+          "standard": 5.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 5.6,
+          "loyalty": 4.6
+        },
+        "aldi": {
+          "standard": 3.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 3.59,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 6.5,
+          "loyalty": 5.5
+        },
+        "ocado": {
+          "standard": 6.4,
+          "loyalty": null
+        }
+      },
+      "brand": "Nescafé",
+      "barcode": "3033718130016",
+      "skus": {
+        "tesco": "259004411",
+        "sainsburys": "6610021",
+        "asda": "4201188",
+        "morrisons": "1200099"
       }
     },
     {
       "id": "orange-juice-1l",
-      "name": "Orange Juice 1L",
+      "name": "innocent Smooth Orange Juice 900ml",
       "category": "Drinks",
-      "searchTerms": ["orange juice 1l"],
+      "searchTerms": [
+        "innocent smooth orange juice",
+        "innocent orange juice"
+      ],
       "prices": {
-        "tesco": { "standard": 1.50, "loyalty": 1.20 },
-        "sainsburys": { "standard": 1.55, "loyalty": 1.25 },
-        "asda": { "standard": 1.45, "loyalty": null },
-        "morrisons": { "standard": 1.52, "loyalty": 1.22 },
-        "aldi": { "standard": 0.99, "loyalty": null },
-        "lidl": { "standard": 0.95, "loyalty": null },
-        "waitrose": { "standard": 1.85, "loyalty": 1.55 },
-        "ocado": { "standard": 1.80, "loyalty": null }
+        "tesco": {
+          "standard": 1.5,
+          "loyalty": 1.2
+        },
+        "sainsburys": {
+          "standard": 1.55,
+          "loyalty": 1.25
+        },
+        "asda": {
+          "standard": 1.45,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.52,
+          "loyalty": 1.22
+        },
+        "aldi": {
+          "standard": 0.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.95,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.85,
+          "loyalty": 1.55
+        },
+        "ocado": {
+          "standard": 1.8,
+          "loyalty": null
+        }
+      },
+      "brand": "innocent",
+      "barcode": "5060088520174",
+      "skus": {
+        "tesco": "265901244",
+        "sainsburys": "7010021",
+        "asda": "4601180",
+        "morrisons": "1310099"
       }
     },
     {
       "id": "water-6x1.5l",
       "name": "Still Water 6x1.5L",
       "category": "Drinks",
-      "searchTerms": ["still water 6 pack 1.5l"],
+      "searchTerms": [
+        "still water 6 pack 1.5l"
+      ],
       "prices": {
-        "tesco": { "standard": 2.50, "loyalty": 1.99 },
-        "sainsburys": { "standard": 2.60, "loyalty": 2.10 },
-        "asda": { "standard": 2.40, "loyalty": null },
-        "morrisons": { "standard": 2.55, "loyalty": 2.05 },
-        "aldi": { "standard": 1.49, "loyalty": null },
-        "lidl": { "standard": 1.45, "loyalty": null },
-        "waitrose": { "standard": 3.00, "loyalty": 2.50 },
-        "ocado": { "standard": 2.95, "loyalty": null }
+        "tesco": {
+          "standard": 2.5,
+          "loyalty": 1.99
+        },
+        "sainsburys": {
+          "standard": 2.6,
+          "loyalty": 2.1
+        },
+        "asda": {
+          "standard": 2.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 2.55,
+          "loyalty": 2.05
+        },
+        "aldi": {
+          "standard": 1.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.45,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 3,
+          "loyalty": 2.5
+        },
+        "ocado": {
+          "standard": 2.95,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "washing-up-liquid-450ml",
       "name": "Washing Up Liquid 450ml",
       "category": "Household",
-      "searchTerms": ["washing up liquid 450ml"],
+      "searchTerms": [
+        "washing up liquid 450ml"
+      ],
       "prices": {
-        "tesco": { "standard": 1.20, "loyalty": 0.85 },
-        "sainsburys": { "standard": 1.25, "loyalty": 0.90 },
-        "asda": { "standard": 1.15, "loyalty": null },
-        "morrisons": { "standard": 1.22, "loyalty": 0.88 },
-        "aldi": { "standard": 0.69, "loyalty": null },
-        "lidl": { "standard": 0.65, "loyalty": null },
-        "waitrose": { "standard": 1.50, "loyalty": 1.20 },
-        "ocado": { "standard": 1.45, "loyalty": null }
+        "tesco": {
+          "standard": 1.2,
+          "loyalty": 0.85
+        },
+        "sainsburys": {
+          "standard": 1.25,
+          "loyalty": 0.9
+        },
+        "asda": {
+          "standard": 1.15,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.22,
+          "loyalty": 0.88
+        },
+        "aldi": {
+          "standard": 0.69,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.65,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.5,
+          "loyalty": 1.2
+        },
+        "ocado": {
+          "standard": 1.45,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "toilet-roll-9pack",
       "name": "Toilet Roll 9 Pack",
       "category": "Household",
-      "searchTerms": ["toilet roll 9 pack"],
+      "searchTerms": [
+        "toilet roll 9 pack"
+      ],
       "prices": {
-        "tesco": { "standard": 4.50, "loyalty": 3.50 },
-        "sainsburys": { "standard": 4.60, "loyalty": 3.60 },
-        "asda": { "standard": 4.25, "loyalty": null },
-        "morrisons": { "standard": 4.55, "loyalty": 3.55 },
-        "aldi": { "standard": 2.99, "loyalty": null },
-        "lidl": { "standard": 2.89, "loyalty": null },
-        "waitrose": { "standard": 5.50, "loyalty": 4.50 },
-        "ocado": { "standard": 5.40, "loyalty": null }
+        "tesco": {
+          "standard": 4.5,
+          "loyalty": 3.5
+        },
+        "sainsburys": {
+          "standard": 4.6,
+          "loyalty": 3.6
+        },
+        "asda": {
+          "standard": 4.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 4.55,
+          "loyalty": 3.55
+        },
+        "aldi": {
+          "standard": 2.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.89,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 5.5,
+          "loyalty": 4.5
+        },
+        "ocado": {
+          "standard": 5.4,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "shampoo-400ml",
       "name": "Shampoo 400ml",
       "category": "Toiletries",
-      "searchTerms": ["shampoo 400ml"],
+      "searchTerms": [
+        "shampoo 400ml"
+      ],
       "prices": {
-        "tesco": { "standard": 3.50, "loyalty": 2.75 },
-        "sainsburys": { "standard": 3.60, "loyalty": 2.85 },
-        "asda": { "standard": 3.40, "loyalty": null },
-        "morrisons": { "standard": 3.55, "loyalty": 2.80 },
-        "aldi": { "standard": 1.99, "loyalty": null },
-        "lidl": { "standard": 1.89, "loyalty": null },
-        "waitrose": { "standard": 4.50, "loyalty": 3.75 },
-        "ocado": { "standard": 4.40, "loyalty": null }
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.75
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.85
+        },
+        "asda": {
+          "standard": 3.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.8
+        },
+        "aldi": {
+          "standard": 1.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.89,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4.5,
+          "loyalty": 3.75
+        },
+        "ocado": {
+          "standard": 4.4,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "toothpaste-100ml",
-      "name": "Toothpaste 100ml",
+      "name": "Colgate Total Toothpaste 100ml",
       "category": "Toiletries",
-      "searchTerms": ["toothpaste 100ml"],
+      "searchTerms": [
+        "colgate total toothpaste 100ml",
+        "colgate total"
+      ],
       "prices": {
-        "tesco": { "standard": 2.50, "loyalty": 1.75 },
-        "sainsburys": { "standard": 2.60, "loyalty": 1.85 },
-        "asda": { "standard": 2.40, "loyalty": null },
-        "morrisons": { "standard": 2.55, "loyalty": 1.80 },
-        "aldi": { "standard": 1.49, "loyalty": null },
-        "lidl": { "standard": 1.39, "loyalty": null },
-        "waitrose": { "standard": 3.20, "loyalty": 2.50 },
-        "ocado": { "standard": 3.10, "loyalty": null }
+        "tesco": {
+          "standard": 2.5,
+          "loyalty": 1.75
+        },
+        "sainsburys": {
+          "standard": 2.6,
+          "loyalty": 1.85
+        },
+        "asda": {
+          "standard": 2.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 2.55,
+          "loyalty": 1.8
+        },
+        "aldi": {
+          "standard": 1.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.39,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 3.2,
+          "loyalty": 2.5
+        },
+        "ocado": {
+          "standard": 3.1,
+          "loyalty": null
+        }
+      },
+      "brand": "Colgate",
+      "barcode": "5012028000108",
+      "skus": {
+        "tesco": "264501188",
+        "sainsburys": "6901188",
+        "asda": "4509012",
+        "morrisons": "1304410"
       }
     },
     {
       "id": "frozen-peas-900g",
       "name": "Frozen Peas 900g",
       "category": "Frozen",
-      "searchTerms": ["frozen peas 900g"],
+      "searchTerms": [
+        "frozen peas 900g"
+      ],
       "prices": {
-        "tesco": { "standard": 1.50, "loyalty": 1.10 },
-        "sainsburys": { "standard": 1.55, "loyalty": 1.15 },
-        "asda": { "standard": 1.45, "loyalty": null },
-        "morrisons": { "standard": 1.52, "loyalty": 1.12 },
-        "aldi": { "standard": 0.99, "loyalty": null },
-        "lidl": { "standard": 0.95, "loyalty": null },
-        "waitrose": { "standard": 1.85, "loyalty": 1.50 },
-        "ocado": { "standard": 1.80, "loyalty": null }
+        "tesco": {
+          "standard": 1.5,
+          "loyalty": 1.1
+        },
+        "sainsburys": {
+          "standard": 1.55,
+          "loyalty": 1.15
+        },
+        "asda": {
+          "standard": 1.45,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.52,
+          "loyalty": 1.12
+        },
+        "aldi": {
+          "standard": 0.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.95,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.85,
+          "loyalty": 1.5
+        },
+        "ocado": {
+          "standard": 1.8,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "fish-fingers-20",
-      "name": "Fish Fingers (20 pack)",
+      "name": "Birds Eye Fish Fingers 20 Pack",
       "category": "Frozen",
-      "searchTerms": ["fish fingers 20 pack"],
+      "searchTerms": [
+        "birds eye fish fingers 20 pack",
+        "birds eye fish fingers"
+      ],
       "prices": {
-        "tesco": { "standard": 3.50, "loyalty": 2.75 },
-        "sainsburys": { "standard": 3.60, "loyalty": 2.85 },
-        "asda": { "standard": 3.40, "loyalty": null },
-        "morrisons": { "standard": 3.55, "loyalty": 2.80 },
-        "aldi": { "standard": 2.19, "loyalty": null },
-        "lidl": { "standard": 2.09, "loyalty": null },
-        "waitrose": { "standard": 4.50, "loyalty": 3.75 },
-        "ocado": { "standard": 4.40, "loyalty": null }
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.75
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.85
+        },
+        "asda": {
+          "standard": 3.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.8
+        },
+        "aldi": {
+          "standard": 2.19,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.09,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4.5,
+          "loyalty": 3.75
+        },
+        "ocado": {
+          "standard": 4.4,
+          "loyalty": null
+        }
+      },
+      "brand": "Birds Eye",
+      "barcode": "5000112548123",
+      "skus": {
+        "tesco": "258801144",
+        "sainsburys": "6559012",
+        "asda": "4155011",
+        "morrisons": "1167012"
       }
     },
     {
       "id": "crisps-multipack-12",
-      "name": "Crisps Multipack (12)",
+      "name": "Walkers Variety Crisps 12 Pack",
       "category": "Snacks",
-      "searchTerms": ["crisps multipack 12"],
+      "searchTerms": [
+        "walkers variety crisps 12 pack",
+        "walkers crisps"
+      ],
       "prices": {
-        "tesco": { "standard": 3.50, "loyalty": 2.75 },
-        "sainsburys": { "standard": 3.60, "loyalty": 2.85 },
-        "asda": { "standard": 3.25, "loyalty": null },
-        "morrisons": { "standard": 3.55, "loyalty": 2.80 },
-        "aldi": { "standard": 1.99, "loyalty": null },
-        "lidl": { "standard": 1.89, "loyalty": null },
-        "waitrose": { "standard": 4.50, "loyalty": 3.50 },
-        "ocado": { "standard": 4.40, "loyalty": null }
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.75
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.85
+        },
+        "asda": {
+          "standard": 3.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.8
+        },
+        "aldi": {
+          "standard": 1.99,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.89,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4.5,
+          "loyalty": 3.5
+        },
+        "ocado": {
+          "standard": 4.4,
+          "loyalty": null
+        }
+      },
+      "brand": "Walkers",
+      "barcode": "5000328930008",
+      "skus": {
+        "tesco": "261118900",
+        "sainsburys": "6704412",
+        "asda": "4310091",
+        "morrisons": "1255011"
       }
     },
     {
       "id": "chocolate-bar-4pack",
-      "name": "Chocolate Bar 4 Pack",
+      "name": "Cadbury Dairy Milk Bars 4 Pack",
       "category": "Snacks",
-      "searchTerms": ["chocolate bar 4 pack"],
+      "searchTerms": [
+        "cadbury dairy milk 4 pack",
+        "cadbury dairy milk"
+      ],
       "prices": {
-        "tesco": { "standard": 2.50, "loyalty": 1.75 },
-        "sainsburys": { "standard": 2.60, "loyalty": 1.85 },
-        "asda": { "standard": 2.40, "loyalty": null },
-        "morrisons": { "standard": 2.55, "loyalty": 1.80 },
-        "aldi": { "standard": 1.49, "loyalty": null },
-        "lidl": { "standard": 1.39, "loyalty": null },
-        "waitrose": { "standard": 3.20, "loyalty": 2.50 },
-        "ocado": { "standard": 3.10, "loyalty": null }
+        "tesco": {
+          "standard": 2.5,
+          "loyalty": 1.75
+        },
+        "sainsburys": {
+          "standard": 2.6,
+          "loyalty": 1.85
+        },
+        "asda": {
+          "standard": 2.4,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 2.55,
+          "loyalty": 1.8
+        },
+        "aldi": {
+          "standard": 1.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 1.39,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 3.2,
+          "loyalty": 2.5
+        },
+        "ocado": {
+          "standard": 3.1,
+          "loyalty": null
+        }
+      },
+      "brand": "Cadbury",
+      "barcode": "7622210449283",
+      "skus": {
+        "tesco": "262004510",
+        "sainsburys": "6801199",
+        "asda": "4402210",
+        "morrisons": "1270098"
       }
     },
     {
       "id": "onions-1kg",
       "name": "Brown Onions 1kg",
       "category": "Fruit & Veg",
-      "searchTerms": ["brown onions 1kg"],
+      "searchTerms": [
+        "brown onions 1kg"
+      ],
       "prices": {
-        "tesco": { "standard": 0.95, "loyalty": null },
-        "sainsburys": { "standard": 1.00, "loyalty": null },
-        "asda": { "standard": 0.90, "loyalty": null },
-        "morrisons": { "standard": 0.98, "loyalty": null },
-        "aldi": { "standard": 0.69, "loyalty": null },
-        "lidl": { "standard": 0.65, "loyalty": null },
-        "waitrose": { "standard": 1.20, "loyalty": null },
-        "ocado": { "standard": 1.15, "loyalty": null }
+        "tesco": {
+          "standard": 0.95,
+          "loyalty": null
+        },
+        "sainsburys": {
+          "standard": 1,
+          "loyalty": null
+        },
+        "asda": {
+          "standard": 0.9,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 0.98,
+          "loyalty": null
+        },
+        "aldi": {
+          "standard": 0.69,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.65,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.2,
+          "loyalty": null
+        },
+        "ocado": {
+          "standard": 1.15,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "carrots-1kg",
       "name": "Carrots 1kg",
       "category": "Fruit & Veg",
-      "searchTerms": ["carrots 1kg"],
+      "searchTerms": [
+        "carrots 1kg"
+      ],
       "prices": {
-        "tesco": { "standard": 0.60, "loyalty": null },
-        "sainsburys": { "standard": 0.65, "loyalty": null },
-        "asda": { "standard": 0.55, "loyalty": null },
-        "morrisons": { "standard": 0.62, "loyalty": null },
-        "aldi": { "standard": 0.39, "loyalty": null },
-        "lidl": { "standard": 0.35, "loyalty": null },
-        "waitrose": { "standard": 0.85, "loyalty": null },
-        "ocado": { "standard": 0.80, "loyalty": null }
+        "tesco": {
+          "standard": 0.6,
+          "loyalty": null
+        },
+        "sainsburys": {
+          "standard": 0.65,
+          "loyalty": null
+        },
+        "asda": {
+          "standard": 0.55,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 0.62,
+          "loyalty": null
+        },
+        "aldi": {
+          "standard": 0.39,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.35,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 0.85,
+          "loyalty": null
+        },
+        "ocado": {
+          "standard": 0.8,
+          "loyalty": null
+        }
       }
     },
     {
       "id": "salmon-fillets-2pack",
       "name": "Salmon Fillets (2 pack)",
       "category": "Fish",
-      "searchTerms": ["salmon fillets 2 pack"],
+      "searchTerms": [
+        "salmon fillets 2 pack"
+      ],
       "prices": {
-        "tesco": { "standard": 5.50, "loyalty": 4.50 },
-        "sainsburys": { "standard": 5.75, "loyalty": 4.75 },
-        "asda": { "standard": 5.25, "loyalty": null },
-        "morrisons": { "standard": 5.60, "loyalty": 4.60 },
-        "aldi": { "standard": 4.49, "loyalty": null },
-        "lidl": { "standard": 4.59, "loyalty": null },
-        "waitrose": { "standard": 7.50, "loyalty": 6.50 },
-        "ocado": { "standard": 7.25, "loyalty": null }
+        "tesco": {
+          "standard": 5.5,
+          "loyalty": 4.5
+        },
+        "sainsburys": {
+          "standard": 5.75,
+          "loyalty": 4.75
+        },
+        "asda": {
+          "standard": 5.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 5.6,
+          "loyalty": 4.6
+        },
+        "aldi": {
+          "standard": 4.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 4.59,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 7.5,
+          "loyalty": 6.5
+        },
+        "ocado": {
+          "standard": 7.25,
+          "loyalty": null
+        }
+      }
+    },
+    {
+      "id": "marmite-250g",
+      "brand": "Marmite",
+      "name": "Marmite Yeast Extract 250g",
+      "category": "Cupboard",
+      "barcode": "50184453",
+      "searchTerms": [
+        "marmite yeast extract 250g",
+        "marmite"
+      ],
+      "skus": {
+        "tesco": "266701002",
+        "sainsburys": "7104410",
+        "asda": "4700098",
+        "morrisons": "1321188"
+      },
+      "prices": {
+        "tesco": {
+          "standard": 3,
+          "loyalty": 2.5
+        },
+        "sainsburys": {
+          "standard": 3.1,
+          "loyalty": 2.6
+        },
+        "asda": {
+          "standard": 2.85,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.05,
+          "loyalty": 2.55
+        },
+        "aldi": {
+          "standard": 2.19,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.09,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 3.4,
+          "loyalty": 2.9
+        },
+        "ocado": {
+          "standard": 3.35,
+          "loyalty": null
+        }
+      }
+    },
+    {
+      "id": "heinz-soup-tomato-400g",
+      "brand": "Heinz",
+      "name": "Heinz Cream of Tomato Soup 400g",
+      "category": "Cupboard",
+      "barcode": "5016000120125",
+      "searchTerms": [
+        "heinz cream of tomato soup 400g",
+        "heinz tomato soup"
+      ],
+      "skus": {
+        "tesco": "267801144",
+        "sainsburys": "7201180",
+        "asda": "4802211",
+        "morrisons": "1330091"
+      },
+      "prices": {
+        "tesco": {
+          "standard": 1.4,
+          "loyalty": 1.1
+        },
+        "sainsburys": {
+          "standard": 1.45,
+          "loyalty": 1.15
+        },
+        "asda": {
+          "standard": 1.35,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.42,
+          "loyalty": 1.12
+        },
+        "aldi": {
+          "standard": 0.89,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.85,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.6,
+          "loyalty": 1.3
+        },
+        "ocado": {
+          "standard": 1.55,
+          "loyalty": null
+        }
+      }
+    },
+    {
+      "id": "weetabix-24",
+      "brand": "Weetabix",
+      "name": "Weetabix Original 24 Pack",
+      "category": "Breakfast",
+      "barcode": "5016177010010",
+      "searchTerms": [
+        "weetabix original 24 pack",
+        "weetabix"
+      ],
+      "skus": {
+        "tesco": "268901002",
+        "sainsburys": "7304412",
+        "asda": "4901188",
+        "morrisons": "1342200"
+      },
+      "prices": {
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.75
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.85
+        },
+        "asda": {
+          "standard": 3.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.8
+        },
+        "aldi": {
+          "standard": 2.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.39,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4,
+          "loyalty": 3.25
+        },
+        "ocado": {
+          "standard": 3.95,
+          "loyalty": null
+        }
       }
     }
   ]

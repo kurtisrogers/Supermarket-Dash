@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DOCS = join(ROOT, 'docs');
 
-const LIB_FILES = ['paths.js', 'search.js', 'compare.js', 'basket.js'];
+const LIB_FILES = ['paths.js', 'search.js', 'barcode.js', 'compare.js', 'basket.js'];
 
 function stripExports(source) {
   return source
@@ -53,7 +53,23 @@ function bundleAppJs() {
 
   const attachGlobals = `
 window.SupermarketPaths = { resolveBasePath, resolveAssetPath, readRuntimeBasePath };
-window.SupermarketSearch = { filterProducts };
+window.SupermarketSearch = {
+  filterProducts,
+  findProductByBarcode,
+  findProductsBySku,
+  normalizeBarcode,
+  normalizeSku,
+  isBarcodeQuery,
+  isSkuQuery,
+};
+window.SupermarketBarcode = {
+  canUseBarcodeDetector,
+  canUseCamera,
+  loadHtml5Qrcode,
+  resolveScannedProduct,
+  startBarcodeScanner,
+  getScannerSupportMessage,
+};
 window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap, hasLoyaltyCard };
 window.SupermarketBasket = {
   buildSearchUrl,

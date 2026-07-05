@@ -1,8 +1,8 @@
 {
   "meta": {
-    "lastUpdated": "2026-07-04T19:31:16.797Z",
+    "lastUpdated": "2026-07-05T07:15:02.567Z",
     "source": "seed",
-    "productCount": 30,
+    "productCount": 33,
     "storeCount": 8,
     "apiHits": 0,
     "apiMisses": 0
@@ -52,10 +52,11 @@
     },
     {
       "id": "bread-white-800g",
-      "name": "White Bread 800g",
+      "name": "Hovis Soft White Bread 800g",
       "category": "Bakery",
       "searchTerms": [
-        "white bread 800g"
+        "hovis soft white bread 800g",
+        "hovis bread"
       ],
       "prices": {
         "tesco": {
@@ -90,6 +91,14 @@
           "standard": 1.35,
           "loyalty": null
         }
+      },
+      "brand": "Hovis",
+      "barcode": "5010179200116",
+      "skus": {
+        "tesco": "250182044",
+        "sainsburys": "6012833",
+        "asda": "3600145",
+        "morrisons": "1012988"
       }
     },
     {
@@ -136,10 +145,11 @@
     },
     {
       "id": "butter-salted-250g",
-      "name": "Salted Butter 250g",
+      "name": "Lurpak Slightly Salted Butter 250g",
       "category": "Dairy",
       "searchTerms": [
-        "salted butter 250g"
+        "lurpak slightly salted butter 250g",
+        "lurpak butter"
       ],
       "prices": {
         "tesco": {
@@ -174,6 +184,14 @@
           "standard": 2.75,
           "loyalty": null
         }
+      },
+      "brand": "Lurpak",
+      "barcode": "5701263050001",
+      "skus": {
+        "tesco": "254998120",
+        "sainsburys": "6284410",
+        "asda": "3777012",
+        "morrisons": "1098844"
       }
     },
     {
@@ -430,10 +448,11 @@
     },
     {
       "id": "baked-beans-415g",
-      "name": "Baked Beans 415g",
+      "name": "Heinz Baked Beans 415g",
       "category": "Cupboard",
       "searchTerms": [
-        "baked beans 415g"
+        "heinz baked beans 415g",
+        "heinz beans"
       ],
       "prices": {
         "tesco": {
@@ -468,6 +487,14 @@
           "standard": 0.8,
           "loyalty": null
         }
+      },
+      "brand": "Heinz",
+      "barcode": "5016000120518",
+      "skus": {
+        "tesco": "258372015",
+        "sainsburys": "6449102",
+        "asda": "4105678",
+        "morrisons": "1129034"
       }
     },
     {
@@ -514,10 +541,11 @@
     },
     {
       "id": "cheese-cheddar-400g",
-      "name": "Mature Cheddar 400g",
+      "name": "Cathedral City Mature Cheddar 400g",
       "category": "Dairy",
       "searchTerms": [
-        "mature cheddar 400g"
+        "cathedral city mature cheddar 400g",
+        "cathedral city cheddar"
       ],
       "prices": {
         "tesco": {
@@ -552,6 +580,14 @@
           "standard": 4.4,
           "loyalty": null
         }
+      },
+      "brand": "Cathedral City",
+      "barcode": "5000112548184",
+      "skus": {
+        "tesco": "260014522",
+        "sainsburys": "6442219",
+        "asda": "4120098",
+        "morrisons": "1183340"
       }
     },
     {
@@ -598,10 +634,11 @@
     },
     {
       "id": "cereal-cornflakes-500g",
-      "name": "Cornflakes 500g",
+      "name": "Kellogg's Corn Flakes 500g",
       "category": "Breakfast",
       "searchTerms": [
-        "cornflakes 500g"
+        "kelloggs corn flakes 500g",
+        "cornflakes"
       ],
       "prices": {
         "tesco": {
@@ -636,14 +673,23 @@
           "standard": 2.45,
           "loyalty": null
         }
+      },
+      "brand": "Kellogg's",
+      "barcode": "5000112548165",
+      "skus": {
+        "tesco": "255430011",
+        "sainsburys": "7551044",
+        "asda": "3982210",
+        "morrisons": "1056721"
       }
     },
     {
       "id": "tea-bags-240",
-      "name": "Tea Bags (240)",
+      "name": "PG Tips Original Tea Bags 240",
       "category": "Drinks",
       "searchTerms": [
-        "tea bags 240"
+        "pg tips tea bags 240",
+        "pg tips"
       ],
       "prices": {
         "tesco": {
@@ -678,14 +724,23 @@
           "standard": 5.4,
           "loyalty": null
         }
+      },
+      "brand": "PG Tips",
+      "barcode": "5000197020312",
+      "skus": {
+        "tesco": "257701002",
+        "sainsburys": "6500198",
+        "asda": "4055102",
+        "morrisons": "1142201"
       }
     },
     {
       "id": "coffee-instant-200g",
-      "name": "Instant Coffee 200g",
+      "name": "Nescafé Original Instant Coffee 200g",
       "category": "Drinks",
       "searchTerms": [
-        "instant coffee 200g"
+        "nescafe original instant coffee 200g",
+        "nescafe original"
       ],
       "prices": {
         "tesco": {
@@ -720,14 +775,23 @@
           "standard": 6.4,
           "loyalty": null
         }
+      },
+      "brand": "Nescafé",
+      "barcode": "3033718130016",
+      "skus": {
+        "tesco": "259004411",
+        "sainsburys": "6610021",
+        "asda": "4201188",
+        "morrisons": "1200099"
       }
     },
     {
       "id": "orange-juice-1l",
-      "name": "Orange Juice 1L",
+      "name": "innocent Smooth Orange Juice 900ml",
       "category": "Drinks",
       "searchTerms": [
-        "orange juice 1l"
+        "innocent smooth orange juice",
+        "innocent orange juice"
       ],
       "prices": {
         "tesco": {
@@ -762,6 +826,14 @@
           "standard": 1.8,
           "loyalty": null
         }
+      },
+      "brand": "innocent",
+      "barcode": "5060088520174",
+      "skus": {
+        "tesco": "265901244",
+        "sainsburys": "7010021",
+        "asda": "4601180",
+        "morrisons": "1310099"
       }
     },
     {
@@ -934,10 +1006,11 @@
     },
     {
       "id": "toothpaste-100ml",
-      "name": "Toothpaste 100ml",
+      "name": "Colgate Total Toothpaste 100ml",
       "category": "Toiletries",
       "searchTerms": [
-        "toothpaste 100ml"
+        "colgate total toothpaste 100ml",
+        "colgate total"
       ],
       "prices": {
         "tesco": {
@@ -972,6 +1045,14 @@
           "standard": 3.1,
           "loyalty": null
         }
+      },
+      "brand": "Colgate",
+      "barcode": "5012028000108",
+      "skus": {
+        "tesco": "264501188",
+        "sainsburys": "6901188",
+        "asda": "4509012",
+        "morrisons": "1304410"
       }
     },
     {
@@ -1018,10 +1099,11 @@
     },
     {
       "id": "fish-fingers-20",
-      "name": "Fish Fingers (20 pack)",
+      "name": "Birds Eye Fish Fingers 20 Pack",
       "category": "Frozen",
       "searchTerms": [
-        "fish fingers 20 pack"
+        "birds eye fish fingers 20 pack",
+        "birds eye fish fingers"
       ],
       "prices": {
         "tesco": {
@@ -1056,14 +1138,23 @@
           "standard": 4.4,
           "loyalty": null
         }
+      },
+      "brand": "Birds Eye",
+      "barcode": "5000112548123",
+      "skus": {
+        "tesco": "258801144",
+        "sainsburys": "6559012",
+        "asda": "4155011",
+        "morrisons": "1167012"
       }
     },
     {
       "id": "crisps-multipack-12",
-      "name": "Crisps Multipack (12)",
+      "name": "Walkers Variety Crisps 12 Pack",
       "category": "Snacks",
       "searchTerms": [
-        "crisps multipack 12"
+        "walkers variety crisps 12 pack",
+        "walkers crisps"
       ],
       "prices": {
         "tesco": {
@@ -1098,14 +1189,23 @@
           "standard": 4.4,
           "loyalty": null
         }
+      },
+      "brand": "Walkers",
+      "barcode": "5000328930008",
+      "skus": {
+        "tesco": "261118900",
+        "sainsburys": "6704412",
+        "asda": "4310091",
+        "morrisons": "1255011"
       }
     },
     {
       "id": "chocolate-bar-4pack",
-      "name": "Chocolate Bar 4 Pack",
+      "name": "Cadbury Dairy Milk Bars 4 Pack",
       "category": "Snacks",
       "searchTerms": [
-        "chocolate bar 4 pack"
+        "cadbury dairy milk 4 pack",
+        "cadbury dairy milk"
       ],
       "prices": {
         "tesco": {
@@ -1140,6 +1240,14 @@
           "standard": 3.1,
           "loyalty": null
         }
+      },
+      "brand": "Cadbury",
+      "barcode": "7622210449283",
+      "skus": {
+        "tesco": "262004510",
+        "sainsburys": "6801199",
+        "asda": "4402210",
+        "morrisons": "1270098"
       }
     },
     {
@@ -1264,6 +1372,159 @@
         },
         "ocado": {
           "standard": 7.25,
+          "loyalty": null
+        }
+      }
+    },
+    {
+      "id": "marmite-250g",
+      "brand": "Marmite",
+      "name": "Marmite Yeast Extract 250g",
+      "category": "Cupboard",
+      "barcode": "50184453",
+      "searchTerms": [
+        "marmite yeast extract 250g",
+        "marmite"
+      ],
+      "skus": {
+        "tesco": "266701002",
+        "sainsburys": "7104410",
+        "asda": "4700098",
+        "morrisons": "1321188"
+      },
+      "prices": {
+        "tesco": {
+          "standard": 3,
+          "loyalty": 2.5
+        },
+        "sainsburys": {
+          "standard": 3.1,
+          "loyalty": 2.6
+        },
+        "asda": {
+          "standard": 2.85,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.05,
+          "loyalty": 2.55
+        },
+        "aldi": {
+          "standard": 2.19,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.09,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 3.4,
+          "loyalty": 2.9
+        },
+        "ocado": {
+          "standard": 3.35,
+          "loyalty": null
+        }
+      }
+    },
+    {
+      "id": "heinz-soup-tomato-400g",
+      "brand": "Heinz",
+      "name": "Heinz Cream of Tomato Soup 400g",
+      "category": "Cupboard",
+      "barcode": "5016000120125",
+      "searchTerms": [
+        "heinz cream of tomato soup 400g",
+        "heinz tomato soup"
+      ],
+      "skus": {
+        "tesco": "267801144",
+        "sainsburys": "7201180",
+        "asda": "4802211",
+        "morrisons": "1330091"
+      },
+      "prices": {
+        "tesco": {
+          "standard": 1.4,
+          "loyalty": 1.1
+        },
+        "sainsburys": {
+          "standard": 1.45,
+          "loyalty": 1.15
+        },
+        "asda": {
+          "standard": 1.35,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 1.42,
+          "loyalty": 1.12
+        },
+        "aldi": {
+          "standard": 0.89,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 0.85,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 1.6,
+          "loyalty": 1.3
+        },
+        "ocado": {
+          "standard": 1.55,
+          "loyalty": null
+        }
+      }
+    },
+    {
+      "id": "weetabix-24",
+      "brand": "Weetabix",
+      "name": "Weetabix Original 24 Pack",
+      "category": "Breakfast",
+      "barcode": "5016177010010",
+      "searchTerms": [
+        "weetabix original 24 pack",
+        "weetabix"
+      ],
+      "skus": {
+        "tesco": "268901002",
+        "sainsburys": "7304412",
+        "asda": "4901188",
+        "morrisons": "1342200"
+      },
+      "prices": {
+        "tesco": {
+          "standard": 3.5,
+          "loyalty": 2.75
+        },
+        "sainsburys": {
+          "standard": 3.6,
+          "loyalty": 2.85
+        },
+        "asda": {
+          "standard": 3.25,
+          "loyalty": null
+        },
+        "morrisons": {
+          "standard": 3.55,
+          "loyalty": 2.8
+        },
+        "aldi": {
+          "standard": 2.49,
+          "loyalty": null
+        },
+        "lidl": {
+          "standard": 2.39,
+          "loyalty": null
+        },
+        "waitrose": {
+          "standard": 4,
+          "loyalty": 3.25
+        },
+        "ocado": {
+          "standard": 3.95,
           "loyalty": null
         }
       }

@@ -296,12 +296,68 @@ dialog.basket-guide {
   max-width: 600px;
 }
 
+.search-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+
+.search-row input {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.scan-button {
+  width: auto;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.search-hint {
+  display: block;
+  margin-top: 0.35rem;
+  color: var(--pico-muted-color);
+}
+
+.product-card .brand {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--dash-accent);
+}
+
+.product-card .product-meta {
+  font-size: 0.75rem;
+  color: var(--pico-muted-color);
+}
+
+dialog.scanner-dialog {
+  max-width: 520px;
+}
+
+.scanner-video,
+.scanner-region {
+  width: 100%;
+  min-height: 220px;
+  border-radius: var(--pico-border-radius);
+  background: #111;
+  margin-bottom: 0.75rem;
+}
+
+.scanner-video:not([srcObject]) {
+  display: none;
+}
+
+.scanner-region:empty {
+  display: none;
+}
+
 .search-status {
   font-size: 0.9rem;
   color: var(--pico-muted-color);
   margin-top: 0.5rem;
 }
 
+.empty-state {
   text-align: center;
   padding: 2rem;
   color: var(--pico-muted-color);

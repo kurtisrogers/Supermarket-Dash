@@ -21,6 +21,11 @@ test('filterProducts finds milk by name', () => {
   assert.ok(results.some((p) => p.id === 'milk-semi-2l'));
 });
 
+test('filterProducts finds branded Heinz beans', () => {
+  const results = filterProducts(products, 'heinz');
+  assert.ok(results.some((p) => p.brand === 'Heinz'));
+});
+
 test('filterProducts finds milk by search term', () => {
   const results = filterProducts(products, 'semi skimmed');
   assert.ok(results.some((p) => p.id === 'milk-semi-2l'));
@@ -32,9 +37,9 @@ test('filterProducts is case-insensitive', () => {
 });
 
 test('filterProducts matches category', () => {
-  const results = filterProducts(products, 'dairy');
+  const results = filterProducts(products, 'frozen');
   assert.ok(results.length > 0);
-  assert.ok(results.every((p) => p.category.toLowerCase().includes('dairy')));
+  assert.ok(results.every((p) => p.category.toLowerCase().includes('frozen')));
 });
 
 test('filterProducts returns empty array when nothing matches', () => {
