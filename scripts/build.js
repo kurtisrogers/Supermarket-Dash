@@ -1,12 +1,13 @@
 import { cpSync, mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DOCS = join(ROOT, 'docs');
 
-const LIB_FILES = ['paths.js', 'search.js', 'compare.js', 'basket.js'];
+const LIB_FILES = ['paths.js', 'search.js', 'barcode.js', 'compare.js', 'basket.js'];
 
 function stripExports(source) {
   return source
@@ -18,25 +19,8 @@ function stripExports(source) {
 function ensureProductsJson() {
   const productsPath = join(ROOT, 'src/data/products.json');
   if (!existsSync(productsPath)) {
-    console.log('products.json missing — running seed fallback');
-    const seed = JSON.parse(readFileSync(join(ROOT, 'src/data/products.seed.json'), 'utf8'));
-    const supermarkets = JSON.parse(readFileSync(join(ROOT, 'src/data/supermarkets.json'), 'utf8'));
-    writeFileSync(
-      productsPath,
-      JSON.stringify(
-        {
-          meta: {
-            lastUpdated: new Date().toISOString(),
-            source: 'seed',
-            productCount: seed.products.length,
-            storeCount: supermarkets.length,
-          },
-          products: seed.products,
-        },
-        null,
-        2,
-      ) + '\n',
-    );
+    console.log('products.json missing — building catalog from per-supermarket seeds…');
+    spawnSync('node', ['scripts/update-prices.js'], { cwd: ROOT, stdio: 'inherit' });
   }
 }
 
@@ -53,7 +37,23 @@ function bundleAppJs() {
 
   const attachGlobals = `
 window.SupermarketPaths = { resolveBasePath, resolveAssetPath, readRuntimeBasePath };
-window.SupermarketSearch = { filterProducts };
+window.SupermarketSearch = {
+  filterProducts,
+  findProductByBarcode,
+  findProductsBySku,
+  normalizeBarcode,
+  normalizeSku,
+  isBarcodeQuery,
+  isSkuQuery,
+};
+window.SupermarketBarcode = {
+  canUseBarcodeDetector,
+  canUseCamera,
+  loadHtml5Qrcode,
+  resolveScannedProduct,
+  startBarcodeScanner,
+  getScannerSupportMessage,
+};
 window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap, hasLoyaltyCard };
 window.SupermarketBasket = {
   buildSearchUrl,

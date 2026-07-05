@@ -34,8 +34,21 @@
         <p>Compare your shopping list across UK supermarkets — including Nectar, Clubcard &amp; loyalty prices</p>
         <span class="meta-badge" x-show="meta.lastUpdated">
           Prices updated: <span x-text="lastUpdatedLabel"></span>
-          <span x-show="meta.source"> · Source: <span x-text="meta.source"></span></span>
+          <span x-show="meta.unifiedProductCount"> · <span x-text="meta.unifiedProductCount"></span> products</span>
+          <span x-show="meta.totalStoreEntries"> · <span x-text="meta.totalStoreEntries"></span> store listings</span>
+          <span x-show="meta.source === 'pepesto' || meta.source === 'pepesto-merge'"> · live Pepesto catalogs</span>
         </span>
+        <details class="catalog-details" x-show="meta.storeProductCounts">
+          <summary>Products per supermarket</summary>
+          <ul class="catalog-counts">
+            <template x-for="store in supermarkets" :key="store.id">
+              <li>
+                <span x-text="store.name"></span>:
+                <strong x-text="meta.storeProductCounts?.[store.id] ?? '—'"></strong>
+              </li>
+            </template>
+          </ul>
+        </details>
       </div>
     </header>
 
@@ -67,25 +80,31 @@
         <!-- Product search -->
         <section>
           <h2>Add items</h2>
-          <label for="product-search">Search products</label>
-          <input
-            id="product-search"
-            x-ref="searchInput"
-            type="text"
-            inputmode="search"
-            enterkeyhint="search"
-            autocomplete="off"
-            autocorrect="off"
-            autocapitalize="off"
-            spellcheck="false"
-            placeholder="Search products… e.g. milk, bread, chicken"
-            x-model="searchQuery"
-            @input="onSearchInput($event)"
-            @keyup="onSearchInput($event)"
-            @change="onSearchInput($event)"
-            @compositionend="onSearchInput($event)"
-            aria-label="Search products"
-          />
+          <label for="product-search">Search by name, brand, SKU or barcode</label>
+          <div class="search-row">
+            <input
+              id="product-search"
+              x-ref="searchInput"
+              type="text"
+              inputmode="search"
+              enterkeyhint="search"
+              autocomplete="off"
+              autocorrect="off"
+              autocapitalize="off"
+              spellcheck="false"
+              placeholder="e.g. Heinz, 5016000120518, 258372015"
+              x-model="searchQuery"
+              @input="onSearchInput($event)"
+              @keyup="onSearchInput($event)"
+              @change="onSearchInput($event)"
+              @compositionend="onSearchInput($event)"
+              aria-label="Search products by name, brand, SKU or barcode"
+            />
+            <button type="button" class="scan-button secondary" @click="openScanner()" title="Scan barcode">
+              📷 Scan
+            </button>
+          </div>
+          <small class="search-hint">Tip: type a supermarket SKU (e.g. 258372015) or scan the product barcode.</small>
 
           <p x-show="loadStatus === 'loading'" class="empty-state" aria-live="polite">Loading products…</p>
           <p x-show="loadStatus === 'error'" class="empty-state" role="alert" x-text="loadError"></p>
@@ -106,7 +125,10 @@
             <template x-for="product in filteredProducts" :key="product.id">
               <article class="product-card">
                 <span class="category" x-text="product.category"></span>
+                <span class="brand" x-show="product.brand" x-text="product.brand"></span>
+                <span class="own-label-tag" x-show="product.ownLabel">Own label</span>
                 <strong x-text="product.name"></strong>
+                <small class="product-meta" x-show="product.barcode" x-text="`Barcode: ${product.barcode}`"></small>
                 <button type="button" @click="addToCart(product)">Add to list</button>
               </article>
             </template>
@@ -253,6 +275,23 @@
         </section>
       </template>
     </main>
+
+    <!-- Barcode scanner modal -->
+    <dialog class="scanner-dialog" :open="scannerOpen" @click.self="closeScanner()">
+      <article>
+        <header>
+          <button aria-label="Close" rel="prev" @click="closeScanner()"></button>
+          <h3>Scan product barcode</h3>
+        </header>
+        <p x-text="scannerStatus"></p>
+        <video x-ref="scannerVideo" class="scanner-video" autoplay muted playsinline></video>
+        <div id="barcode-scanner-region" class="scanner-region"></div>
+        <p x-show="scannerError" class="empty-state" role="alert" x-text="scannerError"></p>
+        <footer>
+          <button type="button" class="secondary" @click="closeScanner()">Cancel</button>
+        </footer>
+      </article>
+    </dialog>
 
     <!-- Basket guide modal (htmx loads content) -->
     <dialog class="basket-guide" :open="basketModal !== null" @click.self="closeBasketGuide()">

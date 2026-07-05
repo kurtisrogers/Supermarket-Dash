@@ -42,18 +42,238 @@ function readRuntimeBasePath() {
  * Product search/filter logic (shared by app + tests).
  */
 
+function normalizeBarcode(value) {
+  return String(value ?? '').replace(/\D/g, '');
+}
+
+function normalizeSku(value) {
+  return String(value ?? '').trim().toLowerCase();
+}
+
+function findProductByBarcode(products, barcode) {
+  const code = normalizeBarcode(barcode);
+  if (!code) {
+    return null;
+  }
+
+  return (
+    products.find((product) => {
+      if (normalizeBarcode(product.barcode) === code) {
+        return true;
+      }
+      return (product.barcodes ?? []).some((entry) => normalizeBarcode(entry) === code);
+    }) ?? null
+  );
+}
+
+function findProductsBySku(products, sku) {
+  const normalized = normalizeSku(sku);
+  if (!normalized) {
+    return [];
+  }
+
+  return products.filter((product) => {
+    const skus = product.skus ?? {};
+    return Object.values(skus).some((entry) => normalizeSku(entry) === normalized);
+  });
+}
+
+function matchesText(product, query) {
+  const q = query.toLowerCase();
+  return (
+    product.name.toLowerCase().includes(q) ||
+    product.category.toLowerCase().includes(q) ||
+    product.brand?.toLowerCase().includes(q) ||
+    (product.searchTerms?.some((term) => term.toLowerCase().includes(q)) ?? false)
+  );
+}
+
 function filterProducts(products, query, limit = 12) {
-  const q = query.trim().toLowerCase();
-  if (!q) {
+  const trimmed = query.trim();
+  if (!trimmed) {
     return products.slice(0, limit);
   }
 
-  return products.filter(
-    (product) =>
-      product.name.toLowerCase().includes(q) ||
-      product.category.toLowerCase().includes(q) ||
-      (product.searchTerms?.some((term) => term.toLowerCase().includes(q)) ?? false),
+  const barcodeMatch = findProductByBarcode(products, trimmed);
+  if (barcodeMatch) {
+    return [barcodeMatch];
+  }
+
+  const skuMatches = findProductsBySku(products, trimmed);
+  if (skuMatches.length) {
+    return skuMatches.slice(0, limit);
+  }
+
+  const textMatches = products.filter((product) => matchesText(product, trimmed));
+  return textMatches.slice(0, limit);
+}
+
+function isBarcodeQuery(query) {
+  const digits = normalizeBarcode(query);
+  return digits.length >= 8;
+}
+
+function isSkuQuery(query) {
+  const trimmed = query.trim();
+  return /^[a-z0-9-]{4,}$/i.test(trimmed) && /\d/.test(trimmed);
+}
+
+/**
+ * Barcode scanning helpers for mobile browsers.
+ */
+
+import { findProductByBarcode, normalizeBarcode } from './search.js';
+
+const HTML5_QRCODE_URL = 'https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js';
+const BARCODE_FORMATS = ['ean_13', 'ean_8', 'upc_a', 'upc_e', 'code_128'];
+
+function canUseBarcodeDetector() {
+  return typeof window !== 'undefined' && 'BarcodeDetector' in window;
+}
+
+function canUseCamera() {
+  return typeof navigator !== 'undefined' && Boolean(navigator.mediaDevices?.getUserMedia);
+}
+
+async function loadHtml5Qrcode() {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+  if (window.Html5Qrcode) {
+    return window.Html5Qrcode;
+  }
+
+  await new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = HTML5_QRCODE_URL;
+    script.async = true;
+    script.onload = resolve;
+    script.onerror = () => reject(new Error('Failed to load barcode scanner library'));
+    document.head.appendChild(script);
+  });
+
+  return window.Html5Qrcode ?? null;
+}
+
+function resolveScannedProduct(products, barcode) {
+  return findProductByBarcode(products, barcode);
+}
+
+function stopMediaStream(stream) {
+  for (const track of stream.getTracks()) {
+    track.stop();
+  }
+}
+
+async function startNativeBarcodeScanner(videoElement, onDetect, onError) {
+  if (!canUseBarcodeDetector()) {
+    throw new Error('Native barcode scanning is not supported on this device');
+  }
+
+  const stream = await navigator.mediaDevices.getUserMedia({
+    video: { facingMode: { ideal: 'environment' } },
+    audio: false,
+  });
+
+  videoElement.srcObject = stream;
+  videoElement.setAttribute('playsinline', 'true');
+  await videoElement.play();
+
+  const detector = new BarcodeDetector({ formats: BARCODE_FORMATS });
+  let active = true;
+
+  const scan = async () => {
+    if (!active) {
+      return;
+    }
+
+    try {
+      const results = await detector.detect(videoElement);
+      if (results.length > 0) {
+        active = false;
+        stopMediaStream(stream);
+        videoElement.srcObject = null;
+        onDetect(normalizeBarcode(results[0].rawValue));
+        return;
+      }
+    } catch (error) {
+      onError(error instanceof Error ? error.message : 'Barcode scan failed');
+      active = false;
+      stopMediaStream(stream);
+      videoElement.srcObject = null;
+      return;
+    }
+
+    requestAnimationFrame(scan);
+  };
+
+  scan();
+
+  return () => {
+    active = false;
+    stopMediaStream(stream);
+    videoElement.srcObject = null;
+  };
+}
+
+async function startHtml5BarcodeScanner(containerId, onDetect, onError) {
+  const Html5Qrcode = await loadHtml5Qrcode();
+  if (!Html5Qrcode) {
+    throw new Error('Barcode scanner library unavailable');
+  }
+
+  const scanner = new Html5Qrcode(containerId);
+  let stopped = false;
+
+  await scanner.start(
+    { facingMode: 'environment' },
+    { fps: 10, qrbox: { width: 280, height: 140 }, aspectRatio: 1.7777778 },
+    (decodedText) => {
+      if (stopped) {
+        return;
+      }
+      stopped = true;
+      scanner
+        .stop()
+        .then(() => scanner.clear())
+        .finally(() => onDetect(normalizeBarcode(decodedText)));
+    },
+    () => {},
   );
+
+  return async () => {
+    if (stopped) {
+      return;
+    }
+    stopped = true;
+    await scanner.stop();
+    scanner.clear();
+  };
+}
+
+async function startBarcodeScanner({ videoElement, containerId, onDetect, onError }) {
+  if (canUseBarcodeDetector() && videoElement) {
+    try {
+      return await startNativeBarcodeScanner(videoElement, onDetect, onError);
+    } catch (error) {
+      if (!containerId) {
+        throw error;
+      }
+    }
+  }
+
+  if (containerId) {
+    return startHtml5BarcodeScanner(containerId, onDetect, onError);
+  }
+
+  throw new Error('No supported barcode scanner available');
+}
+
+function getScannerSupportMessage() {
+  if (canUseCamera()) {
+    return 'Point your camera at the product barcode. You can also type a barcode or SKU into search.';
+  }
+  return 'Camera access is unavailable. Type a barcode or SKU into the search box instead.';
 }
 
 /**
@@ -312,7 +532,23 @@ function getQuickSearchLinks(supermarket, items) {
 
 
 window.SupermarketPaths = { resolveBasePath, resolveAssetPath, readRuntimeBasePath };
-window.SupermarketSearch = { filterProducts };
+window.SupermarketSearch = {
+  filterProducts,
+  findProductByBarcode,
+  findProductsBySku,
+  normalizeBarcode,
+  normalizeSku,
+  isBarcodeQuery,
+  isSkuQuery,
+};
+window.SupermarketBarcode = {
+  canUseBarcodeDetector,
+  canUseCamera,
+  loadHtml5Qrcode,
+  resolveScannedProduct,
+  startBarcodeScanner,
+  getScannerSupportMessage,
+};
 window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap, hasLoyaltyCard };
 window.SupermarketBasket = {
   buildSearchUrl,
@@ -338,9 +574,13 @@ function supermarketDash() {
     filteredProducts: [],
     toast: '',
     basketModal: null,
+    scannerOpen: false,
+    scannerError: '',
+    scannerStatus: '',
+    _searchBound: false,
+    _stopScanner: null,
     loadStatus: 'loading',
     loadError: '',
-    _searchBound: false,
 
     async init() {
       this.loadStatus = 'loading';
@@ -544,6 +784,57 @@ function supermarketDash() {
 
     closeBasketGuide() {
       this.basketModal = null;
+    },
+
+    get scannerSupported() {
+      return SupermarketBarcode.canUseCamera();
+    },
+
+    async openScanner() {
+      this.scannerOpen = true;
+      this.scannerError = '';
+      this.scannerStatus = SupermarketBarcode.getScannerSupportMessage();
+
+      await this.$nextTick();
+
+      try {
+        this._stopScanner = await SupermarketBarcode.startBarcodeScanner({
+          videoElement: this.$refs.scannerVideo,
+          containerId: 'barcode-scanner-region',
+          onDetect: (barcode) => this.handleBarcodeDetected(barcode),
+          onError: (message) => {
+            this.scannerError = message;
+          },
+        });
+        this.scannerStatus = 'Scanning… hold the barcode steady in view.';
+      } catch (error) {
+        this.scannerError = error instanceof Error ? error.message : 'Unable to start camera scanner';
+      }
+    },
+
+    async closeScanner() {
+      if (this._stopScanner) {
+        await this._stopScanner();
+        this._stopScanner = null;
+      }
+      this.scannerOpen = false;
+      this.scannerError = '';
+      this.scannerStatus = '';
+    },
+
+    async handleBarcodeDetected(barcode) {
+      const product = SupermarketBarcode.resolveScannedProduct(this.products, barcode);
+      await this.closeScanner();
+
+      if (product) {
+        this.applySearch(barcode);
+        this.addToCart(product);
+        this.showToast(`Found ${product.name}`);
+        return;
+      }
+
+      this.applySearch(barcode);
+      this.showToast(`No product found for barcode ${barcode}`);
     },
   };
 }

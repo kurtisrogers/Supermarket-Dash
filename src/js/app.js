@@ -13,9 +13,13 @@ function supermarketDash() {
     filteredProducts: [],
     toast: '',
     basketModal: null,
+    scannerOpen: false,
+    scannerError: '',
+    scannerStatus: '',
+    _searchBound: false,
+    _stopScanner: null,
     loadStatus: 'loading',
     loadError: '',
-    _searchBound: false,
 
     async init() {
       this.loadStatus = 'loading';
@@ -219,6 +223,57 @@ function supermarketDash() {
 
     closeBasketGuide() {
       this.basketModal = null;
+    },
+
+    get scannerSupported() {
+      return SupermarketBarcode.canUseCamera();
+    },
+
+    async openScanner() {
+      this.scannerOpen = true;
+      this.scannerError = '';
+      this.scannerStatus = SupermarketBarcode.getScannerSupportMessage();
+
+      await this.$nextTick();
+
+      try {
+        this._stopScanner = await SupermarketBarcode.startBarcodeScanner({
+          videoElement: this.$refs.scannerVideo,
+          containerId: 'barcode-scanner-region',
+          onDetect: (barcode) => this.handleBarcodeDetected(barcode),
+          onError: (message) => {
+            this.scannerError = message;
+          },
+        });
+        this.scannerStatus = 'Scanning… hold the barcode steady in view.';
+      } catch (error) {
+        this.scannerError = error instanceof Error ? error.message : 'Unable to start camera scanner';
+      }
+    },
+
+    async closeScanner() {
+      if (this._stopScanner) {
+        await this._stopScanner();
+        this._stopScanner = null;
+      }
+      this.scannerOpen = false;
+      this.scannerError = '';
+      this.scannerStatus = '';
+    },
+
+    async handleBarcodeDetected(barcode) {
+      const product = SupermarketBarcode.resolveScannedProduct(this.products, barcode);
+      await this.closeScanner();
+
+      if (product) {
+        this.applySearch(barcode);
+        this.addToCart(product);
+        this.showToast(`Found ${product.name}`);
+        return;
+      }
+
+      this.applySearch(barcode);
+      this.showToast(`No product found for barcode ${barcode}`);
     },
   };
 }
