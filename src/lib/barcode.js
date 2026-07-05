@@ -134,15 +134,34 @@ export async function startHtml5BarcodeScanner(containerId, onDetect, onError) {
 export async function startBarcodeScanner({ videoElement, containerId, onDetect, onError }) {
   if (canUseBarcodeDetector() && videoElement) {
     try {
+      if (containerId) {
+        const container = document.getElementById(containerId);
+        if (container) {
+          container.innerHTML = '';
+          container.style.display = 'none';
+        }
+      }
+      videoElement.style.display = 'block';
       return await startNativeBarcodeScanner(videoElement, onDetect, onError);
     } catch (error) {
       if (!containerId) {
         throw error;
       }
+      if (videoElement) {
+        videoElement.style.display = 'none';
+        videoElement.srcObject = null;
+      }
     }
   }
 
   if (containerId) {
+    const container = document.getElementById(containerId);
+    if (container) {
+      container.style.display = 'block';
+    }
+    if (videoElement) {
+      videoElement.style.display = 'none';
+    }
     return startHtml5BarcodeScanner(containerId, onDetect, onError);
   }
 

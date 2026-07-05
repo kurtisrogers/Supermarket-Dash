@@ -88,7 +88,7 @@ function matchesText(product, query) {
   );
 }
 
-function filterProducts(products, query, limit = 12) {
+function filterProducts(products, query, limit = 24) {
   const trimmed = query.trim();
   if (!trimmed) {
     return products.slice(0, limit);
@@ -104,8 +104,17 @@ function filterProducts(products, query, limit = 12) {
     return skuMatches.slice(0, limit);
   }
 
-  const textMatches = products.filter((product) => matchesText(product, trimmed));
-  return textMatches.slice(0, limit);
+  const q = trimmed.toLowerCase();
+  const results = [];
+  for (const product of products) {
+    if (matchesText(product, q)) {
+      results.push(product);
+      if (results.length >= limit) {
+        break;
+      }
+    }
+  }
+  return results;
 }
 
 function isBarcodeQuery(query) {
@@ -254,15 +263,34 @@ async function startHtml5BarcodeScanner(containerId, onDetect, onError) {
 async function startBarcodeScanner({ videoElement, containerId, onDetect, onError }) {
   if (canUseBarcodeDetector() && videoElement) {
     try {
+      if (containerId) {
+        const container = document.getElementById(containerId);
+        if (container) {
+          container.innerHTML = '';
+          container.style.display = 'none';
+        }
+      }
+      videoElement.style.display = 'block';
       return await startNativeBarcodeScanner(videoElement, onDetect, onError);
     } catch (error) {
       if (!containerId) {
         throw error;
       }
+      if (videoElement) {
+        videoElement.style.display = 'none';
+        videoElement.srcObject = null;
+      }
     }
   }
 
   if (containerId) {
+    const container = document.getElementById(containerId);
+    if (container) {
+      container.style.display = 'block';
+    }
+    if (videoElement) {
+      videoElement.style.display = 'none';
+    }
     return startHtml5BarcodeScanner(containerId, onDetect, onError);
   }
 
@@ -579,39 +607,45 @@ function supermarketDash() {
     scannerStatus: '',
     _searchBound: false,
     _stopScanner: null,
+    _searchTimer: null,
     loadStatus: 'loading',
+    loadPhase: 'Starting…',
     loadError: '',
 
     async init() {
       this.loadStatus = 'loading';
       this.loadError = '';
+      this.loadPhase = 'Loading supermarkets…';
 
       try {
-        const productsUrl = this.assetPath('data/products.json');
         const marketsUrl = this.assetPath('data/supermarkets.json');
+        const marketsRes = await fetch(marketsUrl);
+        if (!marketsRes.ok) {
+          throw new Error(`Failed to load supermarkets (${marketsRes.status})`);
+        }
+        this.supermarkets = await marketsRes.json();
 
-        const [productsRes, marketsRes] = await Promise.all([fetch(productsUrl), fetch(marketsUrl)]);
+        const savedCards = localStorage.getItem('supermarket-dash-loyalty');
+        if (savedCards) {
+          this.loyaltyCards = JSON.parse(savedCards);
+        }
 
+        this.loadPhase = 'Loading product catalogue…';
+        const productsUrl = this.assetPath('data/products.json');
+        const productsRes = await fetch(productsUrl);
         if (!productsRes.ok) {
           throw new Error(`Failed to load products (${productsRes.status}) from ${productsUrl}`);
-        }
-        if (!marketsRes.ok) {
-          throw new Error(`Failed to load supermarkets (${marketsRes.status}) from ${marketsUrl}`);
         }
 
         const productsData = await productsRes.json();
         this.products = productsData.products ?? productsData;
         this.meta = productsData.meta ?? {};
-        this.supermarkets = await marketsRes.json();
         this.loadStatus = 'ready';
+        this.loadPhase = '';
 
         const saved = localStorage.getItem('supermarket-dash-cart');
-        const savedCards = localStorage.getItem('supermarket-dash-loyalty');
         if (saved) {
           this.cart = JSON.parse(saved);
-        }
-        if (savedCards) {
-          this.loyaltyCards = JSON.parse(savedCards);
         }
 
         this.applySearch(this.searchQuery);
@@ -619,8 +653,13 @@ function supermarketDash() {
       } catch (error) {
         this.loadStatus = 'error';
         this.loadError = error instanceof Error ? error.message : 'Failed to load product data';
+        this.loadPhase = '';
         console.error('Supermarket Dash init failed:', error);
       }
+    },
+
+    async retryLoad() {
+      await this.init();
     },
 
     assetPath(relativePath) {
@@ -633,8 +672,15 @@ function supermarketDash() {
       this.filteredProducts = SupermarketSearch.filterProducts(this.products, query);
     },
 
+    scheduleSearch(value) {
+      if (this._searchTimer) {
+        clearTimeout(this._searchTimer);
+      }
+      this._searchTimer = setTimeout(() => this.applySearch(value), 120);
+    },
+
     onSearchInput(event) {
-      this.applySearch(event.target.value ?? '');
+      this.scheduleSearch(event.target.value ?? '');
     },
 
     bindSearchInput() {
@@ -648,7 +694,7 @@ function supermarketDash() {
       }
 
       this._searchBound = true;
-      const update = () => this.applySearch(input.value ?? '');
+      const update = () => this.scheduleSearch(input.value ?? '');
 
       for (const eventName of ['input', 'keyup', 'change', 'compositionend', 'paste']) {
         input.addEventListener(eventName, update, { passive: true });
@@ -656,7 +702,7 @@ function supermarketDash() {
     },
 
     get comparison() {
-      if (!this.cart.length || !this.products.length) {
+      if (this.loadStatus !== 'ready' || !this.cart.length || !this.products.length) {
         return null;
       }
       return SupermarketCompare.compareList(
@@ -678,6 +724,10 @@ function supermarketDash() {
         hour: '2-digit',
         minute: '2-digit',
       });
+    },
+
+    get loyaltyStores() {
+      return this.supermarkets.filter((store) => store.loyaltyKey);
     },
 
     addToCart(product) {
@@ -780,9 +830,19 @@ function supermarketDash() {
 
     openBasketGuide(storeId) {
       this.basketModal = storeId;
+      this.$nextTick(() => {
+        const dialog = this.$refs.basketGuideDialog;
+        if (dialog?.showModal) {
+          dialog.showModal();
+        }
+      });
     },
 
     closeBasketGuide() {
+      const dialog = this.$refs.basketGuideDialog;
+      if (dialog?.open) {
+        dialog.close();
+      }
       this.basketModal = null;
     },
 
@@ -791,11 +851,21 @@ function supermarketDash() {
     },
 
     async openScanner() {
+      if (this.loadStatus !== 'ready') {
+        this.showToast('Wait for products to finish loading');
+        return;
+      }
+
       this.scannerOpen = true;
       this.scannerError = '';
       this.scannerStatus = SupermarketBarcode.getScannerSupportMessage();
 
       await this.$nextTick();
+
+      const dialog = this.$refs.scannerDialog;
+      if (dialog?.showModal) {
+        dialog.showModal();
+      }
 
       try {
         this._stopScanner = await SupermarketBarcode.startBarcodeScanner({
@@ -817,6 +887,12 @@ function supermarketDash() {
         await this._stopScanner();
         this._stopScanner = null;
       }
+
+      const dialog = this.$refs.scannerDialog;
+      if (dialog?.open) {
+        dialog.close();
+      }
+
       this.scannerOpen = false;
       this.scannerError = '';
       this.scannerStatus = '';

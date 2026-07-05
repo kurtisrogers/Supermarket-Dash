@@ -36,7 +36,7 @@
           Prices updated: <span x-text="lastUpdatedLabel"></span>
           <span x-show="meta.unifiedProductCount"> · <span x-text="meta.unifiedProductCount"></span> products</span>
           <span x-show="meta.totalStoreEntries"> · <span x-text="meta.totalStoreEntries"></span> store listings</span>
-          <span x-show="meta.source === 'pepesto' || meta.source === 'pepesto-merge'"> · live Pepesto catalogs</span>
+          <span x-show="meta.source === 'pepesto' || meta.source === 'pepesto-merge' || meta.source === 'live-fetch'"> · live catalog</span>
         </span>
         <details class="catalog-details" x-show="meta.storeProductCounts">
           <summary>Products per supermarket</summary>
@@ -53,12 +53,25 @@
     </header>
 
     <main class="container">
+      <!-- Load error banner -->
+      <div x-show="loadStatus === 'error'" class="load-error-banner" role="alert">
+        <strong>Could not load product data</strong>
+        <p x-text="loadError"></p>
+        <button type="button" @click="retryLoad()">Try again</button>
+      </div>
+
+      <!-- Loading banner -->
+      <div x-show="loadStatus === 'loading'" class="load-banner" aria-live="polite">
+        <span class="load-spinner" aria-hidden="true"></span>
+        <span x-text="loadPhase"></span>
+      </div>
+
       <!-- Loyalty cards -->
-      <section>
+      <section x-show="supermarkets.length">
         <h2>Your loyalty cards</h2>
         <p>Select the reward schemes you have — we'll show you member prices where available.</p>
         <div class="loyalty-grid">
-          <template x-for="store in supermarkets.filter(s => s.loyaltyKey)" :key="store.id">
+          <template x-for="store in loyaltyStores" :key="store.id">
             <button
               type="button"
               class="loyalty-chip"
@@ -100,13 +113,15 @@
               @compositionend="onSearchInput($event)"
               aria-label="Search products by name, brand, SKU or barcode"
             />
-            <button type="button" class="scan-button secondary" @click="openScanner()" title="Scan barcode">
+            <button type="button" class="scan-button secondary" @click="openScanner()" title="Scan barcode" :disabled="loadStatus !== 'ready'">
               📷 Scan
             </button>
           </div>
-          <small class="search-hint">Tip: type a supermarket SKU (e.g. 258372015) or scan the product barcode.</small>
+          <small class="search-hint">Tip: type a supermarket SKU or scan the product barcode. Most live-catalog items match by name or SKU.</small>
 
-          <p x-show="loadStatus === 'loading'" class="empty-state" aria-live="polite">Loading products…</p>
+          <p x-show="loadStatus === 'loading'" class="empty-state" aria-live="polite">
+            <span x-text="loadPhase"></span>
+          </p>
           <p x-show="loadStatus === 'error'" class="empty-state" role="alert" x-text="loadError"></p>
 
           <p
@@ -277,7 +292,7 @@
     </main>
 
     <!-- Barcode scanner modal -->
-    <dialog class="scanner-dialog" :open="scannerOpen" @click.self="closeScanner()">
+    <dialog class="scanner-dialog" x-ref="scannerDialog" @close="scannerOpen = false" @click.self="closeScanner()">
       <article>
         <header>
           <button aria-label="Close" rel="prev" @click="closeScanner()"></button>
@@ -294,7 +309,7 @@
     </dialog>
 
     <!-- Basket guide modal (htmx loads content) -->
-    <dialog class="basket-guide" :open="basketModal !== null" @click.self="closeBasketGuide()">
+    <dialog class="basket-guide" x-ref="basketGuideDialog" @close="basketModal = null" @click.self="closeBasketGuide()">
       <article>
         <header>
           <button aria-label="Close" rel="prev" @click="closeBasketGuide()"></button>
