@@ -1,9 +1,11 @@
 {
   "meta": {
     "storeId": "waitrose",
-    "source": "seed",
+    "source": "seed-fallback",
     "generatedAt": "2026-07-05T07:39:49.289Z",
-    "productCount": 50
+    "productCount": 50,
+    "lastUpdated": "2026-07-05T13:29:22.195Z",
+    "fetchError": "page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.waitrose.com/ecom/shop/browse/groceries\nCall log:\n  - navigating to \"https://www.waitrose.com/ecom/shop/browse/groceries\", waiting until \"domcontentloaded\"\n"
   },
   "products": [
     {

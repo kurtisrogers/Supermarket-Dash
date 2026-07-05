@@ -36,7 +36,7 @@
           Prices updated: <span x-text="lastUpdatedLabel"></span>
           <span x-show="meta.unifiedProductCount"> · <span x-text="meta.unifiedProductCount"></span> products</span>
           <span x-show="meta.totalStoreEntries"> · <span x-text="meta.totalStoreEntries"></span> store listings</span>
-          <span x-show="meta.source === 'pepesto' || meta.source === 'pepesto-merge' || meta.source === 'live-fetch'"> · live catalog</span>
+          <span x-show="meta.source === 'pepesto' || meta.source === 'pepesto-merge' || meta.source === 'live-fetch' || meta.source === 'spider'"> · live catalog</span>
         </span>
         <details class="catalog-details" x-show="meta.storeProductCounts">
           <summary>Products per supermarket</summary>

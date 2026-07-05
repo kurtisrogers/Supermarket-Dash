@@ -2,7 +2,7 @@ name: Update Prices
 
 on:
   schedule:
-    # Daily at 06:00 UTC — fetches each supermarket catalog into its seed file
+    # Daily at 06:00 UTC — spiders + API fetchers update each supermarket catalog
     - cron: '0 6 * * *'
   workflow_dispatch:
     inputs:
@@ -36,6 +36,12 @@ jobs:
         uses: actions/setup-node@v6
         with:
           node-version: '22'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium for Ocado/Asda spiders
+        run: npx playwright install --with-deps chromium
 
       - name: Fetch live catalogs into per-store seed files
         run: npm run update-prices

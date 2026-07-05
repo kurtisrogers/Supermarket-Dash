@@ -41,3 +41,8 @@ export const TESCO_DEPARTMENTS = [
 export function allDiscoveryTerms() {
   return [...new Set([...ALPHABET_TERMS, ...GROCERY_SEARCH_TERMS])];
 }
+
+/** Terms used by web spiders — grocery keywords only (alphabet queries are too noisy). */
+export function spiderDiscoveryTerms() {
+  return [...new Set(GROCERY_SEARCH_TERMS)];
+}

@@ -56,11 +56,12 @@ A GitHub Actions workflow runs **every day at 06:00 UTC** (`.github/workflows/up
 
 ### Live prices (optional)
 
-By default, the daily cron **fetches live product catalogs** from each supermarket's website API and writes them to `src/data/catalogs/{store}.seed.json`.
+By default, the daily cron **fetches live product catalogs** using public APIs and web spiders, writing them to `src/data/catalogs/{store}.seed.json`.
 
 - **Tesco** and **Sainsbury's** are fetched directly (no API key needed)
-- **Asda, Morrisons, Waitrose** require `PEPESTO_API_KEY` in GitHub Secrets
-- **Aldi, Lidl, Ocado** have no accessible public API — existing seed data is kept
+- **Morrisons, Waitrose, Lidl, Aldi, Ocado** use web spiders (no API key needed)
+- **Asda** uses a Playwright spider (may fall back to seed if Cloudflare blocks the runner)
+- Set `USE_PEPESTO=1` and `PEPESTO_API_KEY` to use Pepesto for Asda/Morrisons/Waitrose instead
 
 Optional secrets: `PEPESTO_API_KEY`, `TESCO_API_KEY` (if Tesco rotates their public key)
 
@@ -83,8 +84,12 @@ Each supermarket has a `{store}.seed.json` file that is **fetched live** and upd
 |-------|--------------|
 | Tesco | Tesco GraphQL API (`xapi.tesco.com`) — category browse + keyword discovery |
 | Sainsbury's | Sainsbury's GOL API — category tree + keyword discovery |
-| Asda, Morrisons, Waitrose | Pepesto API (requires `PEPESTO_API_KEY`) |
-| Aldi, Lidl, Ocado | No public API — seed retained until a source is added |
+| Morrisons | Web spider — Ocado-platform search API |
+| Waitrose | Web spider — preloaded HTML search pages |
+| Lidl | Web spider — Nuxt SSR search pages |
+| Aldi | Web spider — Playwright + Aldi product-search API |
+| Ocado | Web spider — Playwright + Ocado-platform search API |
+| Asda | Playwright spider (Cloudflare-protected; seed fallback) |
 
 ```bash
 # Fetch one store into its seed file
