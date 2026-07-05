@@ -335,10 +335,12 @@ function supermarketDash() {
     cart: [],
     loyaltyCards: [],
     searchQuery: '',
+    filteredProducts: [],
     toast: '',
     basketModal: null,
     loadStatus: 'loading',
     loadError: '',
+    _searchBound: false,
 
     async init() {
       this.loadStatus = 'loading';
@@ -371,6 +373,9 @@ function supermarketDash() {
         if (savedCards) {
           this.loyaltyCards = JSON.parse(savedCards);
         }
+
+        this.applySearch(this.searchQuery);
+        this.$nextTick(() => this.bindSearchInput());
       } catch (error) {
         this.loadStatus = 'error';
         this.loadError = error instanceof Error ? error.message : 'Failed to load product data';
@@ -382,12 +387,32 @@ function supermarketDash() {
       return SupermarketPaths.readRuntimeBasePath().replace(/\/?$/, '/') + relativePath.replace(/^\.\//, '');
     },
 
-    onSearchInput(event) {
-      this.searchQuery = event.target.value;
+    applySearch(value) {
+      const query = typeof value === 'string' ? value : this.searchQuery;
+      this.searchQuery = query;
+      this.filteredProducts = SupermarketSearch.filterProducts(this.products, query);
     },
 
-    get filteredProducts() {
-      return SupermarketSearch.filterProducts(this.products, this.searchQuery);
+    onSearchInput(event) {
+      this.applySearch(event.target.value ?? '');
+    },
+
+    bindSearchInput() {
+      if (this._searchBound) {
+        return;
+      }
+
+      const input = this.$refs.searchInput;
+      if (!input) {
+        return;
+      }
+
+      this._searchBound = true;
+      const update = () => this.applySearch(input.value ?? '');
+
+      for (const eventName of ['input', 'keyup', 'change', 'compositionend', 'paste']) {
+        input.addEventListener(eventName, update, { passive: true });
+      }
     },
 
     get comparison() {
@@ -453,7 +478,7 @@ function supermarketDash() {
       if (this.loyaltyCards.includes(key)) {
         this.loyaltyCards = this.loyaltyCards.filter((k) => k !== key);
       } else {
-        this.loyaltyCards.push(key);
+        this.loyaltyCards = [...this.loyaltyCards, key];
       }
       localStorage.setItem('supermarket-dash-loyalty', JSON.stringify(this.loyaltyCards));
     },

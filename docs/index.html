@@ -46,17 +46,19 @@
         <p>Select the reward schemes you have — we'll show you member prices where available.</p>
         <div class="loyalty-grid">
           <template x-for="store in supermarkets.filter(s => s.loyaltyKey)" :key="store.id">
-            <label
+            <button
+              type="button"
               class="loyalty-chip"
               :class="{ active: hasLoyalty(store.loyaltyKey) }"
-              @click.prevent="toggleLoyalty(store.loyaltyKey)"
+              :aria-pressed="hasLoyalty(store.loyaltyKey)"
+              @click="toggleLoyalty(store.loyaltyKey)"
             >
-              <input type="checkbox" :checked="hasLoyalty(store.loyaltyKey)" readonly />
-              <span>
+              <span class="loyalty-chip-indicator" aria-hidden="true" x-text="hasLoyalty(store.loyaltyKey) ? '✓' : ''"></span>
+              <span class="loyalty-chip-label">
                 <strong x-text="store.loyaltyProgram"></strong>
                 <br /><small x-text="store.name"></small>
               </span>
-            </label>
+            </button>
           </template>
         </div>
       </section>
@@ -68,15 +70,20 @@
           <label for="product-search">Search products</label>
           <input
             id="product-search"
+            x-ref="searchInput"
             type="text"
             inputmode="search"
             enterkeyhint="search"
             autocomplete="off"
+            autocorrect="off"
             autocapitalize="off"
             spellcheck="false"
             placeholder="Search products… e.g. milk, bread, chicken"
-            :value="searchQuery"
+            x-model="searchQuery"
             @input="onSearchInput($event)"
+            @keyup="onSearchInput($event)"
+            @change="onSearchInput($event)"
+            @compositionend="onSearchInput($event)"
             aria-label="Search products"
           />
 
@@ -90,7 +97,12 @@
             x-text="`${filteredProducts.length} result${filteredProducts.length === 1 ? '' : 's'} for “${searchQuery.trim()}”`"
           ></p>
 
-          <div class="product-grid" style="margin-top: 1rem" x-show="loadStatus === 'ready'">
+          <div
+            class="product-grid"
+            style="margin-top: 1rem"
+            x-show="loadStatus === 'ready'"
+            :data-result-count="filteredProducts.length"
+          >
             <template x-for="product in filteredProducts" :key="product.id">
               <article class="product-card">
                 <span class="category" x-text="product.category"></span>
