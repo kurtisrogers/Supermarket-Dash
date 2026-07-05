@@ -5,6 +5,14 @@ import { fileURLToPath } from 'node:url';
 import { fetchPepestoStoreCatalog, PEPESTO_STORE_DOMAINS } from './pepesto.js';
 import { fetchSainsburysCatalog } from './sainsburys.js';
 import { fetchTescoCatalog } from './tesco.js';
+import {
+  fetchAldiSpiderCatalog,
+  fetchAsdaSpiderCatalog,
+  fetchLidlSpiderCatalog,
+  fetchMorrisonsSpiderCatalog,
+  fetchOcadoSpiderCatalog,
+  fetchWaitroseSpiderCatalog,
+} from './spider/index.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const CATALOG_DIR = join(__dirname, '../../data/catalogs');
@@ -32,10 +40,11 @@ function loadExistingCatalog(storeId) {
 /**
  * Fetch full product catalog for one supermarket.
  * @param {string} storeId
- * @param {{ apiKey?: string, maxPagesPerSource?: number }} [opts]
+ * @param {{ apiKey?: string, maxPagesPerSource?: number, maxTerms?: number, throttleMs?: number }} [opts]
  */
 export async function fetchStoreCatalog(storeId, opts = {}) {
   const apiKey = opts.apiKey ?? process.env.PEPESTO_API_KEY?.trim();
+  const usePepesto = process.env.USE_PEPESTO?.trim() === '1';
 
   switch (storeId) {
     case 'tesco':
@@ -43,21 +52,26 @@ export async function fetchStoreCatalog(storeId, opts = {}) {
     case 'sainsburys':
       return fetchSainsburysCatalog(opts);
     case 'asda':
-    case 'morrisons':
-    case 'waitrose': {
-      if (!apiKey) {
-        throw new Error(
-          `${STORE_FETCH_CONFIG[storeId].label} requires PEPESTO_API_KEY (no public catalog API available)`,
-        );
+      if (usePepesto && apiKey) {
+        return fetchPepestoStoreCatalog(storeId, PEPESTO_STORE_DOMAINS.asda, apiKey);
       }
-      return fetchPepestoStoreCatalog(storeId, PEPESTO_STORE_DOMAINS[storeId], apiKey);
-    }
+      return fetchAsdaSpiderCatalog(opts);
+    case 'morrisons':
+      if (usePepesto && apiKey) {
+        return fetchPepestoStoreCatalog(storeId, PEPESTO_STORE_DOMAINS.morrisons, apiKey);
+      }
+      return fetchMorrisonsSpiderCatalog(opts);
+    case 'waitrose':
+      if (usePepesto && apiKey) {
+        return fetchPepestoStoreCatalog(storeId, PEPESTO_STORE_DOMAINS.waitrose, apiKey);
+      }
+      return fetchWaitroseSpiderCatalog(opts);
     case 'aldi':
+      return fetchAldiSpiderCatalog(opts);
     case 'lidl':
+      return fetchLidlSpiderCatalog(opts);
     case 'ocado':
-      throw new Error(
-        `${STORE_FETCH_CONFIG[storeId].label} has no accessible public catalog API — add PEPESTO_API_KEY when supported, or import a catalog file manually`,
-      );
+      return fetchOcadoSpiderCatalog(opts);
     default:
       throw new Error(`Unknown store: ${storeId}`);
   }
@@ -66,11 +80,17 @@ export async function fetchStoreCatalog(storeId, opts = {}) {
 /**
  * Fetch catalog, falling back to existing seed on failure for unsupported stores.
  * @param {string} storeId
- * @param {{ apiKey?: string, maxPagesPerSource?: number, allowFallback?: boolean }} [opts]
+ * @param {{ apiKey?: string, maxPagesPerSource?: number, maxTerms?: number, allowFallback?: boolean, throttleMs?: number }} [opts]
  */
 export async function fetchStoreCatalogWithFallback(storeId, opts = {}) {
   try {
-    return await fetchStoreCatalog(storeId, opts);
+    const catalog = await fetchStoreCatalog(storeId, opts);
+
+    if (!catalog.products?.length) {
+      throw new Error(`${STORE_FETCH_CONFIG[storeId].label} spider returned no products`);
+    }
+
+    return catalog;
   } catch (error) {
     if (opts.allowFallback === false) {
       throw error;

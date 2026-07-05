@@ -24,6 +24,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "playwright": "^1.49.1",
     "serve": "^14.2.4"
   }
 }

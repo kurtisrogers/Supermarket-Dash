@@ -25,8 +25,8 @@ test('filterProducts finds branded Heinz beans', () => {
 });
 
 test('filterProducts finds milk by search term', () => {
-  const results = filterProducts(products, 'semi skimmed');
-  assert.ok(results.some((product) => product.name.toLowerCase().includes('semi-skimmed')));
+  const results = filterProducts(products, 'semi skimmed', 100);
+  assert.ok(results.some((product) => /semi[- ]skimmed/i.test(product.name)));
 });
 
 test('filterProducts is case-insensitive', () => {

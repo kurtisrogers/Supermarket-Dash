@@ -42,6 +42,7 @@ async function updateStoreSeed(storeId, apiKey) {
     storeId,
     count: catalog.products.length,
     source: catalog.meta.source,
+    fetchMethod: catalog.meta.fetchMethod ?? null,
     error: catalog.meta.fetchError ?? null,
   };
 }
@@ -85,11 +86,12 @@ async function main() {
 
   const liveFetchCount = Object.values(storeResults).filter((r) => r.source === 'live-fetch').length;
   const pepestoCount = Object.values(storeResults).filter((r) => r.source === 'pepesto' || r.fetchMethod === 'pepesto').length;
+  const spiderCount = Object.values(storeResults).filter((r) => String(r.fetchMethod ?? '').startsWith('spider-')).length;
 
   const output = {
     meta: {
       lastUpdated: new Date().toISOString(),
-      source: liveFetchCount > 0 ? 'live-fetch' : pepestoCount > 0 ? 'pepesto' : 'seed',
+      source: liveFetchCount > 0 ? 'live-fetch' : spiderCount > 0 ? 'spider' : pepestoCount > 0 ? 'pepesto' : 'seed',
       storeCount: supermarkets.length,
       fetchErrors,
       storeResults,
