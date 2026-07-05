@@ -20,8 +20,17 @@ function ensureProductsJson() {
   const productsPath = join(ROOT, 'src/data/products.json');
   if (!existsSync(productsPath)) {
     console.log('products.json missing — building catalog from per-supermarket seeds…');
-    spawnSync('node', ['scripts/update-prices.js'], { cwd: ROOT, stdio: 'inherit' });
+    spawnSync('node', ['scripts/build-catalog.js'], { cwd: ROOT, stdio: 'inherit' });
   }
+  validateJsonFile(productsPath);
+}
+
+function validateJsonFile(path) {
+  const raw = readFileSync(path, 'utf8');
+  if (raw.includes('<<<<<<<') || raw.includes('>>>>>>>') || raw.includes('=======')) {
+    throw new Error(`Invalid JSON in ${path}: unresolved git conflict markers`);
+  }
+  JSON.parse(raw);
 }
 
 function copyDir(src, dest) {

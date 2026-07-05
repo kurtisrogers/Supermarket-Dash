@@ -48,7 +48,7 @@ function matchesText(product, query) {
   );
 }
 
-export function filterProducts(products, query, limit = 12) {
+export function filterProducts(products, query, limit = 24) {
   const trimmed = query.trim();
   if (!trimmed) {
     return products.slice(0, limit);
@@ -64,8 +64,17 @@ export function filterProducts(products, query, limit = 12) {
     return skuMatches.slice(0, limit);
   }
 
-  const textMatches = products.filter((product) => matchesText(product, trimmed));
-  return textMatches.slice(0, limit);
+  const q = trimmed.toLowerCase();
+  const results = [];
+  for (const product of products) {
+    if (matchesText(product, q)) {
+      results.push(product);
+      if (results.length >= limit) {
+        break;
+      }
+    }
+  }
+  return results;
 }
 
 export function isBarcodeQuery(query) {
