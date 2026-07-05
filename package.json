@@ -4,8 +4,9 @@
   "description": "Compare UK supermarket shopping lists by price, including loyalty rewards and multi-store savings",
   "type": "module",
   "scripts": {
+    "generate-catalogs": "node scripts/generate-store-seeds.js",
+    "build-catalog": "node scripts/generate-store-seeds.js && node scripts/build-catalog.js",
     "update-prices": "node scripts/update-prices.js",
-    "enrich-products": "node scripts/enrich-branded-products.js",
     "build": "node scripts/build.js",
     "dev": "node scripts/dev-server.js",
     "preview": "npx serve docs -l 4173",

@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/products.json docs/
+          git add src/data/products.json src/data/products.seed.json src/data/catalogs/ docs/
           if git diff --staged --quiet; then
             echo "No price changes to commit"
           else

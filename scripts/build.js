@@ -1,6 +1,7 @@
 import { cpSync, mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { spawnSync } from 'node:child_process';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -18,25 +19,8 @@ function stripExports(source) {
 function ensureProductsJson() {
   const productsPath = join(ROOT, 'src/data/products.json');
   if (!existsSync(productsPath)) {
-    console.log('products.json missing — running seed fallback');
-    const seed = JSON.parse(readFileSync(join(ROOT, 'src/data/products.seed.json'), 'utf8'));
-    const supermarkets = JSON.parse(readFileSync(join(ROOT, 'src/data/supermarkets.json'), 'utf8'));
-    writeFileSync(
-      productsPath,
-      JSON.stringify(
-        {
-          meta: {
-            lastUpdated: new Date().toISOString(),
-            source: 'seed',
-            productCount: seed.products.length,
-            storeCount: supermarkets.length,
-          },
-          products: seed.products,
-        },
-        null,
-        2,
-      ) + '\n',
-    );
+    console.log('products.json missing — building catalog from per-supermarket seeds…');
+    spawnSync('node', ['scripts/update-prices.js'], { cwd: ROOT, stdio: 'inherit' });
   }
 }
 

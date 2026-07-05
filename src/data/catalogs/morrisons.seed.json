@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "storeId": "morrisons",
+    "source": "seed",
+    "generatedAt": "2026-07-05T07:39:49.288Z",
+    "productCount": 50
+  },
+  "products": [
+    {
+      "id": "morrisons-milk-semi-2l-ownLabel",
+      "unifiedId": "morrisons-milk-semi-2l-own-label",
+      "productGroup": "milk-semi-2l",
+      "storeId": "morrisons",
+      "name": "Morrisons Semi-Skimmed Milk 2L",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "semi skimmed milk 2l",
+        "morrisons semi-skimmed milk 2l"
+      ],
+      "ownLabel": true,
+      "sku": "400001",
+      "price": {
+        "standard": 1.46,
+        "loyalty": 1.3
+      }
+    },
+    {
+      "id": "morrisons-bread-white-800g-branded",
+      "unifiedId": "bread-white-800g-branded",
+      "productGroup": "bread-white-800g",
+      "storeId": "morrisons",
+      "name": "Hovis Soft White Bread 800g",
+      "brand": "Hovis",
+      "storeLabel": null,
+      "barcode": "5010179200116",
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "hovis soft white bread 800g"
+      ],
+      "ownLabel": false,
+      "sku": "500001",
+      "price": {
+        "standard": 1.36,
+        "loyalty": 1.16
+      }
+    },
+    {
+      "id": "morrisons-bread-white-800g-ownLabel",
+      "unifiedId": "morrisons-bread-white-800g-own-label",
+      "productGroup": "bread-white-800g",
+      "storeId": "morrisons",
+      "name": "Morrisons White Bread 800g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "morrisons white bread 800g"
+      ],
+      "ownLabel": true,
+      "sku": "500101",
+      "price": {
+        "standard": 0.76,
+        "loyalty": 0.56
+      }
+    },
+    {
+      "id": "morrisons-baked-beans-415g-branded",
+      "unifiedId": "baked-beans-415g-branded",
+      "productGroup": "baked-beans-415g",
+      "storeId": "morrisons",
+      "name": "Heinz Baked Beans 415g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120518",
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "heinz baked beans 415g"
+      ],
+      "ownLabel": false,
+      "sku": "600001",
+      "price": {
+        "standard": 1.41,
+        "loyalty": 1.21
+      }
+    },
+    {
+      "id": "morrisons-baked-beans-415g-ownLabel",
+      "unifiedId": "morrisons-baked-beans-415g-own-label",
+      "productGroup": "baked-beans-415g",
+      "storeId": "morrisons",
+      "name": "Morrisons Baked Beans in Tomato Sauce 415g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "morrisons baked beans in tomato sauce 415g"
+      ],
+      "ownLabel": true,
+      "sku": "600101",
+      "price": {
+        "standard": 0.45,
+        "loyalty": 0.35
+      }
+    },
+    {
+      "id": "morrisons-cornflakes-500g-branded",
+      "unifiedId": "cornflakes-500g-branded",
+      "productGroup": "cornflakes-500g",
+      "storeId": "morrisons",
+      "name": "Kellogg's Corn Flakes 500g",
+      "brand": "Kellogg's",
+      "storeLabel": null,
+      "barcode": "5000112548165",
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "kellogg's corn flakes 500g"
+      ],
+      "ownLabel": false,
+      "sku": "700001",
+      "price": {
+        "standard": 2.78,
+        "loyalty": 2.27
+      }
+    },
+    {
+      "id": "morrisons-cornflakes-500g-ownLabel",
+      "unifiedId": "morrisons-cornflakes-500g-own-label",
+      "productGroup": "cornflakes-500g",
+      "storeId": "morrisons",
+      "name": "Morrisons Cornflakes 500g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "morrisons cornflakes 500g"
+      ],
+      "ownLabel": true,
+      "sku": "700101",
+      "price": {
+        "standard": 0.96,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-cheddar-400g-branded",
+      "unifiedId": "cheddar-400g-branded",
+      "productGroup": "cheddar-400g",
+      "storeId": "morrisons",
+      "name": "Cathedral City Mature Cheddar 400g",
+      "brand": "Cathedral City",
+      "storeLabel": null,
+      "barcode": "5000112548184",
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "cathedral city mature cheddar 400g"
+      ],
+      "ownLabel": false,
+      "sku": "800001",
+      "price": {
+        "standard": 4.29,
+        "loyalty": 3.54
+      }
+    },
+    {
+      "id": "morrisons-cheddar-400g-ownLabel",
+      "unifiedId": "morrisons-cheddar-400g-own-label",
+      "productGroup": "cheddar-400g",
+      "storeId": "morrisons",
+      "name": "Morrisons Mature Cheddar 400g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "morrisons mature cheddar 400g"
+      ],
+      "ownLabel": true,
+      "sku": "800101",
+      "price": {
+        "standard": 2.68,
+        "loyalty": 2.17
+      }
+    },
+    {
+      "id": "morrisons-butter-250g-branded",
+      "unifiedId": "butter-250g-branded",
+      "productGroup": "butter-250g",
+      "storeId": "morrisons",
+      "name": "Lurpak Slightly Salted Butter 250g",
+      "brand": "Lurpak",
+      "storeLabel": null,
+      "barcode": "5701263050001",
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "lurpak slightly salted butter 250g"
+      ],
+      "ownLabel": false,
+      "sku": "900001",
+      "price": {
+        "standard": 2.88,
+        "loyalty": 2.47
+      }
+    },
+    {
+      "id": "morrisons-butter-250g-ownLabel",
+      "unifiedId": "morrisons-butter-250g-own-label",
+      "productGroup": "butter-250g",
+      "storeId": "morrisons",
+      "name": "Morrisons Salted Butter 250g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "morrisons salted butter 250g"
+      ],
+      "ownLabel": true,
+      "sku": "900101",
+      "price": {
+        "standard": 1.81,
+        "loyalty": 1.5
+      }
+    },
+    {
+      "id": "morrisons-eggs-free-range-12-ownLabel",
+      "unifiedId": "morrisons-eggs-free-range-12-own-label",
+      "productGroup": "eggs-free-range-12",
+      "storeId": "morrisons",
+      "name": "Morrisons Free Range Eggs (12)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "free range eggs 12",
+        "morrisons free range eggs (12)"
+      ],
+      "ownLabel": true,
+      "sku": "1000101",
+      "price": {
+        "standard": 2.78,
+        "loyalty": 2.47
+      }
+    },
+    {
+      "id": "morrisons-chicken-breast-1kg-ownLabel",
+      "unifiedId": "morrisons-chicken-breast-1kg-own-label",
+      "productGroup": "chicken-breast-1kg",
+      "storeId": "morrisons",
+      "name": "Morrisons Chicken Breast Fillets 1kg",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "chicken breast 1kg",
+        "morrisons chicken breast fillets 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "1100101",
+      "price": {
+        "standard": 5.81,
+        "loyalty": 5.3
+      }
+    },
+    {
+      "id": "morrisons-beef-mince-500g-ownLabel",
+      "unifiedId": "morrisons-beef-mince-500g-own-label",
+      "productGroup": "beef-mince-500g",
+      "storeId": "morrisons",
+      "name": "Morrisons Beef Mince 500g (5% fat)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "beef mince 500g",
+        "morrisons beef mince 500g (5% fat)"
+      ],
+      "ownLabel": true,
+      "sku": "1200101",
+      "price": {
+        "standard": 3.79,
+        "loyalty": 3.28
+      }
+    },
+    {
+      "id": "morrisons-bananas-5-ownLabel",
+      "unifiedId": "morrisons-bananas-5-own-label",
+      "productGroup": "bananas-5",
+      "storeId": "morrisons",
+      "name": "Morrisons Bananas (5 pack)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "bananas 5 pack",
+        "morrisons bananas (5 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "1300101",
+      "price": {
+        "standard": 1,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-potatoes-2kg-ownLabel",
+      "unifiedId": "morrisons-potatoes-2kg-own-label",
+      "productGroup": "potatoes-2kg",
+      "storeId": "morrisons",
+      "name": "Morrisons Maris Piper Potatoes 2kg",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "maris piper potatoes 2kg",
+        "morrisons maris piper potatoes 2kg"
+      ],
+      "ownLabel": true,
+      "sku": "1400101",
+      "price": {
+        "standard": 1.4,
+        "loyalty": 1.2
+      }
+    },
+    {
+      "id": "morrisons-pasta-penne-500g-branded",
+      "unifiedId": "pasta-penne-500g-branded",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "morrisons",
+      "name": "Napolina Penne Pasta 500g",
+      "brand": "Napolina",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "napolina penne pasta 500g"
+      ],
+      "ownLabel": false,
+      "sku": "1500001",
+      "price": {
+        "standard": 1.26,
+        "loyalty": 1.01
+      }
+    },
+    {
+      "id": "morrisons-pasta-penne-500g-ownLabel",
+      "unifiedId": "morrisons-pasta-penne-500g-own-label",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "morrisons",
+      "name": "Morrisons Penne Pasta 500g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "morrisons penne pasta 500g"
+      ],
+      "ownLabel": true,
+      "sku": "1500101",
+      "price": {
+        "standard": 0.56,
+        "loyalty": 0.45
+      }
+    },
+    {
+      "id": "morrisons-rice-basmati-1kg-ownLabel",
+      "unifiedId": "morrisons-rice-basmati-1kg-own-label",
+      "productGroup": "rice-basmati-1kg",
+      "storeId": "morrisons",
+      "name": "Morrisons Basmati Rice 1kg",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "basmati rice 1kg",
+        "morrisons basmati rice 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "1600101",
+      "price": {
+        "standard": 1.87,
+        "loyalty": 1.57
+      }
+    },
+    {
+      "id": "morrisons-chopped-tomatoes-400g-ownLabel",
+      "unifiedId": "morrisons-chopped-tomatoes-400g-own-label",
+      "productGroup": "chopped-tomatoes-400g",
+      "storeId": "morrisons",
+      "name": "Morrisons Chopped Tomatoes 400g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "chopped tomatoes 400g",
+        "morrisons chopped tomatoes 400g"
+      ],
+      "ownLabel": true,
+      "sku": "1700101",
+      "price": {
+        "standard": 0.35,
+        "loyalty": 0.28
+      }
+    },
+    {
+      "id": "morrisons-tea-bags-240-branded",
+      "unifiedId": "tea-bags-240-branded",
+      "productGroup": "tea-bags-240",
+      "storeId": "morrisons",
+      "name": "PG Tips Original Tea Bags 240",
+      "brand": "PG Tips",
+      "storeLabel": null,
+      "barcode": "5000197020312",
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "pg tips original tea bags 240"
+      ],
+      "ownLabel": false,
+      "sku": "1800001",
+      "price": {
+        "standard": 4.8,
+        "loyalty": 3.89
+      }
+    },
+    {
+      "id": "morrisons-tea-bags-240-ownLabel",
+      "unifiedId": "morrisons-tea-bags-240-own-label",
+      "productGroup": "tea-bags-240",
+      "storeId": "morrisons",
+      "name": "Morrisons Tea Bags (240)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "morrisons tea bags (240)"
+      ],
+      "ownLabel": true,
+      "sku": "1800101",
+      "price": {
+        "standard": 2.47,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-coffee-instant-200g-branded",
+      "unifiedId": "coffee-instant-200g-branded",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "morrisons",
+      "name": "Nescafé Original Instant Coffee 200g",
+      "brand": "Nescafé",
+      "storeLabel": null,
+      "barcode": "3033718130016",
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "nescafé original instant coffee 200g"
+      ],
+      "ownLabel": false,
+      "sku": "1900001",
+      "price": {
+        "standard": 6.31,
+        "loyalty": 5.3
+      }
+    },
+    {
+      "id": "morrisons-coffee-instant-200g-ownLabel",
+      "unifiedId": "morrisons-coffee-instant-200g-own-label",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "morrisons",
+      "name": "Morrisons Instant Coffee 200g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "morrisons instant coffee 200g"
+      ],
+      "ownLabel": true,
+      "sku": "1900101",
+      "price": {
+        "standard": 3.28,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-orange-juice-1l-branded",
+      "unifiedId": "orange-juice-1l-branded",
+      "productGroup": "orange-juice-1l",
+      "storeId": "morrisons",
+      "name": "innocent Smooth Orange Juice 900ml",
+      "brand": "innocent",
+      "storeLabel": null,
+      "barcode": "5060088520174",
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "innocent smooth orange juice 900ml"
+      ],
+      "ownLabel": false,
+      "sku": "2000001",
+      "price": {
+        "standard": 3.28,
+        "loyalty": 2.78
+      }
+    },
+    {
+      "id": "morrisons-orange-juice-1l-ownLabel",
+      "unifiedId": "morrisons-orange-juice-1l-own-label",
+      "productGroup": "orange-juice-1l",
+      "storeId": "morrisons",
+      "name": "Morrisons Orange Juice 1L",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "morrisons orange juice 1l"
+      ],
+      "ownLabel": true,
+      "sku": "2000101",
+      "price": {
+        "standard": 1.16,
+        "loyalty": 0.96
+      }
+    },
+    {
+      "id": "morrisons-water-6x1.5l-ownLabel",
+      "unifiedId": "morrisons-water-6x1.5l-own-label",
+      "productGroup": "water-6x1.5l",
+      "storeId": "morrisons",
+      "name": "Morrisons Still Water 6x1.5L",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "still water 6 pack",
+        "morrisons still water 6x1.5l"
+      ],
+      "ownLabel": true,
+      "sku": "2100101",
+      "price": {
+        "standard": 1.77,
+        "loyalty": 1.46
+      }
+    },
+    {
+      "id": "morrisons-crisps-multipack-12-branded",
+      "unifiedId": "crisps-multipack-12-branded",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "morrisons",
+      "name": "Walkers Variety Crisps 12 Pack",
+      "brand": "Walkers",
+      "storeLabel": null,
+      "barcode": "5000328930008",
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "walkers variety crisps 12 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2200001",
+      "price": {
+        "standard": 3.99,
+        "loyalty": 3.28
+      }
+    },
+    {
+      "id": "morrisons-crisps-multipack-12-ownLabel",
+      "unifiedId": "morrisons-crisps-multipack-12-own-label",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "morrisons",
+      "name": "Morrisons Crisps Multipack (12)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "morrisons crisps multipack (12)"
+      ],
+      "ownLabel": true,
+      "sku": "2200101",
+      "price": {
+        "standard": 1.77,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-chocolate-4pack-branded",
+      "unifiedId": "chocolate-4pack-branded",
+      "productGroup": "chocolate-4pack",
+      "storeId": "morrisons",
+      "name": "Cadbury Dairy Milk Bars 4 Pack",
+      "brand": "Cadbury",
+      "storeLabel": null,
+      "barcode": "7622210449283",
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "cadbury dairy milk bars 4 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2300001",
+      "price": {
+        "standard": 2.88,
+        "loyalty": 2.27
+      }
+    },
+    {
+      "id": "morrisons-chocolate-4pack-ownLabel",
+      "unifiedId": "morrisons-chocolate-4pack-own-label",
+      "productGroup": "chocolate-4pack",
+      "storeId": "morrisons",
+      "name": "Morrisons Chocolate Bar 4 Pack",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "morrisons chocolate bar 4 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2300101",
+      "price": {
+        "standard": 1.36,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-fish-fingers-20-branded",
+      "unifiedId": "fish-fingers-20-branded",
+      "productGroup": "fish-fingers-20",
+      "storeId": "morrisons",
+      "name": "Birds Eye Fish Fingers 20 Pack",
+      "brand": "Birds Eye",
+      "storeLabel": null,
+      "barcode": "5000112548123",
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "birds eye fish fingers 20 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2400001",
+      "price": {
+        "standard": 4.29,
+        "loyalty": 3.54
+      }
+    },
+    {
+      "id": "morrisons-fish-fingers-20-ownLabel",
+      "unifiedId": "morrisons-fish-fingers-20-own-label",
+      "productGroup": "fish-fingers-20",
+      "storeId": "morrisons",
+      "name": "Morrisons Fish Fingers (20 pack)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "morrisons fish fingers (20 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "2400101",
+      "price": {
+        "standard": 2.17,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-frozen-peas-900g-ownLabel",
+      "unifiedId": "morrisons-frozen-peas-900g-own-label",
+      "productGroup": "frozen-peas-900g",
+      "storeId": "morrisons",
+      "name": "Morrisons Frozen Peas 900g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "frozen peas 900g",
+        "morrisons frozen peas 900g"
+      ],
+      "ownLabel": true,
+      "sku": "2500101",
+      "price": {
+        "standard": 1.06,
+        "loyalty": 0.86
+      }
+    },
+    {
+      "id": "morrisons-toilet-roll-9-branded",
+      "unifiedId": "toilet-roll-9-branded",
+      "productGroup": "toilet-roll-9",
+      "storeId": "morrisons",
+      "name": "Andrex Classic Clean Toilet Roll 9 Pack",
+      "brand": "Andrex",
+      "storeLabel": null,
+      "barcode": "5000112548191",
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "andrex classic clean toilet roll 9 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2600001",
+      "price": {
+        "standard": 5.56,
+        "loyalty": 4.55
+      }
+    },
+    {
+      "id": "morrisons-toilet-roll-9-ownLabel",
+      "unifiedId": "morrisons-toilet-roll-9-own-label",
+      "productGroup": "toilet-roll-9",
+      "storeId": "morrisons",
+      "name": "Morrisons Toilet Roll 9 Pack",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "morrisons toilet roll 9 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2600101",
+      "price": {
+        "standard": 3.28,
+        "loyalty": 2.78
+      }
+    },
+    {
+      "id": "morrisons-washing-up-450ml-branded",
+      "unifiedId": "washing-up-450ml-branded",
+      "productGroup": "washing-up-450ml",
+      "storeId": "morrisons",
+      "name": "Fairy Original Washing Up Liquid 450ml",
+      "brand": "Fairy",
+      "storeLabel": null,
+      "barcode": "5000101207327",
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "fairy original washing up liquid 450ml"
+      ],
+      "ownLabel": false,
+      "sku": "2700001",
+      "price": {
+        "standard": 1.77,
+        "loyalty": 1.46
+      }
+    },
+    {
+      "id": "morrisons-washing-up-450ml-ownLabel",
+      "unifiedId": "morrisons-washing-up-450ml-own-label",
+      "productGroup": "washing-up-450ml",
+      "storeId": "morrisons",
+      "name": "Morrisons Washing Up Liquid 450ml",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "morrisons washing up liquid 450ml"
+      ],
+      "ownLabel": true,
+      "sku": "2700101",
+      "price": {
+        "standard": 0.76,
+        "loyalty": 0.56
+      }
+    },
+    {
+      "id": "morrisons-shampoo-400ml-branded",
+      "unifiedId": "shampoo-400ml-branded",
+      "productGroup": "shampoo-400ml",
+      "storeId": "morrisons",
+      "name": "Head & Shoulders Classic Shampoo 400ml",
+      "brand": "Head & Shoulders",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "head & shoulders classic shampoo 400ml"
+      ],
+      "ownLabel": false,
+      "sku": "2800001",
+      "price": {
+        "standard": 4.55,
+        "loyalty": 3.79
+      }
+    },
+    {
+      "id": "morrisons-shampoo-400ml-ownLabel",
+      "unifiedId": "morrisons-shampoo-400ml-own-label",
+      "productGroup": "shampoo-400ml",
+      "storeId": "morrisons",
+      "name": "Morrisons Shampoo 400ml",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "morrisons shampoo 400ml"
+      ],
+      "ownLabel": true,
+      "sku": "2800101",
+      "price": {
+        "standard": 1.87,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-toothpaste-100ml-branded",
+      "unifiedId": "toothpaste-100ml-branded",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "morrisons",
+      "name": "Colgate Total Toothpaste 100ml",
+      "brand": "Colgate",
+      "storeLabel": null,
+      "barcode": "5012028000108",
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "colgate total toothpaste 100ml"
+      ],
+      "ownLabel": false,
+      "sku": "2900001",
+      "price": {
+        "standard": 3.28,
+        "loyalty": 2.68
+      }
+    },
+    {
+      "id": "morrisons-toothpaste-100ml-ownLabel",
+      "unifiedId": "morrisons-toothpaste-100ml-own-label",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "morrisons",
+      "name": "Morrisons Toothpaste 100ml",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "morrisons toothpaste 100ml"
+      ],
+      "ownLabel": true,
+      "sku": "2900101",
+      "price": {
+        "standard": 1.46,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-marmite-250g-branded",
+      "unifiedId": "marmite-250g-branded",
+      "productGroup": "marmite-250g",
+      "storeId": "morrisons",
+      "name": "Marmite Yeast Extract 250g",
+      "brand": "Marmite",
+      "storeLabel": null,
+      "barcode": "5018445300010",
+      "category": "Cupboard",
+      "searchTerms": [
+        "marmite 250g",
+        "marmite yeast extract 250g"
+      ],
+      "ownLabel": false,
+      "sku": "3000001",
+      "price": {
+        "standard": 3.03,
+        "loyalty": 2.68
+      }
+    },
+    {
+      "id": "morrisons-heinz-soup-tomato-400g-branded",
+      "unifiedId": "heinz-soup-tomato-400g-branded",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "morrisons",
+      "name": "Heinz Cream of Tomato Soup 400g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120125",
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "heinz cream of tomato soup 400g"
+      ],
+      "ownLabel": false,
+      "sku": "3100001",
+      "price": {
+        "standard": 1.46,
+        "loyalty": 1.16
+      }
+    },
+    {
+      "id": "morrisons-heinz-soup-tomato-400g-ownLabel",
+      "unifiedId": "morrisons-heinz-soup-tomato-400g-own-label",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "morrisons",
+      "name": "Morrisons Cream of Tomato Soup 400g",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "morrisons cream of tomato soup 400g"
+      ],
+      "ownLabel": true,
+      "sku": "3100101",
+      "price": {
+        "standard": 0.76,
+        "loyalty": 0.56
+      }
+    },
+    {
+      "id": "morrisons-weetabix-24-branded",
+      "unifiedId": "weetabix-24-branded",
+      "productGroup": "weetabix-24",
+      "storeId": "morrisons",
+      "name": "Weetabix Original 24 Pack",
+      "brand": "Weetabix",
+      "storeLabel": null,
+      "barcode": "5016177010010",
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "weetabix original 24 pack"
+      ],
+      "ownLabel": false,
+      "sku": "3200001",
+      "price": {
+        "standard": 3.79,
+        "loyalty": 3.18
+      }
+    },
+    {
+      "id": "morrisons-weetabix-24-ownLabel",
+      "unifiedId": "morrisons-weetabix-24-own-label",
+      "productGroup": "weetabix-24",
+      "storeId": "morrisons",
+      "name": "Morrisons Wheat Biscuits 24 Pack",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "morrisons wheat biscuits 24 pack"
+      ],
+      "ownLabel": true,
+      "sku": "3200101",
+      "price": {
+        "standard": 2.01,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-salmon-fillets-2-ownLabel",
+      "unifiedId": "morrisons-salmon-fillets-2-own-label",
+      "productGroup": "salmon-fillets-2",
+      "storeId": "morrisons",
+      "name": "Morrisons Salmon Fillets (2 pack)",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Fish",
+      "searchTerms": [
+        "salmon fillets 2 pack",
+        "morrisons salmon fillets (2 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "3300101",
+      "price": {
+        "standard": 4.8,
+        "loyalty": 4.29
+      }
+    },
+    {
+      "id": "morrisons-onions-1kg-ownLabel",
+      "unifiedId": "morrisons-onions-1kg-own-label",
+      "productGroup": "onions-1kg",
+      "storeId": "morrisons",
+      "name": "Morrisons Brown Onions 1kg",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "brown onions 1kg",
+        "morrisons brown onions 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3400101",
+      "price": {
+        "standard": 0.86,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-carrots-1kg-ownLabel",
+      "unifiedId": "morrisons-carrots-1kg-own-label",
+      "productGroup": "carrots-1kg",
+      "storeId": "morrisons",
+      "name": "Morrisons Carrots 1kg",
+      "brand": "Morrisons",
+      "storeLabel": "Morrisons",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "carrots 1kg",
+        "morrisons carrots 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3500101",
+      "price": {
+        "standard": 0.56,
+        "loyalty": null
+      }
+    }
+  ]
+}

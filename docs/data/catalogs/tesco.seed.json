@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "storeId": "tesco",
+    "source": "seed",
+    "generatedAt": "2026-07-05T07:39:49.285Z",
+    "productCount": 50
+  },
+  "products": [
+    {
+      "id": "tesco-milk-semi-2l-ownLabel",
+      "unifiedId": "tesco-milk-semi-2l-own-label",
+      "productGroup": "milk-semi-2l",
+      "storeId": "tesco",
+      "name": "Tesco Semi-Skimmed Milk 2L",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "semi skimmed milk 2l",
+        "tesco semi-skimmed milk 2l"
+      ],
+      "ownLabel": true,
+      "sku": "100001",
+      "price": {
+        "standard": 1.45,
+        "loyalty": 1.29
+      }
+    },
+    {
+      "id": "tesco-bread-white-800g-branded",
+      "unifiedId": "bread-white-800g-branded",
+      "productGroup": "bread-white-800g",
+      "storeId": "tesco",
+      "name": "Hovis Soft White Bread 800g",
+      "brand": "Hovis",
+      "storeLabel": null,
+      "barcode": "5010179200116",
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "hovis soft white bread 800g"
+      ],
+      "ownLabel": false,
+      "sku": "200001",
+      "price": {
+        "standard": 1.35,
+        "loyalty": 1.15
+      }
+    },
+    {
+      "id": "tesco-bread-white-800g-ownLabel",
+      "unifiedId": "tesco-bread-white-800g-own-label",
+      "productGroup": "bread-white-800g",
+      "storeId": "tesco",
+      "name": "Tesco White Bread 800g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "tesco white bread 800g"
+      ],
+      "ownLabel": true,
+      "sku": "200101",
+      "price": {
+        "standard": 0.75,
+        "loyalty": 0.55
+      }
+    },
+    {
+      "id": "tesco-baked-beans-415g-branded",
+      "unifiedId": "baked-beans-415g-branded",
+      "productGroup": "baked-beans-415g",
+      "storeId": "tesco",
+      "name": "Heinz Baked Beans 415g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120518",
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "heinz baked beans 415g"
+      ],
+      "ownLabel": false,
+      "sku": "300001",
+      "price": {
+        "standard": 1.4,
+        "loyalty": 1.2
+      }
+    },
+    {
+      "id": "tesco-baked-beans-415g-ownLabel",
+      "unifiedId": "tesco-baked-beans-415g-own-label",
+      "productGroup": "baked-beans-415g",
+      "storeId": "tesco",
+      "name": "Tesco Baked Beans in Tomato Sauce 415g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "tesco baked beans in tomato sauce 415g"
+      ],
+      "ownLabel": true,
+      "sku": "300101",
+      "price": {
+        "standard": 0.45,
+        "loyalty": 0.35
+      }
+    },
+    {
+      "id": "tesco-cornflakes-500g-branded",
+      "unifiedId": "cornflakes-500g-branded",
+      "productGroup": "cornflakes-500g",
+      "storeId": "tesco",
+      "name": "Kellogg's Corn Flakes 500g",
+      "brand": "Kellogg's",
+      "storeLabel": null,
+      "barcode": "5000112548165",
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "kellogg's corn flakes 500g"
+      ],
+      "ownLabel": false,
+      "sku": "400001",
+      "price": {
+        "standard": 2.75,
+        "loyalty": 2.25
+      }
+    },
+    {
+      "id": "tesco-cornflakes-500g-ownLabel",
+      "unifiedId": "tesco-cornflakes-500g-own-label",
+      "productGroup": "cornflakes-500g",
+      "storeId": "tesco",
+      "name": "Tesco Cornflakes 500g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "tesco cornflakes 500g"
+      ],
+      "ownLabel": true,
+      "sku": "400101",
+      "price": {
+        "standard": 0.95,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-cheddar-400g-branded",
+      "unifiedId": "cheddar-400g-branded",
+      "productGroup": "cheddar-400g",
+      "storeId": "tesco",
+      "name": "Cathedral City Mature Cheddar 400g",
+      "brand": "Cathedral City",
+      "storeLabel": null,
+      "barcode": "5000112548184",
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "cathedral city mature cheddar 400g"
+      ],
+      "ownLabel": false,
+      "sku": "500001",
+      "price": {
+        "standard": 4.25,
+        "loyalty": 3.5
+      }
+    },
+    {
+      "id": "tesco-cheddar-400g-ownLabel",
+      "unifiedId": "tesco-cheddar-400g-own-label",
+      "productGroup": "cheddar-400g",
+      "storeId": "tesco",
+      "name": "Tesco Mature Cheddar 400g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "tesco mature cheddar 400g"
+      ],
+      "ownLabel": true,
+      "sku": "500101",
+      "price": {
+        "standard": 2.65,
+        "loyalty": 2.15
+      }
+    },
+    {
+      "id": "tesco-butter-250g-branded",
+      "unifiedId": "butter-250g-branded",
+      "productGroup": "butter-250g",
+      "storeId": "tesco",
+      "name": "Lurpak Slightly Salted Butter 250g",
+      "brand": "Lurpak",
+      "storeLabel": null,
+      "barcode": "5701263050001",
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "lurpak slightly salted butter 250g"
+      ],
+      "ownLabel": false,
+      "sku": "600001",
+      "price": {
+        "standard": 2.85,
+        "loyalty": 2.45
+      }
+    },
+    {
+      "id": "tesco-butter-250g-ownLabel",
+      "unifiedId": "tesco-butter-250g-own-label",
+      "productGroup": "butter-250g",
+      "storeId": "tesco",
+      "name": "Tesco Salted Butter 250g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "tesco salted butter 250g"
+      ],
+      "ownLabel": true,
+      "sku": "600101",
+      "price": {
+        "standard": 1.79,
+        "loyalty": 1.49
+      }
+    },
+    {
+      "id": "tesco-eggs-free-range-12-ownLabel",
+      "unifiedId": "tesco-eggs-free-range-12-own-label",
+      "productGroup": "eggs-free-range-12",
+      "storeId": "tesco",
+      "name": "Tesco Free Range Eggs (12)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "free range eggs 12",
+        "tesco free range eggs (12)"
+      ],
+      "ownLabel": true,
+      "sku": "700101",
+      "price": {
+        "standard": 2.75,
+        "loyalty": 2.45
+      }
+    },
+    {
+      "id": "tesco-chicken-breast-1kg-ownLabel",
+      "unifiedId": "tesco-chicken-breast-1kg-own-label",
+      "productGroup": "chicken-breast-1kg",
+      "storeId": "tesco",
+      "name": "Tesco Chicken Breast Fillets 1kg",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "chicken breast 1kg",
+        "tesco chicken breast fillets 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "800101",
+      "price": {
+        "standard": 5.75,
+        "loyalty": 5.25
+      }
+    },
+    {
+      "id": "tesco-beef-mince-500g-ownLabel",
+      "unifiedId": "tesco-beef-mince-500g-own-label",
+      "productGroup": "beef-mince-500g",
+      "storeId": "tesco",
+      "name": "Tesco Beef Mince 500g (5% fat)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "beef mince 500g",
+        "tesco beef mince 500g (5% fat)"
+      ],
+      "ownLabel": true,
+      "sku": "900101",
+      "price": {
+        "standard": 3.75,
+        "loyalty": 3.25
+      }
+    },
+    {
+      "id": "tesco-bananas-5-ownLabel",
+      "unifiedId": "tesco-bananas-5-own-label",
+      "productGroup": "bananas-5",
+      "storeId": "tesco",
+      "name": "Tesco Bananas (5 pack)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "bananas 5 pack",
+        "tesco bananas (5 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "1000101",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-potatoes-2kg-ownLabel",
+      "unifiedId": "tesco-potatoes-2kg-own-label",
+      "productGroup": "potatoes-2kg",
+      "storeId": "tesco",
+      "name": "Tesco Maris Piper Potatoes 2kg",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "maris piper potatoes 2kg",
+        "tesco maris piper potatoes 2kg"
+      ],
+      "ownLabel": true,
+      "sku": "1100101",
+      "price": {
+        "standard": 1.39,
+        "loyalty": 1.19
+      }
+    },
+    {
+      "id": "tesco-pasta-penne-500g-branded",
+      "unifiedId": "pasta-penne-500g-branded",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "tesco",
+      "name": "Napolina Penne Pasta 500g",
+      "brand": "Napolina",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "napolina penne pasta 500g"
+      ],
+      "ownLabel": false,
+      "sku": "1200001",
+      "price": {
+        "standard": 1.25,
+        "loyalty": 1
+      }
+    },
+    {
+      "id": "tesco-pasta-penne-500g-ownLabel",
+      "unifiedId": "tesco-pasta-penne-500g-own-label",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "tesco",
+      "name": "Tesco Penne Pasta 500g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "tesco penne pasta 500g"
+      ],
+      "ownLabel": true,
+      "sku": "1200101",
+      "price": {
+        "standard": 0.55,
+        "loyalty": 0.45
+      }
+    },
+    {
+      "id": "tesco-rice-basmati-1kg-ownLabel",
+      "unifiedId": "tesco-rice-basmati-1kg-own-label",
+      "productGroup": "rice-basmati-1kg",
+      "storeId": "tesco",
+      "name": "Tesco Basmati Rice 1kg",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "basmati rice 1kg",
+        "tesco basmati rice 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "1300101",
+      "price": {
+        "standard": 1.85,
+        "loyalty": 1.55
+      }
+    },
+    {
+      "id": "tesco-chopped-tomatoes-400g-ownLabel",
+      "unifiedId": "tesco-chopped-tomatoes-400g-own-label",
+      "productGroup": "chopped-tomatoes-400g",
+      "storeId": "tesco",
+      "name": "Tesco Chopped Tomatoes 400g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "chopped tomatoes 400g",
+        "tesco chopped tomatoes 400g"
+      ],
+      "ownLabel": true,
+      "sku": "1400101",
+      "price": {
+        "standard": 0.35,
+        "loyalty": 0.28
+      }
+    },
+    {
+      "id": "tesco-tea-bags-240-branded",
+      "unifiedId": "tea-bags-240-branded",
+      "productGroup": "tea-bags-240",
+      "storeId": "tesco",
+      "name": "PG Tips Original Tea Bags 240",
+      "brand": "PG Tips",
+      "storeLabel": null,
+      "barcode": "5000197020312",
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "pg tips original tea bags 240"
+      ],
+      "ownLabel": false,
+      "sku": "1500001",
+      "price": {
+        "standard": 4.75,
+        "loyalty": 3.85
+      }
+    },
+    {
+      "id": "tesco-tea-bags-240-ownLabel",
+      "unifiedId": "tesco-tea-bags-240-own-label",
+      "productGroup": "tea-bags-240",
+      "storeId": "tesco",
+      "name": "Tesco Tea Bags (240)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "tesco tea bags (240)"
+      ],
+      "ownLabel": true,
+      "sku": "1500101",
+      "price": {
+        "standard": 2.45,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-coffee-instant-200g-branded",
+      "unifiedId": "coffee-instant-200g-branded",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "tesco",
+      "name": "Nescafé Original Instant Coffee 200g",
+      "brand": "Nescafé",
+      "storeLabel": null,
+      "barcode": "3033718130016",
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "nescafé original instant coffee 200g"
+      ],
+      "ownLabel": false,
+      "sku": "1600001",
+      "price": {
+        "standard": 6.25,
+        "loyalty": 5.25
+      }
+    },
+    {
+      "id": "tesco-coffee-instant-200g-ownLabel",
+      "unifiedId": "tesco-coffee-instant-200g-own-label",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "tesco",
+      "name": "Tesco Instant Coffee 200g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "tesco instant coffee 200g"
+      ],
+      "ownLabel": true,
+      "sku": "1600101",
+      "price": {
+        "standard": 3.25,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-orange-juice-1l-branded",
+      "unifiedId": "orange-juice-1l-branded",
+      "productGroup": "orange-juice-1l",
+      "storeId": "tesco",
+      "name": "innocent Smooth Orange Juice 900ml",
+      "brand": "innocent",
+      "storeLabel": null,
+      "barcode": "5060088520174",
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "innocent smooth orange juice 900ml"
+      ],
+      "ownLabel": false,
+      "sku": "1700001",
+      "price": {
+        "standard": 3.25,
+        "loyalty": 2.75
+      }
+    },
+    {
+      "id": "tesco-orange-juice-1l-ownLabel",
+      "unifiedId": "tesco-orange-juice-1l-own-label",
+      "productGroup": "orange-juice-1l",
+      "storeId": "tesco",
+      "name": "Tesco Orange Juice 1L",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "tesco orange juice 1l"
+      ],
+      "ownLabel": true,
+      "sku": "1700101",
+      "price": {
+        "standard": 1.15,
+        "loyalty": 0.95
+      }
+    },
+    {
+      "id": "tesco-water-6x1.5l-ownLabel",
+      "unifiedId": "tesco-water-6x1.5l-own-label",
+      "productGroup": "water-6x1.5l",
+      "storeId": "tesco",
+      "name": "Tesco Still Water 6x1.5L",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "still water 6 pack",
+        "tesco still water 6x1.5l"
+      ],
+      "ownLabel": true,
+      "sku": "1800101",
+      "price": {
+        "standard": 1.75,
+        "loyalty": 1.45
+      }
+    },
+    {
+      "id": "tesco-crisps-multipack-12-branded",
+      "unifiedId": "crisps-multipack-12-branded",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "tesco",
+      "name": "Walkers Variety Crisps 12 Pack",
+      "brand": "Walkers",
+      "storeLabel": null,
+      "barcode": "5000328930008",
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "walkers variety crisps 12 pack"
+      ],
+      "ownLabel": false,
+      "sku": "1900001",
+      "price": {
+        "standard": 3.95,
+        "loyalty": 3.25
+      }
+    },
+    {
+      "id": "tesco-crisps-multipack-12-ownLabel",
+      "unifiedId": "tesco-crisps-multipack-12-own-label",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "tesco",
+      "name": "Tesco Crisps Multipack (12)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "tesco crisps multipack (12)"
+      ],
+      "ownLabel": true,
+      "sku": "1900101",
+      "price": {
+        "standard": 1.75,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-chocolate-4pack-branded",
+      "unifiedId": "chocolate-4pack-branded",
+      "productGroup": "chocolate-4pack",
+      "storeId": "tesco",
+      "name": "Cadbury Dairy Milk Bars 4 Pack",
+      "brand": "Cadbury",
+      "storeLabel": null,
+      "barcode": "7622210449283",
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "cadbury dairy milk bars 4 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2000001",
+      "price": {
+        "standard": 2.85,
+        "loyalty": 2.25
+      }
+    },
+    {
+      "id": "tesco-chocolate-4pack-ownLabel",
+      "unifiedId": "tesco-chocolate-4pack-own-label",
+      "productGroup": "chocolate-4pack",
+      "storeId": "tesco",
+      "name": "Tesco Chocolate Bar 4 Pack",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "tesco chocolate bar 4 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2000101",
+      "price": {
+        "standard": 1.35,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-fish-fingers-20-branded",
+      "unifiedId": "fish-fingers-20-branded",
+      "productGroup": "fish-fingers-20",
+      "storeId": "tesco",
+      "name": "Birds Eye Fish Fingers 20 Pack",
+      "brand": "Birds Eye",
+      "storeLabel": null,
+      "barcode": "5000112548123",
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "birds eye fish fingers 20 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2100001",
+      "price": {
+        "standard": 4.25,
+        "loyalty": 3.5
+      }
+    },
+    {
+      "id": "tesco-fish-fingers-20-ownLabel",
+      "unifiedId": "tesco-fish-fingers-20-own-label",
+      "productGroup": "fish-fingers-20",
+      "storeId": "tesco",
+      "name": "Tesco Fish Fingers (20 pack)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "tesco fish fingers (20 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "2100101",
+      "price": {
+        "standard": 2.15,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-frozen-peas-900g-ownLabel",
+      "unifiedId": "tesco-frozen-peas-900g-own-label",
+      "productGroup": "frozen-peas-900g",
+      "storeId": "tesco",
+      "name": "Tesco Frozen Peas 900g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "frozen peas 900g",
+        "tesco frozen peas 900g"
+      ],
+      "ownLabel": true,
+      "sku": "2200101",
+      "price": {
+        "standard": 1.05,
+        "loyalty": 0.85
+      }
+    },
+    {
+      "id": "tesco-toilet-roll-9-branded",
+      "unifiedId": "toilet-roll-9-branded",
+      "productGroup": "toilet-roll-9",
+      "storeId": "tesco",
+      "name": "Andrex Classic Clean Toilet Roll 9 Pack",
+      "brand": "Andrex",
+      "storeLabel": null,
+      "barcode": "5000112548191",
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "andrex classic clean toilet roll 9 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2300001",
+      "price": {
+        "standard": 5.5,
+        "loyalty": 4.5
+      }
+    },
+    {
+      "id": "tesco-toilet-roll-9-ownLabel",
+      "unifiedId": "tesco-toilet-roll-9-own-label",
+      "productGroup": "toilet-roll-9",
+      "storeId": "tesco",
+      "name": "Tesco Toilet Roll 9 Pack",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "tesco toilet roll 9 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2300101",
+      "price": {
+        "standard": 3.25,
+        "loyalty": 2.75
+      }
+    },
+    {
+      "id": "tesco-washing-up-450ml-branded",
+      "unifiedId": "washing-up-450ml-branded",
+      "productGroup": "washing-up-450ml",
+      "storeId": "tesco",
+      "name": "Fairy Original Washing Up Liquid 450ml",
+      "brand": "Fairy",
+      "storeLabel": null,
+      "barcode": "5000101207327",
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "fairy original washing up liquid 450ml"
+      ],
+      "ownLabel": false,
+      "sku": "2400001",
+      "price": {
+        "standard": 1.75,
+        "loyalty": 1.45
+      }
+    },
+    {
+      "id": "tesco-washing-up-450ml-ownLabel",
+      "unifiedId": "tesco-washing-up-450ml-own-label",
+      "productGroup": "washing-up-450ml",
+      "storeId": "tesco",
+      "name": "Tesco Washing Up Liquid 450ml",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "tesco washing up liquid 450ml"
+      ],
+      "ownLabel": true,
+      "sku": "2400101",
+      "price": {
+        "standard": 0.75,
+        "loyalty": 0.55
+      }
+    },
+    {
+      "id": "tesco-shampoo-400ml-branded",
+      "unifiedId": "shampoo-400ml-branded",
+      "productGroup": "shampoo-400ml",
+      "storeId": "tesco",
+      "name": "Head & Shoulders Classic Shampoo 400ml",
+      "brand": "Head & Shoulders",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "head & shoulders classic shampoo 400ml"
+      ],
+      "ownLabel": false,
+      "sku": "2500001",
+      "price": {
+        "standard": 4.5,
+        "loyalty": 3.75
+      }
+    },
+    {
+      "id": "tesco-shampoo-400ml-ownLabel",
+      "unifiedId": "tesco-shampoo-400ml-own-label",
+      "productGroup": "shampoo-400ml",
+      "storeId": "tesco",
+      "name": "Tesco Shampoo 400ml",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "tesco shampoo 400ml"
+      ],
+      "ownLabel": true,
+      "sku": "2500101",
+      "price": {
+        "standard": 1.85,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-toothpaste-100ml-branded",
+      "unifiedId": "toothpaste-100ml-branded",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "tesco",
+      "name": "Colgate Total Toothpaste 100ml",
+      "brand": "Colgate",
+      "storeLabel": null,
+      "barcode": "5012028000108",
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "colgate total toothpaste 100ml"
+      ],
+      "ownLabel": false,
+      "sku": "2600001",
+      "price": {
+        "standard": 3.25,
+        "loyalty": 2.65
+      }
+    },
+    {
+      "id": "tesco-toothpaste-100ml-ownLabel",
+      "unifiedId": "tesco-toothpaste-100ml-own-label",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "tesco",
+      "name": "Tesco Toothpaste 100ml",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "tesco toothpaste 100ml"
+      ],
+      "ownLabel": true,
+      "sku": "2600101",
+      "price": {
+        "standard": 1.45,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-marmite-250g-branded",
+      "unifiedId": "marmite-250g-branded",
+      "productGroup": "marmite-250g",
+      "storeId": "tesco",
+      "name": "Marmite Yeast Extract 250g",
+      "brand": "Marmite",
+      "storeLabel": null,
+      "barcode": "5018445300010",
+      "category": "Cupboard",
+      "searchTerms": [
+        "marmite 250g",
+        "marmite yeast extract 250g"
+      ],
+      "ownLabel": false,
+      "sku": "2700001",
+      "price": {
+        "standard": 3,
+        "loyalty": 2.65
+      }
+    },
+    {
+      "id": "tesco-heinz-soup-tomato-400g-branded",
+      "unifiedId": "heinz-soup-tomato-400g-branded",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "tesco",
+      "name": "Heinz Cream of Tomato Soup 400g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120125",
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "heinz cream of tomato soup 400g"
+      ],
+      "ownLabel": false,
+      "sku": "2800001",
+      "price": {
+        "standard": 1.45,
+        "loyalty": 1.15
+      }
+    },
+    {
+      "id": "tesco-heinz-soup-tomato-400g-ownLabel",
+      "unifiedId": "tesco-heinz-soup-tomato-400g-own-label",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "tesco",
+      "name": "Tesco Cream of Tomato Soup 400g",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "tesco cream of tomato soup 400g"
+      ],
+      "ownLabel": true,
+      "sku": "2800101",
+      "price": {
+        "standard": 0.75,
+        "loyalty": 0.55
+      }
+    },
+    {
+      "id": "tesco-weetabix-24-branded",
+      "unifiedId": "weetabix-24-branded",
+      "productGroup": "weetabix-24",
+      "storeId": "tesco",
+      "name": "Weetabix Original 24 Pack",
+      "brand": "Weetabix",
+      "storeLabel": null,
+      "barcode": "5016177010010",
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "weetabix original 24 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2900001",
+      "price": {
+        "standard": 3.75,
+        "loyalty": 3.15
+      }
+    },
+    {
+      "id": "tesco-weetabix-24-ownLabel",
+      "unifiedId": "tesco-weetabix-24-own-label",
+      "productGroup": "weetabix-24",
+      "storeId": "tesco",
+      "name": "Tesco Wheat Biscuits 24 Pack",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "tesco wheat biscuits 24 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2900101",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-salmon-fillets-2-ownLabel",
+      "unifiedId": "tesco-salmon-fillets-2-own-label",
+      "productGroup": "salmon-fillets-2",
+      "storeId": "tesco",
+      "name": "Tesco Salmon Fillets (2 pack)",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Fish",
+      "searchTerms": [
+        "salmon fillets 2 pack",
+        "tesco salmon fillets (2 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "3000101",
+      "price": {
+        "standard": 4.75,
+        "loyalty": 4.25
+      }
+    },
+    {
+      "id": "tesco-onions-1kg-ownLabel",
+      "unifiedId": "tesco-onions-1kg-own-label",
+      "productGroup": "onions-1kg",
+      "storeId": "tesco",
+      "name": "Tesco Brown Onions 1kg",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "brown onions 1kg",
+        "tesco brown onions 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3100101",
+      "price": {
+        "standard": 0.85,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "tesco-carrots-1kg-ownLabel",
+      "unifiedId": "tesco-carrots-1kg-own-label",
+      "productGroup": "carrots-1kg",
+      "storeId": "tesco",
+      "name": "Tesco Carrots 1kg",
+      "brand": "Tesco",
+      "storeLabel": "Tesco",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "carrots 1kg",
+        "tesco carrots 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3200101",
+      "price": {
+        "standard": 0.55,
+        "loyalty": null
+      }
+    }
+  ]
+}

@@ -30,6 +30,29 @@ header.app-header p {
   margin-top: 0.75rem;
 }
 
+.catalog-details {
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.catalog-details summary {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.catalog-counts {
+  margin: 0.5rem 0 0;
+  padding-left: 1.25rem;
+  columns: 2;
+  column-gap: 1.5rem;
+}
+
+.catalog-counts li {
+  break-inside: avoid;
+  margin-bottom: 0.25rem;
+}
+
 .loyalty-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
@@ -323,6 +346,14 @@ dialog.basket-guide {
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--dash-accent);
+}
+
+.own-label-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--pico-muted-color);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .product-card .product-meta {

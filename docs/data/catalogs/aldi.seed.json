@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "storeId": "aldi",
+    "source": "seed",
+    "generatedAt": "2026-07-05T07:39:49.289Z",
+    "productCount": 50
+  },
+  "products": [
+    {
+      "id": "aldi-milk-semi-2l-ownLabel",
+      "unifiedId": "aldi-milk-semi-2l-own-label",
+      "productGroup": "milk-semi-2l",
+      "storeId": "aldi",
+      "name": "Aldi Semi-Skimmed Milk 2L",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "semi skimmed milk 2l",
+        "aldi semi-skimmed milk 2l"
+      ],
+      "ownLabel": true,
+      "sku": "500001",
+      "price": {
+        "standard": 1.13,
+        "loyalty": 1.01
+      }
+    },
+    {
+      "id": "aldi-bread-white-800g-branded",
+      "unifiedId": "bread-white-800g-branded",
+      "productGroup": "bread-white-800g",
+      "storeId": "aldi",
+      "name": "Hovis Soft White Bread 800g",
+      "brand": "Hovis",
+      "storeLabel": null,
+      "barcode": "5010179200116",
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "hovis soft white bread 800g"
+      ],
+      "ownLabel": false,
+      "sku": "600001",
+      "price": {
+        "standard": 1.05,
+        "loyalty": 0.9
+      }
+    },
+    {
+      "id": "aldi-bread-white-800g-ownLabel",
+      "unifiedId": "aldi-bread-white-800g-own-label",
+      "productGroup": "bread-white-800g",
+      "storeId": "aldi",
+      "name": "Aldi White Bread 800g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "aldi white bread 800g"
+      ],
+      "ownLabel": true,
+      "sku": "600101",
+      "price": {
+        "standard": 0.59,
+        "loyalty": 0.43
+      }
+    },
+    {
+      "id": "aldi-baked-beans-415g-branded",
+      "unifiedId": "baked-beans-415g-branded",
+      "productGroup": "baked-beans-415g",
+      "storeId": "aldi",
+      "name": "Heinz Baked Beans 415g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120518",
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "heinz baked beans 415g"
+      ],
+      "ownLabel": false,
+      "sku": "700001",
+      "price": {
+        "standard": 1.09,
+        "loyalty": 0.94
+      }
+    },
+    {
+      "id": "aldi-baked-beans-415g-ownLabel",
+      "unifiedId": "aldi-baked-beans-415g-own-label",
+      "productGroup": "baked-beans-415g",
+      "storeId": "aldi",
+      "name": "Aldi Baked Beans in Tomato Sauce 415g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "aldi baked beans in tomato sauce 415g"
+      ],
+      "ownLabel": true,
+      "sku": "700101",
+      "price": {
+        "standard": 0.35,
+        "loyalty": 0.27
+      }
+    },
+    {
+      "id": "aldi-cornflakes-500g-branded",
+      "unifiedId": "cornflakes-500g-branded",
+      "productGroup": "cornflakes-500g",
+      "storeId": "aldi",
+      "name": "Kellogg's Corn Flakes 500g",
+      "brand": "Kellogg's",
+      "storeLabel": null,
+      "barcode": "5000112548165",
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "kellogg's corn flakes 500g"
+      ],
+      "ownLabel": false,
+      "sku": "800001",
+      "price": {
+        "standard": 2.15,
+        "loyalty": 1.76
+      }
+    },
+    {
+      "id": "aldi-cornflakes-500g-ownLabel",
+      "unifiedId": "aldi-cornflakes-500g-own-label",
+      "productGroup": "cornflakes-500g",
+      "storeId": "aldi",
+      "name": "Aldi Cornflakes 500g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "aldi cornflakes 500g"
+      ],
+      "ownLabel": true,
+      "sku": "800101",
+      "price": {
+        "standard": 0.74,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-cheddar-400g-branded",
+      "unifiedId": "cheddar-400g-branded",
+      "productGroup": "cheddar-400g",
+      "storeId": "aldi",
+      "name": "Cathedral City Mature Cheddar 400g",
+      "brand": "Cathedral City",
+      "storeLabel": null,
+      "barcode": "5000112548184",
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "cathedral city mature cheddar 400g"
+      ],
+      "ownLabel": false,
+      "sku": "900001",
+      "price": {
+        "standard": 3.32,
+        "loyalty": 2.73
+      }
+    },
+    {
+      "id": "aldi-cheddar-400g-ownLabel",
+      "unifiedId": "aldi-cheddar-400g-own-label",
+      "productGroup": "cheddar-400g",
+      "storeId": "aldi",
+      "name": "Aldi Mature Cheddar 400g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "aldi mature cheddar 400g"
+      ],
+      "ownLabel": true,
+      "sku": "900101",
+      "price": {
+        "standard": 2.07,
+        "loyalty": 1.68
+      }
+    },
+    {
+      "id": "aldi-butter-250g-branded",
+      "unifiedId": "butter-250g-branded",
+      "productGroup": "butter-250g",
+      "storeId": "aldi",
+      "name": "Lurpak Slightly Salted Butter 250g",
+      "brand": "Lurpak",
+      "storeLabel": null,
+      "barcode": "5701263050001",
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "lurpak slightly salted butter 250g"
+      ],
+      "ownLabel": false,
+      "sku": "1000001",
+      "price": {
+        "standard": 2.22,
+        "loyalty": 1.91
+      }
+    },
+    {
+      "id": "aldi-butter-250g-ownLabel",
+      "unifiedId": "aldi-butter-250g-own-label",
+      "productGroup": "butter-250g",
+      "storeId": "aldi",
+      "name": "Aldi Salted Butter 250g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "aldi salted butter 250g"
+      ],
+      "ownLabel": true,
+      "sku": "1000101",
+      "price": {
+        "standard": 1.4,
+        "loyalty": 1.16
+      }
+    },
+    {
+      "id": "aldi-eggs-free-range-12-ownLabel",
+      "unifiedId": "aldi-eggs-free-range-12-own-label",
+      "productGroup": "eggs-free-range-12",
+      "storeId": "aldi",
+      "name": "Aldi Free Range Eggs (12)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "free range eggs 12",
+        "aldi free range eggs (12)"
+      ],
+      "ownLabel": true,
+      "sku": "1100101",
+      "price": {
+        "standard": 2.15,
+        "loyalty": 1.91
+      }
+    },
+    {
+      "id": "aldi-chicken-breast-1kg-ownLabel",
+      "unifiedId": "aldi-chicken-breast-1kg-own-label",
+      "productGroup": "chicken-breast-1kg",
+      "storeId": "aldi",
+      "name": "Aldi Chicken Breast Fillets 1kg",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "chicken breast 1kg",
+        "aldi chicken breast fillets 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "1200101",
+      "price": {
+        "standard": 4.49,
+        "loyalty": 4.1
+      }
+    },
+    {
+      "id": "aldi-beef-mince-500g-ownLabel",
+      "unifiedId": "aldi-beef-mince-500g-own-label",
+      "productGroup": "beef-mince-500g",
+      "storeId": "aldi",
+      "name": "Aldi Beef Mince 500g (5% fat)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "beef mince 500g",
+        "aldi beef mince 500g (5% fat)"
+      ],
+      "ownLabel": true,
+      "sku": "1300101",
+      "price": {
+        "standard": 2.93,
+        "loyalty": 2.54
+      }
+    },
+    {
+      "id": "aldi-bananas-5-ownLabel",
+      "unifiedId": "aldi-bananas-5-own-label",
+      "productGroup": "bananas-5",
+      "storeId": "aldi",
+      "name": "Aldi Bananas (5 pack)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "bananas 5 pack",
+        "aldi bananas (5 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "1400101",
+      "price": {
+        "standard": 0.77,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-potatoes-2kg-ownLabel",
+      "unifiedId": "aldi-potatoes-2kg-own-label",
+      "productGroup": "potatoes-2kg",
+      "storeId": "aldi",
+      "name": "Aldi Maris Piper Potatoes 2kg",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "maris piper potatoes 2kg",
+        "aldi maris piper potatoes 2kg"
+      ],
+      "ownLabel": true,
+      "sku": "1500101",
+      "price": {
+        "standard": 1.08,
+        "loyalty": 0.93
+      }
+    },
+    {
+      "id": "aldi-pasta-penne-500g-branded",
+      "unifiedId": "pasta-penne-500g-branded",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "aldi",
+      "name": "Napolina Penne Pasta 500g",
+      "brand": "Napolina",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "napolina penne pasta 500g"
+      ],
+      "ownLabel": false,
+      "sku": "1600001",
+      "price": {
+        "standard": 0.98,
+        "loyalty": 0.78
+      }
+    },
+    {
+      "id": "aldi-pasta-penne-500g-ownLabel",
+      "unifiedId": "aldi-pasta-penne-500g-own-label",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "aldi",
+      "name": "Aldi Penne Pasta 500g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "aldi penne pasta 500g"
+      ],
+      "ownLabel": true,
+      "sku": "1600101",
+      "price": {
+        "standard": 0.43,
+        "loyalty": 0.35
+      }
+    },
+    {
+      "id": "aldi-rice-basmati-1kg-ownLabel",
+      "unifiedId": "aldi-rice-basmati-1kg-own-label",
+      "productGroup": "rice-basmati-1kg",
+      "storeId": "aldi",
+      "name": "Aldi Basmati Rice 1kg",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "basmati rice 1kg",
+        "aldi basmati rice 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "1700101",
+      "price": {
+        "standard": 1.44,
+        "loyalty": 1.21
+      }
+    },
+    {
+      "id": "aldi-chopped-tomatoes-400g-ownLabel",
+      "unifiedId": "aldi-chopped-tomatoes-400g-own-label",
+      "productGroup": "chopped-tomatoes-400g",
+      "storeId": "aldi",
+      "name": "Aldi Chopped Tomatoes 400g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "chopped tomatoes 400g",
+        "aldi chopped tomatoes 400g"
+      ],
+      "ownLabel": true,
+      "sku": "1800101",
+      "price": {
+        "standard": 0.27,
+        "loyalty": 0.22
+      }
+    },
+    {
+      "id": "aldi-tea-bags-240-branded",
+      "unifiedId": "tea-bags-240-branded",
+      "productGroup": "tea-bags-240",
+      "storeId": "aldi",
+      "name": "PG Tips Original Tea Bags 240",
+      "brand": "PG Tips",
+      "storeLabel": null,
+      "barcode": "5000197020312",
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "pg tips original tea bags 240"
+      ],
+      "ownLabel": false,
+      "sku": "1900001",
+      "price": {
+        "standard": 3.71,
+        "loyalty": 3
+      }
+    },
+    {
+      "id": "aldi-tea-bags-240-ownLabel",
+      "unifiedId": "aldi-tea-bags-240-own-label",
+      "productGroup": "tea-bags-240",
+      "storeId": "aldi",
+      "name": "Aldi Tea Bags (240)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "aldi tea bags (240)"
+      ],
+      "ownLabel": true,
+      "sku": "1900101",
+      "price": {
+        "standard": 1.91,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-coffee-instant-200g-branded",
+      "unifiedId": "coffee-instant-200g-branded",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "aldi",
+      "name": "Nescafé Original Instant Coffee 200g",
+      "brand": "Nescafé",
+      "storeLabel": null,
+      "barcode": "3033718130016",
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "nescafé original instant coffee 200g"
+      ],
+      "ownLabel": false,
+      "sku": "2000001",
+      "price": {
+        "standard": 4.88,
+        "loyalty": 4.1
+      }
+    },
+    {
+      "id": "aldi-coffee-instant-200g-ownLabel",
+      "unifiedId": "aldi-coffee-instant-200g-own-label",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "aldi",
+      "name": "Aldi Instant Coffee 200g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "aldi instant coffee 200g"
+      ],
+      "ownLabel": true,
+      "sku": "2000101",
+      "price": {
+        "standard": 2.54,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-orange-juice-1l-branded",
+      "unifiedId": "orange-juice-1l-branded",
+      "productGroup": "orange-juice-1l",
+      "storeId": "aldi",
+      "name": "innocent Smooth Orange Juice 900ml",
+      "brand": "innocent",
+      "storeLabel": null,
+      "barcode": "5060088520174",
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "innocent smooth orange juice 900ml"
+      ],
+      "ownLabel": false,
+      "sku": "2100001",
+      "price": {
+        "standard": 2.54,
+        "loyalty": 2.15
+      }
+    },
+    {
+      "id": "aldi-orange-juice-1l-ownLabel",
+      "unifiedId": "aldi-orange-juice-1l-own-label",
+      "productGroup": "orange-juice-1l",
+      "storeId": "aldi",
+      "name": "Aldi Orange Juice 1L",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "aldi orange juice 1l"
+      ],
+      "ownLabel": true,
+      "sku": "2100101",
+      "price": {
+        "standard": 0.9,
+        "loyalty": 0.74
+      }
+    },
+    {
+      "id": "aldi-water-6x1.5l-ownLabel",
+      "unifiedId": "aldi-water-6x1.5l-own-label",
+      "productGroup": "water-6x1.5l",
+      "storeId": "aldi",
+      "name": "Aldi Still Water 6x1.5L",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "still water 6 pack",
+        "aldi still water 6x1.5l"
+      ],
+      "ownLabel": true,
+      "sku": "2200101",
+      "price": {
+        "standard": 1.37,
+        "loyalty": 1.13
+      }
+    },
+    {
+      "id": "aldi-crisps-multipack-12-branded",
+      "unifiedId": "crisps-multipack-12-branded",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "aldi",
+      "name": "Walkers Variety Crisps 12 Pack",
+      "brand": "Walkers",
+      "storeLabel": null,
+      "barcode": "5000328930008",
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "walkers variety crisps 12 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2300001",
+      "price": {
+        "standard": 3.08,
+        "loyalty": 2.54
+      }
+    },
+    {
+      "id": "aldi-crisps-multipack-12-ownLabel",
+      "unifiedId": "aldi-crisps-multipack-12-own-label",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "aldi",
+      "name": "Aldi Crisps Multipack (12)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "aldi crisps multipack (12)"
+      ],
+      "ownLabel": true,
+      "sku": "2300101",
+      "price": {
+        "standard": 1.37,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-chocolate-4pack-branded",
+      "unifiedId": "chocolate-4pack-branded",
+      "productGroup": "chocolate-4pack",
+      "storeId": "aldi",
+      "name": "Cadbury Dairy Milk Bars 4 Pack",
+      "brand": "Cadbury",
+      "storeLabel": null,
+      "barcode": "7622210449283",
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "cadbury dairy milk bars 4 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2400001",
+      "price": {
+        "standard": 2.22,
+        "loyalty": 1.76
+      }
+    },
+    {
+      "id": "aldi-chocolate-4pack-ownLabel",
+      "unifiedId": "aldi-chocolate-4pack-own-label",
+      "productGroup": "chocolate-4pack",
+      "storeId": "aldi",
+      "name": "Aldi Chocolate Bar 4 Pack",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "aldi chocolate bar 4 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2400101",
+      "price": {
+        "standard": 1.05,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-fish-fingers-20-branded",
+      "unifiedId": "fish-fingers-20-branded",
+      "productGroup": "fish-fingers-20",
+      "storeId": "aldi",
+      "name": "Birds Eye Fish Fingers 20 Pack",
+      "brand": "Birds Eye",
+      "storeLabel": null,
+      "barcode": "5000112548123",
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "birds eye fish fingers 20 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2500001",
+      "price": {
+        "standard": 3.32,
+        "loyalty": 2.73
+      }
+    },
+    {
+      "id": "aldi-fish-fingers-20-ownLabel",
+      "unifiedId": "aldi-fish-fingers-20-own-label",
+      "productGroup": "fish-fingers-20",
+      "storeId": "aldi",
+      "name": "Aldi Fish Fingers (20 pack)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "aldi fish fingers (20 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "2500101",
+      "price": {
+        "standard": 1.68,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-frozen-peas-900g-ownLabel",
+      "unifiedId": "aldi-frozen-peas-900g-own-label",
+      "productGroup": "frozen-peas-900g",
+      "storeId": "aldi",
+      "name": "Aldi Frozen Peas 900g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "frozen peas 900g",
+        "aldi frozen peas 900g"
+      ],
+      "ownLabel": true,
+      "sku": "2600101",
+      "price": {
+        "standard": 0.82,
+        "loyalty": 0.66
+      }
+    },
+    {
+      "id": "aldi-toilet-roll-9-branded",
+      "unifiedId": "toilet-roll-9-branded",
+      "productGroup": "toilet-roll-9",
+      "storeId": "aldi",
+      "name": "Andrex Classic Clean Toilet Roll 9 Pack",
+      "brand": "Andrex",
+      "storeLabel": null,
+      "barcode": "5000112548191",
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "andrex classic clean toilet roll 9 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2700001",
+      "price": {
+        "standard": 4.29,
+        "loyalty": 3.51
+      }
+    },
+    {
+      "id": "aldi-toilet-roll-9-ownLabel",
+      "unifiedId": "aldi-toilet-roll-9-own-label",
+      "productGroup": "toilet-roll-9",
+      "storeId": "aldi",
+      "name": "Aldi Toilet Roll 9 Pack",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "aldi toilet roll 9 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2700101",
+      "price": {
+        "standard": 2.54,
+        "loyalty": 2.15
+      }
+    },
+    {
+      "id": "aldi-washing-up-450ml-branded",
+      "unifiedId": "washing-up-450ml-branded",
+      "productGroup": "washing-up-450ml",
+      "storeId": "aldi",
+      "name": "Fairy Original Washing Up Liquid 450ml",
+      "brand": "Fairy",
+      "storeLabel": null,
+      "barcode": "5000101207327",
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "fairy original washing up liquid 450ml"
+      ],
+      "ownLabel": false,
+      "sku": "2800001",
+      "price": {
+        "standard": 1.37,
+        "loyalty": 1.13
+      }
+    },
+    {
+      "id": "aldi-washing-up-450ml-ownLabel",
+      "unifiedId": "aldi-washing-up-450ml-own-label",
+      "productGroup": "washing-up-450ml",
+      "storeId": "aldi",
+      "name": "Aldi Washing Up Liquid 450ml",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "aldi washing up liquid 450ml"
+      ],
+      "ownLabel": true,
+      "sku": "2800101",
+      "price": {
+        "standard": 0.59,
+        "loyalty": 0.43
+      }
+    },
+    {
+      "id": "aldi-shampoo-400ml-branded",
+      "unifiedId": "shampoo-400ml-branded",
+      "productGroup": "shampoo-400ml",
+      "storeId": "aldi",
+      "name": "Head & Shoulders Classic Shampoo 400ml",
+      "brand": "Head & Shoulders",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "head & shoulders classic shampoo 400ml"
+      ],
+      "ownLabel": false,
+      "sku": "2900001",
+      "price": {
+        "standard": 3.51,
+        "loyalty": 2.93
+      }
+    },
+    {
+      "id": "aldi-shampoo-400ml-ownLabel",
+      "unifiedId": "aldi-shampoo-400ml-own-label",
+      "productGroup": "shampoo-400ml",
+      "storeId": "aldi",
+      "name": "Aldi Shampoo 400ml",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "aldi shampoo 400ml"
+      ],
+      "ownLabel": true,
+      "sku": "2900101",
+      "price": {
+        "standard": 1.44,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-toothpaste-100ml-branded",
+      "unifiedId": "toothpaste-100ml-branded",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "aldi",
+      "name": "Colgate Total Toothpaste 100ml",
+      "brand": "Colgate",
+      "storeLabel": null,
+      "barcode": "5012028000108",
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "colgate total toothpaste 100ml"
+      ],
+      "ownLabel": false,
+      "sku": "3000001",
+      "price": {
+        "standard": 2.54,
+        "loyalty": 2.07
+      }
+    },
+    {
+      "id": "aldi-toothpaste-100ml-ownLabel",
+      "unifiedId": "aldi-toothpaste-100ml-own-label",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "aldi",
+      "name": "Aldi Toothpaste 100ml",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "aldi toothpaste 100ml"
+      ],
+      "ownLabel": true,
+      "sku": "3000101",
+      "price": {
+        "standard": 1.13,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-marmite-250g-branded",
+      "unifiedId": "marmite-250g-branded",
+      "productGroup": "marmite-250g",
+      "storeId": "aldi",
+      "name": "Marmite Yeast Extract 250g",
+      "brand": "Marmite",
+      "storeLabel": null,
+      "barcode": "5018445300010",
+      "category": "Cupboard",
+      "searchTerms": [
+        "marmite 250g",
+        "marmite yeast extract 250g"
+      ],
+      "ownLabel": false,
+      "sku": "3100001",
+      "price": {
+        "standard": 2.34,
+        "loyalty": 2.07
+      }
+    },
+    {
+      "id": "aldi-heinz-soup-tomato-400g-branded",
+      "unifiedId": "heinz-soup-tomato-400g-branded",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "aldi",
+      "name": "Heinz Cream of Tomato Soup 400g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120125",
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "heinz cream of tomato soup 400g"
+      ],
+      "ownLabel": false,
+      "sku": "3200001",
+      "price": {
+        "standard": 1.13,
+        "loyalty": 0.9
+      }
+    },
+    {
+      "id": "aldi-heinz-soup-tomato-400g-ownLabel",
+      "unifiedId": "aldi-heinz-soup-tomato-400g-own-label",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "aldi",
+      "name": "Aldi Cream of Tomato Soup 400g",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "aldi cream of tomato soup 400g"
+      ],
+      "ownLabel": true,
+      "sku": "3200101",
+      "price": {
+        "standard": 0.59,
+        "loyalty": 0.43
+      }
+    },
+    {
+      "id": "aldi-weetabix-24-branded",
+      "unifiedId": "weetabix-24-branded",
+      "productGroup": "weetabix-24",
+      "storeId": "aldi",
+      "name": "Weetabix Original 24 Pack",
+      "brand": "Weetabix",
+      "storeLabel": null,
+      "barcode": "5016177010010",
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "weetabix original 24 pack"
+      ],
+      "ownLabel": false,
+      "sku": "3300001",
+      "price": {
+        "standard": 2.93,
+        "loyalty": 2.46
+      }
+    },
+    {
+      "id": "aldi-weetabix-24-ownLabel",
+      "unifiedId": "aldi-weetabix-24-own-label",
+      "productGroup": "weetabix-24",
+      "storeId": "aldi",
+      "name": "Aldi Wheat Biscuits 24 Pack",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "aldi wheat biscuits 24 pack"
+      ],
+      "ownLabel": true,
+      "sku": "3300101",
+      "price": {
+        "standard": 1.55,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-salmon-fillets-2-ownLabel",
+      "unifiedId": "aldi-salmon-fillets-2-own-label",
+      "productGroup": "salmon-fillets-2",
+      "storeId": "aldi",
+      "name": "Aldi Salmon Fillets (2 pack)",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fish",
+      "searchTerms": [
+        "salmon fillets 2 pack",
+        "aldi salmon fillets (2 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "3400101",
+      "price": {
+        "standard": 3.71,
+        "loyalty": 3.32
+      }
+    },
+    {
+      "id": "aldi-onions-1kg-ownLabel",
+      "unifiedId": "aldi-onions-1kg-own-label",
+      "productGroup": "onions-1kg",
+      "storeId": "aldi",
+      "name": "Aldi Brown Onions 1kg",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "brown onions 1kg",
+        "aldi brown onions 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3500101",
+      "price": {
+        "standard": 0.66,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-carrots-1kg-ownLabel",
+      "unifiedId": "aldi-carrots-1kg-own-label",
+      "productGroup": "carrots-1kg",
+      "storeId": "aldi",
+      "name": "Aldi Carrots 1kg",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "carrots 1kg",
+        "aldi carrots 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3600101",
+      "price": {
+        "standard": 0.43,
+        "loyalty": null
+      }
+    }
+  ]
+}

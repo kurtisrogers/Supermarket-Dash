@@ -7,9 +7,7 @@ import assert from 'node:assert/strict';
 import { compareList, formatGBP, getItemPrice } from '../src/lib/compare.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const products = JSON.parse(
-  readFileSync(join(__dirname, '../src/data/products.seed.json'), 'utf8'),
-).products;
+const products = JSON.parse(readFileSync(join(__dirname, '../src/data/products.json'), 'utf8')).products;
 const supermarkets = JSON.parse(
   readFileSync(join(__dirname, '../src/data/supermarkets.json'), 'utf8'),
 );
@@ -19,9 +17,9 @@ test('formatGBP formats British currency', () => {
 });
 
 test('getItemPrice applies loyalty pricing when card selected', () => {
-  const milk = products.find((p) => p.id === 'milk-semi-2l');
-  const standard = getItemPrice(milk, 'tesco', supermarkets, []);
-  const clubcard = getItemPrice(milk, 'tesco', supermarkets, ['clubcard']);
+  const heinz = products.find((product) => product.id === 'baked-beans-415g-branded');
+  const standard = getItemPrice(heinz, 'tesco', supermarkets, []);
+  const clubcard = getItemPrice(heinz, 'tesco', supermarkets, ['clubcard']);
 
   assert.ok(standard.price > clubcard.price);
   assert.equal(clubcard.isLoyalty, true);
@@ -29,8 +27,8 @@ test('getItemPrice applies loyalty pricing when card selected', () => {
 
 test('compareList ranks stores and calculates multi-store savings', () => {
   const cart = [
-    { productId: 'milk-semi-2l', quantity: 2 },
-    { productId: 'bread-white-800g', quantity: 1 },
+    { productId: 'baked-beans-415g-branded', quantity: 2 },
+    { productId: 'tesco-milk-semi-2l-own-label', quantity: 1 },
   ];
 
   const result = compareList(cart, products, supermarkets, ['clubcard', 'nectar']);
@@ -42,7 +40,7 @@ test('compareList ranks stores and calculates multi-store savings', () => {
 });
 
 test('compareList assigns each item to cheapest store in savings map', () => {
-  const cart = [{ productId: 'milk-semi-2l', quantity: 1 }];
+  const cart = [{ productId: 'baked-beans-415g-branded', quantity: 1 }];
   const result = compareList(cart, products, supermarkets, []);
 
   const cheapestStore = result.itemAssignments[0].storeId;
@@ -50,7 +48,7 @@ test('compareList assigns each item to cheapest store in savings map', () => {
 
   for (const store of supermarkets) {
     const price = getItemPrice(
-      products.find((p) => p.id === 'milk-semi-2l'),
+      products.find((product) => product.id === 'baked-beans-415g-branded'),
       store.id,
       supermarkets,
       [],

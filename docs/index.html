@@ -34,8 +34,21 @@
         <p>Compare your shopping list across UK supermarkets — including Nectar, Clubcard &amp; loyalty prices</p>
         <span class="meta-badge" x-show="meta.lastUpdated">
           Prices updated: <span x-text="lastUpdatedLabel"></span>
-          <span x-show="meta.source"> · Source: <span x-text="meta.source"></span></span>
+          <span x-show="meta.unifiedProductCount"> · <span x-text="meta.unifiedProductCount"></span> products</span>
+          <span x-show="meta.totalStoreEntries"> · <span x-text="meta.totalStoreEntries"></span> store listings</span>
+          <span x-show="meta.source === 'pepesto' || meta.source === 'pepesto-merge'"> · live Pepesto catalogs</span>
         </span>
+        <details class="catalog-details" x-show="meta.storeProductCounts">
+          <summary>Products per supermarket</summary>
+          <ul class="catalog-counts">
+            <template x-for="store in supermarkets" :key="store.id">
+              <li>
+                <span x-text="store.name"></span>:
+                <strong x-text="meta.storeProductCounts?.[store.id] ?? '—'"></strong>
+              </li>
+            </template>
+          </ul>
+        </details>
       </div>
     </header>
 
@@ -113,6 +126,7 @@
               <article class="product-card">
                 <span class="category" x-text="product.category"></span>
                 <span class="brand" x-show="product.brand" x-text="product.brand"></span>
+                <span class="own-label-tag" x-show="product.ownLabel">Own label</span>
                 <strong x-text="product.name"></strong>
                 <small class="product-meta" x-show="product.barcode" x-text="`Barcode: ${product.barcode}`"></small>
                 <button type="button" @click="addToCart(product)">Add to list</button>

@@ -1,0 +1,1060 @@
+{
+  "meta": {
+    "storeId": "sainsburys",
+    "source": "seed",
+    "generatedAt": "2026-07-05T07:39:49.287Z",
+    "productCount": 50
+  },
+  "products": [
+    {
+      "id": "sainsburys-milk-semi-2l-ownLabel",
+      "unifiedId": "sainsburys-milk-semi-2l-own-label",
+      "productGroup": "milk-semi-2l",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Semi-Skimmed Milk 2L",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "semi skimmed milk 2l",
+        "sainsbury's semi-skimmed milk 2l"
+      ],
+      "ownLabel": true,
+      "sku": "200001",
+      "price": {
+        "standard": 1.48,
+        "loyalty": 1.32
+      }
+    },
+    {
+      "id": "sainsburys-bread-white-800g-branded",
+      "unifiedId": "bread-white-800g-branded",
+      "productGroup": "bread-white-800g",
+      "storeId": "sainsburys",
+      "name": "Hovis Soft White Bread 800g",
+      "brand": "Hovis",
+      "storeLabel": null,
+      "barcode": "5010179200116",
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "hovis soft white bread 800g"
+      ],
+      "ownLabel": false,
+      "sku": "300001",
+      "price": {
+        "standard": 1.38,
+        "loyalty": 1.17
+      }
+    },
+    {
+      "id": "sainsburys-bread-white-800g-ownLabel",
+      "unifiedId": "sainsburys-bread-white-800g-own-label",
+      "productGroup": "bread-white-800g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's White Bread 800g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "white bread 800g",
+        "sainsbury's white bread 800g"
+      ],
+      "ownLabel": true,
+      "sku": "300101",
+      "price": {
+        "standard": 0.77,
+        "loyalty": 0.56
+      }
+    },
+    {
+      "id": "sainsburys-baked-beans-415g-branded",
+      "unifiedId": "baked-beans-415g-branded",
+      "productGroup": "baked-beans-415g",
+      "storeId": "sainsburys",
+      "name": "Heinz Baked Beans 415g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120518",
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "heinz baked beans 415g"
+      ],
+      "ownLabel": false,
+      "sku": "400001",
+      "price": {
+        "standard": 1.43,
+        "loyalty": 1.22
+      }
+    },
+    {
+      "id": "sainsburys-baked-beans-415g-ownLabel",
+      "unifiedId": "sainsburys-baked-beans-415g-own-label",
+      "productGroup": "baked-beans-415g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Baked Beans in Tomato Sauce 415g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "baked beans 415g",
+        "sainsbury's baked beans in tomato sauce 415g"
+      ],
+      "ownLabel": true,
+      "sku": "400101",
+      "price": {
+        "standard": 0.46,
+        "loyalty": 0.36
+      }
+    },
+    {
+      "id": "sainsburys-cornflakes-500g-branded",
+      "unifiedId": "cornflakes-500g-branded",
+      "productGroup": "cornflakes-500g",
+      "storeId": "sainsburys",
+      "name": "Kellogg's Corn Flakes 500g",
+      "brand": "Kellogg's",
+      "storeLabel": null,
+      "barcode": "5000112548165",
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "kellogg's corn flakes 500g"
+      ],
+      "ownLabel": false,
+      "sku": "500001",
+      "price": {
+        "standard": 2.81,
+        "loyalty": 2.3
+      }
+    },
+    {
+      "id": "sainsburys-cornflakes-500g-ownLabel",
+      "unifiedId": "sainsburys-cornflakes-500g-own-label",
+      "productGroup": "cornflakes-500g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Cornflakes 500g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "cornflakes 500g",
+        "sainsbury's cornflakes 500g"
+      ],
+      "ownLabel": true,
+      "sku": "500101",
+      "price": {
+        "standard": 0.97,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-cheddar-400g-branded",
+      "unifiedId": "cheddar-400g-branded",
+      "productGroup": "cheddar-400g",
+      "storeId": "sainsburys",
+      "name": "Cathedral City Mature Cheddar 400g",
+      "brand": "Cathedral City",
+      "storeLabel": null,
+      "barcode": "5000112548184",
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "cathedral city mature cheddar 400g"
+      ],
+      "ownLabel": false,
+      "sku": "600001",
+      "price": {
+        "standard": 4.34,
+        "loyalty": 3.57
+      }
+    },
+    {
+      "id": "sainsburys-cheddar-400g-ownLabel",
+      "unifiedId": "sainsburys-cheddar-400g-own-label",
+      "productGroup": "cheddar-400g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Mature Cheddar 400g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "mature cheddar 400g",
+        "sainsbury's mature cheddar 400g"
+      ],
+      "ownLabel": true,
+      "sku": "600101",
+      "price": {
+        "standard": 2.7,
+        "loyalty": 2.19
+      }
+    },
+    {
+      "id": "sainsburys-butter-250g-branded",
+      "unifiedId": "butter-250g-branded",
+      "productGroup": "butter-250g",
+      "storeId": "sainsburys",
+      "name": "Lurpak Slightly Salted Butter 250g",
+      "brand": "Lurpak",
+      "storeLabel": null,
+      "barcode": "5701263050001",
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "lurpak slightly salted butter 250g"
+      ],
+      "ownLabel": false,
+      "sku": "700001",
+      "price": {
+        "standard": 2.91,
+        "loyalty": 2.5
+      }
+    },
+    {
+      "id": "sainsburys-butter-250g-ownLabel",
+      "unifiedId": "sainsburys-butter-250g-own-label",
+      "productGroup": "butter-250g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Salted Butter 250g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "salted butter 250g",
+        "sainsbury's salted butter 250g"
+      ],
+      "ownLabel": true,
+      "sku": "700101",
+      "price": {
+        "standard": 1.83,
+        "loyalty": 1.52
+      }
+    },
+    {
+      "id": "sainsburys-eggs-free-range-12-ownLabel",
+      "unifiedId": "sainsburys-eggs-free-range-12-own-label",
+      "productGroup": "eggs-free-range-12",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Free Range Eggs (12)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Dairy",
+      "searchTerms": [
+        "free range eggs 12",
+        "sainsbury's free range eggs (12)"
+      ],
+      "ownLabel": true,
+      "sku": "800101",
+      "price": {
+        "standard": 2.81,
+        "loyalty": 2.5
+      }
+    },
+    {
+      "id": "sainsburys-chicken-breast-1kg-ownLabel",
+      "unifiedId": "sainsburys-chicken-breast-1kg-own-label",
+      "productGroup": "chicken-breast-1kg",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Chicken Breast Fillets 1kg",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "chicken breast 1kg",
+        "sainsbury's chicken breast fillets 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "900101",
+      "price": {
+        "standard": 5.87,
+        "loyalty": 5.36
+      }
+    },
+    {
+      "id": "sainsburys-beef-mince-500g-ownLabel",
+      "unifiedId": "sainsburys-beef-mince-500g-own-label",
+      "productGroup": "beef-mince-500g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Beef Mince 500g (5% fat)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Meat",
+      "searchTerms": [
+        "beef mince 500g",
+        "sainsbury's beef mince 500g (5% fat)"
+      ],
+      "ownLabel": true,
+      "sku": "1000101",
+      "price": {
+        "standard": 3.83,
+        "loyalty": 3.32
+      }
+    },
+    {
+      "id": "sainsburys-bananas-5-ownLabel",
+      "unifiedId": "sainsburys-bananas-5-own-label",
+      "productGroup": "bananas-5",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Bananas (5 pack)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "bananas 5 pack",
+        "sainsbury's bananas (5 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "1100101",
+      "price": {
+        "standard": 1.01,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-potatoes-2kg-ownLabel",
+      "unifiedId": "sainsburys-potatoes-2kg-own-label",
+      "productGroup": "potatoes-2kg",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Maris Piper Potatoes 2kg",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "maris piper potatoes 2kg",
+        "sainsbury's maris piper potatoes 2kg"
+      ],
+      "ownLabel": true,
+      "sku": "1200101",
+      "price": {
+        "standard": 1.42,
+        "loyalty": 1.21
+      }
+    },
+    {
+      "id": "sainsburys-pasta-penne-500g-branded",
+      "unifiedId": "pasta-penne-500g-branded",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "sainsburys",
+      "name": "Napolina Penne Pasta 500g",
+      "brand": "Napolina",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "napolina penne pasta 500g"
+      ],
+      "ownLabel": false,
+      "sku": "1300001",
+      "price": {
+        "standard": 1.27,
+        "loyalty": 1.02
+      }
+    },
+    {
+      "id": "sainsburys-pasta-penne-500g-ownLabel",
+      "unifiedId": "sainsburys-pasta-penne-500g-own-label",
+      "productGroup": "pasta-penne-500g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Penne Pasta 500g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "penne pasta 500g",
+        "sainsbury's penne pasta 500g"
+      ],
+      "ownLabel": true,
+      "sku": "1300101",
+      "price": {
+        "standard": 0.56,
+        "loyalty": 0.46
+      }
+    },
+    {
+      "id": "sainsburys-rice-basmati-1kg-ownLabel",
+      "unifiedId": "sainsburys-rice-basmati-1kg-own-label",
+      "productGroup": "rice-basmati-1kg",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Basmati Rice 1kg",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "basmati rice 1kg",
+        "sainsbury's basmati rice 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "1400101",
+      "price": {
+        "standard": 1.89,
+        "loyalty": 1.58
+      }
+    },
+    {
+      "id": "sainsburys-chopped-tomatoes-400g-ownLabel",
+      "unifiedId": "sainsburys-chopped-tomatoes-400g-own-label",
+      "productGroup": "chopped-tomatoes-400g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Chopped Tomatoes 400g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "chopped tomatoes 400g",
+        "sainsbury's chopped tomatoes 400g"
+      ],
+      "ownLabel": true,
+      "sku": "1500101",
+      "price": {
+        "standard": 0.36,
+        "loyalty": 0.29
+      }
+    },
+    {
+      "id": "sainsburys-tea-bags-240-branded",
+      "unifiedId": "tea-bags-240-branded",
+      "productGroup": "tea-bags-240",
+      "storeId": "sainsburys",
+      "name": "PG Tips Original Tea Bags 240",
+      "brand": "PG Tips",
+      "storeLabel": null,
+      "barcode": "5000197020312",
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "pg tips original tea bags 240"
+      ],
+      "ownLabel": false,
+      "sku": "1600001",
+      "price": {
+        "standard": 4.85,
+        "loyalty": 3.93
+      }
+    },
+    {
+      "id": "sainsburys-tea-bags-240-ownLabel",
+      "unifiedId": "sainsburys-tea-bags-240-own-label",
+      "productGroup": "tea-bags-240",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Tea Bags (240)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "tea bags 240",
+        "sainsbury's tea bags (240)"
+      ],
+      "ownLabel": true,
+      "sku": "1600101",
+      "price": {
+        "standard": 2.5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-coffee-instant-200g-branded",
+      "unifiedId": "coffee-instant-200g-branded",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "sainsburys",
+      "name": "Nescafé Original Instant Coffee 200g",
+      "brand": "Nescafé",
+      "storeLabel": null,
+      "barcode": "3033718130016",
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "nescafé original instant coffee 200g"
+      ],
+      "ownLabel": false,
+      "sku": "1700001",
+      "price": {
+        "standard": 6.38,
+        "loyalty": 5.36
+      }
+    },
+    {
+      "id": "sainsburys-coffee-instant-200g-ownLabel",
+      "unifiedId": "sainsburys-coffee-instant-200g-own-label",
+      "productGroup": "coffee-instant-200g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Instant Coffee 200g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "instant coffee 200g",
+        "sainsbury's instant coffee 200g"
+      ],
+      "ownLabel": true,
+      "sku": "1700101",
+      "price": {
+        "standard": 3.32,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-orange-juice-1l-branded",
+      "unifiedId": "orange-juice-1l-branded",
+      "productGroup": "orange-juice-1l",
+      "storeId": "sainsburys",
+      "name": "innocent Smooth Orange Juice 900ml",
+      "brand": "innocent",
+      "storeLabel": null,
+      "barcode": "5060088520174",
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "innocent smooth orange juice 900ml"
+      ],
+      "ownLabel": false,
+      "sku": "1800001",
+      "price": {
+        "standard": 3.32,
+        "loyalty": 2.81
+      }
+    },
+    {
+      "id": "sainsburys-orange-juice-1l-ownLabel",
+      "unifiedId": "sainsburys-orange-juice-1l-own-label",
+      "productGroup": "orange-juice-1l",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Orange Juice 1L",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "orange juice",
+        "sainsbury's orange juice 1l"
+      ],
+      "ownLabel": true,
+      "sku": "1800101",
+      "price": {
+        "standard": 1.17,
+        "loyalty": 0.97
+      }
+    },
+    {
+      "id": "sainsburys-water-6x1.5l-ownLabel",
+      "unifiedId": "sainsburys-water-6x1.5l-own-label",
+      "productGroup": "water-6x1.5l",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Still Water 6x1.5L",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "still water 6 pack",
+        "sainsbury's still water 6x1.5l"
+      ],
+      "ownLabel": true,
+      "sku": "1900101",
+      "price": {
+        "standard": 1.79,
+        "loyalty": 1.48
+      }
+    },
+    {
+      "id": "sainsburys-crisps-multipack-12-branded",
+      "unifiedId": "crisps-multipack-12-branded",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "sainsburys",
+      "name": "Walkers Variety Crisps 12 Pack",
+      "brand": "Walkers",
+      "storeLabel": null,
+      "barcode": "5000328930008",
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "walkers variety crisps 12 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2000001",
+      "price": {
+        "standard": 4.03,
+        "loyalty": 3.32
+      }
+    },
+    {
+      "id": "sainsburys-crisps-multipack-12-ownLabel",
+      "unifiedId": "sainsburys-crisps-multipack-12-own-label",
+      "productGroup": "crisps-multipack-12",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Crisps Multipack (12)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "crisps multipack 12",
+        "sainsbury's crisps multipack (12)"
+      ],
+      "ownLabel": true,
+      "sku": "2000101",
+      "price": {
+        "standard": 1.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-chocolate-4pack-branded",
+      "unifiedId": "chocolate-4pack-branded",
+      "productGroup": "chocolate-4pack",
+      "storeId": "sainsburys",
+      "name": "Cadbury Dairy Milk Bars 4 Pack",
+      "brand": "Cadbury",
+      "storeLabel": null,
+      "barcode": "7622210449283",
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "cadbury dairy milk bars 4 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2100001",
+      "price": {
+        "standard": 2.91,
+        "loyalty": 2.3
+      }
+    },
+    {
+      "id": "sainsburys-chocolate-4pack-ownLabel",
+      "unifiedId": "sainsburys-chocolate-4pack-own-label",
+      "productGroup": "chocolate-4pack",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Chocolate Bar 4 Pack",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Snacks",
+      "searchTerms": [
+        "chocolate bar 4 pack",
+        "sainsbury's chocolate bar 4 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2100101",
+      "price": {
+        "standard": 1.38,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-fish-fingers-20-branded",
+      "unifiedId": "fish-fingers-20-branded",
+      "productGroup": "fish-fingers-20",
+      "storeId": "sainsburys",
+      "name": "Birds Eye Fish Fingers 20 Pack",
+      "brand": "Birds Eye",
+      "storeLabel": null,
+      "barcode": "5000112548123",
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "birds eye fish fingers 20 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2200001",
+      "price": {
+        "standard": 4.34,
+        "loyalty": 3.57
+      }
+    },
+    {
+      "id": "sainsburys-fish-fingers-20-ownLabel",
+      "unifiedId": "sainsburys-fish-fingers-20-own-label",
+      "productGroup": "fish-fingers-20",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Fish Fingers (20 pack)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "fish fingers 20 pack",
+        "sainsbury's fish fingers (20 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "2200101",
+      "price": {
+        "standard": 2.19,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-frozen-peas-900g-ownLabel",
+      "unifiedId": "sainsburys-frozen-peas-900g-own-label",
+      "productGroup": "frozen-peas-900g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Frozen Peas 900g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Frozen",
+      "searchTerms": [
+        "frozen peas 900g",
+        "sainsbury's frozen peas 900g"
+      ],
+      "ownLabel": true,
+      "sku": "2300101",
+      "price": {
+        "standard": 1.07,
+        "loyalty": 0.87
+      }
+    },
+    {
+      "id": "sainsburys-toilet-roll-9-branded",
+      "unifiedId": "toilet-roll-9-branded",
+      "productGroup": "toilet-roll-9",
+      "storeId": "sainsburys",
+      "name": "Andrex Classic Clean Toilet Roll 9 Pack",
+      "brand": "Andrex",
+      "storeLabel": null,
+      "barcode": "5000112548191",
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "andrex classic clean toilet roll 9 pack"
+      ],
+      "ownLabel": false,
+      "sku": "2400001",
+      "price": {
+        "standard": 5.61,
+        "loyalty": 4.59
+      }
+    },
+    {
+      "id": "sainsburys-toilet-roll-9-ownLabel",
+      "unifiedId": "sainsburys-toilet-roll-9-own-label",
+      "productGroup": "toilet-roll-9",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Toilet Roll 9 Pack",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "toilet roll 9 pack",
+        "sainsbury's toilet roll 9 pack"
+      ],
+      "ownLabel": true,
+      "sku": "2400101",
+      "price": {
+        "standard": 3.32,
+        "loyalty": 2.81
+      }
+    },
+    {
+      "id": "sainsburys-washing-up-450ml-branded",
+      "unifiedId": "washing-up-450ml-branded",
+      "productGroup": "washing-up-450ml",
+      "storeId": "sainsburys",
+      "name": "Fairy Original Washing Up Liquid 450ml",
+      "brand": "Fairy",
+      "storeLabel": null,
+      "barcode": "5000101207327",
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "fairy original washing up liquid 450ml"
+      ],
+      "ownLabel": false,
+      "sku": "2500001",
+      "price": {
+        "standard": 1.79,
+        "loyalty": 1.48
+      }
+    },
+    {
+      "id": "sainsburys-washing-up-450ml-ownLabel",
+      "unifiedId": "sainsburys-washing-up-450ml-own-label",
+      "productGroup": "washing-up-450ml",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Washing Up Liquid 450ml",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Household",
+      "searchTerms": [
+        "washing up liquid 450ml",
+        "sainsbury's washing up liquid 450ml"
+      ],
+      "ownLabel": true,
+      "sku": "2500101",
+      "price": {
+        "standard": 0.77,
+        "loyalty": 0.56
+      }
+    },
+    {
+      "id": "sainsburys-shampoo-400ml-branded",
+      "unifiedId": "shampoo-400ml-branded",
+      "productGroup": "shampoo-400ml",
+      "storeId": "sainsburys",
+      "name": "Head & Shoulders Classic Shampoo 400ml",
+      "brand": "Head & Shoulders",
+      "storeLabel": null,
+      "barcode": "5010179000015",
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "head & shoulders classic shampoo 400ml"
+      ],
+      "ownLabel": false,
+      "sku": "2600001",
+      "price": {
+        "standard": 4.59,
+        "loyalty": 3.83
+      }
+    },
+    {
+      "id": "sainsburys-shampoo-400ml-ownLabel",
+      "unifiedId": "sainsburys-shampoo-400ml-own-label",
+      "productGroup": "shampoo-400ml",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Shampoo 400ml",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "shampoo 400ml",
+        "sainsbury's shampoo 400ml"
+      ],
+      "ownLabel": true,
+      "sku": "2600101",
+      "price": {
+        "standard": 1.89,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-toothpaste-100ml-branded",
+      "unifiedId": "toothpaste-100ml-branded",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "sainsburys",
+      "name": "Colgate Total Toothpaste 100ml",
+      "brand": "Colgate",
+      "storeLabel": null,
+      "barcode": "5012028000108",
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "colgate total toothpaste 100ml"
+      ],
+      "ownLabel": false,
+      "sku": "2700001",
+      "price": {
+        "standard": 3.32,
+        "loyalty": 2.7
+      }
+    },
+    {
+      "id": "sainsburys-toothpaste-100ml-ownLabel",
+      "unifiedId": "sainsburys-toothpaste-100ml-own-label",
+      "productGroup": "toothpaste-100ml",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Toothpaste 100ml",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Toiletries",
+      "searchTerms": [
+        "toothpaste 100ml",
+        "sainsbury's toothpaste 100ml"
+      ],
+      "ownLabel": true,
+      "sku": "2700101",
+      "price": {
+        "standard": 1.48,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-marmite-250g-branded",
+      "unifiedId": "marmite-250g-branded",
+      "productGroup": "marmite-250g",
+      "storeId": "sainsburys",
+      "name": "Marmite Yeast Extract 250g",
+      "brand": "Marmite",
+      "storeLabel": null,
+      "barcode": "5018445300010",
+      "category": "Cupboard",
+      "searchTerms": [
+        "marmite 250g",
+        "marmite yeast extract 250g"
+      ],
+      "ownLabel": false,
+      "sku": "2800001",
+      "price": {
+        "standard": 3.06,
+        "loyalty": 2.7
+      }
+    },
+    {
+      "id": "sainsburys-heinz-soup-tomato-400g-branded",
+      "unifiedId": "heinz-soup-tomato-400g-branded",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "sainsburys",
+      "name": "Heinz Cream of Tomato Soup 400g",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": "5016000120125",
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "heinz cream of tomato soup 400g"
+      ],
+      "ownLabel": false,
+      "sku": "2900001",
+      "price": {
+        "standard": 1.48,
+        "loyalty": 1.17
+      }
+    },
+    {
+      "id": "sainsburys-heinz-soup-tomato-400g-ownLabel",
+      "unifiedId": "sainsburys-heinz-soup-tomato-400g-own-label",
+      "productGroup": "heinz-soup-tomato-400g",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Cream of Tomato Soup 400g",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Cupboard",
+      "searchTerms": [
+        "heinz tomato soup 400g",
+        "sainsbury's cream of tomato soup 400g"
+      ],
+      "ownLabel": true,
+      "sku": "2900101",
+      "price": {
+        "standard": 0.77,
+        "loyalty": 0.56
+      }
+    },
+    {
+      "id": "sainsburys-weetabix-24-branded",
+      "unifiedId": "weetabix-24-branded",
+      "productGroup": "weetabix-24",
+      "storeId": "sainsburys",
+      "name": "Weetabix Original 24 Pack",
+      "brand": "Weetabix",
+      "storeLabel": null,
+      "barcode": "5016177010010",
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "weetabix original 24 pack"
+      ],
+      "ownLabel": false,
+      "sku": "3000001",
+      "price": {
+        "standard": 3.83,
+        "loyalty": 3.21
+      }
+    },
+    {
+      "id": "sainsburys-weetabix-24-ownLabel",
+      "unifiedId": "sainsburys-weetabix-24-own-label",
+      "productGroup": "weetabix-24",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Wheat Biscuits 24 Pack",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Breakfast",
+      "searchTerms": [
+        "weetabix 24 pack",
+        "sainsbury's wheat biscuits 24 pack"
+      ],
+      "ownLabel": true,
+      "sku": "3000101",
+      "price": {
+        "standard": 2.03,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-salmon-fillets-2-ownLabel",
+      "unifiedId": "sainsburys-salmon-fillets-2-own-label",
+      "productGroup": "salmon-fillets-2",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Salmon Fillets (2 pack)",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Fish",
+      "searchTerms": [
+        "salmon fillets 2 pack",
+        "sainsbury's salmon fillets (2 pack)"
+      ],
+      "ownLabel": true,
+      "sku": "3100101",
+      "price": {
+        "standard": 4.85,
+        "loyalty": 4.34
+      }
+    },
+    {
+      "id": "sainsburys-onions-1kg-ownLabel",
+      "unifiedId": "sainsburys-onions-1kg-own-label",
+      "productGroup": "onions-1kg",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Brown Onions 1kg",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "brown onions 1kg",
+        "sainsbury's brown onions 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3200101",
+      "price": {
+        "standard": 0.87,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "sainsburys-carrots-1kg-ownLabel",
+      "unifiedId": "sainsburys-carrots-1kg-own-label",
+      "productGroup": "carrots-1kg",
+      "storeId": "sainsburys",
+      "name": "Sainsbury's Carrots 1kg",
+      "brand": "Sainsbury's",
+      "storeLabel": "Sainsbury's",
+      "barcode": null,
+      "category": "Fruit & Veg",
+      "searchTerms": [
+        "carrots 1kg",
+        "sainsbury's carrots 1kg"
+      ],
+      "ownLabel": true,
+      "sku": "3300101",
+      "price": {
+        "standard": 0.56,
+        "loyalty": null
+      }
+    }
+  ]
+}
