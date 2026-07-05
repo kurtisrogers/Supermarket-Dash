@@ -2,9 +2,24 @@ name: Update Prices
 
 on:
   schedule:
-    # Daily at 06:00 UTC
+    # Daily at 06:00 UTC — fetches each supermarket catalog into its seed file
     - cron: '0 6 * * *'
   workflow_dispatch:
+    inputs:
+      store:
+        description: 'Single store to update (blank = all stores)'
+        required: false
+        type: choice
+        options:
+          - ''
+          - tesco
+          - sainsburys
+          - asda
+          - morrisons
+          - aldi
+          - lidl
+          - waitrose
+          - ocado
 
 permissions:
   contents: write
@@ -12,6 +27,7 @@ permissions:
 jobs:
   update-prices:
     runs-on: ubuntu-latest
+    timeout-minutes: 360
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -21,10 +37,12 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Update product prices
+      - name: Fetch live catalogs into per-store seed files
         run: npm run update-prices
         env:
           PEPESTO_API_KEY: ${{ secrets.PEPESTO_API_KEY }}
+          TESCO_API_KEY: ${{ secrets.TESCO_API_KEY }}
+          UPDATE_STORE: ${{ github.event.inputs.store }}
 
       - name: Build site
         run: npm run build
@@ -35,8 +53,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/products.json src/data/products.seed.json src/data/catalogs/ docs/
           if git diff --staged --quiet; then
-            echo "No price changes to commit"
+            echo "No catalog changes to commit"
           else
-            git commit -m "chore: daily price update $(date -u +%Y-%m-%d)"
+            git commit -m "chore: daily catalog update $(date -u +%Y-%m-%d)"
             git push
           fi

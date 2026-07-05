@@ -56,14 +56,13 @@ A GitHub Actions workflow runs **every day at 06:00 UTC** (`.github/workflows/up
 
 ### Live prices (optional)
 
-By default, prices come from curated seed files (`src/data/catalogs/*.seed.json`, ~50 products per store). For **full product catalogs** from UK supermarket websites:
+By default, the daily cron **fetches live product catalogs** from each supermarket's website API and writes them to `src/data/catalogs/{store}.seed.json`.
 
-1. Sign up at [Pepesto](https://www.pepesto.com/) for a grocery data API key
-2. Add `PEPESTO_API_KEY` to your GitHub repository secrets (Settings → Secrets → Actions)
-3. The daily cron fetches **all indexed products** (~1,000–2,000 SKUs each) for Tesco, Sainsbury's, Asda, Morrisons, and Waitrose
-4. Aldi, Lidl and Ocado remain on seed data (not available via Pepesto)
+- **Tesco** and **Sainsbury's** are fetched directly (no API key needed)
+- **Asda, Morrisons, Waitrose** require `PEPESTO_API_KEY` in GitHub Secrets
+- **Aldi, Lidl, Ocado** have no accessible public API — existing seed data is kept
 
-Without an API key, the cron still runs and refreshes timestamps from seed prices.
+Optional secrets: `PEPESTO_API_KEY`, `TESCO_API_KEY` (if Tesco rotates their public key)
 
 ## Product catalogue
 
@@ -78,25 +77,27 @@ The daily update merges all per-store catalogs into `src/data/products.json` for
 
 ### ALL products from each supermarket
 
-**With `PEPESTO_API_KEY` (recommended):** the daily cron fetches Pepesto's full indexed catalog for each supported online grocer:
+Each supermarket has a `{store}.seed.json` file that is **fetched live** and updated by the daily cron:
 
-- Tesco, Sainsbury's, Asda, Morrisons, Waitrose — typically **1,000–2,000 products each** (branded and own-label)
-- Promotional prices are merged from Pepesto's `/promotions` endpoint as loyalty/member prices where applicable
-
-**Without an API key:** the app uses seed catalogs only (~50 products per store).
-
-**Aldi, Lidl and Ocado** are not available via Pepesto. They remain on seed data until a compatible data source is added. Aldi and Lidl are primarily in-store; Ocado has no public third-party catalog API.
+| Store | Fetch method |
+|-------|--------------|
+| Tesco | Tesco GraphQL API (`xapi.tesco.com`) — category browse + keyword discovery |
+| Sainsbury's | Sainsbury's GOL API — category tree + keyword discovery |
+| Asda, Morrisons, Waitrose | Pepesto API (requires `PEPESTO_API_KEY`) |
+| Aldi, Lidl, Ocado | No public API — seed retained until a source is added |
 
 ```bash
-# Regenerate seed files from templates
-npm run generate-catalogs
+# Fetch one store into its seed file
+npm run update-store -- tesco
 
-# Merge seeds (or live + seed) into products.json
-npm run build-catalog
+# Fetch all stores, merge, and write products.json
+npm run fetch-catalogs
 
-# Fetch live full catalogs (requires PEPESTO_API_KEY) and merge
-npm run update-prices
+# Limit pages per category/search (for testing)
+FETCH_MAX_PAGES=5 npm run update-store -- tesco
 ```
+
+The daily cron runs `npm run update-prices`, which loops each supermarket, writes `{store}.seed.json`, then merges into `products.json`.
 
 Search works by **name**, **brand**, **barcode**, or **store SKU**. On mobile, tap **📷 Scan** to use your camera — Chrome on Android uses the native Barcode Detector API, with an html5-qrcode fallback elsewhere.
 
