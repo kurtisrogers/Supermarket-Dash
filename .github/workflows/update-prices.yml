@@ -14,20 +14,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '22'
 
       - name: Update product prices
-        run: node scripts/update-prices.js
+        run: npm run update-prices
         env:
           PEPESTO_API_KEY: ${{ secrets.PEPESTO_API_KEY }}
 
       - name: Build site
-        run: node scripts/build.js
+        run: npm run build
 
       - name: Commit and push if changed
         run: |
