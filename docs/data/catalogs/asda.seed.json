@@ -1,9 +1,11 @@
 {
   "meta": {
     "storeId": "asda",
-    "source": "seed",
+    "source": "seed-fallback",
     "generatedAt": "2026-07-05T07:39:49.287Z",
-    "productCount": 50
+    "productCount": 50,
+    "lastUpdated": "2026-07-05T14:37:58.544Z",
+    "fetchError": "Asda blocked the automated session (Cloudflare challenge)"
   },
   "products": [
     {

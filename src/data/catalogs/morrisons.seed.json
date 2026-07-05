@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "morrisons",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-05T13:19:44.961Z",
-    "productCount": 5732,
+    "lastUpdated": "2026-07-05T14:42:20.730Z",
+    "productCount": 5734,
     "fetchMethod": "spider-morrisons",
     "searchTerms": 171
   },
@@ -41043,6 +41043,27 @@
       }
     },
     {
+      "id": "morrisons-111115273",
+      "productGroup": null,
+      "storeId": "morrisons",
+      "name": "Kellogg's Fruit 'n Fibre Breakfast Cereal 700g",
+      "brand": "Kellogg's",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "kellogg's fruit 'n fibre breakfast cereal 700g",
+        "111115273",
+        "kellogg's"
+      ],
+      "ownLabel": false,
+      "sku": "111115273",
+      "price": {
+        "standard": 3.5,
+        "loyalty": null
+      }
+    },
+    {
       "id": "morrisons-115275119",
       "productGroup": null,
       "storeId": "morrisons",
@@ -45554,6 +45575,48 @@
       "sku": "113350613",
       "price": {
         "standard": 4,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-104019540",
+      "productGroup": null,
+      "storeId": "morrisons",
+      "name": "Little Dish Chicken Korma Kids Meal 200g",
+      "brand": "Little Dish",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Baby & Toddler",
+      "searchTerms": [
+        "little dish chicken korma kids meal 200g",
+        "104019540",
+        "little dish"
+      ],
+      "ownLabel": false,
+      "sku": "104019540",
+      "price": {
+        "standard": 2.85,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-109016858",
+      "productGroup": null,
+      "storeId": "morrisons",
+      "name": "Little Dish Spaghetti & Meatballs Kids Meal 200g",
+      "brand": "Little Dish",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Fresh Foods",
+      "searchTerms": [
+        "little dish spaghetti & meatballs kids meal 200g",
+        "109016858",
+        "little dish"
+      ],
+      "ownLabel": false,
+      "sku": "109016858",
+      "price": {
+        "standard": 2.85,
         "loyalty": null
       }
     },
@@ -98499,27 +98562,6 @@
       }
     },
     {
-      "id": "morrisons-115768845",
-      "productGroup": null,
-      "storeId": "morrisons",
-      "name": "Piccolo Mini BBQ Chicken Pizza With Hidden Veggies 130g",
-      "brand": "Piccolo",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Fresh Foods",
-      "searchTerms": [
-        "piccolo mini bbq chicken pizza with hidden veggies 130g",
-        "115768845",
-        "piccolo"
-      ],
-      "ownLabel": false,
-      "sku": "115768845",
-      "price": {
-        "standard": 2.2,
-        "loyalty": null
-      }
-    },
-    {
       "id": "morrisons-115769098",
       "productGroup": null,
       "storeId": "morrisons",
@@ -100784,6 +100826,27 @@
       "sku": "112066194",
       "price": {
         "standard": 18.5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "morrisons-113834781",
+      "productGroup": null,
+      "storeId": "morrisons",
+      "name": "Quaker High Protein Peanut Butter Porridge Sachets Oat So Simple ",
+      "brand": "Quaker",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "quaker high protein peanut butter porridge sachets oat so simple ",
+        "113834781",
+        "quaker"
+      ],
+      "ownLabel": false,
+      "sku": "113834781",
+      "price": {
+        "standard": 3.75,
         "loyalty": null
       }
     },
@@ -111555,27 +111618,6 @@
       "sku": "107698189",
       "price": {
         "standard": 8.75,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "morrisons-115215520",
-      "productGroup": null,
-      "storeId": "morrisons",
-      "name": "The Laughing Cow Light Cheese Spread Triangles 240g",
-      "brand": "The Laughing Cow",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Fresh Foods",
-      "searchTerms": [
-        "the laughing cow light cheese spread triangles 240g",
-        "115215520",
-        "the laughing cow"
-      ],
-      "ownLabel": false,
-      "sku": "115215520",
-      "price": {
-        "standard": 2.95,
         "loyalty": null
       }
     },

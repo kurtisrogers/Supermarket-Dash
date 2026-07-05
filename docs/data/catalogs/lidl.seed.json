@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-05T14:13:03.520Z",
-    "productCount": 434,
+    "lastUpdated": "2026-07-05T14:52:27.432Z",
+    "productCount": 431,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -2664,6 +2664,27 @@
       }
     },
     {
+      "id": "lidl-10050089",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA Ladies’ Black Cotton Cropped Leggings",
+      "brand": "ESMARA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara ladies’ black cotton cropped leggings",
+        "10050089",
+        "esmara"
+      ],
+      "ownLabel": false,
+      "sku": "10050089",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050091",
       "productGroup": null,
       "storeId": "lidl",
@@ -2679,6 +2700,27 @@
       ],
       "ownLabel": false,
       "sku": "10050091",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050088",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA Ladies’ Grey Cotton Cropped Leggings",
+      "brand": "ESMARA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara ladies’ grey cotton cropped leggings",
+        "10050088",
+        "esmara"
+      ],
+      "ownLabel": false,
+      "sku": "10050088",
       "price": {
         "standard": 2.99,
         "loyalty": null
@@ -2991,6 +3033,26 @@
       "sku": "10050608",
       "price": {
         "standard": 0.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050577",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Garden Hydrangea",
+      "brand": "Garden",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "garden hydrangea",
+        "10050577"
+      ],
+      "ownLabel": false,
+      "sku": "10050577",
+      "price": {
+        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -4388,27 +4450,6 @@
       }
     },
     {
-      "id": "lidl-10050722",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Neck Support Pillow With Gel Pad",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno neck support pillow with gel pad",
-        "10050722",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050722",
-      "price": {
-        "standard": 12.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050736",
       "productGroup": null,
       "storeId": "lidl",
@@ -4426,90 +4467,6 @@
       "sku": "10050736",
       "price": {
         "standard": 8.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050691",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Kiwi Design",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with kiwi design",
-        "10050691",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050691",
-      "price": {
-        "standard": 6.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050912",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Solar LED Lights",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with solar led lights",
-        "10050912",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050912",
-      "price": {
-        "standard": 39.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050690",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Sunflower Design",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with sunflower design",
-        "10050690",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050690",
-      "price": {
-        "standard": 6.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050692",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Watermelon Design",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with watermelon design",
-        "10050692",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050692",
-      "price": {
-        "standard": 6.99,
         "loyalty": null
       }
     },
@@ -5930,27 +5887,6 @@
       "sku": "10050676",
       "price": {
         "standard": 24.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050677",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Outdoor Broom",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside outdoor broom",
-        "10050677",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050677",
-      "price": {
-        "standard": 5.99,
         "loyalty": null
       }
     },
