@@ -27,7 +27,7 @@
     <script defer src="https://unpkg.com/htmx.org@2.0.4"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.8/dist/cdn.min.js"></script>
   </head>
-  <body x-data="supermarketDash" x-init="init()">
+  <body x-cloak x-data="supermarketDash" x-init="init()">
     <header class="app-header">
       <div class="container">
         <h1>🛒 Supermarket Dash</h1>
@@ -67,10 +67,11 @@
       </div>
 
       <!-- Loyalty cards -->
-      <section x-show="supermarkets.length">
+      <section>
         <h2>Your loyalty cards</h2>
         <p>Select the reward schemes you have — we'll show you member prices where available.</p>
-        <div class="loyalty-grid">
+        <p x-show="loadStatus === 'loading' && !supermarkets.length" class="search-hint">Loading stores…</p>
+        <div class="loyalty-grid" x-show="loyaltyStores.length">
           <template x-for="store in loyaltyStores" :key="store.id">
             <button
               type="button"
