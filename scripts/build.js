@@ -9,10 +9,13 @@ const DOCS = join(ROOT, 'docs');
 
 const LIB_FILES = ['paths.js', 'search.js', 'barcode.js', 'compare.js', 'basket.js'];
 
-function stripExports(source) {
+function stripModuleSyntax(source) {
   return source
+    .replace(/^import\s+[\s\S]*?\s+from\s+['"][^'"]+['"];\s*\n?/gm, '')
     .replace(/^export async function /gm, 'async function ')
     .replace(/^export function /gm, 'function ')
+    .replace(/^export class /gm, 'class ')
+    .replace(/^export const /gm, 'const ')
     .replace(/^export /gm, '');
 }
 
@@ -39,7 +42,7 @@ function copyDir(src, dest) {
 
 function bundleAppJs() {
   const libCode = LIB_FILES.map((file) =>
-    stripExports(readFileSync(join(ROOT, 'src/lib', file), 'utf8')),
+    stripModuleSyntax(readFileSync(join(ROOT, 'src/lib', file), 'utf8')),
   ).join('\n');
 
   const app = readFileSync(join(ROOT, 'src/js/app.js'), 'utf8');
@@ -75,6 +78,11 @@ window.SupermarketBasket = {
 `;
 
   const bundled = `/* Supermarket Dash — bundled app */\n${libCode}\n${attachGlobals}\n${app}\n`;
+
+  if (/\bimport\s+/.test(bundled) || /^export\s+/m.test(bundled)) {
+    throw new Error('Bundled app.js still contains import/export statements');
+  }
+
   writeFileSync(join(DOCS, 'js/app.js'), bundled);
 }
 

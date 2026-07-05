@@ -131,8 +131,6 @@ function isSkuQuery(query) {
  * Barcode scanning helpers for mobile browsers.
  */
 
-import { findProductByBarcode, normalizeBarcode } from './search.js';
-
 const HTML5_QRCODE_URL = 'https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js';
 const BARCODE_FORMATS = ['ean_13', 'ean_8', 'upc_a', 'upc_e', 'code_128'];
 
