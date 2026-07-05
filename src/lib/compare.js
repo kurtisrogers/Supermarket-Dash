@@ -2,15 +2,15 @@
  * Price comparison and multi-store savings optimizer.
  */
 
-function formatGBP(amount) {
+export function formatGBP(amount) {
   return new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP' }).format(amount);
 }
 
-function hasLoyaltyCard(supermarket, loyaltyCards) {
+export function hasLoyaltyCard(supermarket, loyaltyCards) {
   return Boolean(supermarket.loyaltyKey && loyaltyCards.includes(supermarket.loyaltyKey));
 }
 
-function getItemPrice(product, storeId, supermarkets, loyaltyCards) {
+export function getItemPrice(product, storeId, supermarkets, loyaltyCards) {
   const storePrice = product.prices?.[storeId];
   if (!storePrice) {
     return null;
@@ -28,7 +28,34 @@ function getItemPrice(product, storeId, supermarkets, loyaltyCards) {
   };
 }
 
-function compareList(cartItems, products, supermarkets, loyaltyCards) {
+export function buildSavingsMap(itemAssignments, supermarkets) {
+  const byStore = new Map();
+
+  for (const item of itemAssignments) {
+    if (!byStore.has(item.storeId)) {
+      byStore.set(item.storeId, []);
+    }
+    byStore.get(item.storeId).push(item);
+  }
+
+  return [...byStore.entries()]
+    .map(([storeId, items]) => {
+      const supermarket = supermarkets.find((s) => s.id === storeId);
+      const subtotal = items.reduce((sum, i) => sum + i.lineTotal, 0);
+      return {
+        storeId,
+        storeName: supermarket?.name ?? storeId,
+        color: supermarket?.color ?? '#666',
+        onlineGrocery: supermarket?.onlineGrocery ?? false,
+        items,
+        subtotal,
+        itemCount: items.reduce((sum, i) => sum + i.quantity, 0),
+      };
+    })
+    .sort((a, b) => b.subtotal - a.subtotal);
+}
+
+export function compareList(cartItems, products, supermarkets, loyaltyCards) {
   const storeIds = supermarkets.map((s) => s.id);
   const productMap = new Map(products.map((p) => [p.id, p]));
 
@@ -146,35 +173,4 @@ function compareList(cartItems, products, supermarkets, loyaltyCards) {
     itemBreakdown,
     formatGBP,
   };
-}
-
-function buildSavingsMap(itemAssignments, supermarkets) {
-  const byStore = new Map();
-
-  for (const item of itemAssignments) {
-    if (!byStore.has(item.storeId)) {
-      byStore.set(item.storeId, []);
-    }
-    byStore.get(item.storeId).push(item);
-  }
-
-  return [...byStore.entries()]
-    .map(([storeId, items]) => {
-      const supermarket = supermarkets.find((s) => s.id === storeId);
-      const subtotal = items.reduce((sum, i) => sum + i.lineTotal, 0);
-      return {
-        storeId,
-        storeName: supermarket?.name ?? storeId,
-        color: supermarket?.color ?? '#666',
-        onlineGrocery: supermarket?.onlineGrocery ?? false,
-        items,
-        subtotal,
-        itemCount: items.reduce((sum, i) => sum + i.quantity, 0),
-      };
-    })
-    .sort((a, b) => b.subtotal - a.subtotal);
-}
-
-if (typeof window !== 'undefined') {
-  window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap };
 }

@@ -1,5 +1,62 @@
 /* Supermarket Dash — bundled app */
 /**
+ * Resolve asset paths for GitHub Pages project sites (e.g. /Supermarket-Dash/).
+ */
+
+function resolveBasePath(pathname) {
+  if (!pathname || pathname === '/') {
+    return '/';
+  }
+
+  if (pathname.endsWith('/')) {
+    return pathname;
+  }
+
+  const lastSegment = pathname.split('/').pop() ?? '';
+  if (lastSegment.includes('.')) {
+    return pathname.slice(0, pathname.lastIndexOf('/') + 1);
+  }
+
+  return `${pathname}/`;
+}
+
+function resolveAssetPath(relativePath, pathname = '/') {
+  const base = resolveBasePath(pathname);
+  const cleaned = relativePath.replace(/^\.\//, '');
+  if (base === '/') {
+    return `/${cleaned}`;
+  }
+  return `${base}${cleaned}`;
+}
+
+function readRuntimeBasePath() {
+  if (typeof window === 'undefined') {
+    return '/';
+  }
+  if (window.__APP_BASE__) {
+    return window.__APP_BASE__;
+  }
+  return resolveBasePath(window.location.pathname);
+}
+/**
+ * Product search/filter logic (shared by app + tests).
+ */
+
+function filterProducts(products, query, limit = 12) {
+  const q = query.trim().toLowerCase();
+  if (!q) {
+    return products.slice(0, limit);
+  }
+
+  return products.filter(
+    (product) =>
+      product.name.toLowerCase().includes(q) ||
+      product.category.toLowerCase().includes(q) ||
+      (product.searchTerms?.some((term) => term.toLowerCase().includes(q)) ?? false),
+  );
+}
+
+/**
  * Price comparison and multi-store savings optimizer.
  */
 
@@ -27,6 +84,33 @@ function getItemPrice(product, storeId, supermarkets, loyaltyCards) {
     standard: storePrice.standard,
     loyalty: storePrice.loyalty,
   };
+}
+
+function buildSavingsMap(itemAssignments, supermarkets) {
+  const byStore = new Map();
+
+  for (const item of itemAssignments) {
+    if (!byStore.has(item.storeId)) {
+      byStore.set(item.storeId, []);
+    }
+    byStore.get(item.storeId).push(item);
+  }
+
+  return [...byStore.entries()]
+    .map(([storeId, items]) => {
+      const supermarket = supermarkets.find((s) => s.id === storeId);
+      const subtotal = items.reduce((sum, i) => sum + i.lineTotal, 0);
+      return {
+        storeId,
+        storeName: supermarket?.name ?? storeId,
+        color: supermarket?.color ?? '#666',
+        onlineGrocery: supermarket?.onlineGrocery ?? false,
+        items,
+        subtotal,
+        itemCount: items.reduce((sum, i) => sum + i.quantity, 0),
+      };
+    })
+    .sort((a, b) => b.subtotal - a.subtotal);
 }
 
 function compareList(cartItems, products, supermarkets, loyaltyCards) {
@@ -149,40 +233,8 @@ function compareList(cartItems, products, supermarkets, loyaltyCards) {
   };
 }
 
-function buildSavingsMap(itemAssignments, supermarkets) {
-  const byStore = new Map();
-
-  for (const item of itemAssignments) {
-    if (!byStore.has(item.storeId)) {
-      byStore.set(item.storeId, []);
-    }
-    byStore.get(item.storeId).push(item);
-  }
-
-  return [...byStore.entries()]
-    .map(([storeId, items]) => {
-      const supermarket = supermarkets.find((s) => s.id === storeId);
-      const subtotal = items.reduce((sum, i) => sum + i.lineTotal, 0);
-      return {
-        storeId,
-        storeName: supermarket?.name ?? storeId,
-        color: supermarket?.color ?? '#666',
-        onlineGrocery: supermarket?.onlineGrocery ?? false,
-        items,
-        subtotal,
-        itemCount: items.reduce((sum, i) => sum + i.quantity, 0),
-      };
-    })
-    .sort((a, b) => b.subtotal - a.subtotal);
-}
-
-if (typeof window !== 'undefined') {
-  window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap };
-}
-
 /**
  * Basket helpers — copy lists and open supermarket search pages.
- * UK supermarkets do not expose public add-to-basket APIs for third parties.
  */
 
 function buildSearchUrl(supermarket, productName) {
@@ -222,9 +274,13 @@ function getBasketStrategy(supermarket) {
 }
 
 async function copyToClipboard(text) {
-  if (navigator.clipboard?.writeText) {
+  if (typeof navigator !== 'undefined' && navigator.clipboard?.writeText) {
     await navigator.clipboard.writeText(text);
     return true;
+  }
+
+  if (typeof document === 'undefined') {
+    return false;
   }
 
   const textarea = document.createElement('textarea');
@@ -239,7 +295,7 @@ async function copyToClipboard(text) {
 }
 
 function openStoreWithFirstItem(supermarket, items) {
-  if (!items.length) {
+  if (!items.length || typeof window === 'undefined') {
     return;
   }
   const url = buildSearchUrl(supermarket, items[0].name);
@@ -254,16 +310,18 @@ function getQuickSearchLinks(supermarket, items) {
   }));
 }
 
-if (typeof window !== 'undefined') {
-  window.SupermarketBasket = {
-    buildSearchUrl,
-    formatListForStore,
-    getBasketStrategy,
-    copyToClipboard,
-    openStoreWithFirstItem,
-    getQuickSearchLinks,
-  };
-}
+
+window.SupermarketPaths = { resolveBasePath, resolveAssetPath, readRuntimeBasePath };
+window.SupermarketSearch = { filterProducts };
+window.SupermarketCompare = { compareList, formatGBP, getItemPrice, buildSavingsMap, hasLoyaltyCard };
+window.SupermarketBasket = {
+  buildSearchUrl,
+  formatListForStore,
+  getBasketStrategy,
+  copyToClipboard,
+  openStoreWithFirstItem,
+  getQuickSearchLinks,
+};
 
 /**
  * Alpine.js application state and UI logic.
@@ -279,39 +337,57 @@ function supermarketDash() {
     searchQuery: '',
     toast: '',
     basketModal: null,
+    loadStatus: 'loading',
+    loadError: '',
 
     async init() {
-      const [productsRes, marketsRes] = await Promise.all([
-        fetch('data/products.json'),
-        fetch('data/supermarkets.json'),
-      ]);
+      this.loadStatus = 'loading';
+      this.loadError = '';
 
-      const productsData = await productsRes.json();
-      this.products = productsData.products ?? productsData;
-      this.meta = productsData.meta ?? {};
-      this.supermarkets = await marketsRes.json();
+      try {
+        const productsUrl = this.assetPath('data/products.json');
+        const marketsUrl = this.assetPath('data/supermarkets.json');
 
-      const saved = localStorage.getItem('supermarket-dash-cart');
-      const savedCards = localStorage.getItem('supermarket-dash-loyalty');
-      if (saved) {
-        this.cart = JSON.parse(saved);
-      }
-      if (savedCards) {
-        this.loyaltyCards = JSON.parse(savedCards);
+        const [productsRes, marketsRes] = await Promise.all([fetch(productsUrl), fetch(marketsUrl)]);
+
+        if (!productsRes.ok) {
+          throw new Error(`Failed to load products (${productsRes.status}) from ${productsUrl}`);
+        }
+        if (!marketsRes.ok) {
+          throw new Error(`Failed to load supermarkets (${marketsRes.status}) from ${marketsUrl}`);
+        }
+
+        const productsData = await productsRes.json();
+        this.products = productsData.products ?? productsData;
+        this.meta = productsData.meta ?? {};
+        this.supermarkets = await marketsRes.json();
+        this.loadStatus = 'ready';
+
+        const saved = localStorage.getItem('supermarket-dash-cart');
+        const savedCards = localStorage.getItem('supermarket-dash-loyalty');
+        if (saved) {
+          this.cart = JSON.parse(saved);
+        }
+        if (savedCards) {
+          this.loyaltyCards = JSON.parse(savedCards);
+        }
+      } catch (error) {
+        this.loadStatus = 'error';
+        this.loadError = error instanceof Error ? error.message : 'Failed to load product data';
+        console.error('Supermarket Dash init failed:', error);
       }
     },
 
+    assetPath(relativePath) {
+      return SupermarketPaths.readRuntimeBasePath().replace(/\/?$/, '/') + relativePath.replace(/^\.\//, '');
+    },
+
+    onSearchInput(event) {
+      this.searchQuery = event.target.value;
+    },
+
     get filteredProducts() {
-      const q = this.searchQuery.trim().toLowerCase();
-      if (!q) {
-        return this.products.slice(0, 12);
-      }
-      return this.products.filter(
-        (p) =>
-          p.name.toLowerCase().includes(q) ||
-          p.category.toLowerCase().includes(q) ||
-          p.searchTerms?.some((t) => t.includes(q)),
-      );
+      return SupermarketSearch.filterProducts(this.products, this.searchQuery);
     },
 
     get comparison() {
@@ -447,7 +523,7 @@ function supermarketDash() {
   };
 }
 
-if (typeof window !== 'undefined') {
-  window.supermarketDash = supermarketDash;
-}
+document.addEventListener('alpine:init', () => {
+  Alpine.data('supermarketDash', supermarketDash);
+});
 

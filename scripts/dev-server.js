@@ -2,6 +2,7 @@ import { createServer } from 'node:http';
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, join, extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { bundleForBrowser } from './bundle-lib.js';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -37,16 +38,11 @@ const server = createServer((req, res) => {
     filePath = join(ROOT, 'src', url.pathname);
   } else if (url.pathname.startsWith('/css/')) {
     filePath = join(ROOT, 'src', url.pathname);
+  } else if (url.pathname === '/js/app.js') {
+    res.writeHead(200, { 'Content-Type': 'application/javascript' });
+    res.end(bundleForBrowser());
+    return;
   } else if (url.pathname.startsWith('/js/')) {
-    const jsFile = url.pathname.replace('/js/', '');
-    if (jsFile === 'app.js') {
-      const compare = readFileSync(join(ROOT, 'src/js/compare.js'), 'utf8');
-      const basket = readFileSync(join(ROOT, 'src/js/basket.js'), 'utf8');
-      const app = readFileSync(join(ROOT, 'src/js/app.js'), 'utf8');
-      res.writeHead(200, { 'Content-Type': 'application/javascript' });
-      res.end(`${compare}\n${basket}\n${app}`);
-      return;
-    }
     filePath = join(ROOT, 'src', url.pathname);
   } else {
     res.writeHead(404);

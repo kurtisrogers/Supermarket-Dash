@@ -264,7 +264,12 @@ dialog.basket-guide {
   max-width: 600px;
 }
 
-.empty-state {
+.search-status {
+  font-size: 0.9rem;
+  color: var(--pico-muted-color);
+  margin-top: 0.5rem;
+}
+
   text-align: center;
   padding: 2rem;
   color: var(--pico-muted-color);

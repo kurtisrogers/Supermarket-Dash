@@ -41,6 +41,9 @@ npm run dev
 # Preview production build
 npm run preview
 # → http://localhost:4173
+
+# Run tests
+npm test
 ```
 
 ## Daily price updates

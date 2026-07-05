@@ -7,7 +7,8 @@
     "update-prices": "node scripts/update-prices.js",
     "build": "node scripts/build.js",
     "dev": "node scripts/dev-server.js",
-    "preview": "npx serve docs -l 4173"
+    "preview": "npx serve docs -l 4173",
+    "test": "node --test test/*.test.js"
   },
   "keywords": [
     "uk",
