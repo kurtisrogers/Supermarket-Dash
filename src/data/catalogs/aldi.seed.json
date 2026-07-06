@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "aldi",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-05T14:43:36.591Z",
-    "productCount": 2963,
+    "lastUpdated": "2026-07-06T10:18:14.929Z",
+    "productCount": 2965,
     "fetchMethod": "spider-aldi",
     "pages": 80
   },
@@ -20692,6 +20692,27 @@
       }
     },
     {
+      "id": "aldi-000000000000335791",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Diet Lemonade",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "diet lemonade",
+        "000000000000335791",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000335791",
+      "price": {
+        "standard": 0.39,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000335943001",
       "productGroup": null,
       "storeId": "aldi",
@@ -36333,6 +36354,27 @@
       "sku": "000000000405054004",
       "price": {
         "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000637877",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mini Snack Raisins 12 Pack",
+      "brand": "THE FOODIE MARKET",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mini snack raisins 12 pack",
+        "000000000000637877",
+        "the foodie market"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000637877",
+      "price": {
+        "standard": 0.89,
         "loyalty": null
       }
     },
