@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-06T10:20:54.515Z",
-    "productCount": 437,
+    "lastUpdated": "2026-07-07T09:56:06.400Z",
+    "productCount": 445,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -432,6 +432,26 @@
       "sku": "10050509",
       "price": {
         "standard": 13.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050175",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Azur Touch Wine – 2024",
+      "brand": "Azur",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "azur touch wine – 2024",
+        "10050175"
+      ],
+      "ownLabel": false,
+      "sku": "10050175",
+      "price": {
+        "standard": 6.99,
         "loyalty": null
       }
     },
@@ -1292,6 +1312,26 @@
       }
     },
     {
+      "id": "lidl-10050179",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Camille Meyer Gewurztraminer Vieilles Vignes Wine – 2024",
+      "brand": "Camille",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "camille meyer gewurztraminer vieilles vignes wine – 2024",
+        "10050179"
+      ],
+      "ownLabel": false,
+      "sku": "10050179",
+      "price": {
+        "standard": 8.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050578",
       "productGroup": null,
       "storeId": "lidl",
@@ -1371,6 +1411,26 @@
       "sku": "10050880",
       "price": {
         "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050171",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Château Lauriaque, South-West Wine – 2024",
+      "brand": "Château",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "château lauriaque, south-west wine – 2024",
+        "10050171"
+      ],
+      "ownLabel": false,
+      "sku": "10050171",
+      "price": {
+        "standard": 7.49,
         "loyalty": null
       }
     },
@@ -1457,6 +1517,26 @@
       }
     },
     {
+      "id": "lidl-10050180",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Confidence de Gascogne Wine – 2024",
+      "brand": "Confidence",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "confidence de gascogne wine – 2024",
+        "10050180"
+      ],
+      "ownLabel": false,
+      "sku": "10050180",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050617",
       "productGroup": null,
       "storeId": "lidl",
@@ -1535,6 +1615,26 @@
       "sku": "10050797",
       "price": {
         "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050183",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Cuvée de Brieu Sauvignon Pays d’Oc Wine – 2024",
+      "brand": "Cuvée",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "cuvée de brieu sauvignon pays d’oc wine – 2024",
+        "10050183"
+      ],
+      "ownLabel": false,
+      "sku": "10050183",
+      "price": {
+        "standard": 7.99,
         "loyalty": null
       }
     },
@@ -2664,27 +2764,6 @@
       }
     },
     {
-      "id": "lidl-10050089",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ESMARA Ladies’ Black Cotton Cropped Leggings",
-      "brand": "ESMARA",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "esmara ladies’ black cotton cropped leggings",
-        "10050089",
-        "esmara"
-      ],
-      "ownLabel": false,
-      "sku": "10050089",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050091",
       "productGroup": null,
       "storeId": "lidl",
@@ -2700,27 +2779,6 @@
       ],
       "ownLabel": false,
       "sku": "10050091",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050088",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ESMARA Ladies’ Grey Cotton Cropped Leggings",
-      "brand": "ESMARA",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "esmara ladies’ grey cotton cropped leggings",
-        "10050088",
-        "esmara"
-      ],
-      "ownLabel": false,
-      "sku": "10050088",
       "price": {
         "standard": 2.99,
         "loyalty": null
@@ -3033,26 +3091,6 @@
       "sku": "10050608",
       "price": {
         "standard": 0.79,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050577",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Garden Hydrangea",
-      "brand": "Garden",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "garden hydrangea",
-        "10050577"
-      ],
-      "ownLabel": false,
-      "sku": "10050577",
-      "price": {
-        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -3540,6 +3578,26 @@
       }
     },
     {
+      "id": "lidl-10050182",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Grand Hêtre Vin de France Wine – 2024",
+      "brand": "Grand",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "grand hêtre vin de france wine – 2024",
+        "10050182"
+      ],
+      "ownLabel": false,
+      "sku": "10050182",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10043493",
       "productGroup": null,
       "storeId": "lidl",
@@ -3556,6 +3614,26 @@
       "sku": "10043493",
       "price": {
         "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050174",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Hacienda Uvanis Garnacha, Navarra Wine – 2025",
+      "brand": "Hacienda",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "hacienda uvanis garnacha, navarra wine – 2025",
+        "10050174"
+      ],
+      "ownLabel": false,
+      "sku": "10050174",
+      "price": {
+        "standard": 7.99,
         "loyalty": null
       }
     },
@@ -5576,6 +5654,26 @@
       }
     },
     {
+      "id": "lidl-10050173",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Orange Sunset Wine – 2025",
+      "brand": "Orange",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "orange sunset wine – 2025",
+        "10050173"
+      ],
+      "ownLabel": false,
+      "sku": "10050173",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050033",
       "productGroup": null,
       "storeId": "lidl",
@@ -6446,6 +6544,26 @@
       "sku": "10050019",
       "price": {
         "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050181",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Séguret Côtes du Rhône Wine – 2025",
+      "brand": "Séguret",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "séguret côtes du rhône wine – 2025",
+        "10050181"
+      ],
+      "ownLabel": false,
+      "sku": "10050181",
+      "price": {
+        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -7592,6 +7710,26 @@
       }
     },
     {
+      "id": "lidl-10050177",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Terres du Midi Les Terrasses Wine – 2024",
+      "brand": "Terres",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "terres du midi les terrasses wine – 2024",
+        "10050177"
+      ],
+      "ownLabel": false,
+      "sku": "10050177",
+      "price": {
+        "standard": 7.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050796",
       "productGroup": null,
       "storeId": "lidl",
@@ -7609,6 +7747,26 @@
       "sku": "10050796",
       "price": {
         "standard": 49.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050172",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Torre de Ferro Reserva Dão Wine – 2022",
+      "brand": "Torre",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "torre de ferro reserva dão wine – 2022",
+        "10050172"
+      ],
+      "ownLabel": false,
+      "sku": "10050172",
+      "price": {
+        "standard": 7.99,
         "loyalty": null
       }
     },

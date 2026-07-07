@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "aldi",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-06T10:18:14.929Z",
-    "productCount": 2965,
+    "lastUpdated": "2026-07-07T09:53:26.746Z",
+    "productCount": 2967,
     "fetchMethod": "spider-aldi",
     "pages": 80
   },
@@ -1663,7 +1663,7 @@
       "ownLabel": false,
       "sku": "000000000666453003",
       "price": {
-        "standard": 1.29,
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -10714,27 +10714,6 @@
       "sku": "000000000563636001",
       "price": {
         "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000733507",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Caribbean Jerk Thigh Sizzlers",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "caribbean jerk thigh sizzlers",
-        "000000000000733507",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000733507",
-      "price": {
-        "standard": 4.49,
         "loyalty": null
       }
     },
@@ -38243,7 +38222,7 @@
       "ownLabel": false,
       "sku": "000000000666453001",
       "price": {
-        "standard": 1.29,
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -38684,7 +38663,7 @@
       "ownLabel": false,
       "sku": "000000000742367001",
       "price": {
-        "standard": 1.99,
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -40386,6 +40365,27 @@
       "sku": "000000000336961001",
       "price": {
         "standard": 4.75,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000596280",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Orzo Pasta",
+      "brand": "CUCINA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "orzo pasta",
+        "000000000000596280",
+        "cucina"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000596280",
+      "price": {
+        "standard": 0.85,
         "loyalty": null
       }
     },
@@ -51765,7 +51765,7 @@
       "ownLabel": false,
       "sku": "000000000742367002",
       "price": {
-        "standard": 1.99,
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -56679,7 +56679,7 @@
       "ownLabel": false,
       "sku": "000000000666453002",
       "price": {
-        "standard": 1.29,
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -59288,6 +59288,27 @@
       }
     },
     {
+      "id": "aldi-000000000297828011",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Vanilla Cherry Ice Cream 4 Pack",
+      "brand": "GIANNI'S",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Frozen Food",
+      "searchTerms": [
+        "vanilla cherry ice cream 4 pack",
+        "000000000297828011",
+        "gianni's"
+      ],
+      "ownLabel": false,
+      "sku": "000000000297828011",
+      "price": {
+        "standard": 1.59,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000401646003",
       "productGroup": null,
       "storeId": "aldi",
@@ -60859,6 +60880,27 @@
       "sku": "000000000710083002",
       "price": {
         "standard": 2.69,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000297828006",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "White Cholocate & Mango Ice Cream 4 Pack",
+      "brand": "GIANNI'S",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Frozen Food",
+      "searchTerms": [
+        "white cholocate & mango ice cream 4 pack",
+        "000000000297828006",
+        "gianni's"
+      ],
+      "ownLabel": false,
+      "sku": "000000000297828006",
+      "price": {
+        "standard": 1.59,
         "loyalty": null
       }
     },
