@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-07T09:56:06.400Z",
-    "productCount": 445,
+    "lastUpdated": "2026-07-08T08:35:15.406Z",
+    "productCount": 446,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -105,26 +105,6 @@
       "sku": "10050945",
       "price": {
         "standard": 7.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050908",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Air Purifying Plant",
-      "brand": "Air",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "air purifying plant",
-        "10050908"
-      ],
-      "ownLabel": false,
-      "sku": "10050908",
-      "price": {
-        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -2764,6 +2744,27 @@
       }
     },
     {
+      "id": "lidl-10050089",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA Ladies’ Black Cotton Cropped Leggings",
+      "brand": "ESMARA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara ladies’ black cotton cropped leggings",
+        "10050089",
+        "esmara"
+      ],
+      "ownLabel": false,
+      "sku": "10050089",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050091",
       "productGroup": null,
       "storeId": "lidl",
@@ -2779,6 +2780,27 @@
       ],
       "ownLabel": false,
       "sku": "10050091",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050088",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA Ladies’ Grey Cotton Cropped Leggings",
+      "brand": "ESMARA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara ladies’ grey cotton cropped leggings",
+        "10050088",
+        "esmara"
+      ],
+      "ownLabel": false,
+      "sku": "10050088",
       "price": {
         "standard": 2.99,
         "loyalty": null
@@ -3091,6 +3113,26 @@
       "sku": "10050608",
       "price": {
         "standard": 0.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050577",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Garden Hydrangea",
+      "brand": "Garden",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "garden hydrangea",
+        "10050577"
+      ],
+      "ownLabel": false,
+      "sku": "10050577",
+      "price": {
+        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -6279,27 +6321,6 @@
       "sku": "10050080",
       "price": {
         "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050683",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Spike Lawn Sprinkler",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside spike lawn sprinkler",
-        "10050683",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050683",
-      "price": {
-        "standard": 2.99,
         "loyalty": null
       }
     },
