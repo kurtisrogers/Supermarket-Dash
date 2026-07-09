@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "aldi",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-08T08:32:31.876Z",
-    "productCount": 2957,
+    "lastUpdated": "2026-07-09T09:39:04.704Z",
+    "productCount": 2983,
     "fetchMethod": "spider-aldi",
     "pages": 80
   },
@@ -870,6 +870,27 @@
       }
     },
     {
+      "id": "aldi-000000000000680449",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "12 Richmond Thick Pork Sausages",
+      "brand": "RICHMOND",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "12 richmond thick pork sausages",
+        "000000000000680449",
+        "richmond"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000680449",
+      "price": {
+        "standard": 1.59,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000335774003",
       "productGroup": null,
       "storeId": "aldi",
@@ -1206,6 +1227,27 @@
       }
     },
     {
+      "id": "aldi-000000000000693450",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "AA Thick Cut Sirloin",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "aa thick cut sirloin",
+        "000000000000693450",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000693450",
+      "price": {
+        "standard": 10.29,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000597317001",
       "productGroup": null,
       "storeId": "aldi",
@@ -1349,6 +1391,27 @@
       "sku": "000000000422448004",
       "price": {
         "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000455224003",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Airwaves Menthol & Eucalyptus Sugarfree Chewing Gum",
+      "brand": "WRIGLEY'S",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "airwaves menthol & eucalyptus sugarfree chewing gum",
+        "000000000455224003",
+        "wrigley's"
+      ],
+      "ownLabel": false,
+      "sku": "000000000455224003",
+      "price": {
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -1874,27 +1937,6 @@
       "sku": "000000000599832001",
       "price": {
         "standard": 1.75,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000297986002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Apple & Raisin Crispy Fruit Slices 5x3 Pack",
-      "brand": "HARVEST MORN",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "apple & raisin crispy fruit slices 5x3 pack",
-        "000000000297986002",
-        "harvest morn"
-      ],
-      "ownLabel": false,
-      "sku": "000000000297986002",
-      "price": {
-        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -2482,7 +2524,7 @@
       "ownLabel": true,
       "sku": "000000000000339754",
       "price": {
-        "standard": 1.15,
+        "standard": 1.09,
         "loyalty": null
       }
     },
@@ -2503,7 +2545,7 @@
       "ownLabel": true,
       "sku": "000000000000273691",
       "price": {
-        "standard": 0.95,
+        "standard": 0.89,
         "loyalty": null
       }
     },
@@ -3344,6 +3386,27 @@
       "sku": "000000000367187004",
       "price": {
         "standard": 2.19,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000621601002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Barbacoa Beef Flavour Tortilla Chips",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "barbacoa beef flavour tortilla chips",
+        "000000000621601002",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000621601002",
+      "price": {
+        "standard": 0.95,
         "loyalty": null
       }
     },
@@ -5321,27 +5384,6 @@
       }
     },
     {
-      "id": "aldi-000000000000547970",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Blueberries",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "blueberries",
-        "000000000000547970",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000547970",
-      "price": {
-        "standard": 2.55,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000000633727",
       "productGroup": null,
       "storeId": "aldi",
@@ -5632,6 +5674,27 @@
       "sku": "000000000000388008",
       "price": {
         "standard": 3.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000716915",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Boneless Salmon Fillet Joint",
+      "brand": "THE FISHMONGER",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "boneless salmon fillet joint",
+        "000000000000716915",
+        "the fishmonger"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000716915",
+      "price": {
+        "standard": 7.79,
         "loyalty": null
       }
     },
@@ -6933,7 +6996,7 @@
       "ownLabel": true,
       "sku": "000000000000339800",
       "price": {
-        "standard": 0.99,
+        "standard": 0.95,
         "loyalty": null
       }
     },
@@ -9227,27 +9290,6 @@
       }
     },
     {
-      "id": "aldi-000000000000400410",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "British Wafer Thin Roast Chicken Family Pack 36 Slices",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "british wafer thin roast chicken family pack 36 slices",
-        "000000000000400410",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000400410",
-      "price": {
-        "standard": 2.19,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000402186002",
       "productGroup": null,
       "storeId": "aldi",
@@ -9558,7 +9600,7 @@
       "ownLabel": true,
       "sku": "000000000000339777",
       "price": {
-        "standard": 0.99,
+        "standard": 0.95,
         "loyalty": null
       }
     },
@@ -10722,14 +10764,14 @@
       "productGroup": null,
       "storeId": "aldi",
       "name": "Carolina Reaper Rice",
-      "brand": "WORLDWIDE FOODS",
+      "brand": "TASTE OF AMERICA",
       "storeLabel": null,
       "barcode": null,
       "category": "Food Cupboard",
       "searchTerms": [
         "carolina reaper rice",
         "000000000702799003",
-        "worldwide foods"
+        "taste of america"
       ],
       "ownLabel": false,
       "sku": "000000000702799003",
@@ -15569,6 +15611,27 @@
       }
     },
     {
+      "id": "aldi-000000000000543221",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Chocolate Milk",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Chilled Food",
+      "searchTerms": [
+        "chocolate milk",
+        "000000000000543221",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000543221",
+      "price": {
+        "standard": 0.95,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000542181001",
       "productGroup": null,
       "storeId": "aldi",
@@ -15901,6 +15964,48 @@
       "sku": "000000000456133001",
       "price": {
         "standard": 1.45,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000723064002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Cholula Chipotle Sauce",
+      "brand": "CHOLULA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Grocery",
+      "searchTerms": [
+        "cholula chipotle sauce",
+        "000000000723064002",
+        "cholula"
+      ],
+      "ownLabel": false,
+      "sku": "000000000723064002",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000723064001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Cholula Sauce Original Hot Sauce",
+      "brand": "CHOLULA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Grocery",
+      "searchTerms": [
+        "cholula sauce original hot sauce",
+        "000000000723064001",
+        "cholula"
+      ],
+      "ownLabel": false,
+      "sku": "000000000723064001",
+      "price": {
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -20398,6 +20503,27 @@
       }
     },
     {
+      "id": "aldi-000000000000738690",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Desperados 12 Pack",
+      "brand": "DESPERADOS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Grocery",
+      "searchTerms": [
+        "desperados 12 pack",
+        "000000000000738690",
+        "desperados"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000738690",
+      "price": {
+        "standard": 12.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000336795001",
       "productGroup": null,
       "storeId": "aldi",
@@ -20906,14 +21032,14 @@
       "productGroup": null,
       "storeId": "aldi",
       "name": "Dirty Cajun Rice",
-      "brand": "WORLDWIDE FOODS",
+      "brand": "TASTE OF AMERICA",
       "storeLabel": null,
       "barcode": null,
       "category": "Food Cupboard",
       "searchTerms": [
         "dirty cajun rice",
         "000000000702799002",
-        "worldwide foods"
+        "taste of america"
       ],
       "ownLabel": false,
       "sku": "000000000702799002",
@@ -22057,6 +22183,27 @@
       }
     },
     {
+      "id": "aldi-000000000336816007",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Esquites Rice",
+      "brand": "WORLDWIDE FOODS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "esquites rice",
+        "000000000336816007",
+        "worldwide foods"
+      ],
+      "ownLabel": false,
+      "sku": "000000000336816007",
+      "price": {
+        "standard": 0.75,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000335591",
       "productGroup": null,
       "storeId": "aldi",
@@ -22603,6 +22750,48 @@
       }
     },
     {
+      "id": "aldi-000000000455224001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Extra White Chewing Gum",
+      "brand": "WRIGLEY'S",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "extra white chewing gum",
+        "000000000455224001",
+        "wrigley's"
+      ],
+      "ownLabel": false,
+      "sku": "000000000455224001",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000336816004",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Fajita Burrito Style Rice",
+      "brand": "WORLDWIDE FOODS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "fajita burrito style rice",
+        "000000000336816004",
+        "worldwide foods"
+      ],
+      "ownLabel": false,
+      "sku": "000000000336816004",
+      "price": {
+        "standard": 0.75,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000719150004",
       "productGroup": null,
       "storeId": "aldi",
@@ -22808,7 +22997,7 @@
       "ownLabel": false,
       "sku": "000000000417006002",
       "price": {
-        "standard": 0.89,
+        "standard": 0.79,
         "loyalty": null
       }
     },
@@ -22829,7 +23018,7 @@
       "ownLabel": false,
       "sku": "000000000417006003",
       "price": {
-        "standard": 0.89,
+        "standard": 0.79,
         "loyalty": null
       }
     },
@@ -23523,27 +23712,6 @@
       "sku": "000000000405572004",
       "price": {
         "standard": 0.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000297986001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Forest Fruit Crispy Fruit Slices 5x3 Pack",
-      "brand": "HARVEST MORN",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "forest fruit crispy fruit slices 5x3 pack",
-        "000000000297986001",
-        "harvest morn"
-      ],
-      "ownLabel": false,
-      "sku": "000000000297986001",
-      "price": {
-        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -25963,6 +26131,27 @@
       }
     },
     {
+      "id": "aldi-000000000721613001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Ginger Mini Loaf Cakes",
+      "brand": "VILLAGE BAKERY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "ginger mini loaf cakes",
+        "000000000721613001",
+        "village bakery"
+      ],
+      "ownLabel": false,
+      "sku": "000000000721613001",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000382265",
       "productGroup": null,
       "storeId": "aldi",
@@ -26698,6 +26887,27 @@
       }
     },
     {
+      "id": "aldi-000000000000339847",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Green Beans",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "green beans",
+        "000000000000339847",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000339847",
+      "price": {
+        "standard": 0.85,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000718275001",
       "productGroup": null,
       "storeId": "aldi",
@@ -26736,6 +26946,48 @@
       "sku": "000000000594801002",
       "price": {
         "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000621601004",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Green Jalapeno Mexican Tortillas",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "green jalapeno mexican tortillas",
+        "000000000621601004",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000621601004",
+      "price": {
+        "standard": 0.95,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000607834001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Green sliced Jalapenos",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "green sliced jalapenos",
+        "000000000607834001",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000607834001",
+      "price": {
+        "standard": 0.69,
         "loyalty": null
       }
     },
@@ -27286,6 +27538,48 @@
       }
     },
     {
+      "id": "aldi-000000000578792004",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Handcooked Crinkle Crisps",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "handcooked crinkle crisps",
+        "000000000578792004",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000578792004",
+      "price": {
+        "standard": 1.15,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000578792005",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Handcooked Crinkle Crisps",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "handcooked crinkle crisps",
+        "000000000578792005",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000578792005",
+      "price": {
+        "standard": 1.15,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000422367002",
       "productGroup": null,
       "storeId": "aldi",
@@ -27366,6 +27660,27 @@
       "sku": "000000000000270164",
       "price": {
         "standard": 1.75,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000746948",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Hat-Trick Wing Box",
+      "brand": "WINNERS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "hat-trick wing box",
+        "000000000000746948",
+        "winners"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000746948",
+      "price": {
+        "standard": 5.49,
         "loyalty": null
       }
     },
@@ -28546,6 +28861,27 @@
       }
     },
     {
+      "id": "aldi-000000000336816005",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Hot Wings",
+      "brand": "WORLDWIDE FOODS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "hot wings",
+        "000000000336816005",
+        "worldwide foods"
+      ],
+      "ownLabel": false,
+      "sku": "000000000336816005",
+      "price": {
+        "standard": 0.75,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000403915001",
       "productGroup": null,
       "storeId": "aldi",
@@ -29235,27 +29571,6 @@
       "sku": "000000000000486917",
       "price": {
         "standard": 0.69,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000711943001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Italian Pork Meatballs",
-      "brand": "EAT & GO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Chilled Food",
-      "searchTerms": [
-        "italian pork meatballs",
-        "000000000711943001",
-        "eat & go"
-      ],
-      "ownLabel": false,
-      "sku": "000000000711943001",
-      "price": {
-        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -31255,6 +31570,27 @@
       }
     },
     {
+      "id": "aldi-000000000721613002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Lemon Mini Loaf Cakes",
+      "brand": "VILLAGE BAKERY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "lemon mini loaf cakes",
+        "000000000721613002",
+        "village bakery"
+      ],
+      "ownLabel": false,
+      "sku": "000000000721613002",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000405576004",
       "productGroup": null,
       "storeId": "aldi",
@@ -32456,14 +32792,14 @@
       "productGroup": null,
       "storeId": "aldi",
       "name": "Louisiana Hot Wings Rice",
-      "brand": "WORLDWIDE FOODS",
+      "brand": "TASTE OF AMERICA",
       "storeLabel": null,
       "barcode": null,
       "category": "Food Cupboard",
       "searchTerms": [
         "louisiana hot wings rice",
         "000000000702799001",
-        "worldwide foods"
+        "taste of america"
       ],
       "ownLabel": false,
       "sku": "000000000702799001",
@@ -32531,7 +32867,7 @@
       "ownLabel": false,
       "sku": "000000000416848001",
       "price": {
-        "standard": 0.89,
+        "standard": 0.79,
         "loyalty": null
       }
     },
@@ -32573,7 +32909,7 @@
       "ownLabel": false,
       "sku": "000000000416848003",
       "price": {
-        "standard": 0.89,
+        "standard": 0.79,
         "loyalty": null
       }
     },
@@ -34720,6 +35056,48 @@
       }
     },
     {
+      "id": "aldi-000000000707281001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mex Stackz Chilli & Lime",
+      "brand": "SNACKRITE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mex stackz chilli & lime",
+        "000000000707281001",
+        "snackrite"
+      ],
+      "ownLabel": false,
+      "sku": "000000000707281001",
+      "price": {
+        "standard": 1.29,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000707281002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mex Stackz Paprika",
+      "brand": "SNACKRITE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mex stackz paprika",
+        "000000000707281002",
+        "snackrite"
+      ],
+      "ownLabel": false,
+      "sku": "000000000707281002",
+      "price": {
+        "standard": 1.29,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000479044004",
       "productGroup": null,
       "storeId": "aldi",
@@ -34737,6 +35115,111 @@
       "sku": "000000000479044004",
       "price": {
         "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000724073002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mexican Recipe mixes Paprika & Garli",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mexican recipe mixes paprika & garli",
+        "000000000724073002",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000724073002",
+      "price": {
+        "standard": 0.59,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000724073003",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mexican Recipe mixes Smoky BBQ",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mexican recipe mixes smoky bbq",
+        "000000000724073003",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000724073003",
+      "price": {
+        "standard": 0.59,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000724073004",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mexican Recipe mixes Spicy Fajita",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mexican recipe mixes spicy fajita",
+        "000000000724073004",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000724073004",
+      "price": {
+        "standard": 0.59,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000724073001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mexican Recipe mixes Tinga",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mexican recipe mixes tinga",
+        "000000000724073001",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000724073001",
+      "price": {
+        "standard": 0.59,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000724287001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mexican Style Chilli Bean Soup",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "mexican style chilli bean soup",
+        "000000000724287001",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000724287001",
+      "price": {
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -38059,6 +38542,27 @@
       }
     },
     {
+      "id": "aldi-000000000000622260",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "New York Style Burgers",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "new york style burgers",
+        "000000000000622260",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000622260",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000666453001",
       "productGroup": null,
       "storeId": "aldi",
@@ -41125,27 +41629,6 @@
       }
     },
     {
-      "id": "aldi-000000000000308638",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Penne Pasta 500g",
-      "brand": "CUCINA",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "penne pasta 500g",
-        "000000000000308638",
-        "cucina"
-      ],
-      "ownLabel": false,
-      "sku": "000000000000308638",
-      "price": {
-        "standard": 0.69,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000000400291",
       "productGroup": null,
       "storeId": "aldi",
@@ -42022,7 +42505,7 @@
       "ownLabel": true,
       "sku": "000000000000556782",
       "price": {
-        "standard": 1.39,
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -45407,6 +45890,27 @@
       }
     },
     {
+      "id": "aldi-000000000607834002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Red Jalapenos",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "red jalapenos",
+        "000000000607834002",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000607834002",
+      "price": {
+        "standard": 0.69,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000623466",
       "productGroup": null,
       "storeId": "aldi",
@@ -45869,6 +46373,27 @@
       }
     },
     {
+      "id": "aldi-000000000000620653",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Refried Beans",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "refried beans",
+        "000000000000620653",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000620653",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000339960",
       "productGroup": null,
       "storeId": "aldi",
@@ -46179,7 +46704,7 @@
       "ownLabel": true,
       "sku": "000000000000264490",
       "price": {
-        "standard": 1.65,
+        "standard": 1.75,
         "loyalty": null
       }
     },
@@ -46306,27 +46831,6 @@
       "sku": "000000000000458599",
       "price": {
         "standard": 2.29,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000711943002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Roast Chicken Meatballs",
-      "brand": "EAT & GO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Chilled Food",
-      "searchTerms": [
-        "roast chicken meatballs",
-        "000000000711943002",
-        "eat & go"
-      ],
-      "ownLabel": false,
-      "sku": "000000000711943002",
-      "price": {
-        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -46957,6 +47461,27 @@
       "sku": "000000000000525815",
       "price": {
         "standard": 2.85,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000383169002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Salmon, Spinach & Lemon Fishcakes 2 Pack",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "salmon, spinach & lemon fishcakes 2 pack",
+        "000000000383169002",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000383169002",
+      "price": {
+        "standard": 2.29,
         "loyalty": null
       }
     },
@@ -51077,27 +51602,6 @@
       }
     },
     {
-      "id": "aldi-000000000711943003",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Southern Fried Meatballs",
-      "brand": "EAT & GO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Chilled Food",
-      "searchTerms": [
-        "southern fried meatballs",
-        "000000000711943003",
-        "eat & go"
-      ],
-      "ownLabel": false,
-      "sku": "000000000711943003",
-      "price": {
-        "standard": 1.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000371556002",
       "productGroup": null,
       "storeId": "aldi",
@@ -52983,7 +53487,7 @@
       "ownLabel": true,
       "sku": "000000000000339980",
       "price": {
-        "standard": 1.99,
+        "standard": 1.79,
         "loyalty": null
       }
     },
@@ -59414,27 +59918,6 @@
       }
     },
     {
-      "id": "aldi-000000000000561764",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Variety Crisps Multipack 12 Pack",
-      "brand": "WALKERS",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "variety crisps multipack 12 pack",
-        "000000000000561764",
-        "walkers"
-      ],
-      "ownLabel": false,
-      "sku": "000000000000561764",
-      "price": {
-        "standard": 3.19,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000521258001",
       "productGroup": null,
       "storeId": "aldi",
@@ -59913,7 +60396,7 @@
       "ownLabel": true,
       "sku": "000000000000275557",
       "price": {
-        "standard": 0.95,
+        "standard": 1.19,
         "loyalty": null
       }
     },
@@ -61530,7 +62013,7 @@
       "ownLabel": true,
       "sku": "000000000000275381",
       "price": {
-        "standard": 1.69,
+        "standard": 1.59,
         "loyalty": null
       }
     },
@@ -61640,6 +62123,27 @@
       }
     },
     {
+      "id": "aldi-000000000725326001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "XL Burrito Wrap",
+      "brand": "FIESTA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "xl burrito wrap",
+        "000000000725326001",
+        "fiesta"
+      ],
+      "ownLabel": false,
+      "sku": "000000000725326001",
+      "price": {
+        "standard": 1.29,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000271437",
       "productGroup": null,
       "storeId": "aldi",
@@ -61724,6 +62228,27 @@
       }
     },
     {
+      "id": "aldi-000000000000387218",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "XXL Pork Loin Medallions",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "xxl pork loin medallions",
+        "000000000000387218",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000387218",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000488015",
       "productGroup": null,
       "storeId": "aldi",
@@ -61783,6 +62308,27 @@
       "sku": "000000000000543942",
       "price": {
         "standard": 14.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000753579",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "XXL Smash Burgers",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "xxl smash burgers",
+        "000000000000753579",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000753579",
+      "price": {
+        "standard": 6.49,
         "loyalty": null
       }
     },

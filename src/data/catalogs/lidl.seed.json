@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-08T08:35:15.406Z",
-    "productCount": 446,
+    "lastUpdated": "2026-07-09T09:41:47.696Z",
+    "productCount": 506,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -29,6 +29,26 @@
       }
     },
     {
+      "id": "lidl-10051531",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "2 British Beef Sirloin Steaks With Garlic & Herb",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "2 british beef sirloin steaks with garlic & herb",
+        "10051531"
+      ],
+      "ownLabel": true,
+      "sku": "10051531",
+      "price": {
+        "standard": 11.95,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050941",
       "productGroup": null,
       "storeId": "lidl",
@@ -45,6 +65,27 @@
       "sku": "10050941",
       "price": {
         "standard": 3.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051102",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "3M Masking Tape - 3 Pack",
+      "brand": "3M",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "3m masking tape - 3 pack",
+        "10051102",
+        "3m"
+      ],
+      "ownLabel": false,
+      "sku": "10051102",
+      "price": {
+        "standard": 2.99,
         "loyalty": null
       }
     },
@@ -69,6 +110,26 @@
       }
     },
     {
+      "id": "lidl-10051532",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "4 British Beef Sirloin Steaks",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "4 british beef sirloin steaks",
+        "10051532"
+      ],
+      "ownLabel": true,
+      "sku": "10051532",
+      "price": {
+        "standard": 17.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050943",
       "productGroup": null,
       "storeId": "lidl",
@@ -89,6 +150,26 @@
       }
     },
     {
+      "id": "lidl-10051530",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "8 Greek Style Lamb Kebabs",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "8 greek style lamb kebabs",
+        "10051530"
+      ],
+      "ownLabel": true,
+      "sku": "10051530",
+      "price": {
+        "standard": 4.59,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050945",
       "productGroup": null,
       "storeId": "lidl",
@@ -105,6 +186,46 @@
       "sku": "10050945",
       "price": {
         "standard": 7.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051311",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "A Cottage in the Country Book",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "a cottage in the country book",
+        "10051311"
+      ],
+      "ownLabel": true,
+      "sku": "10051311",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051313",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "A Particularly Nasty Case Book",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "a particularly nasty case book",
+        "10051313"
+      ],
+      "ownLabel": true,
+      "sku": "10051313",
+      "price": {
+        "standard": 5.99,
         "loyalty": null
       }
     },
@@ -791,27 +912,6 @@
       }
     },
     {
-      "id": "lidl-10050127",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "BIC Orange Mega Lighter",
-      "brand": "BIC",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "bic orange mega lighter",
-        "10050127",
-        "bic"
-      ],
-      "ownLabel": false,
-      "sku": "10050127",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10045815",
       "productGroup": null,
       "storeId": "lidl",
@@ -1232,46 +1332,6 @@
       }
     },
     {
-      "id": "lidl-10050901",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Bottle Terrarium",
-      "brand": "Bottle",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "bottle terrarium",
-        "10050901"
-      ],
-      "ownLabel": false,
-      "sku": "10050901",
-      "price": {
-        "standard": 14.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050610",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "British Little Gem Lettuce",
-      "brand": "British",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "british little gem lettuce",
-        "10050610"
-      ],
-      "ownLabel": false,
-      "sku": "10050610",
-      "price": {
-        "standard": 0.49,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050938",
       "productGroup": null,
       "storeId": "lidl",
@@ -1288,6 +1348,26 @@
       "sku": "10050938",
       "price": {
         "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051526",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Brown Onions",
+      "brand": "Brown",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "brown onions",
+        "10051526"
+      ],
+      "ownLabel": false,
+      "sku": "10051526",
+      "price": {
+        "standard": 0.69,
         "loyalty": null
       }
     },
@@ -1312,22 +1392,23 @@
       }
     },
     {
-      "id": "lidl-10050578",
+      "id": "lidl-10051161",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "Campanula",
-      "brand": "Campanula",
+      "name": "CAPRICE PAPADOPOULOS Wafer Rolls Classic",
+      "brand": "CAPRICE PAPADOPOULOS",
       "storeLabel": null,
       "barcode": null,
-      "category": "NonFood",
+      "category": "Food",
       "searchTerms": [
-        "campanula",
-        "10050578"
+        "caprice papadopoulos wafer rolls classic",
+        "10051161",
+        "caprice papadopoulos"
       ],
       "ownLabel": false,
-      "sku": "10050578",
+      "sku": "10051161",
       "price": {
-        "standard": 2.99,
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -1353,27 +1434,6 @@
       }
     },
     {
-      "id": "lidl-10050879",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "CARPLAN Demon Shine",
-      "brand": "CARPLAN",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "carplan demon shine",
-        "10050879",
-        "carplan"
-      ],
-      "ownLabel": false,
-      "sku": "10050879",
-      "price": {
-        "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050880",
       "productGroup": null,
       "storeId": "lidl",
@@ -1391,6 +1451,26 @@
       "sku": "10050880",
       "price": {
         "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051527",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Celery",
+      "brand": "Celery",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "celery",
+        "10051527"
+      ],
+      "ownLabel": false,
+      "sku": "10051527",
+      "price": {
+        "standard": 0.49,
         "loyalty": null
       }
     },
@@ -1517,22 +1597,22 @@
       }
     },
     {
-      "id": "lidl-10050617",
+      "id": "lidl-10050965",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "Cooked & Peeled Jumbo King Prawns",
-      "brand": "Cooked",
+      "name": "Cool Bag Shopping Trolley",
+      "brand": "Cool",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food",
+      "category": "NonFood",
       "searchTerms": [
-        "cooked & peeled jumbo king prawns",
-        "10050617"
+        "cool bag shopping trolley",
+        "10050965"
       ],
       "ownLabel": false,
-      "sku": "10050617",
+      "sku": "10050965",
       "price": {
-        "standard": 4.99,
+        "standard": 14.99,
         "loyalty": null
       }
     },
@@ -1636,27 +1716,6 @@
       "sku": "10045827",
       "price": {
         "standard": 3.69,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10045819",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "DELUXE 12 British Cumberland Chipolatas",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "deluxe 12 british cumberland chipolatas",
-        "10045819",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10045819",
-      "price": {
-        "standard": 2.49,
         "loyalty": null
       }
     },
@@ -1913,6 +1972,27 @@
       }
     },
     {
+      "id": "lidl-10051293",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "DELUXE Artichoke Hearts",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "deluxe artichoke hearts",
+        "10051293",
+        "lidl"
+      ],
+      "ownLabel": true,
+      "sku": "10051293",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10028190",
       "productGroup": null,
       "storeId": "lidl",
@@ -1972,27 +2052,6 @@
       "sku": "133984",
       "price": {
         "standard": 8.29,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050611",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "DELUXE British Jersey Royal New Potatoes",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "deluxe british jersey royal new potatoes",
-        "10050611",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050611",
-      "price": {
-        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -2182,6 +2241,27 @@
       "sku": "10050515",
       "price": {
         "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051529",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "DELUXE Raw Jumbo King Prawns",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "deluxe raw jumbo king prawns",
+        "10051529",
+        "lidl"
+      ],
+      "ownLabel": true,
+      "sku": "10051529",
+      "price": {
+        "standard": 4.99,
         "loyalty": null
       }
     },
@@ -2724,106 +2804,1010 @@
       }
     },
     {
-      "id": "lidl-10050574",
+      "id": "lidl-10051213",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "English Lavender",
-      "brand": "English",
+      "name": "ERIDANOUS Anthotyro - Cheese",
+      "brand": "ERIDANOUS",
       "storeLabel": null,
       "barcode": null,
-      "category": "NonFood",
+      "category": "Food",
       "searchTerms": [
-        "english lavender",
-        "10050574"
+        "eridanous anthotyro - cheese",
+        "10051213",
+        "eridanous"
       ],
       "ownLabel": false,
-      "sku": "10050574",
+      "sku": "10051213",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051289",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Artichokes with Capers and Kalamon Olives",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous artichokes with capers and kalamon olives",
+        "10051289",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051289",
+      "price": {
+        "standard": 1.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051175",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Biscuits with Cocoa and Hazelnut Filling Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous biscuits with cocoa and hazelnut filling assorted",
+        "10051175",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051175",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051269",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Cabbage Salad with Green Peppers",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous cabbage salad with green peppers",
+        "10051269",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051269",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051287",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Capers Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous capers assorted",
+        "10051287",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051287",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051185",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Crisps Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous crisps assorted",
+        "10051185",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051185",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051295",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Crispy Coated Peanuts",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous crispy coated peanuts",
+        "10051295",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051295",
+      "price": {
+        "standard": 1.35,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051149",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Extra Virgin Olive Oil P.G.I. Kalamata",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous extra virgin olive oil p.g.i. kalamata",
+        "10051149",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051149",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051207",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Feta Cheese Cubes, 45% Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous feta cheese cubes, 45% assorted",
+        "10051207",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051207",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051219",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Feta Cheese in Brine Matured in Wooden Barrels",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous feta cheese in brine matured in wooden barrels",
+        "10051219",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051219",
+      "price": {
+        "standard": 8.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051217",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Feta Cheese Matured in Wooden Barrels",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous feta cheese matured in wooden barrels",
+        "10051217",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051217",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051241",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Filled Antipasti Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous filled antipasti assorted",
+        "10051241",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051241",
+      "price": {
+        "standard": 2.19,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051205",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Filo Pastry Sheets",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous filo pastry sheets",
+        "10051205",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051205",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051209",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Fish Specialties Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous fish specialties assorted",
+        "10051209",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051209",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051227",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Gnocchi With Feta and Olives",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous gnocchi with feta and olives",
+        "10051227",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051227",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051309",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Graviera from Crete PDO",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous graviera from crete pdo",
+        "10051309",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051309",
       "price": {
         "standard": 3.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050089",
+      "id": "lidl-10051157",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "ESMARA Ladies’ Black Cotton Cropped Leggings",
-      "brand": "ESMARA",
+      "name": "ERIDANOUS Greek Honey Assorted",
+      "brand": "ERIDANOUS",
       "storeLabel": null,
       "barcode": null,
-      "category": "NonFood",
+      "category": "Food",
       "searchTerms": [
-        "esmara ladies’ black cotton cropped leggings",
-        "10050089",
-        "esmara"
+        "eridanous greek honey assorted",
+        "10051157",
+        "eridanous"
       ],
       "ownLabel": false,
-      "sku": "10050089",
+      "sku": "10051157",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051193",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Style Dips Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek style dips assorted",
+        "10051193",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051193",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051279",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Style Salami Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek style salami assorted",
+        "10051279",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051279",
+      "price": {
+        "standard": 1.09,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051277",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Style Soft Cheese Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek style soft cheese assorted",
+        "10051277",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051277",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051247",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Yoghurt Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek yoghurt assorted",
+        "10051247",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051247",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051221",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek-style Meatballs Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek-style meatballs assorted",
+        "10051221",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051221",
+      "price": {
+        "standard": 2.19,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051265",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Kritharaki Pasta",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous kritharaki pasta",
+        "10051265",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051265",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051223",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Meatballs Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous meatballs assorted",
+        "10051223",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051223",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051263",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Okra Pods in Tomato Sauce",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous okra pods in tomato sauce",
+        "10051263",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051263",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051253",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Olive Paste Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous olive paste assorted",
+        "10051253",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051253",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051203",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Olive Variations Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous olive variations assorted",
+        "10051203",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051203",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051225",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Parizaki Sausage",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous parizaki sausage",
+        "10051225",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051225",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051195",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Pastitsio",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous pastitsio",
+        "10051195",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051195",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051155",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Peanut Bar",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous peanut bar",
+        "10051155",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051155",
+      "price": {
+        "standard": 1.69,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051229",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Pitted Green Olives in Brine",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous pitted green olives in brine",
+        "10051229",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051229",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051237",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Pitted Mixed Olives With Herbs and Chilli Peppers",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous pitted mixed olives with herbs and chilli peppers",
+        "10051237",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051237",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051257",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Ready Made Vegetables Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous ready made vegetables assorted",
+        "10051257",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051257",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051169",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Runder Baklava with Walnuts",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous runder baklava with walnuts",
+        "10051169",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051169",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051153",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Sesame Bar",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous sesame bar",
+        "10051153",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051153",
+      "price": {
+        "standard": 0.89,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051271",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Smoked Sausage With Feta",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous smoked sausage with feta",
+        "10051271",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051271",
       "price": {
         "standard": 2.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050091",
+      "id": "lidl-10051249",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "ESMARA Ladies’ Black Cotton Leggings",
-      "brand": "ESMARA",
+      "name": "ERIDANOUS Smoked Tuna Assorted",
+      "brand": "ERIDANOUS",
       "storeLabel": null,
       "barcode": null,
-      "category": "NonFood",
+      "category": "Food",
       "searchTerms": [
-        "esmara ladies’ black cotton leggings",
-        "10050091",
-        "esmara"
+        "eridanous smoked tuna assorted",
+        "10051249",
+        "eridanous"
       ],
       "ownLabel": false,
-      "sku": "10050091",
+      "sku": "10051249",
+      "price": {
+        "standard": 2.29,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051261",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Stuffed Vine Leaves with Rice, Pomegranate and Spices",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous stuffed vine leaves with rice, pomegranate and spices",
+        "10051261",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051261",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051251",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Tinned Squid Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous tinned squid assorted",
+        "10051251",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051251",
+      "price": {
+        "standard": 2.29,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051197",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Tzatziki",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous tzatziki",
+        "10051197",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051197",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051189",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Tzatziki with Extra Virgin Olive Oil",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous tzatziki with extra virgin olive oil",
+        "10051189",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051189",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051255",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Vine Leaves with Rice",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous vine leaves with rice",
+        "10051255",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051255",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051259",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS White Beans in Tomato Sauce",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous white beans in tomato sauce",
+        "10051259",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051259",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051243",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS XXL Greek Vegetables Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous xxl greek vegetables assorted",
+        "10051243",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051243",
       "price": {
         "standard": 2.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050088",
+      "id": "lidl-10051018",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "ESMARA Ladies’ Grey Cotton Cropped Leggings",
-      "brand": "ESMARA",
+      "name": "ESMARA MEN Men’s Black T-shirt",
+      "brand": "ESMARA MEN",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "esmara ladies’ grey cotton cropped leggings",
-        "10050088",
-        "esmara"
+        "esmara men men’s black t-shirt",
+        "10051018",
+        "esmara men"
       ],
       "ownLabel": false,
-      "sku": "10050088",
+      "sku": "10051018",
       "price": {
-        "standard": 2.99,
+        "standard": 2.49,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050090",
+      "id": "lidl-10051017",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "ESMARA Ladies’ Grey Cotton Leggings",
-      "brand": "ESMARA",
+      "name": "ESMARA MEN Men’s Blue T-shirt",
+      "brand": "ESMARA MEN",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "esmara ladies’ grey cotton leggings",
-        "10050090",
-        "esmara"
+        "esmara men men’s blue t-shirt",
+        "10051017",
+        "esmara men"
       ],
       "ownLabel": false,
-      "sku": "10050090",
+      "sku": "10051017",
       "price": {
-        "standard": 2.99,
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051015",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA MEN Men’s Cream and Green Short Pyjama Set",
+      "brand": "ESMARA MEN",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara men men’s cream and green short pyjama set",
+        "10051015",
+        "esmara men"
+      ],
+      "ownLabel": false,
+      "sku": "10051015",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051016",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA MEN Men’s White T-shirt",
+      "brand": "ESMARA MEN",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara men men’s white t-shirt",
+        "10051016",
+        "esmara men"
+      ],
+      "ownLabel": false,
+      "sku": "10051016",
+      "price": {
+        "standard": 2.49,
         "loyalty": null
       }
     },
@@ -2904,26 +3888,6 @@
       ],
       "ownLabel": false,
       "sku": "10050779",
-      "price": {
-        "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050575",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Flowering Plants",
-      "brand": "Flowering",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "flowering plants",
-        "10050575"
-      ],
-      "ownLabel": false,
-      "sku": "10050575",
       "price": {
         "standard": 4.99,
         "loyalty": null
@@ -3093,46 +4057,6 @@
       "sku": "10050812",
       "price": {
         "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050608",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Funsize Easy Peelers",
-      "brand": "Funsize",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "funsize easy peelers",
-        "10050608"
-      ],
-      "ownLabel": false,
-      "sku": "10050608",
-      "price": {
-        "standard": 0.79,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050577",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Garden Hydrangea",
-      "brand": "Garden",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "garden hydrangea",
-        "10050577"
-      ],
-      "ownLabel": false,
-      "sku": "10050577",
-      "price": {
-        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -3680,26 +4604,6 @@
       }
     },
     {
-      "id": "lidl-10050612",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Harissa Lamb Kebabs",
-      "brand": "Harissa",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "harissa lamb kebabs",
-        "10050612"
-      ],
-      "ownLabel": false,
-      "sku": "10050612",
-      "price": {
-        "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10047106",
       "productGroup": null,
       "storeId": "lidl",
@@ -3886,46 +4790,6 @@
       }
     },
     {
-      "id": "lidl-10050028",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Hot Wheels Assortment",
-      "brand": "Hot",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "hot wheels assortment",
-        "10050028"
-      ],
-      "ownLabel": false,
-      "sku": "10050028",
-      "price": {
-        "standard": 1.69,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050905",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Houseplant in Woven Pot",
-      "brand": "Houseplant",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "houseplant in woven pot",
-        "10050905"
-      ],
-      "ownLabel": false,
-      "sku": "10050905",
-      "price": {
-        "standard": 9.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10049233",
       "productGroup": null,
       "storeId": "lidl",
@@ -4046,22 +4910,22 @@
       }
     },
     {
-      "id": "lidl-10050902",
+      "id": "lidl-10050988",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "Lavender",
-      "brand": "Lavender",
+      "name": "Large Air Fryer Liners - 120 Pieces",
+      "brand": "Large",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "lavender",
-        "10050902"
+        "large air fryer liners - 120 pieces",
+        "10050988"
       ],
       "ownLabel": false,
-      "sku": "10050902",
+      "sku": "10050988",
       "price": {
-        "standard": 4.99,
+        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -4234,6 +5098,26 @@
       }
     },
     {
+      "id": "lidl-10051533",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Lemon & Pepper Chicken",
+      "brand": "Lemon",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "lemon & pepper chicken",
+        "10051533"
+      ],
+      "ownLabel": false,
+      "sku": "10051533",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050914",
       "productGroup": null,
       "storeId": "lidl",
@@ -4255,6 +5139,27 @@
       }
     },
     {
+      "id": "lidl-10050950",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Angled Mixer Tap",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno angled mixer tap",
+        "10050950",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050950",
+      "price": {
+        "standard": 24.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050686",
       "productGroup": null,
       "storeId": "lidl",
@@ -4272,6 +5177,27 @@
       "sku": "10050686",
       "price": {
         "standard": 12.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050959",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Beige Placemats - Set of 4",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno beige placemats - set of 4",
+        "10050959",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050959",
+      "price": {
+        "standard": 3.49,
         "loyalty": null
       }
     },
@@ -4339,6 +5265,69 @@
       }
     },
     {
+      "id": "lidl-10050964",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Blue Tablecloth With Floral Pattern",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno blue tablecloth with floral pattern",
+        "10050964",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050964",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050949",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Curved Mixer Tap",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno curved mixer tap",
+        "10050949",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050949",
+      "price": {
+        "standard": 24.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050961",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Green Placemats - Set of 4",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno green placemats - set of 4",
+        "10050961",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050961",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050696",
       "productGroup": null,
       "storeId": "lidl",
@@ -4402,6 +5391,27 @@
       }
     },
     {
+      "id": "lidl-10050960",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Grey Placemats - Set of 4",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno grey placemats - set of 4",
+        "10050960",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050960",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050737",
       "productGroup": null,
       "storeId": "lidl",
@@ -4419,6 +5429,27 @@
       "sku": "10050737",
       "price": {
         "standard": 8.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050963",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Grey Tablecloth With Floral Pattern",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno grey tablecloth with floral pattern",
+        "10050963",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050963",
+      "price": {
+        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -4570,27 +5601,6 @@
       }
     },
     {
-      "id": "lidl-10050722",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Neck Support Pillow With Gel Pad",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno neck support pillow with gel pad",
-        "10050722",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050722",
-      "price": {
-        "standard": 12.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050736",
       "productGroup": null,
       "storeId": "lidl",
@@ -4608,90 +5618,6 @@
       "sku": "10050736",
       "price": {
         "standard": 8.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050691",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Kiwi Design",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with kiwi design",
-        "10050691",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050691",
-      "price": {
-        "standard": 6.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050912",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Solar LED Lights",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with solar led lights",
-        "10050912",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050912",
-      "price": {
-        "standard": 39.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050690",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Sunflower Design",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with sunflower design",
-        "10050690",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050690",
-      "price": {
-        "standard": 6.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050692",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LIVARNO Parasol With Watermelon Design",
-      "brand": "LIVARNO",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "livarno parasol with watermelon design",
-        "10050692",
-        "livarno"
-      ],
-      "ownLabel": false,
-      "sku": "10050692",
-      "price": {
-        "standard": 6.99,
         "loyalty": null
       }
     },
@@ -4801,6 +5727,27 @@
       }
     },
     {
+      "id": "lidl-10050962",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO White Tablecloth With Floral Pattern",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno white tablecloth with floral pattern",
+        "10050962",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050962",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050738",
       "productGroup": null,
       "storeId": "lidl",
@@ -4860,27 +5807,6 @@
       "sku": "10050790",
       "price": {
         "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050023",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Blue Younger Kids’ UV Swim Set - 2 Pieces",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu blue younger kids’ uv swim set - 2 pieces",
-        "10050023",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10050023",
-      "price": {
-        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -5284,27 +6210,6 @@
       }
     },
     {
-      "id": "lidl-10050024",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU White & Pink Younger Kids’ UV Swim Set - 2 Pieces",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu white & pink younger kids’ uv swim set - 2 pieces",
-        "10050024",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10050024",
-      "price": {
-        "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050789",
       "productGroup": null,
       "storeId": "lidl",
@@ -5347,48 +6252,6 @@
       }
     },
     {
-      "id": "lidl-10050021",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Younger Kids’ UV Swim Set With Palm Tree Print - 2 Pieces",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu younger kids’ uv swim set with palm tree print - 2 pieces",
-        "10050021",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10050021",
-      "price": {
-        "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050022",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Younger Kids’ UV Swim Set With Tropical Print - 2 Pieces",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu younger kids’ uv swim set with tropical print - 2 pieces",
-        "10050022",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10050022",
-      "price": {
-        "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10046096",
       "productGroup": null,
       "storeId": "lidl",
@@ -5406,6 +6269,46 @@
       "sku": "10046096",
       "price": {
         "standard": 6.1,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050987",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Medium Air Fryer Liners - 200 Pieces",
+      "brand": "Medium",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "medium air fryer liners - 200 pieces",
+        "10050987"
+      ],
+      "ownLabel": false,
+      "sku": "10050987",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051525",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Medium Oranges",
+      "brand": "Medium",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "medium oranges",
+        "10051525"
+      ],
+      "ownLabel": false,
+      "sku": "10051525",
+      "price": {
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -5655,6 +6558,27 @@
       }
     },
     {
+      "id": "lidl-10050966",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "MINKY Ergo Ironing Board",
+      "brand": "MINKY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "minky ergo ironing board",
+        "10050966",
+        "minky"
+      ],
+      "ownLabel": false,
+      "sku": "10050966",
+      "price": {
+        "standard": 29.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10049232",
       "productGroup": null,
       "storeId": "lidl",
@@ -5716,132 +6640,6 @@
       }
     },
     {
-      "id": "lidl-10050033",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ORCHARD TOYS Counting Dominoes Mini Game",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "orchard toys counting dominoes mini game",
-        "10050033",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050033",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050029",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ORCHARD TOYS First Vehicles Puzzles Mini Game",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "orchard toys first vehicles puzzles mini game",
-        "10050029",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050029",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050032",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ORCHARD TOYS Little Bug Hotel Mini Game",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "orchard toys little bug hotel mini game",
-        "10050032",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050032",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050137",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ORCHARD TOYS Monster Match Mini Game",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "orchard toys monster match mini game",
-        "10050137",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050137",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050031",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ORCHARD TOYS Number Pairs Mini Game",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "orchard toys number pairs mini game",
-        "10050031",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050031",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050030",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "ORCHARD TOYS Word Birds Mini Game",
-      "brand": "Lidl",
-      "storeLabel": "Lidl",
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "orchard toys word birds mini game",
-        "10050030",
-        "lidl"
-      ],
-      "ownLabel": true,
-      "sku": "10050030",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050561",
       "productGroup": null,
       "storeId": "lidl",
@@ -5859,6 +6657,174 @@
       "sku": "10050561",
       "price": {
         "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051061",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml Cutting Oil",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml cutting oil",
+        "10051061",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051061",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051058",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml Graphite Oil Spray",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml graphite oil spray",
+        "10051058",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051058",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051060",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml Lithium Grease Spray",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml lithium grease spray",
+        "10051060",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051060",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051056",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml Multi-Function Oil Spray",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml multi-function oil spray",
+        "10051056",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051056",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051059",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml PTFE Oil Spray",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml ptfe oil spray",
+        "10051059",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051059",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051062",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml Rust Remover Spray",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml rust remover spray",
+        "10051062",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051062",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051057",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 300ml Silicone Oil Spray",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 300ml silicone oil spray",
+        "10051057",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051057",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051137",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE 30L Wet and Dry Vacuum Cleaner",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside 30l wet and dry vacuum cleaner",
+        "10051137",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051137",
+      "price": {
+        "standard": 54.99,
         "loyalty": null
       }
     },
@@ -5905,23 +6871,86 @@
       }
     },
     {
-      "id": "lidl-10050038",
+      "id": "lidl-10051044",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "PARKSIDE 4V Cordless Rotary Tool",
+      "name": "PARKSIDE 5L Bathroom and Kitchen Paint - White",
       "brand": "PARKSIDE",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "parkside 4v cordless rotary tool",
-        "10050038",
+        "parkside 5l bathroom and kitchen paint - white",
+        "10051044",
         "parkside"
       ],
       "ownLabel": false,
-      "sku": "10050038",
+      "sku": "10051044",
       "price": {
-        "standard": 12.99,
+        "standard": 11.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051125",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Adjustable Spanner With Lock",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside adjustable spanner with lock",
+        "10051125",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051125",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051126",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Adjustable Spanner With Ratchet",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside adjustable spanner with ratchet",
+        "10051126",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051126",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051139",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Assorted O-Rings - 419 Pieces",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside assorted o-rings - 419 pieces",
+        "10051139",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051139",
+      "price": {
+        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -6073,48 +7102,6 @@
       }
     },
     {
-      "id": "lidl-10050055",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Large Bar Clamps - 2 Pack",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside large bar clamps - 2 pack",
-        "10050055",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050055",
-      "price": {
-        "standard": 5.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050056",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Medium or Small Bar Clamps - 4 Pack",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside medium or small bar clamps - 4 pack",
-        "10050056",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050056",
-      "price": {
-        "standard": 5.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050676",
       "productGroup": null,
       "storeId": "lidl",
@@ -6136,107 +7123,44 @@
       }
     },
     {
-      "id": "lidl-10050677",
+      "id": "lidl-10051117",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "PARKSIDE Outdoor Broom",
+      "name": "PARKSIDE Paint Roller Set For Solvent-Based Paints - 7 Pieces",
       "brand": "PARKSIDE",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "parkside outdoor broom",
-        "10050677",
+        "parkside paint roller set for solvent-based paints - 7 pieces",
+        "10051117",
         "parkside"
       ],
       "ownLabel": false,
-      "sku": "10050677",
+      "sku": "10051117",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051136",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Plasterboard Fixings - 150 Pieces",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside plasterboard fixings - 150 pieces",
+        "10051136",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051136",
       "price": {
         "standard": 5.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050669",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Patio Weeder",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside patio weeder",
-        "10050669",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050669",
-      "price": {
-        "standard": 1.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050063",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE PERFORMANCE Masking Film & Masking Paper Set - 3 Pieces",
-      "brand": "PARKSIDE PERFORMANCE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside performance masking film & masking paper set - 3 pieces",
-        "10050063",
-        "parkside performance"
-      ],
-      "ownLabel": false,
-      "sku": "10050063",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050065",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE PERFORMANCE Masking Film Set For Large Surfaces - 2 Pieces",
-      "brand": "PARKSIDE PERFORMANCE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside performance masking film set for large surfaces - 2 pieces",
-        "10050065",
-        "parkside performance"
-      ],
-      "ownLabel": false,
-      "sku": "10050065",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050064",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE PERFORMANCE Masking Film Set For Medium-Sized Surfaces - 2 Pieces",
-      "brand": "PARKSIDE PERFORMANCE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside performance masking film set for medium-sized surfaces - 2 pieces",
-        "10050064",
-        "parkside performance"
-      ],
-      "ownLabel": false,
-      "sku": "10050064",
-      "price": {
-        "standard": 2.99,
         "loyalty": null
       }
     },
@@ -6262,65 +7186,44 @@
       }
     },
     {
-      "id": "lidl-10050059",
+      "id": "lidl-10051097",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "PARKSIDE Rectangular Dolly",
+      "name": "PARKSIDE Rubber Mallet",
       "brand": "PARKSIDE",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "parkside rectangular dolly",
-        "10050059",
+        "parkside rubber mallet",
+        "10051097",
         "parkside"
       ],
       "ownLabel": false,
-      "sku": "10050059",
+      "sku": "10051097",
       "price": {
-        "standard": 9.99,
+        "standard": 3.79,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050060",
+      "id": "lidl-10051042",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "PARKSIDE Round Dolly",
+      "name": "PARKSIDE Silver Grey Garage Floor Paint",
       "brand": "PARKSIDE",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "parkside round dolly",
-        "10050060",
+        "parkside silver grey garage floor paint",
+        "10051042",
         "parkside"
       ],
       "ownLabel": false,
-      "sku": "10050060",
+      "sku": "10051042",
       "price": {
-        "standard": 9.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050080",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Sealant Gun - 6 Piece Set",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside sealant gun - 6 piece set",
-        "10050080",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050080",
-      "price": {
-        "standard": 4.99,
+        "standard": 14.99,
         "loyalty": null
       }
     },
@@ -6346,65 +7249,23 @@
       }
     },
     {
-      "id": "lidl-10050682",
+      "id": "lidl-10051128",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "PARKSIDE Sprinkler",
+      "name": "PARKSIDE Wood Saw Set - 3 Pieces",
       "brand": "PARKSIDE",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "parkside sprinkler",
-        "10050682",
+        "parkside wood saw set - 3 pieces",
+        "10051128",
         "parkside"
       ],
       "ownLabel": false,
-      "sku": "10050682",
+      "sku": "10051128",
       "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050083",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Wet & Dry Vacuum Cleaner",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside wet & dry vacuum cleaner",
-        "10050083",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10050083",
-      "price": {
-        "standard": 27.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050046",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PATTEX Assembly Adhesive",
-      "brand": "PATTEX",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "pattex assembly adhesive",
-        "10050046",
-        "pattex"
-      ],
-      "ownLabel": false,
-      "sku": "10050046",
-      "price": {
-        "standard": 2.49,
+        "standard": 5.99,
         "loyalty": null
       }
     },
@@ -6529,6 +7390,69 @@
       }
     },
     {
+      "id": "lidl-10050999",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PYREX Rectangular Oven Dish",
+      "brand": "PYREX",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "pyrex rectangular oven dish",
+        "10050999",
+        "pyrex"
+      ],
+      "ownLabel": false,
+      "sku": "10050999",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051000",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PYREX Round Oven Dish",
+      "brand": "PYREX",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "pyrex round oven dish",
+        "10051000",
+        "pyrex"
+      ],
+      "ownLabel": false,
+      "sku": "10051000",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051001",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PYREX Square Oven Dish",
+      "brand": "PYREX",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "pyrex square oven dish",
+        "10051001",
+        "pyrex"
+      ],
+      "ownLabel": false,
+      "sku": "10051001",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050874",
       "productGroup": null,
       "storeId": "lidl",
@@ -6549,22 +7473,23 @@
       }
     },
     {
-      "id": "lidl-10050019",
+      "id": "lidl-10051012",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "Round 3-Ring Baby Boat",
-      "brand": "Round",
+      "name": "SALTER 9L VertiCook Ultra View Air Fryer",
+      "brand": "SALTER",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "round 3-ring baby boat",
-        "10050019"
+        "salter 9l verticook ultra view air fryer",
+        "10051012",
+        "salter"
       ],
       "ownLabel": false,
-      "sku": "10050019",
+      "sku": "10051012",
       "price": {
-        "standard": 4.99,
+        "standard": 69.99,
         "loyalty": null
       }
     },
@@ -6589,296 +7514,821 @@
       }
     },
     {
-      "id": "lidl-10050116",
+      "id": "lidl-10050973",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST 24cm Honeycomb Stainless Steel Frying Pan",
+      "name": "SILVERCREST 20cm Stainless Steel Pan",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest 24cm honeycomb stainless steel frying pan",
-        "10050116",
+        "silvercrest 20cm stainless steel pan",
+        "10050973",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050116",
+      "sku": "10050973",
+      "price": {
+        "standard": 7.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050982",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST 24cm Cast Aluminium Frying Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest 24cm cast aluminium frying pan",
+        "10050982",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050982",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050974",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST 24cm Stainless Steel Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest 24cm stainless steel pan",
+        "10050974",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050974",
+      "price": {
+        "standard": 9.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050983",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST 28cm Cast Aluminium Frying Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest 28cm cast aluminium frying pan",
+        "10050983",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050983",
+      "price": {
+        "standard": 8.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050984",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST 28cm Cast Aluminium Sauté Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest 28cm cast aluminium sauté pan",
+        "10050984",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050984",
+      "price": {
+        "standard": 12.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050985",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST 28cm Cast Aluminium Serving Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest 28cm cast aluminium serving pan",
+        "10050985",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050985",
       "price": {
         "standard": 16.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050117",
+      "id": "lidl-10050986",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST 28cm Honeycomb Stainless Steel Frying Pan",
+      "name": "SILVERCREST Air Fryer Accessories Set - 7 Pieces",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest 28cm honeycomb stainless steel frying pan",
-        "10050117",
+        "silvercrest air fryer accessories set - 7 pieces",
+        "10050986",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050117",
+      "sku": "10050986",
       "price": {
-        "standard": 19.99,
+        "standard": 6.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050118",
+      "id": "lidl-10050972",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST 28cm Honeycomb Stainless Steel Wok",
+      "name": "SILVERCREST Black 2-Slice Toaster",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest 28cm honeycomb stainless steel wok",
-        "10050118",
+        "silvercrest black 2-slice toaster",
+        "10050972",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050118",
-      "price": {
-        "standard": 24.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050119",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Acacia Wood Butcher’s Block",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest acacia wood butcher’s block",
-        "10050119",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050119",
-      "price": {
-        "standard": 17.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050125",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Can Opener",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest can opener",
-        "10050125",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050125",
-      "price": {
-        "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050123",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Corkscrew",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest corkscrew",
-        "10050123",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050123",
-      "price": {
-        "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050120",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Dual Basket Air Fryer",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest dual basket air fryer",
-        "10050120",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050120",
-      "price": {
-        "standard": 54.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050122",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Egg Slicer",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest egg slicer",
-        "10050122",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050122",
-      "price": {
-        "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050124",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Garlic Press",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest garlic press",
-        "10050124",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050124",
-      "price": {
-        "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050135",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SILVERCREST Rectangular Tray",
-      "brand": "SILVERCREST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "silvercrest rectangular tray",
-        "10050135",
-        "silvercrest"
-      ],
-      "ownLabel": false,
-      "sku": "10050135",
+      "sku": "10050972",
       "price": {
         "standard": 9.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050130",
+      "id": "lidl-10050978",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST Rotating Serving Board",
+      "name": "SILVERCREST Black Kettle",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest rotating serving board",
-        "10050130",
+        "silvercrest black kettle",
+        "10050978",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050130",
+      "sku": "10050978",
       "price": {
         "standard": 11.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050136",
+      "id": "lidl-10051067",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST Round Tray",
+      "name": "SILVERCREST Black Vacuum Sealer",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest round tray",
-        "10050136",
+        "silvercrest black vacuum sealer",
+        "10051067",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050136",
+      "sku": "10051067",
+      "price": {
+        "standard": 24.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050989",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Chopping Board With Handle",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest chopping board with handle",
+        "10050989",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050989",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050991",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Chopping Board With Sharpening Stone",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest chopping board with sharpening stone",
+        "10050991",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050991",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050990",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Chopping Board With Textured Surface",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest chopping board with textured surface",
+        "10050990",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050990",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050992",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Contact Grill",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest contact grill",
+        "10050992",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050992",
+      "price": {
+        "standard": 39.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050998",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Glass Bowl Set With Black Lids - 5 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest glass bowl set with black lids - 5 pieces",
+        "10050998",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050998",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050997",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Glass Bowl Set With Grey Lids - 5 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest glass bowl set with grey lids - 5 pieces",
+        "10050997",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050997",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051003",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Manual Mini Chopper",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest manual mini chopper",
+        "10051003",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051003",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051006",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Mini Aluminium Frying Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest mini aluminium frying pan",
+        "10051006",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051006",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051005",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Mini Aluminium Sauté Pan",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest mini aluminium sauté pan",
+        "10051005",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051005",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051004",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Mini Aluminium Wok",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest mini aluminium wok",
+        "10051004",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051004",
+      "price": {
+        "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051007",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Multi-Pan Lid",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest multi-pan lid",
+        "10051007",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051007",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051080",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Narrow Vacuum Sealer Rolls - 3 Pack",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest narrow vacuum sealer rolls - 3 pack",
+        "10051080",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051080",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051082",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Oval Casserole Dish",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest oval casserole dish",
+        "10051082",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051082",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050970",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Premium Freezy Ice Cream Maker",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest premium freezy ice cream maker",
+        "10050970",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050970",
+      "price": {
+        "standard": 69.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050979",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Premium Stainless Steel Bowl Set - 3 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest premium stainless steel bowl set - 3 pieces",
+        "10050979",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050979",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051083",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Rectangular Casserole Dish",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest rectangular casserole dish",
+        "10051083",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051083",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050969",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Rectangular Food Storage Container Set - 2 Pack",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest rectangular food storage container set - 2 pack",
+        "10050969",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050969",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050995",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Rectangular Food Storage Container Set - 3 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest rectangular food storage container set - 3 pieces",
+        "10050995",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050995",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051081",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Round Casserole Dish",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest round casserole dish",
+        "10051081",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051081",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050968",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Round Food Storage Container Set - 2 Pack",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest round food storage container set - 2 pack",
+        "10050968",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050968",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050996",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Round Food Storage Container Set - 3 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest round food storage container set - 3 pieces",
+        "10050996",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050996",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051009",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Silicone Air Fryer Liner",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest silicone air fryer liner",
+        "10051009",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051009",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051011",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Slow Juicer",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest slow juicer",
+        "10051011",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051011",
+      "price": {
+        "standard": 49.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050994",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Square Food Storage Container Set - 3 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest square food storage container set - 3 pieces",
+        "10050994",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050994",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050980",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Stainless Steel Sieve Set - 3 Pieces",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest stainless steel sieve set - 3 pieces",
+        "10050980",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050980",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050971",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST White 2-Slice Toaster",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest white 2-slice toaster",
+        "10050971",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10050971",
       "price": {
         "standard": 9.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050134",
+      "id": "lidl-10050977",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST Stoneware Oven Dish",
+      "name": "SILVERCREST White Kettle",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest stoneware oven dish",
-        "10050134",
+        "silvercrest white kettle",
+        "10050977",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050134",
+      "sku": "10050977",
       "price": {
-        "standard": 4.49,
+        "standard": 11.99,
         "loyalty": null
       }
     },
     {
-      "id": "lidl-10050133",
+      "id": "lidl-10051066",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "SILVERCREST Stoneware Oven Dish Set - 2 Pieces",
+      "name": "SILVERCREST White Vacuum Sealer",
       "brand": "SILVERCREST",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "silvercrest stoneware oven dish set - 2 pieces",
-        "10050133",
+        "silvercrest white vacuum sealer",
+        "10051066",
         "silvercrest"
       ],
       "ownLabel": false,
-      "sku": "10050133",
+      "sku": "10051066",
       "price": {
-        "standard": 4.49,
+        "standard": 24.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051079",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Wide Vacuum Sealer Rolls - 2 Pack",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest wide vacuum sealer rolls - 2 pack",
+        "10051079",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051079",
+      "price": {
+        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -6899,26 +8349,6 @@
       "sku": "10050946",
       "price": {
         "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050616",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Slow Cooked Hoisin Pork Mini Ribs",
-      "brand": "Slow",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "slow cooked hoisin pork mini ribs",
-        "10050616"
-      ],
-      "ownLabel": false,
-      "sku": "10050616",
-      "price": {
-        "standard": 4.59,
         "loyalty": null
       }
     },
@@ -7027,26 +8457,6 @@
       }
     },
     {
-      "id": "lidl-10050020",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Square 3-Ring Baby Boat",
-      "brand": "Square",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "square 3-ring baby boat",
-        "10050020"
-      ],
-      "ownLabel": false,
-      "sku": "10050020",
-      "price": {
-        "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050802",
       "productGroup": null,
       "storeId": "lidl",
@@ -7143,46 +8553,6 @@
       "sku": "10050839",
       "price": {
         "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050011",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Stitch Soft Toy",
-      "brand": "Stitch",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "stitch soft toy",
-        "10050011"
-      ],
-      "ownLabel": false,
-      "sku": "10050011",
-      "price": {
-        "standard": 8.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050017",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Summer Toy Assortment",
-      "brand": "Summer",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "summer toy assortment",
-        "10050017"
-      ],
-      "ownLabel": false,
-      "sku": "10050017",
-      "price": {
-        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -7691,26 +9061,6 @@
       }
     },
     {
-      "id": "lidl-10050018",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Swim Vest",
-      "brand": "Swim",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "swim vest",
-        "10050018"
-      ],
-      "ownLabel": false,
-      "sku": "10050018",
-      "price": {
-        "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050939",
       "productGroup": null,
       "storeId": "lidl",
@@ -7747,6 +9097,26 @@
       "sku": "10050177",
       "price": {
         "standard": 7.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051312",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "The Secret of Secrets Book",
+      "brand": "The",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "the secret of secrets book",
+        "10051312"
+      ],
+      "ownLabel": false,
+      "sku": "10051312",
+      "price": {
+        "standard": 5.99,
         "loyalty": null
       }
     },
@@ -7792,23 +9162,23 @@
       }
     },
     {
-      "id": "lidl-10050638",
+      "id": "lidl-10051132",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "ULTIMATE SPEED Car Boot Bag",
-      "brand": "ULTIMATE SPEED",
+      "name": "UHU Super Power Gel",
+      "brand": "UHU",
       "storeLabel": null,
       "barcode": null,
       "category": "NonFood",
       "searchTerms": [
-        "ultimate speed car boot bag",
-        "10050638",
-        "ultimate speed"
+        "uhu super power gel",
+        "10051132",
+        "uhu"
       ],
       "ownLabel": false,
-      "sku": "10050638",
+      "sku": "10051132",
       "price": {
-        "standard": 4.99,
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -8644,27 +10014,6 @@
       }
     },
     {
-      "id": "lidl-10050389",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "VITASIA Kimchi",
-      "brand": "VITASIA",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "vitasia kimchi",
-        "10050389",
-        "vitasia"
-      ],
-      "ownLabel": false,
-      "sku": "10050389",
-      "price": {
-        "standard": 1.29,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050351",
       "productGroup": null,
       "storeId": "lidl",
@@ -9127,47 +10476,6 @@
       }
     },
     {
-      "id": "lidl-10050042",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "WD-40 180ml White Lithium Grease Specialist Spray",
-      "brand": "WD-40",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "wd-40 180ml white lithium grease specialist spray",
-        "10050042",
-        "wd-40"
-      ],
-      "ownLabel": false,
-      "sku": "10050042",
-      "price": {
-        "standard": 4.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050012",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "Winnie the Pooh Soft Toy",
-      "brand": "Winnie",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "winnie the pooh soft toy",
-        "10050012"
-      ],
-      "ownLabel": false,
-      "sku": "10050012",
-      "price": {
-        "standard": 8.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10050877",
       "productGroup": null,
       "storeId": "lidl",
@@ -9189,62 +10497,22 @@
       }
     },
     {
-      "id": "lidl-10050615",
+      "id": "lidl-10051528",
       "productGroup": null,
       "storeId": "lidl",
-      "name": "XXL British Back Bacon Rashers",
+      "name": "XXL 8 British Pork Chops",
       "brand": "XXL",
       "storeLabel": null,
       "barcode": null,
       "category": "Food",
       "searchTerms": [
-        "xxl british back bacon rashers",
-        "10050615"
+        "xxl 8 british pork chops",
+        "10051528"
       ],
       "ownLabel": false,
-      "sku": "10050615",
+      "sku": "10051528",
       "price": {
-        "standard": 3.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050613",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "XXL British Beef Steaks",
-      "brand": "XXL",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "xxl british beef steaks",
-        "10050613"
-      ],
-      "ownLabel": false,
-      "sku": "10050613",
-      "price": {
-        "standard": 10.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10050614",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "XXL British Ribeye Steaks",
-      "brand": "XXL",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "xxl british ribeye steaks",
-        "10050614"
-      ],
-      "ownLabel": false,
-      "sku": "10050614",
-      "price": {
-        "standard": 19.99,
+        "standard": 6.49,
         "loyalty": null
       }
     },
