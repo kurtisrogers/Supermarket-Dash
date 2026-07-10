@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "aldi",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-09T09:39:04.704Z",
-    "productCount": 2983,
+    "lastUpdated": "2026-07-10T09:24:58.563Z",
+    "productCount": 2988,
     "fetchMethod": "spider-aldi",
     "pages": 80
   },
@@ -1664,6 +1664,27 @@
       "sku": "000000000000336903",
       "price": {
         "standard": 6.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000737765",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "American Munch Mix",
+      "brand": "TASTE OF AMERICA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Grocery",
+      "searchTerms": [
+        "american munch mix",
+        "000000000000737765",
+        "taste of america"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000737765",
+      "price": {
+        "standard": 2.29,
         "loyalty": null
       }
     },
@@ -7190,6 +7211,27 @@
       }
     },
     {
+      "id": "aldi-000000000000387077",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "British Diced Beef",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "british diced beef",
+        "000000000000387077",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000387077",
+      "price": {
+        "standard": 4.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000423342004",
       "productGroup": null,
       "storeId": "aldi",
@@ -10441,6 +10483,27 @@
       "sku": "000000000304031002",
       "price": {
         "standard": 1.59,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000669504002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Caramel Coffee Syrup",
+      "brand": "BARISSIMO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "caramel coffee syrup",
+        "000000000669504002",
+        "barissimo"
+      ],
+      "ownLabel": false,
+      "sku": "000000000669504002",
+      "price": {
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -15975,7 +16038,7 @@
       "brand": "CHOLULA",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Food Cupboard",
       "searchTerms": [
         "cholula chipotle sauce",
         "000000000723064002",
@@ -15996,7 +16059,7 @@
       "brand": "CHOLULA",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Food Cupboard",
       "searchTerms": [
         "cholula sauce original hot sauce",
         "000000000723064001",
@@ -16111,27 +16174,6 @@
       "sku": "000000000000278702",
       "price": {
         "standard": 0.43,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000722946001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Chopping Boards",
-      "brand": "CROFTON",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Grocery",
-      "searchTerms": [
-        "chopping boards",
-        "000000000722946001",
-        "crofton"
-      ],
-      "ownLabel": false,
-      "sku": "000000000722946001",
-      "price": {
-        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -19607,7 +19649,7 @@
       "brand": "BILASH",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Food Cupboard",
       "searchTerms": [
         "curry madras chickpeas",
         "000000000702841002",
@@ -20499,27 +20541,6 @@
       "sku": "000000000496633005",
       "price": {
         "standard": 1.09,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000738690",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Desperados 12 Pack",
-      "brand": "DESPERADOS",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Grocery",
-      "searchTerms": [
-        "desperados 12 pack",
-        "000000000000738690",
-        "desperados"
-      ],
-      "ownLabel": false,
-      "sku": "000000000000738690",
-      "price": {
-        "standard": 12.99,
         "loyalty": null
       }
     },
@@ -28105,27 +28126,6 @@
       }
     },
     {
-      "id": "aldi-000000000643516005",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Honey BBQ Hot Chicken Wings",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "honey bbq hot chicken wings",
-        "000000000643516005",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000643516005",
-      "price": {
-        "standard": 3.69,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000650043002",
       "productGroup": null,
       "storeId": "aldi",
@@ -32699,7 +32699,7 @@
       "ownLabel": false,
       "sku": "000000000000742393",
       "price": {
-        "standard": 2.49,
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -34223,7 +34223,7 @@
       "brand": "PLANT MENU",
       "storeLabel": null,
       "barcode": null,
-      "category": "Chilled Food",
+      "category": "Vegetarian & Plant Based",
       "searchTerms": [
         "mature coconut oil based vegan cheese 9 slices",
         "000000000542956002",
@@ -34244,7 +34244,7 @@
       "brand": "PLANT MENU",
       "storeLabel": null,
       "barcode": null,
-      "category": "Chilled Food",
+      "category": "Vegetarian & Plant Based",
       "searchTerms": [
         "mature grated cocnut oil based vegan cheese",
         "000000000542956003",
@@ -36480,6 +36480,48 @@
       "sku": "000000000381594006",
       "price": {
         "standard": 1.95,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000680821002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mini Doughnuts Chocolate",
+      "brand": "VILLAGE BAKERY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "mini doughnuts chocolate",
+        "000000000680821002",
+        "village bakery"
+      ],
+      "ownLabel": false,
+      "sku": "000000000680821002",
+      "price": {
+        "standard": 1.39,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000680821001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Mini Doughnuts Pink",
+      "brand": "VILLAGE BAKERY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "mini doughnuts pink",
+        "000000000680821001",
+        "village bakery"
+      ],
+      "ownLabel": false,
+      "sku": "000000000680821001",
+      "price": {
+        "standard": 1.39,
         "loyalty": null
       }
     },
@@ -38927,7 +38969,7 @@
       "brand": "BILASH",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Food Cupboard",
       "searchTerms": [
         "onion bhaji rings",
         "000000000687822002",
@@ -41750,6 +41792,27 @@
       "sku": "000000000371140002",
       "price": {
         "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000495432",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Pepsi Max 2 Litres",
+      "brand": "PEPSI MAX",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "pepsi max 2 litres",
+        "000000000000495432",
+        "pepsi max"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000495432",
+      "price": {
+        "standard": 2.15,
         "loyalty": null
       }
     },
@@ -45974,6 +46037,27 @@
       }
     },
     {
+      "id": "aldi-000000000000336258",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Red Lentils",
+      "brand": "WORLDWIDE FOODS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "red lentils",
+        "000000000000336258",
+        "worldwide foods"
+      ],
+      "ownLabel": false,
+      "sku": "000000000000336258",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000339914",
       "productGroup": null,
       "storeId": "aldi",
@@ -47188,27 +47272,6 @@
       "sku": "000000000382107007",
       "price": {
         "standard": 4.49,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000662491001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Rubber Dog Toy",
-      "brand": "PET COLLECTION",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Grocery",
-      "searchTerms": [
-        "rubber dog toy",
-        "000000000662491001",
-        "pet collection"
-      ],
-      "ownLabel": false,
-      "sku": "000000000662491001",
-      "price": {
-        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -59603,6 +59666,27 @@
       }
     },
     {
+      "id": "aldi-000000000669504001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Vanilla Coffee Syrup",
+      "brand": "BARISSIMO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "vanilla coffee syrup",
+        "000000000669504001",
+        "barissimo"
+      ],
+      "ownLabel": false,
+      "sku": "000000000669504001",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000401646003",
       "productGroup": null,
       "storeId": "aldi",
@@ -59956,6 +60040,27 @@
       "sku": "000000000590500003",
       "price": {
         "standard": 3.59,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000542956005",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Vegan Cheese Plain Spread 170g",
+      "brand": "PLANT MENU",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Vegetarian & Plant Based",
+      "searchTerms": [
+        "vegan cheese plain spread 170g",
+        "000000000542956005",
+        "plant menu"
+      ],
+      "ownLabel": false,
+      "sku": "000000000542956005",
+      "price": {
+        "standard": 1.95,
         "loyalty": null
       }
     },
@@ -60366,7 +60471,7 @@
       "brand": "BILASH",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Food Cupboard",
       "searchTerms": [
         "vindaloo sticks",
         "000000000687822001",
@@ -62382,7 +62487,7 @@
       "brand": "BILASH",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Food Cupboard",
       "searchTerms": [
         "yellow style curried chickpeas",
         "000000000702841001",
