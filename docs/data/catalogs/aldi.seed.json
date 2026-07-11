@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "aldi",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-10T09:24:58.563Z",
-    "productCount": 2988,
+    "lastUpdated": "2026-07-11T07:57:44.382Z",
+    "productCount": 2992,
     "fetchMethod": "spider-aldi",
     "pages": 80
   },
@@ -1605,6 +1605,27 @@
       }
     },
     {
+      "id": "aldi-000000000405090005",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "All Sports",
+      "brand": "DOMINION",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "all sports",
+        "000000000405090005",
+        "dominion"
+      ],
+      "ownLabel": false,
+      "sku": "000000000405090005",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000619354",
       "productGroup": null,
       "storeId": "aldi",
@@ -1811,27 +1832,6 @@
       "sku": "000000000000387769",
       "price": {
         "standard": 1.05,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000449797",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Angel Cake Slices 8 Pack",
-      "brand": "MR KIPLING",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Bakery",
-      "searchTerms": [
-        "angel cake slices 8 pack",
-        "000000000000449797",
-        "mr kipling"
-      ],
-      "ownLabel": false,
-      "sku": "000000000000449797",
-      "price": {
-        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -5531,6 +5531,27 @@
       }
     },
     {
+      "id": "aldi-000000000000724918",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Blueberry Pancakes",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "blueberry pancakes",
+        "000000000000724918",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000724918",
+      "price": {
+        "standard": 1.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000423026001",
       "productGroup": null,
       "storeId": "aldi",
@@ -7228,6 +7249,27 @@
       "sku": "000000000000387077",
       "price": {
         "standard": 4.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000000387587",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "British Diced Beef",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Fresh Food",
+      "searchTerms": [
+        "british diced beef",
+        "000000000000387587",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000387587",
+      "price": {
+        "standard": 7.59,
         "loyalty": null
       }
     },
@@ -9332,6 +9374,27 @@
       }
     },
     {
+      "id": "aldi-000000000000400410",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "British Wafer Thin Roast Chicken Family Pack 36 Slices",
+      "brand": "Aldi",
+      "storeLabel": "Aldi",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "british wafer thin roast chicken family pack 36 slices",
+        "000000000000400410",
+        "aldi"
+      ],
+      "ownLabel": true,
+      "sku": "000000000000400410",
+      "price": {
+        "standard": 2.19,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000402186002",
       "productGroup": null,
       "storeId": "aldi",
@@ -10630,6 +10693,27 @@
       "sku": "000000000387286002",
       "price": {
         "standard": 1.29,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000721680001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Caramelised Biscuit Cake Slices",
+      "brand": "VILLAGE BAKERY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "caramelised biscuit cake slices",
+        "000000000721680001",
+        "village bakery"
+      ],
+      "ownLabel": false,
+      "sku": "000000000721680001",
+      "price": {
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -14603,6 +14687,27 @@
       }
     },
     {
+      "id": "aldi-000000000710783002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Chilli Squeezy Tube",
+      "brand": "READY, SET…COOK!",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "chilli squeezy tube",
+        "000000000710783002",
+        "ready, set…cook!"
+      ],
+      "ownLabel": false,
+      "sku": "000000000710783002",
+      "price": {
+        "standard": 0.85,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000714811003",
       "productGroup": null,
       "storeId": "aldi",
@@ -15317,27 +15422,6 @@
       }
     },
     {
-      "id": "aldi-000000000450467001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Chocolate Choc Um's",
-      "brand": "DAIRYFINE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "chocolate choc um's",
-        "000000000450467001",
-        "dairyfine"
-      ],
-      "ownLabel": false,
-      "sku": "000000000450467001",
-      "price": {
-        "standard": 1.35,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000000464913",
       "productGroup": null,
       "storeId": "aldi",
@@ -16047,7 +16131,7 @@
       "ownLabel": false,
       "sku": "000000000723064002",
       "price": {
-        "standard": 1.99,
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -16068,7 +16152,7 @@
       "ownLabel": false,
       "sku": "000000000723064001",
       "price": {
-        "standard": 1.99,
+        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -17186,27 +17270,6 @@
       }
     },
     {
-      "id": "aldi-000000000548858002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Cocoa Peanut Butter Ball Cereal Bar",
-      "brand": "HARVEST MORN",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "cocoa peanut butter ball cereal bar",
-        "000000000548858002",
-        "harvest morn"
-      ],
-      "ownLabel": false,
-      "sku": "000000000548858002",
-      "price": {
-        "standard": 1.49,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000605829002",
       "productGroup": null,
       "storeId": "aldi",
@@ -17979,6 +18042,27 @@
       "sku": "000000000366422001",
       "price": {
         "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000710487001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Cookie Dough Filled Bars",
+      "brand": "CHOCEUR",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "cookie dough filled bars",
+        "000000000710487001",
+        "choceur"
+      ],
+      "ownLabel": false,
+      "sku": "000000000710487001",
+      "price": {
+        "standard": 1.79,
         "loyalty": null
       }
     },
@@ -22813,6 +22897,27 @@
       }
     },
     {
+      "id": "aldi-000000000597068006",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Fajita Ready Meal",
+      "brand": "READY, SET…COOK!",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Frozen Food",
+      "searchTerms": [
+        "fajita ready meal",
+        "000000000597068006",
+        "ready, set…cook!"
+      ],
+      "ownLabel": false,
+      "sku": "000000000597068006",
+      "price": {
+        "standard": 2.69,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000719150004",
       "productGroup": null,
       "storeId": "aldi",
@@ -25039,6 +25144,27 @@
       }
     },
     {
+      "id": "aldi-000000000308498001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Fusilli Wholewheat Pasta",
+      "brand": "CUCINA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "fusilli wholewheat pasta",
+        "000000000308498001",
+        "cucina"
+      ],
+      "ownLabel": false,
+      "sku": "000000000308498001",
+      "price": {
+        "standard": 0.75,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000265489",
       "productGroup": null,
       "storeId": "aldi",
@@ -25837,6 +25963,27 @@
       }
     },
     {
+      "id": "aldi-000000000710783001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Garlic Squeezy Tube",
+      "brand": "READY, SET…COOK!",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "garlic squeezy tube",
+        "000000000710783001",
+        "ready, set…cook!"
+      ],
+      "ownLabel": false,
+      "sku": "000000000710783001",
+      "price": {
+        "standard": 0.85,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000383169008",
       "productGroup": null,
       "storeId": "aldi",
@@ -26211,6 +26358,27 @@
       "sku": "000000000000383134",
       "price": {
         "standard": 1.19,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000710783003",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Ginger Squeezy Tube",
+      "brand": "READY, SET…COOK!",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "ginger squeezy tube",
+        "000000000710783003",
+        "ready, set…cook!"
+      ],
+      "ownLabel": false,
+      "sku": "000000000710783003",
+      "price": {
+        "standard": 0.85,
         "loyalty": null
       }
     },
@@ -37534,6 +37702,27 @@
       }
     },
     {
+      "id": "aldi-000000000710487002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Movie Night Filled Bars",
+      "brand": "CHOCEUR",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "movie night filled bars",
+        "000000000710487002",
+        "choceur"
+      ],
+      "ownLabel": false,
+      "sku": "000000000710487002",
+      "price": {
+        "standard": 1.79,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000367394003",
       "productGroup": null,
       "storeId": "aldi",
@@ -38563,27 +38752,6 @@
       }
     },
     {
-      "id": "aldi-000000000335641003",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "New York Steakhouse Style BBQ Sauce",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "new york steakhouse style bbq sauce",
-        "000000000335641003",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000335641003",
-      "price": {
-        "standard": 1.59,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000000622260",
       "productGroup": null,
       "storeId": "aldi",
@@ -39168,27 +39336,6 @@
       "sku": "000000000337213002",
       "price": {
         "standard": 1.65,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000337197003",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Orange Flavour Jelly",
-      "brand": "DESSERT MENU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "orange flavour jelly",
-        "000000000337197003",
-        "dessert menu"
-      ],
-      "ownLabel": false,
-      "sku": "000000000337197003",
-      "price": {
-        "standard": 0.85,
         "loyalty": null
       }
     },
@@ -40390,27 +40537,6 @@
       }
     },
     {
-      "id": "aldi-000000000335641002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Original BBQ Sauce",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "original bbq sauce",
-        "000000000335641002",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000335641002",
-      "price": {
-        "standard": 1.59,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000563949001",
       "productGroup": null,
       "storeId": "aldi",
@@ -41167,27 +41293,6 @@
       }
     },
     {
-      "id": "aldi-000000000615385005",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Pasta & Sauce Tomato, Onion & Herb",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "pasta & sauce tomato, onion & herb",
-        "000000000615385005",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000615385005",
-      "price": {
-        "standard": 0.45,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000346018007",
       "productGroup": null,
       "storeId": "aldi",
@@ -41457,27 +41562,6 @@
       "sku": "000000000471242005",
       "price": {
         "standard": 2.29,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000450467002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Peanut Chocolate Choc Um's",
-      "brand": "DAIRYFINE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food",
-      "searchTerms": [
-        "peanut chocolate choc um's",
-        "000000000450467002",
-        "dairyfine"
-      ],
-      "ownLabel": false,
-      "sku": "000000000450467002",
-      "price": {
-        "standard": 1.35,
         "loyalty": null
       }
     },
@@ -41834,27 +41918,6 @@
       "sku": "000000000000495587",
       "price": {
         "standard": 3.95,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000588531",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Pepsi Max Cherry",
-      "brand": "PEPSI MAX",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Drinks",
-      "searchTerms": [
-        "pepsi max cherry",
-        "000000000000588531",
-        "pepsi max"
-      ],
-      "ownLabel": false,
-      "sku": "000000000000588531",
-      "price": {
-        "standard": 5.99,
         "loyalty": null
       }
     },
@@ -42737,6 +42800,27 @@
       "sku": "000000000404291006",
       "price": {
         "standard": 2.75,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000721680002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Pistachio Caramel Cake Slices",
+      "brand": "VILLAGE BAKERY",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Bakery",
+      "searchTerms": [
+        "pistachio caramel cake slices",
+        "000000000721680002",
+        "village bakery"
+      ],
+      "ownLabel": false,
+      "sku": "000000000721680002",
+      "price": {
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -44777,6 +44861,27 @@
       }
     },
     {
+      "id": "aldi-000000000405090006",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Rainbw Dots",
+      "brand": "DOMINION",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "rainbw dots",
+        "000000000405090006",
+        "dominion"
+      ],
+      "ownLabel": false,
+      "sku": "000000000405090006",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000335670001",
       "productGroup": null,
       "storeId": "aldi",
@@ -44962,27 +45067,6 @@
       "sku": "000000000632295001",
       "price": {
         "standard": 1.39,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000337197002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Raspberry Flavour Jelly",
-      "brand": "DESSERT MENU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "raspberry flavour jelly",
-        "000000000337197002",
-        "dessert menu"
-      ],
-      "ownLabel": false,
-      "sku": "000000000337197002",
-      "price": {
-        "standard": 0.85,
         "loyalty": null
       }
     },
@@ -47125,27 +47209,6 @@
       "sku": "000000000000634326",
       "price": {
         "standard": 1.39,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000548858001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Rocky Rainbow Ceral Bar",
-      "brand": "HARVEST MORN",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "rocky rainbow ceral bar",
-        "000000000548858001",
-        "harvest morn"
-      ],
-      "ownLabel": false,
-      "sku": "000000000548858001",
-      "price": {
-        "standard": 1.49,
         "loyalty": null
       }
     },
@@ -51308,6 +51371,27 @@
       }
     },
     {
+      "id": "aldi-000000000405090004",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Sour Moon Babies",
+      "brand": "DOMINION",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "sour moon babies",
+        "000000000405090004",
+        "dominion"
+      ],
+      "ownLabel": false,
+      "sku": "000000000405090004",
+      "price": {
+        "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000385726001",
       "productGroup": null,
       "storeId": "aldi",
@@ -51808,6 +51892,27 @@
       "sku": "000000000562316001",
       "price": {
         "standard": 2.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000308498002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Spaghetti Wholewheat Pasta",
+      "brand": "CUCINA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "spaghetti wholewheat pasta",
+        "000000000308498002",
+        "cucina"
+      ],
+      "ownLabel": false,
+      "sku": "000000000308498002",
+      "price": {
+        "standard": 0.75,
         "loyalty": null
       }
     },
@@ -53803,27 +53908,6 @@
       "sku": "000000000619444002",
       "price": {
         "standard": 1.79,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000337197001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Strawberry Flavour Jelly",
-      "brand": "DESSERT MENU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "strawberry flavour jelly",
-        "000000000337197001",
-        "dessert menu"
-      ],
-      "ownLabel": false,
-      "sku": "000000000337197001",
-      "price": {
-        "standard": 0.85,
         "loyalty": null
       }
     },
@@ -59036,6 +59120,27 @@
       }
     },
     {
+      "id": "aldi-000000000597068008",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Tuscan Orzo Meal",
+      "brand": "READY, SET…COOK!",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Frozen Food",
+      "searchTerms": [
+        "tuscan orzo meal",
+        "000000000597068008",
+        "ready, set…cook!"
+      ],
+      "ownLabel": false,
+      "sku": "000000000597068008",
+      "price": {
+        "standard": 2.69,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000000404738",
       "productGroup": null,
       "storeId": "aldi",
@@ -59830,6 +59935,27 @@
       "sku": "000000000000533572",
       "price": {
         "standard": 2.19,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000583525001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Vanilla Latte Coffee Sachets",
+      "brand": "BARISSIMO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Drinks",
+      "searchTerms": [
+        "vanilla latte coffee sachets",
+        "000000000583525001",
+        "barissimo"
+      ],
+      "ownLabel": false,
+      "sku": "000000000583525001",
+      "price": {
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -61888,48 +62014,6 @@
       "sku": "000000000307933001",
       "price": {
         "standard": 1.95,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000308498001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Wholewheat Pasta 500g, Fusilli",
-      "brand": "CUCINA",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "wholewheat pasta 500g, fusilli",
-        "000000000308498001",
-        "cucina"
-      ],
-      "ownLabel": false,
-      "sku": "000000000308498001",
-      "price": {
-        "standard": 0.75,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000308498002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Wholewheat Pasta 500g, Spagh.",
-      "brand": "CUCINA",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "wholewheat pasta 500g, spagh.",
-        "000000000308498002",
-        "cucina"
-      ],
-      "ownLabel": false,
-      "sku": "000000000308498002",
-      "price": {
-        "standard": 0.75,
         "loyalty": null
       }
     },
