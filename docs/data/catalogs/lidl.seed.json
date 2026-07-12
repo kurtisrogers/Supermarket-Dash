@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-11T08:00:23.444Z",
-    "productCount": 504,
+    "lastUpdated": "2026-07-12T08:26:54.660Z",
+    "productCount": 535,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -226,6 +226,26 @@
       "sku": "10051313",
       "price": {
         "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050908",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Air Purifying Plant",
+      "brand": "Air",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "air purifying plant",
+        "10050908"
+      ],
+      "ownLabel": false,
+      "sku": "10050908",
+      "price": {
+        "standard": 3.99,
         "loyalty": null
       }
     },
@@ -1332,6 +1352,26 @@
       }
     },
     {
+      "id": "lidl-10050901",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Bottle Terrarium",
+      "brand": "Bottle",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "bottle terrarium",
+        "10050901"
+      ],
+      "ownLabel": false,
+      "sku": "10050901",
+      "price": {
+        "standard": 14.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050938",
       "productGroup": null,
       "storeId": "lidl",
@@ -1428,6 +1468,27 @@
       ],
       "ownLabel": false,
       "sku": "10050878",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050879",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "CARPLAN Demon Shine",
+      "brand": "CARPLAN",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "carplan demon shine",
+        "10050879",
+        "carplan"
+      ],
+      "ownLabel": false,
+      "sku": "10050879",
       "price": {
         "standard": 4.99,
         "loyalty": null
@@ -1716,6 +1777,27 @@
       "sku": "10045827",
       "price": {
         "standard": 3.69,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10045819",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "DELUXE 12 British Cumberland Chipolatas",
+      "brand": "Lidl",
+      "storeLabel": "Lidl",
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "deluxe 12 british cumberland chipolatas",
+        "10045819",
+        "lidl"
+      ],
+      "ownLabel": true,
+      "sku": "10045819",
+      "price": {
+        "standard": 2.49,
         "loyalty": null
       }
     },
@@ -2371,6 +2453,26 @@
       }
     },
     {
+      "id": "lidl-10051141",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Dianthus",
+      "brand": "Dianthus",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "dianthus",
+        "10051141"
+      ],
+      "ownLabel": false,
+      "sku": "10051141",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050630",
       "productGroup": null,
       "storeId": "lidl",
@@ -2825,6 +2927,27 @@
       }
     },
     {
+      "id": "lidl-10051211",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Ariani - Buttermilk 1.5% From Thraki",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous ariani - buttermilk 1.5% from thraki",
+        "10051211",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051211",
+      "price": {
+        "standard": 1.39,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051289",
       "productGroup": null,
       "storeId": "lidl",
@@ -3140,6 +3263,27 @@
       }
     },
     {
+      "id": "lidl-10051201",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Antipasti Platter Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek antipasti platter assorted",
+        "10051201",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051201",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051157",
       "productGroup": null,
       "storeId": "lidl",
@@ -3157,6 +3301,48 @@
       "sku": "10051157",
       "price": {
         "standard": 3.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051167",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Pastries Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek pastries assorted",
+        "10051167",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051167",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051245",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Greek Spices Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous greek spices assorted",
+        "10051245",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051245",
+      "price": {
+        "standard": 0.99,
         "loyalty": null
       }
     },
@@ -3304,6 +3490,27 @@
       "sku": "10051223",
       "price": {
         "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051151",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ERIDANOUS Mini Nut Bars Assorted",
+      "brand": "ERIDANOUS",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "eridanous mini nut bars assorted",
+        "10051151",
+        "eridanous"
+      ],
+      "ownLabel": false,
+      "sku": "10051151",
+      "price": {
+        "standard": 3.49,
         "loyalty": null
       }
     },
@@ -3728,6 +3935,27 @@
       }
     },
     {
+      "id": "lidl-10051031",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA Ladies’ White, Grey and Black Trainer Socks - 5 Pairs",
+      "brand": "ESMARA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara ladies’ white, grey and black trainer socks - 5 pairs",
+        "10051031",
+        "esmara"
+      ],
+      "ownLabel": false,
+      "sku": "10051031",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051018",
       "productGroup": null,
       "storeId": "lidl",
@@ -3808,6 +4036,27 @@
       "sku": "10051016",
       "price": {
         "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051024",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ESMARA Trolley Suitcase",
+      "brand": "ESMARA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "esmara trolley suitcase",
+        "10051024",
+        "esmara"
+      ],
+      "ownLabel": false,
+      "sku": "10051024",
+      "price": {
+        "standard": 29.99,
         "loyalty": null
       }
     },
@@ -4790,6 +5039,46 @@
       }
     },
     {
+      "id": "lidl-10051145",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Houseplant",
+      "brand": "Houseplant",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "houseplant",
+        "10051145"
+      ],
+      "ownLabel": false,
+      "sku": "10051145",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050905",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Houseplant in Woven Pot",
+      "brand": "Houseplant",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "houseplant in woven pot",
+        "10050905"
+      ],
+      "ownLabel": false,
+      "sku": "10050905",
+      "price": {
+        "standard": 9.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10049233",
       "productGroup": null,
       "storeId": "lidl",
@@ -4910,6 +5199,26 @@
       }
     },
     {
+      "id": "lidl-10051310",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Korifeos Ouzo 40%, 700ml",
+      "brand": "Korifeos",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "korifeos ouzo 40%, 700ml",
+        "10051310"
+      ],
+      "ownLabel": false,
+      "sku": "10051310",
+      "price": {
+        "standard": 18.2,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050988",
       "productGroup": null,
       "storeId": "lidl",
@@ -4926,6 +5235,26 @@
       "sku": "10050988",
       "price": {
         "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050902",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Lavender",
+      "brand": "Lavender",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "lavender",
+        "10050902"
+      ],
+      "ownLabel": false,
+      "sku": "10050902",
+      "price": {
+        "standard": 4.99,
         "loyalty": null
       }
     },
@@ -5601,6 +5930,27 @@
       }
     },
     {
+      "id": "lidl-10050722",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Neck Support Pillow With Gel Pad",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno neck support pillow with gel pad",
+        "10050722",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050722",
+      "price": {
+        "standard": 12.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050736",
       "productGroup": null,
       "storeId": "lidl",
@@ -5618,6 +5968,90 @@
       "sku": "10050736",
       "price": {
         "standard": 8.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050691",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Parasol With Kiwi Design",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno parasol with kiwi design",
+        "10050691",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050691",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050912",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Parasol With Solar LED Lights",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno parasol with solar led lights",
+        "10050912",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050912",
+      "price": {
+        "standard": 39.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050690",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Parasol With Sunflower Design",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno parasol with sunflower design",
+        "10050690",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050690",
+      "price": {
+        "standard": 6.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050692",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "LIVARNO Parasol With Watermelon Design",
+      "brand": "LIVARNO",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "livarno parasol with watermelon design",
+        "10050692",
+        "livarno"
+      ],
+      "ownLabel": false,
+      "sku": "10050692",
+      "price": {
+        "standard": 6.99,
         "loyalty": null
       }
     },
@@ -7123,6 +7557,90 @@
       }
     },
     {
+      "id": "lidl-10050677",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Outdoor Broom",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside outdoor broom",
+        "10050677",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10050677",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051118",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Paint Roller Set For Emulsion And Silicate Paint - 7 Pieces",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside paint roller set for emulsion and silicate paint - 7 pieces",
+        "10051118",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051118",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051117",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Paint Roller Set For Solvent-Based Paints - 7 Pieces",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside paint roller set for solvent-based paints - 7 pieces",
+        "10051117",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051117",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051116",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Paint Roller Set For Varnishing - 7 Pieces",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside paint roller set for varnishing - 7 pieces",
+        "10051116",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051116",
+      "price": {
+        "standard": 2.49,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051136",
       "productGroup": null,
       "storeId": "lidl",
@@ -7165,6 +7683,48 @@
       }
     },
     {
+      "id": "lidl-10051127",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Ratchet Screwdriver and Bit Set",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside ratchet screwdriver and bit set",
+        "10051127",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051127",
+      "price": {
+        "standard": 7.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051097",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Rubber Mallet",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside rubber mallet",
+        "10051097",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051097",
+      "price": {
+        "standard": 3.79,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051042",
       "productGroup": null,
       "storeId": "lidl",
@@ -7201,6 +7761,27 @@
       ],
       "ownLabel": false,
       "sku": "10050681",
+      "price": {
+        "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050682",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Sprinkler",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside sprinkler",
+        "10050682",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10050682",
       "price": {
         "standard": 2.99,
         "loyalty": null
@@ -9059,6 +9640,26 @@
       }
     },
     {
+      "id": "lidl-10051314",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "The Family Friend Book",
+      "brand": "The",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "the family friend book",
+        "10051314"
+      ],
+      "ownLabel": false,
+      "sku": "10051314",
+      "price": {
+        "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051312",
       "productGroup": null,
       "storeId": "lidl",
@@ -9137,6 +9738,27 @@
       "sku": "10051132",
       "price": {
         "standard": 0.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050638",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "ULTIMATE SPEED Car Boot Bag",
+      "brand": "ULTIMATE SPEED",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "ultimate speed car boot bag",
+        "10050638",
+        "ultimate speed"
+      ],
+      "ownLabel": false,
+      "sku": "10050638",
+      "price": {
+        "standard": 4.99,
         "loyalty": null
       }
     },
@@ -9968,6 +10590,27 @@
       "sku": "10050385",
       "price": {
         "standard": 1.79,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10050389",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "VITASIA Kimchi",
+      "brand": "VITASIA",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food",
+      "searchTerms": [
+        "vitasia kimchi",
+        "10050389",
+        "vitasia"
+      ],
+      "ownLabel": false,
+      "sku": "10050389",
+      "price": {
+        "standard": 1.29,
         "loyalty": null
       }
     },

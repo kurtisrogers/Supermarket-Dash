@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "aldi",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-11T07:57:44.382Z",
-    "productCount": 2992,
+    "lastUpdated": "2026-07-12T08:24:15.734Z",
+    "productCount": 2987,
     "fetchMethod": "spider-aldi",
     "pages": 80
   },
@@ -1243,7 +1243,7 @@
       "ownLabel": true,
       "sku": "000000000000693450",
       "price": {
-        "standard": 10.29,
+        "standard": 8.99,
         "loyalty": null
       }
     },
@@ -12818,6 +12818,27 @@
       }
     },
     {
+      "id": "aldi-000000000754956002",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Chicken & Veg Paela",
+      "brand": "BEN'S ORIGINAL",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "chicken & veg paela",
+        "000000000754956002",
+        "ben's original"
+      ],
+      "ownLabel": false,
+      "sku": "000000000754956002",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000368533001",
       "productGroup": null,
       "storeId": "aldi",
@@ -13721,6 +13742,27 @@
       }
     },
     {
+      "id": "aldi-000000000754956001",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Chicken Risotto",
+      "brand": "BEN'S ORIGINAL",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "chicken risotto",
+        "000000000754956001",
+        "ben's original"
+      ],
+      "ownLabel": false,
+      "sku": "000000000754956001",
+      "price": {
+        "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "aldi-000000000484275002",
       "productGroup": null,
       "storeId": "aldi",
@@ -14431,6 +14473,27 @@
       "sku": "000000000691198002",
       "price": {
         "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000754956004",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Chili Con Carne",
+      "brand": "BEN'S ORIGINAL",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "chili con carne",
+        "000000000754956004",
+        "ben's original"
+      ],
+      "ownLabel": false,
+      "sku": "000000000754956004",
+      "price": {
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -19428,27 +19491,6 @@
       "sku": "000000000000273682",
       "price": {
         "standard": 1.05,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000622205",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Cumberland Pork Sausages",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "cumberland pork sausages",
-        "000000000000622205",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000622205",
-      "price": {
-        "standard": 3.69,
         "loyalty": null
       }
     },
@@ -28840,27 +28882,6 @@
       }
     },
     {
-      "id": "aldi-000000000000735668",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Hot Honey Pork Belly Slices",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "hot honey pork belly slices",
-        "000000000000735668",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000735668",
-      "price": {
-        "standard": 5.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000405307001",
       "productGroup": null,
       "storeId": "aldi",
@@ -30663,27 +30684,6 @@
       "sku": "000000000000263719",
       "price": {
         "standard": 1.19,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000725467",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "Korean BBQ Infused Salmon Fillets",
-      "brand": "THE FISHMONGER",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "korean bbq infused salmon fillets",
-        "000000000000725467",
-        "the fishmonger"
-      ],
-      "ownLabel": false,
-      "sku": "000000000000725467",
-      "price": {
-        "standard": 6.99,
         "loyalty": null
       }
     },
@@ -38752,27 +38752,6 @@
       }
     },
     {
-      "id": "aldi-000000000000622260",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "New York Style Burgers",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "new york style burgers",
-        "000000000000622260",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000622260",
-      "price": {
-        "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000666453001",
       "productGroup": null,
       "storeId": "aldi",
@@ -41981,6 +41960,27 @@
       "sku": "000000000386069002",
       "price": {
         "standard": 1.15,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "aldi-000000000754956003",
+      "productGroup": null,
+      "storeId": "aldi",
+      "name": "Peri Peri Chicken",
+      "brand": "BEN'S ORIGINAL",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "peri peri chicken",
+        "000000000754956003",
+        "ben's original"
+      ],
+      "ownLabel": false,
+      "sku": "000000000754956003",
+      "price": {
+        "standard": 1.99,
         "loyalty": null
       }
     },
@@ -62354,69 +62354,6 @@
       }
     },
     {
-      "id": "aldi-000000000725580001",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "XXL Back Bacon Smoked",
-      "brand": "OAKHURST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "xxl back bacon smoked",
-        "000000000725580001",
-        "oakhurst"
-      ],
-      "ownLabel": false,
-      "sku": "000000000725580001",
-      "price": {
-        "standard": 3.29,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000725580002",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "XXL Back Bacon Unsmoked",
-      "brand": "OAKHURST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "xxl back bacon unsmoked",
-        "000000000725580002",
-        "oakhurst"
-      ],
-      "ownLabel": false,
-      "sku": "000000000725580002",
-      "price": {
-        "standard": 3.29,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000743534",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "XXL Caramelised Onion Sausages",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "xxl caramelised onion sausages",
-        "000000000000743534",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000743534",
-      "price": {
-        "standard": 3.69,
-        "loyalty": null
-      }
-    },
-    {
       "id": "aldi-000000000000387218",
       "productGroup": null,
       "storeId": "aldi",
@@ -62455,48 +62392,6 @@
       "sku": "000000000000488015",
       "price": {
         "standard": 5.69,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000683014",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "XXL Sirloin Steaks",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "xxl sirloin steaks",
-        "000000000000683014",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000683014",
-      "price": {
-        "standard": 15.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "aldi-000000000000543942",
-      "productGroup": null,
-      "storeId": "aldi",
-      "name": "XXL Sirloins",
-      "brand": "Aldi",
-      "storeLabel": "Aldi",
-      "barcode": null,
-      "category": "Fresh Food",
-      "searchTerms": [
-        "xxl sirloins",
-        "000000000000543942",
-        "aldi"
-      ],
-      "ownLabel": true,
-      "sku": "000000000000543942",
-      "price": {
-        "standard": 14.99,
         "loyalty": null
       }
     },
