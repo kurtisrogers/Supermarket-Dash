@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-14T08:18:43.279Z",
-    "productCount": 535,
+    "lastUpdated": "2026-07-15T08:23:36.009Z",
+    "productCount": 533,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -5259,6 +5259,26 @@
       }
     },
     {
+      "id": "lidl-10051142",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Lavender",
+      "brand": "Lavender",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "lavender",
+        "10051142"
+      ],
+      "ownLabel": false,
+      "sku": "10051142",
+      "price": {
+        "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10050821",
       "productGroup": null,
       "storeId": "lidl",
@@ -6308,48 +6328,6 @@
       }
     },
     {
-      "id": "lidl-10046211",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Hypoallergenic Skin Care Nappies Size 1",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu hypoallergenic skin care nappies size 1",
-        "10046211",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10046211",
-      "price": {
-        "standard": 2.39,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10046212",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Hypoallergenic Skin Care Nappies Size 2",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu hypoallergenic skin care nappies size 2",
-        "10046212",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10046212",
-      "price": {
-        "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10046213",
       "productGroup": null,
       "storeId": "lidl",
@@ -6365,48 +6343,6 @@
       ],
       "ownLabel": false,
       "sku": "10046213",
-      "price": {
-        "standard": 4.89,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10046214",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Hypoallergenic Skin Care Nappies Size 4",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu hypoallergenic skin care nappies size 4",
-        "10046214",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10046214",
-      "price": {
-        "standard": 4.89,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10046215",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "LUPILU Hypoallergenic Skin Care Nappies Size 5",
-      "brand": "LUPILU",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "lupilu hypoallergenic skin care nappies size 5",
-        "10046215",
-        "lupilu"
-      ],
-      "ownLabel": false,
-      "sku": "10046215",
       "price": {
         "standard": 4.89,
         "loyalty": null
@@ -8700,6 +8636,27 @@
       "sku": "10050996",
       "price": {
         "standard": 4.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051008",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SILVERCREST Sandwich Toaster",
+      "brand": "SILVERCREST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "silvercrest sandwich toaster",
+        "10051008",
+        "silvercrest"
+      ],
+      "ownLabel": false,
+      "sku": "10051008",
+      "price": {
+        "standard": 8.99,
         "loyalty": null
       }
     },
