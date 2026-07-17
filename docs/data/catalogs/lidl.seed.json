@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-16T08:20:59.477Z",
-    "productCount": 450,
+    "lastUpdated": "2026-07-17T08:12:24.612Z",
+    "productCount": 448,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -6622,27 +6622,6 @@
       }
     },
     {
-      "id": "lidl-10051412",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Garden Scissors",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside garden scissors",
-        "10051412",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10051412",
-      "price": {
-        "standard": 3.99,
-        "loyalty": null
-      }
-    },
-    {
       "id": "lidl-10051413",
       "productGroup": null,
       "storeId": "lidl",
@@ -6765,27 +6744,6 @@
       "sku": "10051136",
       "price": {
         "standard": 5.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10051097",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "PARKSIDE Rubber Mallet",
-      "brand": "PARKSIDE",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "parkside rubber mallet",
-        "10051097",
-        "parkside"
-      ],
-      "ownLabel": false,
-      "sku": "10051097",
-      "price": {
-        "standard": 3.79,
         "loyalty": null
       }
     },
