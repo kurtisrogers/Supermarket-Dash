@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-17T08:12:24.612Z",
-    "productCount": 448,
+    "lastUpdated": "2026-07-18T07:55:21.629Z",
+    "productCount": 449,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -7285,6 +7285,27 @@
       "sku": "10051438",
       "price": {
         "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051434",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SENSIPLAST Posture Trainer",
+      "brand": "SENSIPLAST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "sensiplast posture trainer",
+        "10051434",
+        "sensiplast"
+      ],
+      "ownLabel": false,
+      "sku": "10051434",
+      "price": {
+        "standard": 7.99,
         "loyalty": null
       }
     },
