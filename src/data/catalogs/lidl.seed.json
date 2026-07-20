@@ -2,7 +2,7 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-19T08:27:59.028Z",
+    "lastUpdated": "2026-07-20T09:03:55.790Z",
     "productCount": 447,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
@@ -271,7 +271,7 @@
       "ownLabel": false,
       "sku": "10051619",
       "price": {
-        "standard": 1.29,
+        "standard": 2.99,
         "loyalty": null
       }
     },
@@ -1748,27 +1748,6 @@
       "sku": "10045869",
       "price": {
         "standard": 2.89,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10045867",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "CIEN SUN Sun Lotion SPF 15",
-      "brand": "CIEN SUN",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "cien sun sun lotion spf 15",
-        "10045867",
-        "cien sun"
-      ],
-      "ownLabel": false,
-      "sku": "10045867",
-      "price": {
-        "standard": 3.65,
         "loyalty": null
       }
     },
@@ -7265,6 +7244,27 @@
       "sku": "10051438",
       "price": {
         "standard": 2.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051434",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "SENSIPLAST Posture Trainer",
+      "brand": "SENSIPLAST",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "sensiplast posture trainer",
+        "10051434",
+        "sensiplast"
+      ],
+      "ownLabel": false,
+      "sku": "10051434",
+      "price": {
+        "standard": 7.99,
         "loyalty": null
       }
     },
