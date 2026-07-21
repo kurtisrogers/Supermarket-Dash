@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-20T09:03:55.790Z",
-    "productCount": 447,
+    "lastUpdated": "2026-07-21T08:36:00.677Z",
+    "productCount": 448,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -1334,7 +1334,7 @@
       "ownLabel": false,
       "sku": "10051625",
       "price": {
-        "standard": 1.19,
+        "standard": 0.65,
         "loyalty": null
       }
     },
@@ -1748,6 +1748,27 @@
       "sku": "10045869",
       "price": {
         "standard": 2.89,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10045867",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "CIEN SUN Sun Lotion SPF 15",
+      "brand": "CIEN SUN",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "cien sun sun lotion spf 15",
+        "10045867",
+        "cien sun"
+      ],
+      "ownLabel": false,
+      "sku": "10045867",
+      "price": {
+        "standard": 3.65,
         "loyalty": null
       }
     },
@@ -6581,6 +6602,27 @@
       }
     },
     {
+      "id": "lidl-10051412",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Garden Scissors",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside garden scissors",
+        "10051412",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051412",
+      "price": {
+        "standard": 3.99,
+        "loyalty": null
+      }
+    },
+    {
       "id": "lidl-10051413",
       "productGroup": null,
       "storeId": "lidl",
@@ -7244,27 +7286,6 @@
       "sku": "10051438",
       "price": {
         "standard": 2.99,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "lidl-10051434",
-      "productGroup": null,
-      "storeId": "lidl",
-      "name": "SENSIPLAST Posture Trainer",
-      "brand": "SENSIPLAST",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "NonFood",
-      "searchTerms": [
-        "sensiplast posture trainer",
-        "10051434",
-        "sensiplast"
-      ],
-      "ownLabel": false,
-      "sku": "10051434",
-      "price": {
-        "standard": 7.99,
         "loyalty": null
       }
     },
