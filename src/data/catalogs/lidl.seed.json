@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "lidl",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-21T08:36:00.677Z",
-    "productCount": 448,
+    "lastUpdated": "2026-07-22T08:36:44.754Z",
+    "productCount": 450,
     "fetchMethod": "spider-lidl",
     "searchTerms": 171
   },
@@ -3192,6 +3192,26 @@
       "sku": "10045834",
       "price": {
         "standard": 1.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051424",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "Ergonomic Seat Cushion",
+      "brand": "Ergonomic",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "ergonomic seat cushion",
+        "10051424"
+      ],
+      "ownLabel": false,
+      "sku": "10051424",
+      "price": {
+        "standard": 11.99,
         "loyalty": null
       }
     },
@@ -6745,6 +6765,27 @@
       "sku": "10051136",
       "price": {
         "standard": 5.99,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "lidl-10051097",
+      "productGroup": null,
+      "storeId": "lidl",
+      "name": "PARKSIDE Rubber Mallet",
+      "brand": "PARKSIDE",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "NonFood",
+      "searchTerms": [
+        "parkside rubber mallet",
+        "10051097",
+        "parkside"
+      ],
+      "ownLabel": false,
+      "sku": "10051097",
+      "price": {
+        "standard": 3.79,
         "loyalty": null
       }
     },
