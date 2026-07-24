@@ -1,11 +1,12 @@
 {
   "meta": {
     "storeId": "lidl",
-    "source": "live-fetch",
-    "lastUpdated": "2026-07-23T08:37:06.740Z",
+    "source": "seed-fallback",
+    "lastUpdated": "2026-07-24T08:42:47.929Z",
     "productCount": 533,
     "fetchMethod": "spider-lidl",
-    "searchTerms": 171
+    "searchTerms": 171,
+    "fetchError": "Lidl spider returned no products"
   },
   "products": [
     {
