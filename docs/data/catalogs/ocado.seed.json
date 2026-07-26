@@ -2,8 +2,8 @@
   "meta": {
     "storeId": "ocado",
     "source": "live-fetch",
-    "lastUpdated": "2026-07-25T08:39:35.170Z",
-    "productCount": 34068,
+    "lastUpdated": "2026-07-26T08:54:32.197Z",
+    "productCount": 34040,
     "fetchMethod": "spider-ocado",
     "searchTerms": 171
   },
@@ -1584,27 +1584,6 @@
       }
     },
     {
-      "id": "ocado-661128011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "7Up Pink Lemonade",
-      "brand": "7up",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "7up pink lemonade",
-        "661128011",
-        "7up"
-      ],
-      "ownLabel": false,
-      "sku": "661128011",
-      "price": {
-        "standard": 4,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-661131011",
       "productGroup": null,
       "storeId": "ocado",
@@ -1622,6 +1601,27 @@
       "sku": "661131011",
       "price": {
         "standard": 2.05,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-661128011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "7Up Pink Lemonade",
+      "brand": "7up",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Soft Drinks, Tea & Coffee",
+      "searchTerms": [
+        "7up pink lemonade",
+        "661128011",
+        "7up"
+      ],
+      "ownLabel": false,
+      "sku": "661128011",
+      "price": {
+        "standard": 4,
         "loyalty": null
       }
     },
@@ -12406,7 +12406,7 @@
       "brand": "Ambrosia",
       "storeLabel": null,
       "barcode": null,
-      "category": "Fresh & Chilled Food",
+      "category": "Food Cupboard",
       "searchTerms": [
         "ambrosia deluxe custard belgian chocolate dessert snack pots",
         "615544011",
@@ -40391,27 +40391,6 @@
       }
     },
     {
-      "id": "ocado-660047011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Beldray Anti-Bac Cloths",
-      "brand": "Beldray",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Home Care & Cleaning",
-      "searchTerms": [
-        "beldray anti-bac cloths",
-        "660047011",
-        "beldray"
-      ],
-      "ownLabel": false,
-      "sku": "660047011",
-      "price": {
-        "standard": 5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-574955011",
       "productGroup": null,
       "storeId": "ocado",
@@ -41437,27 +41416,6 @@
       "sku": "637196011",
       "price": {
         "standard": 4.25,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-666610011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Belvoir Farm No added sugar sparkling passionfruit & mango",
-      "brand": "Belvoir",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "belvoir farm no added sugar sparkling passionfruit & mango",
-        "666610011",
-        "belvoir"
-      ],
-      "ownLabel": false,
-      "sku": "666610011",
-      "price": {
-        "standard": 2.95,
         "loyalty": null
       }
     },
@@ -53500,7 +53458,7 @@
       "brand": "Biona",
       "storeLabel": null,
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "biona organic haricot beans",
         "37504011",
@@ -57504,6 +57462,27 @@
       }
     },
     {
+      "id": "ocado-496472011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Birchall Great Rift Decaf Everyday Tea Bags",
+      "brand": "Birchall Tea",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Soft Drinks, Tea & Coffee",
+      "searchTerms": [
+        "birchall great rift decaf everyday tea bags",
+        "496472011",
+        "birchall tea"
+      ],
+      "ownLabel": false,
+      "sku": "496472011",
+      "price": {
+        "standard": 6,
+        "loyalty": null
+      }
+    },
+    {
       "id": "ocado-496471011",
       "productGroup": null,
       "storeId": "ocado",
@@ -57561,6 +57540,27 @@
       ],
       "ownLabel": false,
       "sku": "520330011",
+      "price": {
+        "standard": 5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-520332011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Birchall Mao Feng Green Tea Bags",
+      "brand": "Birchall Tea",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Soft Drinks, Tea & Coffee",
+      "searchTerms": [
+        "birchall mao feng green tea bags",
+        "520332011",
+        "birchall tea"
+      ],
+      "ownLabel": false,
+      "sku": "520332011",
       "price": {
         "standard": 5,
         "loyalty": null
@@ -58445,27 +58445,6 @@
       "sku": "555389011",
       "price": {
         "standard": 5,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-47412011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Birds Eye 32 MSC Breaded Cod Fish Fingers",
-      "brand": "Birds Eye",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Frozen Food",
-      "searchTerms": [
-        "birds eye 32 msc breaded cod fish fingers",
-        "47412011",
-        "birds eye"
-      ],
-      "ownLabel": false,
-      "sku": "47412011",
-      "price": {
-        "standard": 8.5,
         "loyalty": null
       }
     },
@@ -66751,7 +66730,7 @@
       "brand": "Bolsius",
       "storeLabel": null,
       "barcode": null,
-      "category": "Home & Garden",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "bolsius rustic candle shimmer silver 19cm",
         "589794011",
@@ -71385,27 +71364,6 @@
       }
     },
     {
-      "id": "ocado-13203011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Bottlegreen Seasonal Spiced Berry Cordial",
-      "brand": "Bottle Green",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "bottlegreen seasonal spiced berry cordial",
-        "13203011",
-        "bottle green"
-      ],
-      "ownLabel": false,
-      "sku": "13203011",
-      "price": {
-        "standard": 4.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-678752011",
       "productGroup": null,
       "storeId": "ocado",
@@ -74677,27 +74635,6 @@
       "sku": "629276011",
       "price": {
         "standard": 3.1,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-693657011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "BrewDog Fathers Day Mixed Can Pack 10 x 330ml",
-      "brand": "BrewDog",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Beer, Wine & Spirits",
-      "searchTerms": [
-        "brewdog fathers day mixed can pack 10 x 330ml",
-        "693657011",
-        "brewdog"
-      ],
-      "ownLabel": false,
-      "sku": "693657011",
-      "price": {
-        "standard": 14.25,
         "loyalty": null
       }
     },
@@ -85692,7 +85629,7 @@
       "brand": "Cadbury",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Treats & Snacks",
       "searchTerms": [
         "cadbury wispa gold chocolate bar multipack",
         "589062011",
@@ -92674,27 +92611,6 @@
       "sku": "490979011",
       "price": {
         "standard": 14,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-490980011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Carnilove Fresh Ostrich & Lamb Small Breed Adult Dog Food",
-      "brand": "Carnilove",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Events & Inspiration",
-      "searchTerms": [
-        "carnilove fresh ostrich & lamb small breed adult dog food",
-        "490980011",
-        "carnilove"
-      ],
-      "ownLabel": false,
-      "sku": "490980011",
-      "price": {
-        "standard": 45,
         "loyalty": null
       }
     },
@@ -110136,7 +110052,7 @@
       "brand": "Clearspring",
       "storeLabel": null,
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "clearspring organic gomashio whole sesame with sea salt",
         "640189011",
@@ -113568,26 +113484,6 @@
       }
     },
     {
-      "id": "ocado-50418011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Coca-Cola Zero Sugar",
-      "brand": "Coca-Cola Zero Sugar",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "coca-cola zero sugar",
-        "50418011"
-      ],
-      "ownLabel": false,
-      "sku": "50418011",
-      "price": {
-        "standard": 2.15,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-395244011",
       "productGroup": null,
       "storeId": "ocado",
@@ -113604,6 +113500,26 @@
       "sku": "395244011",
       "price": {
         "standard": 3.5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-50418011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Coca-Cola Zero Sugar",
+      "brand": "Coca-Cola Zero Sugar",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Soft Drinks, Tea & Coffee",
+      "searchTerms": [
+        "coca-cola zero sugar",
+        "50418011"
+      ],
+      "ownLabel": false,
+      "sku": "50418011",
+      "price": {
+        "standard": 2.15,
         "loyalty": null
       }
     },
@@ -114474,7 +114390,7 @@
       "brand": "Coconut Merchant",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Occasions & Entertaining",
       "searchTerms": [
         "coconut merchant organic coconut sugar",
         "453982011",
@@ -145669,7 +145585,7 @@
       "brand": "Divine",
       "storeLabel": null,
       "barcode": null,
-      "category": "Treats & Snacks",
+      "category": "Occasions & Entertaining",
       "searchTerms": [
         "divine the chunky chocolate gift pack",
         "646767011",
@@ -160614,27 +160530,6 @@
       }
     },
     {
-      "id": "ocado-17128011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "E45 Moisturiser Body Lotion for Dry & Sensitive Skin",
-      "brand": "E45",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Beauty & Toiletries",
-      "searchTerms": [
-        "e45 moisturiser body lotion for dry & sensitive skin",
-        "17128011",
-        "e45"
-      ],
-      "ownLabel": false,
-      "sku": "17128011",
-      "price": {
-        "standard": 5.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-36721011",
       "productGroup": null,
       "storeId": "ocado",
@@ -160652,6 +160547,27 @@
       "sku": "36721011",
       "price": {
         "standard": 11,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-17128011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "E45 Moisturiser Body Lotion for Dry & Sensitive Skin",
+      "brand": "E45",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Beauty & Toiletries",
+      "searchTerms": [
+        "e45 moisturiser body lotion for dry & sensitive skin",
+        "17128011",
+        "e45"
+      ],
+      "ownLabel": false,
+      "sku": "17128011",
+      "price": {
+        "standard": 5.5,
         "loyalty": null
       }
     },
@@ -161146,7 +161062,7 @@
       "brand": "East End",
       "storeLabel": null,
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "east end premium gold chakki atta",
         "679299011",
@@ -174775,7 +174691,7 @@
       "brand": "Epicure",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "epicure apricot halves in fruit juice",
         "560093011",
@@ -175132,7 +175048,7 @@
       "brand": "Epicure",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "epicure mandarin segments in juice",
         "560095011",
@@ -178737,27 +178653,6 @@
       }
     },
     {
-      "id": "ocado-656112011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Fairy In-Wash Scent Booster",
-      "brand": "Fairy",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Home Care & Cleaning",
-      "searchTerms": [
-        "fairy in-wash scent booster",
-        "656112011",
-        "fairy"
-      ],
-      "ownLabel": false,
-      "sku": "656112011",
-      "price": {
-        "standard": 8,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-656120011",
       "productGroup": null,
       "storeId": "ocado",
@@ -178773,6 +178668,27 @@
       ],
       "ownLabel": false,
       "sku": "656120011",
+      "price": {
+        "standard": 8,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-656112011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Fairy In-Wash Scent Booster",
+      "brand": "Fairy",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Home Care & Cleaning",
+      "searchTerms": [
+        "fairy in-wash scent booster",
+        "656112011",
+        "fairy"
+      ],
+      "ownLabel": false,
+      "sku": "656112011",
       "price": {
         "standard": 8,
         "loyalty": null
@@ -202264,7 +202180,7 @@
       "brand": "Fussy",
       "storeLabel": null,
       "barcode": null,
-      "category": "Beauty & Toiletries",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "fussy refillable natural deodorant coconut milk",
         "645359011",
@@ -211770,27 +211686,6 @@
       }
     },
     {
-      "id": "ocado-619881011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Glade Pumpkin Spice Latte Automatic Spray Refill",
-      "brand": "Glade",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Home Care & Cleaning",
-      "searchTerms": [
-        "glade pumpkin spice latte automatic spray refill",
-        "619881011",
-        "glade"
-      ],
-      "ownLabel": false,
-      "sku": "619881011",
-      "price": {
-        "standard": 4.25,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-629094011",
       "productGroup": null,
       "storeId": "ocado",
@@ -214206,48 +214101,6 @@
       }
     },
     {
-      "id": "ocado-544466011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Good & Proper Tea - Loose Leaf Chamomile Tea",
-      "brand": "Good & Proper Tea",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "good & proper tea - loose leaf chamomile tea",
-        "544466011",
-        "good & proper tea"
-      ],
-      "ownLabel": false,
-      "sku": "544466011",
-      "price": {
-        "standard": 5,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-544467011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Good & Proper Tea - Loose Leaf Darjeeling Tea",
-      "brand": "Good & Proper Tea",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "good & proper tea - loose leaf darjeeling tea",
-        "544467011",
-        "good & proper tea"
-      ],
-      "ownLabel": false,
-      "sku": "544467011",
-      "price": {
-        "standard": 8.2,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-544469011",
       "productGroup": null,
       "storeId": "ocado",
@@ -216197,27 +216050,6 @@
       "sku": "643021011",
       "price": {
         "standard": 18,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-643262011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "GOOD PHATS Spanish Extra Virgin Olive Oil Aerosol Spray",
-      "brand": "Good Phats",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "good phats spanish extra virgin olive oil aerosol spray",
-        "643262011",
-        "good phats"
-      ],
-      "ownLabel": false,
-      "sku": "643262011",
-      "price": {
-        "standard": 6.5,
         "loyalty": null
       }
     },
@@ -219015,27 +218847,6 @@
       }
     },
     {
-      "id": "ocado-698387011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Gourmet Perle Ocean Flakes Wet Cat Food",
-      "brand": "Gourmet",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Pets",
-      "searchTerms": [
-        "gourmet perle ocean flakes wet cat food",
-        "698387011",
-        "gourmet"
-      ],
-      "ownLabel": false,
-      "sku": "698387011",
-      "price": {
-        "standard": 31.25,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-698386011",
       "productGroup": null,
       "storeId": "ocado",
@@ -219053,6 +218864,27 @@
       "sku": "698386011",
       "price": {
         "standard": 22.2,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-698387011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Gourmet Perle Ocean Flakes Wet Cat Food",
+      "brand": "Gourmet",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Pets",
+      "searchTerms": [
+        "gourmet perle ocean flakes wet cat food",
+        "698387011",
+        "gourmet"
+      ],
+      "ownLabel": false,
+      "sku": "698387011",
+      "price": {
+        "standard": 31.25,
         "loyalty": null
       }
     },
@@ -221604,7 +221436,7 @@
       "brand": "Graze",
       "storeLabel": null,
       "barcode": null,
-      "category": "Health, Medicines & Wellbeing",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "graze lemon blueberry oat boosts flapjack snack",
         "595938011",
@@ -222625,27 +222457,6 @@
       }
     },
     {
-      "id": "ocado-54312011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Green Giant Salt Free Sweetcorn",
-      "brand": "Green Giant",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "green giant salt free sweetcorn",
-        "54312011",
-        "green giant"
-      ],
-      "ownLabel": false,
-      "sku": "54312011",
-      "price": {
-        "standard": 1.25,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-40334011",
       "productGroup": null,
       "storeId": "ocado",
@@ -222663,6 +222474,27 @@
       "sku": "40334011",
       "price": {
         "standard": 1,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-54312011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Green Giant Salt Free Sweetcorn",
+      "brand": "Green Giant",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "green giant salt free sweetcorn",
+        "54312011",
+        "green giant"
+      ],
+      "ownLabel": false,
+      "sku": "54312011",
+      "price": {
+        "standard": 1.25,
         "loyalty": null
       }
     },
@@ -238921,27 +238753,6 @@
       }
     },
     {
-      "id": "ocado-12310011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Heinz Beef Ravioli in Tomato Sauce",
-      "brand": "Heinz",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "heinz beef ravioli in tomato sauce",
-        "12310011",
-        "heinz"
-      ],
-      "ownLabel": false,
-      "sku": "12310011",
-      "price": {
-        "standard": 1.4,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-12311011",
       "productGroup": null,
       "storeId": "ocado",
@@ -238959,6 +238770,27 @@
       "sku": "12311011",
       "price": {
         "standard": 2,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-12310011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Heinz Beef Ravioli in Tomato Sauce",
+      "brand": "Heinz",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "heinz beef ravioli in tomato sauce",
+        "12310011",
+        "heinz"
+      ],
+      "ownLabel": false,
+      "sku": "12310011",
+      "price": {
+        "standard": 1.4,
         "loyalty": null
       }
     },
@@ -240870,27 +240702,6 @@
       "sku": "13441011",
       "price": {
         "standard": 1.7,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-612278011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Heinz Passata with Basil",
-      "brand": "Heinz",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "heinz passata with basil",
-        "612278011",
-        "heinz"
-      ],
-      "ownLabel": false,
-      "sku": "612278011",
-      "price": {
-        "standard": 1.75,
         "loyalty": null
       }
     },
@@ -243558,27 +243369,6 @@
       "sku": "686578011",
       "price": {
         "standard": 3.55,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-317114011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Hellmann's Garlic & Herb Sauce",
-      "brand": "Hellmann's",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "hellmann's garlic & herb sauce",
-        "317114011",
-        "hellmann's"
-      ],
-      "ownLabel": false,
-      "sku": "317114011",
-      "price": {
-        "standard": 2.7,
         "loyalty": null
       }
     },
@@ -246298,7 +246088,7 @@
       "brand": "HIGH5",
       "storeLabel": null,
       "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
+      "category": "Health, Medicines & Wellbeing",
       "searchTerms": [
         "high5 zero strawberry & kiwi electrolyte sports drink tablets",
         "564811011",
@@ -253557,27 +253347,6 @@
       }
     },
     {
-      "id": "ocado-261966011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Hollings Pigs Ears Dog Treats",
-      "brand": "Hollings",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Pets",
-      "searchTerms": [
-        "hollings pigs ears dog treats",
-        "261966011",
-        "hollings"
-      ],
-      "ownLabel": false,
-      "sku": "261966011",
-      "price": {
-        "standard": 28,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-201861011",
       "productGroup": null,
       "storeId": "ocado",
@@ -253595,6 +253364,27 @@
       "sku": "201861011",
       "price": {
         "standard": 15.5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-261966011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Hollings Pigs Ears Dog Treats",
+      "brand": "Hollings",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Pets",
+      "searchTerms": [
+        "hollings pigs ears dog treats",
+        "261966011",
+        "hollings"
+      ],
+      "ownLabel": false,
+      "sku": "261966011",
+      "price": {
+        "standard": 28,
         "loyalty": null
       }
     },
@@ -254383,7 +254173,7 @@
       "brand": "Homepride",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "homepride self raising flour",
         "632543011",
@@ -274305,27 +274095,6 @@
       }
     },
     {
-      "id": "ocado-203882011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Jax Coco Coconut Water",
-      "brand": "Jax Coco",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "jax coco coconut water",
-        "203882011",
-        "jax coco"
-      ],
-      "ownLabel": false,
-      "sku": "203882011",
-      "price": {
-        "standard": 4.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-566381011",
       "productGroup": null,
       "storeId": "ocado",
@@ -286103,48 +285872,6 @@
       "sku": "261852011",
       "price": {
         "standard": 3,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-681051011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Kericho Gold Black Tea Decaf 80s",
-      "brand": "Kericho Gold",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "kericho gold black tea decaf 80s",
-        "681051011",
-        "kericho gold"
-      ],
-      "ownLabel": false,
-      "sku": "681051011",
-      "price": {
-        "standard": 7.45,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-681052011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Kericho Gold Pure Kenyan Green Tea 40s",
-      "brand": "Kericho Gold",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "kericho gold pure kenyan green tea 40s",
-        "681052011",
-        "kericho gold"
-      ],
-      "ownLabel": false,
-      "sku": "681052011",
-      "price": {
-        "standard": 4,
         "loyalty": null
       }
     },
@@ -312966,27 +312693,6 @@
       }
     },
     {
-      "id": "ocado-214234011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Lily's Kitchen Dog Lamb Shepherd's Pie Adult Dry Food",
-      "brand": "Lily's Kitchen",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Pets",
-      "searchTerms": [
-        "lily's kitchen dog lamb shepherd's pie adult dry food",
-        "214234011",
-        "lily's kitchen"
-      ],
-      "ownLabel": false,
-      "sku": "214234011",
-      "price": {
-        "standard": 55,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-97381011",
       "productGroup": null,
       "storeId": "ocado",
@@ -313004,6 +312710,27 @@
       "sku": "97381011",
       "price": {
         "standard": 9.7,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-214234011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Lily's Kitchen Dog Lamb Shepherd's Pie Adult Dry Food",
+      "brand": "Lily's Kitchen",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Pets",
+      "searchTerms": [
+        "lily's kitchen dog lamb shepherd's pie adult dry food",
+        "214234011",
+        "lily's kitchen"
+      ],
+      "ownLabel": false,
+      "sku": "214234011",
+      "price": {
+        "standard": 55,
         "loyalty": null
       }
     },
@@ -320102,27 +319829,6 @@
       "sku": "647542011",
       "price": {
         "standard": 5.5,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-694815011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Living Things Mixed 8 Pack",
-      "brand": "Living Things",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "living things mixed 8 pack",
-        "694815011",
-        "living things"
-      ],
-      "ownLabel": false,
-      "sku": "694815011",
-      "price": {
-        "standard": 11,
         "loyalty": null
       }
     },
@@ -333301,7 +333007,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Food Cupboard",
       "searchTerms": [
         "m&s 8 meringue nests",
         "502885011",
@@ -337704,27 +337410,6 @@
       }
     },
     {
-      "id": "ocado-662902011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Baby 3pk Pure Cotton Car Long Sleeve Bodysuits, 6-9 Months, Navy",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s baby 3pk pure cotton car long sleeve bodysuits, 6-9 months, navy",
-        "662902011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "662902011",
-      "price": {
-        "standard": 12,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-662907011",
       "productGroup": null,
       "storeId": "ocado",
@@ -341806,7 +341491,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Food Cupboard",
       "searchTerms": [
         "m&s blanched californian almonds",
         "557731011",
@@ -342142,7 +341827,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s blue nautical briefs, 11-12 years, blue mix",
         "677382011",
@@ -342163,7 +341848,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s blue nautical briefs, 5-6 years, blue mix",
         "677377011",
@@ -342184,7 +341869,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s blue nautical briefs, 6-7 years, blue mix",
         "677378011",
@@ -342205,7 +341890,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s blue nautical briefs, 7-8 years, blue mix",
         "677379011",
@@ -342226,7 +341911,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s blue nautical briefs, 8-9 years, blue mix",
         "677380011",
@@ -342247,7 +341932,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s blue nautical briefs, 9-10 years, blue mix",
         "677381011",
@@ -344760,27 +344445,6 @@
       }
     },
     {
-      "id": "ocado-617783011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Boys Pure Cotton Striped Hoodie, 4-5 Years",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s boys pure cotton striped hoodie, 4-5 years",
-        "617783011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "617783011",
-      "price": {
-        "standard": 13,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-683181011",
       "productGroup": null,
       "storeId": "ocado",
@@ -344914,7 +344578,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s boys pure cotton stripes & solids briefs, 11-12 years, multi",
         "677443011",
@@ -344956,7 +344620,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s boys pure cotton stripes & solids briefs, 7-8 years, multi",
         "677440011",
@@ -344977,7 +344641,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s boys pure cotton stripes & solids briefs, 8-9 years, multi",
         "677441011",
@@ -350913,27 +350577,6 @@
       }
     },
     {
-      "id": "ocado-661626011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Camo Pyjamas, 10-11 Years, Blue",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s camo pyjamas, 10-11 years, blue",
-        "661626011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "661626011",
-      "price": {
-        "standard": 9,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-684931011",
       "productGroup": null,
       "storeId": "ocado",
@@ -355078,7 +354721,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Treats & Snacks",
+      "category": "M&S",
       "searchTerms": [
         "m&s choc marks caramel & shortbread",
         "666195011",
@@ -364906,7 +364549,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "M&S",
       "searchTerms": [
         "m&s collection mocha latte drinking chocolate",
         "671528011",
@@ -371353,7 +370996,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Clothing & Accessories",
+      "category": "M&S",
       "searchTerms": [
         "m&s cotton rich plain sweatshirt, 6-7 years, pink",
         "650912011",
@@ -372739,7 +372382,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "M&S",
       "searchTerms": [
         "m&s creamed rice pudding",
         "509711011",
@@ -378367,7 +378010,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "M&S",
       "searchTerms": [
         "m&s elevated essential plain hoodie, 8-9 years, navy",
         "652030011",
@@ -378388,7 +378031,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "M&S",
       "searchTerms": [
         "m&s elevated essential plain hoodie, 9-10 years, navy",
         "652037011",
@@ -383197,7 +382840,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Beauty & Toiletries",
+      "category": "M&S",
       "searchTerms": [
         "m&s fresh linen, lotus & cashmere hand wash 265ml",
         "691492011",
@@ -386483,27 +386126,6 @@
       "sku": "687674011",
       "price": {
         "standard": 10,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-678743011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Girls Cotton Rich Polka Dot Kickflare Leggings, 8-9 Y, Burgundy Mix",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s girls cotton rich polka dot kickflare leggings, 8-9 y, burgundy mix",
-        "678743011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "678743011",
-      "price": {
-        "standard": 18,
         "loyalty": null
       }
     },
@@ -390883,7 +390505,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "m&s green tea boost teabags",
         "615455011",
@@ -392199,27 +391821,6 @@
       }
     },
     {
-      "id": "ocado-662882011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Hammered Tumblers, Brown",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Home & Garden",
-      "searchTerms": [
-        "m&s hammered tumblers, brown",
-        "662882011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "662882011",
-      "price": {
-        "standard": 20,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-662881011",
       "productGroup": null,
       "storeId": "ocado",
@@ -393466,7 +393067,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Beauty & Toiletries",
+      "category": "M&S",
       "searchTerms": [
         "m&s hibiscus, lychee & sandalwood hand wash 265ml",
         "691493011",
@@ -395713,7 +395314,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "M&S",
       "searchTerms": [
         "m&s icing sugar",
         "510144011",
@@ -397905,27 +397506,6 @@
       ],
       "ownLabel": true,
       "sku": "661880011",
-      "price": {
-        "standard": 14,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-661881011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Khaki Leggings Outfit, 3-6 Months, Khaki",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s khaki leggings outfit, 3-6 months, khaki",
-        "661881011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "661881011",
       "price": {
         "standard": 14,
         "loyalty": null
@@ -400270,7 +399850,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s leopard print flared leg pyjamas, 10-11 years, brown",
         "664154011",
@@ -400291,7 +399871,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s leopard print flared leg pyjamas, 7-8 years, brown",
         "664151011",
@@ -400312,7 +399892,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s leopard print flared leg pyjamas, 8-9 years, brown",
         "664152011",
@@ -400333,7 +399913,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s leopard print flared leg pyjamas, 9-10 years, brown",
         "664153011",
@@ -407578,7 +407158,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "m&s mens goodmove cotton rich sports socks, 6-8, black mix",
         "683207011",
@@ -416461,7 +416041,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "M&S",
       "searchTerms": [
         "m&s organic strong stoneground wholemeal bread flour",
         "528542011",
@@ -416482,7 +416062,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "M&S",
       "searchTerms": [
         "m&s organic strong white bread flour",
         "528543011",
@@ -418771,7 +418351,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "M&S",
       "searchTerms": [
         "m&s peeled baby potatoes",
         "693907011",
@@ -419170,7 +418750,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Occasions & Entertaining",
+      "category": "M&S",
       "searchTerms": [
         "m&s percy pig party sprinkles",
         "557128011",
@@ -421165,7 +420745,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "M&S",
       "searchTerms": [
         "m&s plain wholemeal flour",
         "562255011",
@@ -424472,27 +424052,6 @@
       "sku": "680534011",
       "price": {
         "standard": 19.5,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-680531011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Pure Cotton Geometric Check Towel, Bath Towel, Charcoal",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Home & Garden",
-      "searchTerms": [
-        "m&s pure cotton geometric check towel, bath towel, charcoal",
-        "680531011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "680531011",
-      "price": {
-        "standard": 14,
         "loyalty": null
       }
     },
@@ -439309,7 +438868,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "M&S",
       "searchTerms": [
         "m&s spencer bear tin",
         "690051011",
@@ -440506,7 +440065,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "M&S",
       "searchTerms": [
         "m&s sticky toffee sauce",
         "510173011",
@@ -441199,7 +440758,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "M&S",
       "searchTerms": [
         "m&s strawberry dessert sauce",
         "600553011",
@@ -441808,7 +441367,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Clothing & Accessories",
+      "category": "M&S",
       "searchTerms": [
         "m&s striped rugby sweatshirt, 3-4 years, blue",
         "664584011",
@@ -441829,7 +441388,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Clothing & Accessories",
+      "category": "M&S",
       "searchTerms": [
         "m&s striped rugby sweatshirt, 4-5 years, blue",
         "664585011",
@@ -447205,7 +446764,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s tommy zip up hoodie, 0-3 months, grey marl",
         "662505011",
@@ -447310,7 +446869,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s tommy zip up hoodie, 6-9 months, grey marl",
         "662507011",
@@ -447352,7 +446911,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s tommy zip up hoodie, 9-12 months, grey marl",
         "662508011",
@@ -449368,7 +448927,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "M&S",
       "searchTerms": [
         "m&s unisex cotton rich graphic sweatshirt, 4-5 y, avocado",
         "684713011",
@@ -450523,7 +450082,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Clothing & Accessories",
       "searchTerms": [
         "m&s vests 5-6 years, black ",
         "677560011",
@@ -451006,7 +450565,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Food Cupboard",
       "searchTerms": [
         "m&s walnut halves",
         "557876011",
@@ -451174,7 +450733,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "M&S",
+      "category": "Food Cupboard",
       "searchTerms": [
         "m&s water chestnuts",
         "509910011",
@@ -452616,27 +452175,6 @@
       }
     },
     {
-      "id": "ocado-680400011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Womens Body Define Firm Control No VPL Briefs, 10, Rose Quartz",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s womens body define firm control no vpl briefs, 10, rose quartz",
-        "680400011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "680400011",
-      "price": {
-        "standard": 15,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-680338011",
       "productGroup": null,
       "storeId": "ocado",
@@ -453219,27 +452757,6 @@
       ],
       "ownLabel": true,
       "sku": "680423011",
-      "price": {
-        "standard": 20,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-681169011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "M&S Womens Light Control Thigh Slimmers, 20, Rose Quartz",
-      "brand": "Ocado",
-      "storeLabel": "Ocado",
-      "barcode": null,
-      "category": "Clothing & Accessories",
-      "searchTerms": [
-        "m&s womens light control thigh slimmers, 20, rose quartz",
-        "681169011",
-        "ocado"
-      ],
-      "ownLabel": true,
-      "sku": "681169011",
       "price": {
         "standard": 20,
         "loyalty": null
@@ -469359,7 +468876,7 @@
       "brand": "Merchant Gourmet",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "merchant gourmet -  lentil thai green curry ",
         "647652011",
@@ -469380,7 +468897,7 @@
       "brand": "Merchant Gourmet",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "merchant gourmet - 3 bean & lentil chilli",
         "647653011",
@@ -469464,7 +468981,7 @@
       "brand": "Merchant Gourmet",
       "storeLabel": null,
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "merchant gourmet - lentil & chickpea tagine",
         "647651011",
@@ -469611,7 +469128,7 @@
       "brand": "Merchant Gourmet",
       "storeLabel": null,
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "Food Cupboard",
       "searchTerms": [
         "merchant gourmet dried puy lentils",
         "635210011",
@@ -469737,7 +469254,7 @@
       "brand": "Merchant Gourmet",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "merchant gourmet ready to eat puy lentils",
         "39539011",
@@ -475239,7 +474756,7 @@
       "brand": "Minton & Donello",
       "storeLabel": null,
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "Treats & Snacks",
       "searchTerms": [
         "minton & donello organic macadamia",
         "656563011",
@@ -480772,27 +480289,6 @@
       "sku": "665436011",
       "price": {
         "standard": 10,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-614661011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Monty Bojangles Milk Millionaire Caramel Bar",
-      "brand": "Monty Bojangles",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Treats & Snacks",
-      "searchTerms": [
-        "monty bojangles milk millionaire caramel bar",
-        "614661011",
-        "monty bojangles"
-      ],
-      "ownLabel": false,
-      "sku": "614661011",
-      "price": {
-        "standard": 3.7,
         "loyalty": null
       }
     },
@@ -505101,7 +504597,7 @@
       "brand": "Nesquik",
       "storeLabel": null,
       "barcode": null,
-      "category": "Grocery",
+      "category": "Soft Drinks, Tea & Coffee",
       "searchTerms": [
         "nesquik banana milkshake powder tub",
         "592557011",
@@ -514775,27 +514271,6 @@
       }
     },
     {
-      "id": "ocado-698241011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Nursem Caring Hand Cream",
-      "brand": "Nursem",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Beauty & Toiletries",
-      "searchTerms": [
-        "nursem caring hand cream",
-        "698241011",
-        "nursem"
-      ],
-      "ownLabel": false,
-      "sku": "698241011",
-      "price": {
-        "standard": 20,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-698238011",
       "productGroup": null,
       "storeId": "ocado",
@@ -514813,6 +514288,27 @@
       "sku": "698238011",
       "price": {
         "standard": 10,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-698241011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Nursem Caring Hand Cream",
+      "brand": "Nursem",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Beauty & Toiletries",
+      "searchTerms": [
+        "nursem caring hand cream",
+        "698241011",
+        "nursem"
+      ],
+      "ownLabel": false,
+      "sku": "698241011",
+      "price": {
+        "standard": 20,
         "loyalty": null
       }
     },
@@ -523455,7 +522951,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Ocado Own Range",
+      "category": "Food Cupboard",
       "searchTerms": [
         "ocado green lentils in water",
         "458990011",
@@ -525429,7 +524925,7 @@
       "brand": "Ocado",
       "storeLabel": "Ocado",
       "barcode": null,
-      "category": "Ocado Own Range",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "ocado mixed bean salad in water",
         "458993011",
@@ -569312,27 +568808,6 @@
       }
     },
     {
-      "id": "ocado-250497011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Pooch & Mutt Calm & Relaxed Complete Dry Dog Food",
-      "brand": "Pooch & Mutt",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Pets",
-      "searchTerms": [
-        "pooch & mutt calm & relaxed complete dry dog food",
-        "250497011",
-        "pooch & mutt"
-      ],
-      "ownLabel": false,
-      "sku": "250497011",
-      "price": {
-        "standard": 16.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-321276011",
       "productGroup": null,
       "storeId": "ocado",
@@ -569350,6 +568825,27 @@
       "sku": "321276011",
       "price": {
         "standard": 56,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-250497011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Pooch & Mutt Calm & Relaxed Complete Dry Dog Food",
+      "brand": "Pooch & Mutt",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Pets",
+      "searchTerms": [
+        "pooch & mutt calm & relaxed complete dry dog food",
+        "250497011",
+        "pooch & mutt"
+      ],
+      "ownLabel": false,
+      "sku": "250497011",
+      "price": {
+        "standard": 16.5,
         "loyalty": null
       }
     },
@@ -577035,27 +576531,6 @@
       "sku": "636273011",
       "price": {
         "standard": 2.5,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-659313011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Pukka Pad A4 Project Book Blue",
-      "brand": "Pukka Pads",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Home & Garden",
-      "searchTerms": [
-        "pukka pad a4 project book blue",
-        "659313011",
-        "pukka pads"
-      ],
-      "ownLabel": false,
-      "sku": "659313011",
-      "price": {
-        "standard": 8,
         "loyalty": null
       }
     },
@@ -585572,7 +585047,7 @@
       "brand": "Rayware",
       "storeLabel": null,
       "barcode": null,
-      "category": "Home & Garden",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "ravenhead 1litre decanter and glasses set",
         "616997011",
@@ -591053,7 +590528,7 @@
       "brand": "Rempapa",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Events & Inspiration",
       "searchTerms": [
         "rempapa super coconutty coconut milk",
         "689662011",
@@ -591882,6 +591357,27 @@
       "sku": "663775011",
       "price": {
         "standard": 4,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-673450011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Rheal Superfoods Berry Biotic Gut Health Shot",
+      "brand": "Rheal Superfoods",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Fresh & Chilled Food",
+      "searchTerms": [
+        "rheal superfoods berry biotic gut health shot",
+        "673450011",
+        "rheal superfoods"
+      ],
+      "ownLabel": false,
+      "sku": "673450011",
+      "price": {
+        "standard": 2.5,
         "loyalty": null
       }
     },
@@ -603242,27 +602738,6 @@
       "sku": "675452011",
       "price": {
         "standard": 1,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-617070011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Sacla' Sun Dried Tomato Pesto",
-      "brand": "Sacla",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "sacla' sun dried tomato pesto",
-        "617070011",
-        "sacla"
-      ],
-      "ownLabel": false,
-      "sku": "617070011",
-      "price": {
-        "standard": 4.25,
         "loyalty": null
       }
     },
@@ -621396,7 +620871,7 @@
       "brand": "Science in Sport",
       "storeLabel": null,
       "barcode": null,
-      "category": "Health, Medicines & Wellbeing",
+      "category": "Soft Drinks, Tea & Coffee",
       "searchTerms": [
         "sis go isotonic orange gel sachets",
         "98005011",
@@ -627768,6 +627243,27 @@
       "sku": "671336011",
       "price": {
         "standard": 15,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-643755011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "SPILL Everyday Loose Tea",
+      "brand": "Spill Tea",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Soft Drinks, Tea & Coffee",
+      "searchTerms": [
+        "spill everyday loose tea",
+        "643755011",
+        "spill tea"
+      ],
+      "ownLabel": false,
+      "sku": "643755011",
+      "price": {
+        "standard": 14.5,
         "loyalty": null
       }
     },
@@ -641774,27 +641270,6 @@
       }
     },
     {
-      "id": "ocado-588516011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Tala Cook's Measure Dry Ingredients",
-      "brand": "Tala",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Home & Garden",
-      "searchTerms": [
-        "tala cook's measure dry ingredients",
-        "588516011",
-        "tala"
-      ],
-      "ownLabel": false,
-      "sku": "588516011",
-      "price": {
-        "standard": 9,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-257386011",
       "productGroup": null,
       "storeId": "ocado",
@@ -643223,27 +642698,6 @@
       }
     },
     {
-      "id": "ocado-639782011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Tango Cherry Sugar Free",
-      "brand": "Tango",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Soft Drinks, Tea & Coffee",
-      "searchTerms": [
-        "tango cherry sugar free",
-        "639782011",
-        "tango"
-      ],
-      "ownLabel": false,
-      "sku": "639782011",
-      "price": {
-        "standard": 11.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-639783011",
       "productGroup": null,
       "storeId": "ocado",
@@ -643261,6 +642715,27 @@
       "sku": "639783011",
       "price": {
         "standard": 4,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-639782011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Tango Cherry Sugar Free",
+      "brand": "Tango",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Soft Drinks, Tea & Coffee",
+      "searchTerms": [
+        "tango cherry sugar free",
+        "639782011",
+        "tango"
+      ],
+      "ownLabel": false,
+      "sku": "639782011",
+      "price": {
+        "standard": 11.5,
         "loyalty": null
       }
     },
@@ -644672,27 +644147,6 @@
       }
     },
     {
-      "id": "ocado-11167011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Tate & Lyle Fairtrade Caster Sugar",
-      "brand": "Tate & Lyle",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
-      "searchTerms": [
-        "tate & lyle fairtrade caster sugar",
-        "11167011",
-        "tate & lyle"
-      ],
-      "ownLabel": false,
-      "sku": "11167011",
-      "price": {
-        "standard": 1.6,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-11169011",
       "productGroup": null,
       "storeId": "ocado",
@@ -644710,6 +644164,27 @@
       "sku": "11169011",
       "price": {
         "standard": 2.7,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-11167011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Tate & Lyle Fairtrade Caster Sugar",
+      "brand": "Tate & Lyle",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Dietary, Lifestyle & World Foods",
+      "searchTerms": [
+        "tate & lyle fairtrade caster sugar",
+        "11167011",
+        "tate & lyle"
+      ],
+      "ownLabel": false,
+      "sku": "11167011",
+      "price": {
+        "standard": 1.6,
         "loyalty": null
       }
     },
@@ -645029,27 +644504,6 @@
       }
     },
     {
-      "id": "ocado-19330011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Tate & Lyle Fairtrade Light Soft Brown Sugar",
-      "brand": "Tate & Lyle",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "tate & lyle fairtrade light soft brown sugar",
-        "19330011",
-        "tate & lyle"
-      ],
-      "ownLabel": false,
-      "sku": "19330011",
-      "price": {
-        "standard": 2.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-39871011",
       "productGroup": null,
       "storeId": "ocado",
@@ -645067,6 +644521,27 @@
       "sku": "39871011",
       "price": {
         "standard": 1.85,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-19330011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Tate & Lyle Fairtrade Light Soft Brown Sugar",
+      "brand": "Tate & Lyle",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Food Cupboard",
+      "searchTerms": [
+        "tate & lyle fairtrade light soft brown sugar",
+        "19330011",
+        "tate & lyle"
+      ],
+      "ownLabel": false,
+      "sku": "19330011",
+      "price": {
+        "standard": 2.5,
         "loyalty": null
       }
     },
@@ -653435,7 +652910,7 @@
       "brand": "The Good Crisp Co",
       "storeLabel": null,
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "Treats & Snacks",
       "searchTerms": [
         "the good crisp co original potato crisps",
         "647023011",
@@ -653456,7 +652931,7 @@
       "brand": "The Good Crisp Co",
       "storeLabel": null,
       "barcode": null,
-      "category": "Dietary, Lifestyle & World Foods",
+      "category": "Treats & Snacks",
       "searchTerms": [
         "the good crisp co sea salt & vinegar potato crisps",
         "647026011",
@@ -654310,27 +653785,6 @@
       }
     },
     {
-      "id": "ocado-406162011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "The Innocent Hound Dog Treats, Venison Sausages with Chopped Apple",
-      "brand": "The Innocent Hound",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Pets",
-      "searchTerms": [
-        "the innocent hound dog treats, venison sausages with chopped apple",
-        "406162011",
-        "the innocent hound"
-      ],
-      "ownLabel": false,
-      "sku": "406162011",
-      "price": {
-        "standard": 36.5,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-406163011",
       "productGroup": null,
       "storeId": "ocado",
@@ -654348,6 +653802,27 @@
       "sku": "406163011",
       "price": {
         "standard": 5.5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-406162011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "The Innocent Hound Dog Treats, Venison Sausages with Chopped Apple",
+      "brand": "The Innocent Hound",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Pets",
+      "searchTerms": [
+        "the innocent hound dog treats, venison sausages with chopped apple",
+        "406162011",
+        "the innocent hound"
+      ],
+      "ownLabel": false,
+      "sku": "406162011",
+      "price": {
+        "standard": 36.5,
         "loyalty": null
       }
     },
@@ -655713,27 +655188,6 @@
       "sku": "662989011",
       "price": {
         "standard": 30,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-561747011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "The Macallan 12 Year Old Sherry Oak Single Malt Whisky",
-      "brand": "The Macallan",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Beer, Wine & Spirits",
-      "searchTerms": [
-        "the macallan 12 year old sherry oak single malt whisky",
-        "561747011",
-        "the macallan"
-      ],
-      "ownLabel": false,
-      "sku": "561747011",
-      "price": {
-        "standard": 91.3,
         "loyalty": null
       }
     },
@@ -661772,7 +661226,7 @@
       "brand": "Tilda",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "tilda pots butter and sea salt jasmine rice",
         "633601011",
@@ -689314,27 +688768,6 @@
       }
     },
     {
-      "id": "ocado-649546011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Wagamama Katsu Curry Sauce",
-      "brand": "Wagamama",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Food Cupboard",
-      "searchTerms": [
-        "wagamama katsu curry sauce",
-        "649546011",
-        "wagamama"
-      ],
-      "ownLabel": false,
-      "sku": "649546011",
-      "price": {
-        "standard": 2.75,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-647415011",
       "productGroup": null,
       "storeId": "ocado",
@@ -693289,7 +692722,7 @@
       "brand": "Warburtons",
       "storeLabel": null,
       "barcode": null,
-      "category": "Events & Inspiration",
+      "category": "Bakery",
       "searchTerms": [
         "warburtons naan flatbreads",
         "694822011",
@@ -697755,27 +697188,6 @@
       }
     },
     {
-      "id": "ocado-306883011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Whiskas 1+ Adult Dry Cat Food with Chicken",
-      "brand": "Whiskas",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Pets",
-      "searchTerms": [
-        "whiskas 1+ adult dry cat food with chicken",
-        "306883011",
-        "whiskas"
-      ],
-      "ownLabel": false,
-      "sku": "306883011",
-      "price": {
-        "standard": 22.95,
-        "loyalty": null
-      }
-    },
-    {
       "id": "ocado-250297011",
       "productGroup": null,
       "storeId": "ocado",
@@ -697793,6 +697205,27 @@
       "sku": "250297011",
       "price": {
         "standard": 3.5,
+        "loyalty": null
+      }
+    },
+    {
+      "id": "ocado-306883011",
+      "productGroup": null,
+      "storeId": "ocado",
+      "name": "Whiskas 1+ Adult Dry Cat Food with Chicken",
+      "brand": "Whiskas",
+      "storeLabel": null,
+      "barcode": null,
+      "category": "Pets",
+      "searchTerms": [
+        "whiskas 1+ adult dry cat food with chicken",
+        "306883011",
+        "whiskas"
+      ],
+      "ownLabel": false,
+      "sku": "306883011",
+      "price": {
+        "standard": 22.95,
         "loyalty": null
       }
     },
@@ -702298,7 +701731,7 @@
       "brand": "Wibble",
       "storeLabel": null,
       "barcode": null,
-      "category": "Food Cupboard",
+      "category": "Dietary, Lifestyle & World Foods",
       "searchTerms": [
         "wibble plant-based double berry jelly crystals",
         "632666011",
@@ -706865,27 +706298,6 @@
       "sku": "27703011",
       "price": {
         "standard": 3.6,
-        "loyalty": null
-      }
-    },
-    {
-      "id": "ocado-561316011",
-      "productGroup": null,
-      "storeId": "ocado",
-      "name": "Woods Old Navy Rum",
-      "brand": "Woods Old Navy",
-      "storeLabel": null,
-      "barcode": null,
-      "category": "Beer, Wine & Spirits",
-      "searchTerms": [
-        "woods old navy rum",
-        "561316011",
-        "woods old navy"
-      ],
-      "ownLabel": false,
-      "sku": "561316011",
-      "price": {
-        "standard": 30,
         "loyalty": null
       }
     },
