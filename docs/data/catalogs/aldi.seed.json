@@ -2,11 +2,11 @@
   "meta": {
     "storeId": "aldi",
     "source": "seed-fallback",
-    "lastUpdated": "2026-08-20T06:50:47.817Z",
+    "lastUpdated": "2026-08-21T06:50:02.586Z",
     "productCount": 2987,
     "fetchMethod": "spider-aldi",
     "pages": 80,
-    "fetchError": "page.evaluate: TypeError: Failed to fetch\n    at dtAWF (https://www.aldi.co.uk/ruxitagentjs_ICA15789NPRTUVXfhqrux_10343260715123811.js:450:456)\n    at da (https://www.aldi.co.uk/ruxitagentjs_ICA15789NPRTUVXfhqrux_10343260715123811.js:454:474)\n    at eval (eval at _ (https://www.aldi.co.uk/_nuxt/BKw9Psj-.js:203:7837), <anonymous>:2:34)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    "fetchError": "page.evaluate: TypeError: Failed to fetch\n    at dtAWF (https://www.aldi.co.uk/ruxitagentjs_ICA15789NPRTUVXfhqrux_10343260715123811.js:450:456)\n    at da (https://www.aldi.co.uk/ruxitagentjs_ICA15789NPRTUVXfhqrux_10343260715123811.js:454:474)\n    at eval (eval at u (https://www.aldi.co.uk/_nuxt/DyivQcxQ.js:60:7774), <anonymous>:2:34)\n    at UtilityScript.evaluate (<anonymous>:305:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
   },
   "products": [
     {
